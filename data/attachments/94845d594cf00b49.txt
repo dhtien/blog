@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("drivertest8@yopmail.com", "drivertest8@yopmail.com", "Driver email does not match")

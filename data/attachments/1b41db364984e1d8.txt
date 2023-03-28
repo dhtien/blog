@@ -1,0 +1,1 @@
+selenium.pages.LoginPage.enterPassword("Mr_Xe_Lu@1992")

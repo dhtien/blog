@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("Booking Zone", "Booking Zone", "Booking zone does not match")

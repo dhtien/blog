@@ -1,0 +1,1 @@
+selenium.pages.ZonesPage.enterDefaultPrice("5.0")

@@ -1,0 +1,103 @@
+Response code: 
+200
+Response body: 
+{
+    "data": [
+        {
+            "id": 3657,
+            "name": "Region 1",
+            "zones": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/regions/3657"
+        },
+        {
+            "id": 3656,
+            "name": "Region 9",
+            "zones": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/regions/3656"
+        },
+        {
+            "id": 3655,
+            "name": "Booking Region",
+            "zones": [
+                {
+                    "id": 2558
+                }
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/regions/3655"
+        },
+        {
+            "id": 3653,
+            "name": "Region 21",
+            "zones": [
+                {
+                    "id": 2557
+                }
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/regions/3653"
+        },
+        {
+            "id": 3652,
+            "name": "Region 20",
+            "zones": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/regions/3652"
+        },
+        {
+            "id": 3651,
+            "name": "Region 5",
+            "zones": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/regions/3651"
+        },
+        {
+            "id": 3650,
+            "name": "Region 17 Edited",
+            "zones": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/regions/3650"
+        },
+        {
+            "id": 3648,
+            "name": "Region 11",
+            "zones": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/regions/3648"
+        },
+        {
+            "id": 3647,
+            "name": "Automation Test Region 001",
+            "zones": [
+                {
+                    "id": 2548
+                },
+                {
+                    "id": 2549
+                },
+                {
+                    "id": 2555
+                }
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/regions/3647"
+        },
+        {
+            "id": 3646,
+            "name": "Region3 Edited",
+            "zones": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/regions/3646"
+        }
+    ],
+    "meta": {
+        "count": 10,
+        "total": 25
+    }
+}

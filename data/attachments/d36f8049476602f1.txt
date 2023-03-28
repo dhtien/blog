@@ -1,0 +1,11 @@
+
+URL: 
+https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.info/
+Headers: 
+{charset=utf-8, Accept-Encoding=identity, Content-Type=application/json}api/v1/driver/sessions
+Token: 
+eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicmlkai5vZHlzc2V5LXN0YWdpbmcuc3RhZ2luZy5hdS1hcC1zb3V0aGVhc3QtMi5icmlkai5pbmZvIiwiZXhwIjoxNjgwMDUyNDkzLCJ1c2VyX2lkIjoxMTgzLCJmaXJzdF9uYW1lIjoiVGllbiIsImxhc3RfbmFtZSI6IkRhbyBIdXkiLCJyb2xlcyI6WyJvcGVyYXRvciJdfQ.oXVZPD3e_1W6TceDXAVV5b3Sflhp0su8mGls61HlC_0
+Params: 
+{}
+Request body: 
+{"app_version":"7.2.1","driver":{"password":"123456","device_id":"dedfeb62-f3d5-42","device_type":"android","username":"drivertest16"},"app_version_code":"122"}

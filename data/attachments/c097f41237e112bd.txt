@@ -1,0 +1,1 @@
+selenium.core.BasePage.enterValueToDropDownList("point", "164 Grey St, South Brisbane QLD 4101, Australia")

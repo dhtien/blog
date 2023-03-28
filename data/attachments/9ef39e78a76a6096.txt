@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("Region 21", "Region 21", "Region does not match")

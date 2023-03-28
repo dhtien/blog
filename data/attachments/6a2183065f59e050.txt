@@ -1,0 +1,8 @@
+Response code: 
+200
+Response body: 
+{
+    "data": {
+        "success": "Permission::Group destroyed"
+    }
+}

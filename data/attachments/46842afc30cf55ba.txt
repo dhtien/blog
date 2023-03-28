@@ -1,0 +1,1 @@
+selenium.core.BasePage.verifyColumnNameNotDisplay("0", "Region Name")

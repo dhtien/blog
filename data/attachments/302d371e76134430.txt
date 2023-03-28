@@ -1,0 +1,1 @@
+selenium.pages.TripsPage.verifyTripDialogHeader("utils.models.MTrip@7b1f4f36")

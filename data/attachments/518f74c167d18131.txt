@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("[card, cash, metrocard, myki, comp]", "[card, cash, metrocard, myki, comp]", "Payment option does not match")

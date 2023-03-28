@@ -1,0 +1,1 @@
+selenium.pages.LoginPage.enterEmail("planning.write.user@gmail.com")

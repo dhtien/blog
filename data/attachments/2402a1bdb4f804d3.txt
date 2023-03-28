@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("[Victoria Bridge Victoria Bridge, Level 8 100, 29 Boundary St]", "[Victoria Bridge Victoria Bridge, Level 8 100, 29 Boundary St]", "Zone stops list does not match")

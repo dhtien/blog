@@ -1,0 +1,23 @@
+Response code: 
+200
+Response body: 
+{
+    "data": [
+        {
+            "id": 57025,
+            "email": "traveller14@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "14",
+            "username": "traveller14",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57025"
+        }
+    ],
+    "meta": {
+        "count": 1,
+        "total": 1
+    }
+}

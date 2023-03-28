@@ -1,0 +1,47 @@
+Response code: 
+200
+Response body: 
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Configuration (Read)"
+        },
+        {
+            "id": 2,
+            "name": "Configuration (Write)"
+        },
+        {
+            "id": 5,
+            "name": "Daily Operations (Read)"
+        },
+        {
+            "id": 6,
+            "name": "Daily Operations (Write)"
+        },
+        {
+            "id": 9,
+            "name": "Reporting"
+        },
+        {
+            "id": 3,
+            "name": "Resources And Passengers (Read)"
+        },
+        {
+            "id": 4,
+            "name": "Resources And Passengers (Write)"
+        },
+        {
+            "id": 7,
+            "name": "System (Read)"
+        },
+        {
+            "id": 8,
+            "name": "System (Write)"
+        }
+    ],
+    "meta": {
+        "count": 9,
+        "total": 9
+    }
+}

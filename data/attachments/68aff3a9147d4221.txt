@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("4242", "4242", "Last 4 does not match")

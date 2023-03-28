@@ -1,0 +1,1 @@
+selenium.pages.UsersPage.verifyPhone("342322454", "342322454")

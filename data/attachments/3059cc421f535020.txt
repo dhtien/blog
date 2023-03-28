@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("6", "6", "Wheelchair Passenger Capacity does not match")

@@ -1,0 +1,1 @@
+selenium.pages.RegionsPage.verifyRegionName("Region 12", "Region 12")

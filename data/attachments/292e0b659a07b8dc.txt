@@ -1,0 +1,1 @@
+selenium.core.BasePage.editField("last_name", "editedTest7")

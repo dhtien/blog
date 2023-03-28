@@ -1,0 +1,1 @@
+selenium.core.BasePage.verifySwitchBarStatus("Resources And Passengers (Read)", "false")

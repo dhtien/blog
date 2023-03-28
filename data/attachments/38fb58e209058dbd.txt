@@ -1,0 +1,713 @@
+Response code: 
+200
+Response body: 
+{
+    "data": [
+        {
+            "id": 654975,
+            "uuid": "cd4e0dd8-d458-4b58-93d1-c68673a8647e",
+            "created_at": "2023-03-28T01:02:58.766Z",
+            "updated_at": "2023-03-28T01:12:27.427Z",
+            "confirmed": true,
+            "state": "secured",
+            "error_message": null,
+            "error_category": null,
+            "mobility_support": 0,
+            "zone": {
+                "id": 2558,
+                "name": "Booking Zone"
+            },
+            "origin": {
+                "name": "36 Barton St, Everton Park QLD 4053, Australia",
+                "point": [
+                    152.98368,
+                    -27.40059
+                ]
+            },
+            "destination": {
+                "name": "7 Northmore St, Mitchelton QLD 4053, Australia",
+                "point": [
+                    152.97858,
+                    -27.40527
+                ]
+            },
+            "traveler": {
+                "id": 57027,
+                "email": "traveller12@yopmail.com",
+                "first_name": "traveller",
+                "last_name": "12",
+                "username": "traveller12",
+                "handicapped": false,
+                "low_tech": false,
+                "phone_number": "2131234",
+                "medically_exempt": false,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57027"
+            },
+            "pickup": {
+                "id": 5147655,
+                "location_index": 1,
+                "scheduled_at": "2023-03-28T01:07:54.057Z",
+                "arrived_at": null,
+                "departed_at": null,
+                "arrival_lower_bound": "2023-03-28T01:05:54.057Z",
+                "arrival_upper_bound": "2023-03-28T01:05:54.057Z",
+                "latest_arrival_time": "2023-03-28T01:07:54.057Z",
+                "pickup_scheduled_time": "2023-03-28T01:07:54.057Z",
+                "location": {
+                    "id": 19210,
+                    "uuid": "28dee01d-a917-49e9-a256-00a0750fee32",
+                    "name": "730 S Pine Rd",
+                    "note": null,
+                    "street_address": "730 S Pine Rd",
+                    "point": [
+                        152.98629079737154,
+                        -27.401044762063478
+                    ]
+                },
+                "boardings": [
+                    {
+                        "id": 654977
+                    },
+                    {
+                        "id": 654975
+                    },
+                    {
+                        "id": 654974
+                    },
+                    {
+                        "id": 654973
+                    },
+                    {
+                        "id": 654976
+                    }
+                ],
+                "alightings": [
+                    
+                ],
+                "availability_matrix": null
+            },
+            "dropoff": {
+                "id": 5147656,
+                "location_index": 2,
+                "scheduled_at": "2023-03-28T01:14:46.257Z",
+                "arrived_at": null,
+                "departed_at": null,
+                "arrival_lower_bound": "2023-03-28T01:12:46.257Z",
+                "arrival_upper_bound": "2023-03-28T01:12:46.257Z",
+                "latest_arrival_time": "2023-03-28T01:14:46.257Z",
+                "pickup_scheduled_time": null,
+                "location": {
+                    "id": 19217,
+                    "uuid": "f3716128-c9d6-4a04-ba6e-7cde96a421a6",
+                    "name": "132 Osborne Rd",
+                    "note": null,
+                    "street_address": "132 Osborne Rd",
+                    "point": [
+                        152.97775064386812,
+                        -27.407978843311827
+                    ]
+                },
+                "boardings": [
+                    
+                ],
+                "alightings": [
+                    {
+                        "id": 654977
+                    },
+                    {
+                        "id": 654975
+                    },
+                    {
+                        "id": 654974
+                    },
+                    {
+                        "id": 654973
+                    },
+                    {
+                        "id": 654976
+                    }
+                ],
+                "availability_matrix": null
+            },
+            "service_offering": {
+                "id": 17947650,
+                "meta": null,
+                "unit_price": "3.9",
+                "currency": "AUD",
+                "booking_method": "ops",
+                "time_zone": "Australia/Brisbane",
+                "pickup": {
+                    "name": "730 S Pine Rd",
+                    "note": null,
+                    "point": [
+                        152.98629079737154,
+                        -27.401044762063478
+                    ],
+                    "lower_bound": "2023-03-28T01:06:39.057Z",
+                    "upper_bound": "2023-03-28T01:16:39.057Z"
+                },
+                "dropoff": {
+                    "name": "132 Osborne Rd",
+                    "note": null,
+                    "point": [
+                        152.97775064386812,
+                        -27.407978843311827
+                    ],
+                    "lower_bound": "2023-03-28T01:13:33.057Z",
+                    "upper_bound": "2023-03-28T01:23:33.057Z"
+                }
+            },
+            "service_window": {
+                "id": 1305649,
+                "lower_bound": "2023-03-28T01:06:39.057Z",
+                "upper_bound": "2023-03-28T01:16:39.057Z"
+            },
+            "trip": {
+                "id": 206504,
+                "name": "20230328-BKZ2023-03-28T07:49:41.577-001",
+                "operator": {
+                    "id": 1
+                },
+                "zone": {
+                    "id": 2558
+                },
+                "alerts": [
+                    
+                ],
+                "driver": {
+                    "id": 1657,
+                    "first_name": "Driver",
+                    "last_name": "Test12",
+                    "email": "drivertest12@yopmail.com",
+                    "username": "drivertest12",
+                    "phone_number": "0123453675",
+                    "vendor": null,
+                    "status": "approved",
+                    "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/1657"
+                },
+                "vehicle": {
+                    "id": 518,
+                    "vehicle_number": "vehicle08",
+                    "capacity": 12,
+                    "make": null,
+                    "model": null,
+                    "color": null,
+                    "bought_at": null,
+                    "sold_at": null,
+                    "last_serviced_at": null,
+                    "vendor": null,
+                    "license_plate": "vehicle08",
+                    "wifi_ssid": "Bridj",
+                    "wifi_password": "enjoybridj",
+                    "dummy_vehicle": false,
+                    "note": null,
+                    "uuid": "86a18f16-b63d-46ed-a7df-2635bd43722e",
+                    "last_service_km": null,
+                    "mobility_capacity": 6,
+                    "year": "8299472400000",
+                    "vin": null,
+                    "doors": 0,
+                    "max_capacity": 0,
+                    "body_type": null,
+                    "fuel_type": null,
+                    "transmission": null,
+                    "status": "active",
+                    "extra_attributes": null,
+                    "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/vehicles/518"
+                }
+            },
+            "passengers": [
+                {
+                    "id": 896641
+                }
+            ],
+            "surveys": [
+                
+            ],
+            "booking_log": {
+                "id": 701187,
+                "charged": false,
+                "refunded": false,
+                "payment_method": "cash",
+                "amount": 3.9,
+                "currency": "AUD",
+                "num_pax": 1,
+                "full_price_pax": 1,
+                "discounted_pax": 0,
+                "standard_fare_amount": 3.9,
+                "discounted_fare_amount": 0.0,
+                "unit_price": 3.9,
+                "scaled_price": 3.9,
+                "total_price": 3.9,
+                "discount_code": null,
+                "passengers": [
+                    {
+                        "id": 896641
+                    }
+                ]
+            },
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/service_requests/654975"
+        },
+        {
+            "id": 654977,
+            "uuid": "1c6d2fdb-b2e5-4000-9a6a-be96340c6fa4",
+            "created_at": "2023-03-28T01:03:07.644Z",
+            "updated_at": "2023-03-28T01:12:29.098Z",
+            "confirmed": true,
+            "state": "secured",
+            "error_message": null,
+            "error_category": null,
+            "mobility_support": 1,
+            "zone": {
+                "id": 2558,
+                "name": "Booking Zone"
+            },
+            "origin": {
+                "name": "36 Barton St, Everton Park QLD 4053, Australia",
+                "point": [
+                    152.98368,
+                    -27.40059
+                ]
+            },
+            "destination": {
+                "name": "7 Northmore St, Mitchelton QLD 4053, Australia",
+                "point": [
+                    152.97858,
+                    -27.40527
+                ]
+            },
+            "traveler": {
+                "id": 57033,
+                "email": "traveller20@yopmail.com",
+                "first_name": "traveller",
+                "last_name": "test 20",
+                "username": "traveller20",
+                "handicapped": false,
+                "low_tech": false,
+                "phone_number": "2131234",
+                "medically_exempt": false,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57033"
+            },
+            "pickup": {
+                "id": 5147655
+            },
+            "dropoff": {
+                "id": 5147656
+            },
+            "service_offering": {
+                "id": 17947648,
+                "meta": null,
+                "unit_price": "3.9",
+                "currency": "AUD",
+                "booking_method": "ops",
+                "time_zone": "Australia/Brisbane",
+                "pickup": {
+                    "name": "730 S Pine Rd",
+                    "note": null,
+                    "point": [
+                        152.98629079737154,
+                        -27.401044762063478
+                    ],
+                    "lower_bound": "2023-03-28T01:05:51.468Z",
+                    "upper_bound": "2023-03-28T01:15:51.468Z"
+                },
+                "dropoff": {
+                    "name": "132 Osborne Rd",
+                    "note": null,
+                    "point": [
+                        152.97775064386812,
+                        -27.407978843311827
+                    ],
+                    "lower_bound": "2023-03-28T01:12:45.468Z",
+                    "upper_bound": "2023-03-28T01:22:45.468Z"
+                }
+            },
+            "service_window": {
+                "id": 1305647,
+                "lower_bound": "2023-03-28T01:05:51.468Z",
+                "upper_bound": "2023-03-28T01:15:51.468Z"
+            },
+            "trip": {
+                "id": 206504
+            },
+            "passengers": [
+                {
+                    "id": 896643
+                }
+            ],
+            "surveys": [
+                
+            ],
+            "booking_log": {
+                "id": 701188,
+                "charged": true,
+                "refunded": false,
+                "payment_method": "card",
+                "amount": 3.9,
+                "currency": "AUD",
+                "num_pax": 1,
+                "full_price_pax": 1,
+                "discounted_pax": 0,
+                "standard_fare_amount": 3.9,
+                "discounted_fare_amount": 0.0,
+                "unit_price": 3.9,
+                "scaled_price": 3.9,
+                "total_price": 3.9,
+                "discount_code": null,
+                "passengers": [
+                    {
+                        "id": 896643
+                    }
+                ]
+            },
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/service_requests/654977"
+        },
+        {
+            "id": 654974,
+            "uuid": "02836f99-1833-41a1-ad8a-ad99930f6643",
+            "created_at": "2023-03-28T01:02:37.695Z",
+            "updated_at": "2023-03-28T01:12:25.320Z",
+            "confirmed": true,
+            "state": "secured",
+            "error_message": null,
+            "error_category": null,
+            "mobility_support": 0,
+            "zone": {
+                "id": 2558,
+                "name": "Booking Zone"
+            },
+            "origin": {
+                "name": "36 Barton St, Everton Park QLD 4053, Australia",
+                "point": [
+                    152.98368,
+                    -27.40059
+                ]
+            },
+            "destination": {
+                "name": "7 Northmore St, Mitchelton QLD 4053, Australia",
+                "point": [
+                    152.97858,
+                    -27.40527
+                ]
+            },
+            "traveler": {
+                "id": 57019,
+                "email": "traveller05@yopmail.com",
+                "first_name": "traveller",
+                "last_name": "05",
+                "username": "traveller05",
+                "handicapped": false,
+                "low_tech": false,
+                "phone_number": "2131234",
+                "medically_exempt": false,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57019"
+            },
+            "pickup": {
+                "id": 5147655
+            },
+            "dropoff": {
+                "id": 5147656
+            },
+            "service_offering": {
+                "id": 17947646,
+                "meta": null,
+                "unit_price": "3.9",
+                "currency": "AUD",
+                "booking_method": "ops",
+                "time_zone": "Australia/Brisbane",
+                "pickup": {
+                    "name": "730 S Pine Rd",
+                    "note": null,
+                    "point": [
+                        152.98629079737154,
+                        -27.401044762063478
+                    ],
+                    "lower_bound": "2023-03-28T01:05:49.497Z",
+                    "upper_bound": "2023-03-28T01:15:49.497Z"
+                },
+                "dropoff": {
+                    "name": "132 Osborne Rd",
+                    "note": null,
+                    "point": [
+                        152.97775064386812,
+                        -27.407978843311827
+                    ],
+                    "lower_bound": "2023-03-28T01:12:43.497Z",
+                    "upper_bound": "2023-03-28T01:22:43.497Z"
+                }
+            },
+            "service_window": {
+                "id": 1305645,
+                "lower_bound": "2023-03-28T01:05:49.497Z",
+                "upper_bound": "2023-03-28T01:15:49.497Z"
+            },
+            "trip": {
+                "id": 206504
+            },
+            "passengers": [
+                {
+                    "id": 896640
+                }
+            ],
+            "surveys": [
+                
+            ],
+            "booking_log": {
+                "id": 701186,
+                "charged": false,
+                "refunded": false,
+                "payment_method": "cash",
+                "amount": 3.9,
+                "currency": "AUD",
+                "num_pax": 1,
+                "full_price_pax": 1,
+                "discounted_pax": 0,
+                "standard_fare_amount": 3.9,
+                "discounted_fare_amount": 0.0,
+                "unit_price": 3.9,
+                "scaled_price": 3.9,
+                "total_price": 3.9,
+                "discount_code": null,
+                "passengers": [
+                    {
+                        "id": 896640
+                    }
+                ]
+            },
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/service_requests/654974"
+        },
+        {
+            "id": 654976,
+            "uuid": "e12194eb-d24d-4ac6-a388-d93b36f220b0",
+            "created_at": "2023-03-28T01:03:04.927Z",
+            "updated_at": "2023-03-28T01:12:24.932Z",
+            "confirmed": true,
+            "state": "secured",
+            "error_message": null,
+            "error_category": null,
+            "mobility_support": 0,
+            "zone": {
+                "id": 2558,
+                "name": "Booking Zone"
+            },
+            "origin": {
+                "name": "36 Barton St, Everton Park QLD 4053, Australia",
+                "point": [
+                    152.98368,
+                    -27.40059
+                ]
+            },
+            "destination": {
+                "name": "7 Northmore St, Mitchelton QLD 4053, Australia",
+                "point": [
+                    152.97858,
+                    -27.40527
+                ]
+            },
+            "traveler": {
+                "id": 57031,
+                "email": "traveller19@yopmail.com",
+                "first_name": "traveller",
+                "last_name": "test 19",
+                "username": "traveller19",
+                "handicapped": false,
+                "low_tech": false,
+                "phone_number": "2131234",
+                "medically_exempt": false,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57031"
+            },
+            "pickup": {
+                "id": 5147655
+            },
+            "dropoff": {
+                "id": 5147656
+            },
+            "service_offering": {
+                "id": 17947644,
+                "meta": null,
+                "unit_price": "3.9",
+                "currency": "AUD",
+                "booking_method": "ops",
+                "time_zone": "Australia/Brisbane",
+                "pickup": {
+                    "name": "730 S Pine Rd",
+                    "note": null,
+                    "point": [
+                        152.98629079737154,
+                        -27.401044762063478
+                    ],
+                    "lower_bound": "2023-03-28T01:05:48.881Z",
+                    "upper_bound": "2023-03-28T01:15:48.881Z"
+                },
+                "dropoff": {
+                    "name": "132 Osborne Rd",
+                    "note": null,
+                    "point": [
+                        152.97775064386812,
+                        -27.407978843311827
+                    ],
+                    "lower_bound": "2023-03-28T01:12:42.881Z",
+                    "upper_bound": "2023-03-28T01:22:42.881Z"
+                }
+            },
+            "service_window": {
+                "id": 1305643,
+                "lower_bound": "2023-03-28T01:05:48.881Z",
+                "upper_bound": "2023-03-28T01:15:48.881Z"
+            },
+            "trip": {
+                "id": 206504
+            },
+            "passengers": [
+                {
+                    "id": 896642
+                }
+            ],
+            "surveys": [
+                
+            ],
+            "booking_log": {
+                "id": 701184,
+                "charged": true,
+                "refunded": false,
+                "payment_method": "card",
+                "amount": 3.9,
+                "currency": "AUD",
+                "num_pax": 1,
+                "full_price_pax": 1,
+                "discounted_pax": 0,
+                "standard_fare_amount": 3.9,
+                "discounted_fare_amount": 0.0,
+                "unit_price": 3.9,
+                "scaled_price": 3.9,
+                "total_price": 3.9,
+                "discount_code": null,
+                "passengers": [
+                    {
+                        "id": 896642
+                    }
+                ]
+            },
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/service_requests/654976"
+        },
+        {
+            "id": 654973,
+            "uuid": "42d50355-e46c-42b1-9aa8-4a3eefb3264c",
+            "created_at": "2023-03-28T01:02:37.129Z",
+            "updated_at": "2023-03-28T01:12:25.186Z",
+            "confirmed": true,
+            "state": "secured",
+            "error_message": null,
+            "error_category": null,
+            "mobility_support": 0,
+            "zone": {
+                "id": 2558,
+                "name": "Booking Zone"
+            },
+            "origin": {
+                "name": "36 Barton St, Everton Park QLD 4053, Australia",
+                "point": [
+                    152.98368,
+                    -27.40059
+                ]
+            },
+            "destination": {
+                "name": "7 Northmore St, Mitchelton QLD 4053, Australia",
+                "point": [
+                    152.97858,
+                    -27.40527
+                ]
+            },
+            "traveler": {
+                "id": 57028,
+                "email": "traveller04@yopmail.com",
+                "first_name": "traveller",
+                "last_name": "04",
+                "username": "traveller04",
+                "handicapped": false,
+                "low_tech": true,
+                "phone_number": "2131234",
+                "medically_exempt": false,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57028"
+            },
+            "pickup": {
+                "id": 5147655
+            },
+            "dropoff": {
+                "id": 5147656
+            },
+            "service_offering": {
+                "id": 17947642,
+                "meta": null,
+                "unit_price": "3.9",
+                "currency": "AUD",
+                "booking_method": "ops",
+                "time_zone": "Australia/Brisbane",
+                "pickup": {
+                    "name": "730 S Pine Rd",
+                    "note": null,
+                    "point": [
+                        152.98629079737154,
+                        -27.401044762063478
+                    ],
+                    "lower_bound": "2023-03-28T01:05:48.137Z",
+                    "upper_bound": "2023-03-28T01:15:48.137Z"
+                },
+                "dropoff": {
+                    "name": "132 Osborne Rd",
+                    "note": null,
+                    "point": [
+                        152.97775064386812,
+                        -27.407978843311827
+                    ],
+                    "lower_bound": "2023-03-28T01:12:42.137Z",
+                    "upper_bound": "2023-03-28T01:22:42.137Z"
+                }
+            },
+            "service_window": {
+                "id": 1305641,
+                "lower_bound": "2023-03-28T01:05:48.137Z",
+                "upper_bound": "2023-03-28T01:15:48.137Z"
+            },
+            "trip": {
+                "id": 206504
+            },
+            "passengers": [
+                {
+                    "id": 896639
+                }
+            ],
+            "surveys": [
+                
+            ],
+            "booking_log": {
+                "id": 701185,
+                "charged": false,
+                "refunded": false,
+                "payment_method": "cash",
+                "amount": 3.9,
+                "currency": "AUD",
+                "num_pax": 1,
+                "full_price_pax": 1,
+                "discounted_pax": 0,
+                "standard_fare_amount": 3.9,
+                "discounted_fare_amount": 0.0,
+                "unit_price": 3.9,
+                "scaled_price": 3.9,
+                "total_price": 3.9,
+                "discount_code": null,
+                "passengers": [
+                    {
+                        "id": 896639
+                    }
+                ]
+            },
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/service_requests/654973"
+        }
+    ],
+    "meta": {
+        "count": 5,
+        "total": 5,
+        "total_count": 5
+    }
+}

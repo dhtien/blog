@@ -1,0 +1,1182 @@
+{
+  "uid" : "b468df2e238fe3f4",
+  "name" : "Verify user can create new Vehicles",
+  "fullName" : "testcases.web.vehicle.CreateVehicle.TC_01",
+  "historyId" : "f5eec60707262b3d1d52d9fefc56b7ee",
+  "time" : {
+    "start" : 1679965280918,
+    "stop" : 1679965304027,
+    "duration" : 23109
+  },
+  "description" : "Verify user can create new Vehicles",
+  "descriptionHtml" : "<p>Verify user can create new Vehicles</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeEachScenario",
+    "time" : {
+      "start" : 1679965276626,
+      "stop" : 1679965280916,
+      "duration" : 4290
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: daohuyt@bridj.com",
+      "time" : {
+        "start" : 1679965276626,
+        "stop" : 1679965279424,
+        "duration" : 2798
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ba7df059080931cc",
+        "name" : "Starting action: ",
+        "source" : "ba7df059080931cc.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "ab8df703a8617311",
+        "name" : "Action Done! ",
+        "source" : "ab8df703a8617311.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a635c4bcb05ef83d",
+        "name" : "saveScreenShot",
+        "source" : "a635c4bcb05ef83d.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "4f338f76a472447e",
+        "name" : "Starting action: ",
+        "source" : "4f338f76a472447e.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "3bed335768e56016",
+        "name" : "Action Done! ",
+        "source" : "3bed335768e56016.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "627f088c22833362",
+        "name" : "saveScreenShot",
+        "source" : "627f088c22833362.png",
+        "type" : "image/png",
+        "size" : 61630
+      }, {
+        "uid" : "bba6808361ffb343",
+        "name" : "Starting action: ",
+        "source" : "bba6808361ffb343.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "896555d1d6e8b0ee",
+        "name" : "Action Done! ",
+        "source" : "896555d1d6e8b0ee.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "8bef9c54b1e06ab8",
+        "name" : "saveScreenShot",
+        "source" : "8bef9c54b1e06ab8.png",
+        "type" : "image/png",
+        "size" : 61944
+      }, {
+        "uid" : "a8bf13edbffeadff",
+        "name" : "Starting action: ",
+        "source" : "a8bf13edbffeadff.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "839815b64e66277a",
+        "name" : "Action Done! ",
+        "source" : "839815b64e66277a.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c0348a9fd784b28c",
+        "name" : "saveScreenShot",
+        "source" : "c0348a9fd784b28c.png",
+        "type" : "image/png",
+        "size" : 62220
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679965279424,
+        "stop" : 1679965280369,
+        "duration" : 945
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1f7a5021fed484de",
+        "name" : "Starting action: ",
+        "source" : "1f7a5021fed484de.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "5603be366419b131",
+        "name" : "Action Done! ",
+        "source" : "5603be366419b131.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "18739010dea92647",
+        "name" : "saveScreenShot",
+        "source" : "18739010dea92647.png",
+        "type" : "image/png",
+        "size" : 62191
+      }, {
+        "uid" : "7e27cf74b1782b31",
+        "name" : "Starting action: ",
+        "source" : "7e27cf74b1782b31.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "4c96fcc1d53a4495",
+        "name" : "Action Done! ",
+        "source" : "4c96fcc1d53a4495.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "1694a8c7d93d9bf4",
+        "name" : "saveScreenShot",
+        "source" : "1694a8c7d93d9bf4.png",
+        "type" : "image/png",
+        "size" : 153402
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to page Vehicles",
+      "time" : {
+        "start" : 1679965280370,
+        "stop" : 1679965280763,
+        "duration" : 393
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "672b01486cbaea19",
+        "name" : "Starting action: ",
+        "source" : "672b01486cbaea19.txt",
+        "type" : "text/plain",
+        "size" : 49
+      }, {
+        "uid" : "c27867d3c354605a",
+        "name" : "Action Done! ",
+        "source" : "c27867d3c354605a.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "372896dc43048954",
+        "name" : "saveScreenShot",
+        "source" : "372896dc43048954.png",
+        "type" : "image/png",
+        "size" : 81227
+      } ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Vehicles"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify the Vehicle page is opened",
+      "time" : {
+        "start" : 1679965280763,
+        "stop" : 1679965280916,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1a97abad63c3a91b",
+        "name" : "Starting action: ",
+        "source" : "1a97abad63c3a91b.txt",
+        "type" : "text/plain",
+        "size" : 128
+      }, {
+        "uid" : "5df3df9b677e8114",
+        "name" : "Action Done! ",
+        "source" : "5df3df9b677e8114.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "9af64233f2256dc",
+        "name" : "saveScreenShot",
+        "source" : "9af64233f2256dc.png",
+        "type" : "image/png",
+        "size" : 81227
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 24,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679965274641,
+      "stop" : 1679965274642,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679965274642,
+      "stop" : 1679965275498,
+      "duration" : 856
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679965274643,
+        "stop" : 1679965275497,
+        "duration" : 854
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679965274643,
+          "stop" : 1679965275497,
+          "duration" : 854
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679965275498,
+      "stop" : 1679965276625,
+      "duration" : 1127
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fd0bf2b14025d5c3",
+      "name" : "Driver setup: ",
+      "source" : "fd0bf2b14025d5c3.txt",
+      "type" : "text/plain",
+      "size" : 119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify user can create new Vehicles",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create vehicle with information",
+      "time" : {
+        "start" : 1679965280931,
+        "stop" : 1679965300856,
+        "duration" : 19925
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "58be6b38bffe0822",
+        "name" : "Starting action: ",
+        "source" : "58be6b38bffe0822.txt",
+        "type" : "text/plain",
+        "size" : 42
+      }, {
+        "uid" : "6b2e40e826dc57f6",
+        "name" : "Action Done! ",
+        "source" : "6b2e40e826dc57f6.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "bad592ee4cb9505",
+        "name" : "saveScreenShot",
+        "source" : "bad592ee4cb9505.png",
+        "type" : "image/png",
+        "size" : 208242
+      }, {
+        "uid" : "dc465c9b70df8d80",
+        "name" : "Starting action: ",
+        "source" : "dc465c9b70df8d80.txt",
+        "type" : "text/plain",
+        "size" : 68
+      }, {
+        "uid" : "b4b2be490c670e64",
+        "name" : "Action Done! ",
+        "source" : "b4b2be490c670e64.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "9f7efbce37842cd7",
+        "name" : "saveScreenShot",
+        "source" : "9f7efbce37842cd7.png",
+        "type" : "image/png",
+        "size" : 149622
+      }, {
+        "uid" : "4d06f5de9fb2ea19",
+        "name" : "Starting action: ",
+        "source" : "4d06f5de9fb2ea19.txt",
+        "type" : "text/plain",
+        "size" : 60
+      }, {
+        "uid" : "dcacc2562fb87e99",
+        "name" : "Action Done! ",
+        "source" : "dcacc2562fb87e99.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "f81599959eef0131",
+        "name" : "saveScreenShot",
+        "source" : "f81599959eef0131.png",
+        "type" : "image/png",
+        "size" : 142257
+      }, {
+        "uid" : "eca26a83b270ec05",
+        "name" : "Starting action: ",
+        "source" : "eca26a83b270ec05.txt",
+        "type" : "text/plain",
+        "size" : 51
+      }, {
+        "uid" : "a148b77a59cddaa6",
+        "name" : "Action Done! ",
+        "source" : "a148b77a59cddaa6.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c6e44799268594d3",
+        "name" : "saveScreenShot",
+        "source" : "c6e44799268594d3.png",
+        "type" : "image/png",
+        "size" : 143190
+      }, {
+        "uid" : "c6e3715f7cecb7f7",
+        "name" : "Starting action: ",
+        "source" : "c6e3715f7cecb7f7.txt",
+        "type" : "text/plain",
+        "size" : 53
+      }, {
+        "uid" : "bf4b3689738d3863",
+        "name" : "Action Done! ",
+        "source" : "bf4b3689738d3863.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "43d5d25694b81014",
+        "name" : "saveScreenShot",
+        "source" : "43d5d25694b81014.png",
+        "type" : "image/png",
+        "size" : 143753
+      }, {
+        "uid" : "9d3ba75a33f710bc",
+        "name" : "Starting action: ",
+        "source" : "9d3ba75a33f710bc.txt",
+        "type" : "text/plain",
+        "size" : 60
+      }, {
+        "uid" : "fc057e225f1a161d",
+        "name" : "Action Done! ",
+        "source" : "fc057e225f1a161d.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "88b810a1c3843f89",
+        "name" : "saveScreenShot",
+        "source" : "88b810a1c3843f89.png",
+        "type" : "image/png",
+        "size" : 150652
+      }, {
+        "uid" : "137934c256c12d50",
+        "name" : "Starting action: ",
+        "source" : "137934c256c12d50.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "4145134156a44341",
+        "name" : "Action Done! ",
+        "source" : "4145134156a44341.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "41fcd4a60354e1be",
+        "name" : "saveScreenShot",
+        "source" : "41fcd4a60354e1be.png",
+        "type" : "image/png",
+        "size" : 149884
+      }, {
+        "uid" : "1b43ba91b92882cc",
+        "name" : "Starting action: ",
+        "source" : "1b43ba91b92882cc.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "7ad2e828abc88970",
+        "name" : "Action Done! ",
+        "source" : "7ad2e828abc88970.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "10309f0870913d5b",
+        "name" : "saveScreenShot",
+        "source" : "10309f0870913d5b.png",
+        "type" : "image/png",
+        "size" : 144871
+      }, {
+        "uid" : "842daa5bc9755e35",
+        "name" : "Starting action: ",
+        "source" : "842daa5bc9755e35.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "516df5493b067de0",
+        "name" : "Action Done! ",
+        "source" : "516df5493b067de0.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "35b706bf6ff10970",
+        "name" : "saveScreenShot",
+        "source" : "35b706bf6ff10970.png",
+        "type" : "image/png",
+        "size" : 145802
+      }, {
+        "uid" : "92932b171f95edc6",
+        "name" : "Starting action: ",
+        "source" : "92932b171f95edc6.txt",
+        "type" : "text/plain",
+        "size" : 51
+      }, {
+        "uid" : "24cc6ab1f6f44fb8",
+        "name" : "Action Done! ",
+        "source" : "24cc6ab1f6f44fb8.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "4534ef32ff37114e",
+        "name" : "saveScreenShot",
+        "source" : "4534ef32ff37114e.png",
+        "type" : "image/png",
+        "size" : 146163
+      }, {
+        "uid" : "785d193dd5176648",
+        "name" : "Starting action: ",
+        "source" : "785d193dd5176648.txt",
+        "type" : "text/plain",
+        "size" : 66
+      }, {
+        "uid" : "f5bfea9efd661785",
+        "name" : "Action Done! ",
+        "source" : "f5bfea9efd661785.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "8384ce828bbe51b5",
+        "name" : "saveScreenShot",
+        "source" : "8384ce828bbe51b5.png",
+        "type" : "image/png",
+        "size" : 146551
+      }, {
+        "uid" : "b205a86d1995428d",
+        "name" : "Starting action: ",
+        "source" : "b205a86d1995428d.txt",
+        "type" : "text/plain",
+        "size" : 70
+      }, {
+        "uid" : "261d477a68a0985d",
+        "name" : "Action Done! ",
+        "source" : "261d477a68a0985d.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "f1dc8482d40079db",
+        "name" : "saveScreenShot",
+        "source" : "f1dc8482d40079db.png",
+        "type" : "image/png",
+        "size" : 146591
+      }, {
+        "uid" : "f2566a4f5d26bf0e",
+        "name" : "Starting action: ",
+        "source" : "f2566a4f5d26bf0e.txt",
+        "type" : "text/plain",
+        "size" : 67
+      }, {
+        "uid" : "cf1b31d7933cbfc",
+        "name" : "Action Done! ",
+        "source" : "cf1b31d7933cbfc.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "85b3ee8115da0fb6",
+        "name" : "saveScreenShot",
+        "source" : "85b3ee8115da0fb6.png",
+        "type" : "image/png",
+        "size" : 146875
+      }, {
+        "uid" : "968fcd898a483bd5",
+        "name" : "Starting action: ",
+        "source" : "968fcd898a483bd5.txt",
+        "type" : "text/plain",
+        "size" : 53
+      }, {
+        "uid" : "4fb61187ce762de0",
+        "name" : "Action Done! ",
+        "source" : "4fb61187ce762de0.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "34833d5720c60348",
+        "name" : "saveScreenShot",
+        "source" : "34833d5720c60348.png",
+        "type" : "image/png",
+        "size" : 148889
+      }, {
+        "uid" : "ce333070583f1e1c",
+        "name" : "Starting action: ",
+        "source" : "ce333070583f1e1c.txt",
+        "type" : "text/plain",
+        "size" : 60
+      }, {
+        "uid" : "10dfdb1ac0f87b21",
+        "name" : "Action Done! ",
+        "source" : "10dfdb1ac0f87b21.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "772b50cdf0901d45",
+        "name" : "saveScreenShot",
+        "source" : "772b50cdf0901d45.png",
+        "type" : "image/png",
+        "size" : 149457
+      }, {
+        "uid" : "c05c0e1a50dc3bc9",
+        "name" : "Starting action: ",
+        "source" : "c05c0e1a50dc3bc9.txt",
+        "type" : "text/plain",
+        "size" : 53
+      }, {
+        "uid" : "7eefb99779792bb2",
+        "name" : "Action Done! ",
+        "source" : "7eefb99779792bb2.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "570a8f0925f26600",
+        "name" : "saveScreenShot",
+        "source" : "570a8f0925f26600.png",
+        "type" : "image/png",
+        "size" : 147583
+      }, {
+        "uid" : "f7307e8fe3c026bc",
+        "name" : "Starting action: ",
+        "source" : "f7307e8fe3c026bc.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "88b4b9eed485ac9d",
+        "name" : "Action Done! ",
+        "source" : "88b4b9eed485ac9d.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "fe394c5ea8b01fbd",
+        "name" : "saveScreenShot",
+        "source" : "fe394c5ea8b01fbd.png",
+        "type" : "image/png",
+        "size" : 151551
+      }, {
+        "uid" : "626e7fc64eae0301",
+        "name" : "Starting action: ",
+        "source" : "626e7fc64eae0301.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "d411183712a98093",
+        "name" : "Action Done! ",
+        "source" : "d411183712a98093.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "6ce8aceeec76d9f8",
+        "name" : "saveScreenShot",
+        "source" : "6ce8aceeec76d9f8.png",
+        "type" : "image/png",
+        "size" : 149980
+      }, {
+        "uid" : "f816d90f52256a3",
+        "name" : "Starting action: ",
+        "source" : "f816d90f52256a3.txt",
+        "type" : "text/plain",
+        "size" : 58
+      }, {
+        "uid" : "58d258f17dc1ca3c",
+        "name" : "Action Done! ",
+        "source" : "58d258f17dc1ca3c.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "3eda88fe9b1e9354",
+        "name" : "saveScreenShot",
+        "source" : "3eda88fe9b1e9354.png",
+        "type" : "image/png",
+        "size" : 151655
+      }, {
+        "uid" : "44368a04e4e90352",
+        "name" : "Starting action: ",
+        "source" : "44368a04e4e90352.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "ea949f0a4afd57d6",
+        "name" : "Action Done! ",
+        "source" : "ea949f0a4afd57d6.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "54d6bb928b723e77",
+        "name" : "saveScreenShot",
+        "source" : "54d6bb928b723e77.png",
+        "type" : "image/png",
+        "size" : 148370
+      } ],
+      "parameters" : [ {
+        "name" : "expectedVehicle",
+        "value" : "utils.models.MVehicle@205768c6"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 60,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify vehicle information",
+      "time" : {
+        "start" : 1679965300859,
+        "stop" : 1679965304027,
+        "duration" : 3168
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Call API to get vehicles list",
+        "time" : {
+          "start" : 1679965300859,
+          "stop" : 1679965301620,
+          "duration" : 761
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "86dd03dd15bafca3",
+          "name" : "Start sending request: ",
+          "source" : "86dd03dd15bafca3.txt",
+          "type" : "text/plain",
+          "size" : 534
+        }, {
+          "uid" : "fc1fff578530c7da",
+          "name" : "Receive respond after: 0.76s",
+          "source" : "fc1fff578530c7da.txt",
+          "type" : "text/plain",
+          "size" : 5104
+        } ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{per_page=999, search=license_12, page=1}"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Get vehicles list from API response",
+        "time" : {
+          "start" : 1679965301620,
+          "stop" : 1679965301622,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "f7322c6bd46071f1",
+        "name" : "Starting action: ",
+        "source" : "f7322c6bd46071f1.txt",
+        "type" : "text/plain",
+        "size" : 96
+      }, {
+        "uid" : "4b83ca51ccf0b736",
+        "name" : "Action Done! ",
+        "source" : "4b83ca51ccf0b736.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "c465c17203e83a28",
+        "name" : "saveScreenShot",
+        "source" : "c465c17203e83a28.png",
+        "type" : "image/png",
+        "size" : 150007
+      }, {
+        "uid" : "2a0c93ac2a3afb9d",
+        "name" : "Starting action: ",
+        "source" : "2a0c93ac2a3afb9d.txt",
+        "type" : "text/plain",
+        "size" : 93
+      }, {
+        "uid" : "e02327f438c435db",
+        "name" : "Action Done! ",
+        "source" : "e02327f438c435db.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "7a11a5769f46e6e1",
+        "name" : "saveScreenShot",
+        "source" : "7a11a5769f46e6e1.png",
+        "type" : "image/png",
+        "size" : 149931
+      }, {
+        "uid" : "50755dd1f0fb2279",
+        "name" : "Starting action: ",
+        "source" : "50755dd1f0fb2279.txt",
+        "type" : "text/plain",
+        "size" : 80
+      }, {
+        "uid" : "6e2fc5cdfebe1827",
+        "name" : "Action Done! ",
+        "source" : "6e2fc5cdfebe1827.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "eaf38f69f1f13700",
+        "name" : "saveScreenShot",
+        "source" : "eaf38f69f1f13700.png",
+        "type" : "image/png",
+        "size" : 149902
+      }, {
+        "uid" : "64e8bb762138a3db",
+        "name" : "Starting action: ",
+        "source" : "64e8bb762138a3db.txt",
+        "type" : "text/plain",
+        "size" : 83
+      }, {
+        "uid" : "97bf3796776017ce",
+        "name" : "Action Done! ",
+        "source" : "97bf3796776017ce.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "d54977cba99766",
+        "name" : "saveScreenShot",
+        "source" : "d54977cba99766.png",
+        "type" : "image/png",
+        "size" : 149902
+      }, {
+        "uid" : "79cf5a89533603f",
+        "name" : "Starting action: ",
+        "source" : "79cf5a89533603f.txt",
+        "type" : "text/plain",
+        "size" : 93
+      }, {
+        "uid" : "f9dd8a0aca16636a",
+        "name" : "Action Done! ",
+        "source" : "f9dd8a0aca16636a.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "3d33dbe00d9fc378",
+        "name" : "saveScreenShot",
+        "source" : "3d33dbe00d9fc378.png",
+        "type" : "image/png",
+        "size" : 149902
+      }, {
+        "uid" : "5266bbdac0b750a1",
+        "name" : "Starting action: ",
+        "source" : "5266bbdac0b750a1.txt",
+        "type" : "text/plain",
+        "size" : 134
+      }, {
+        "uid" : "245ef47f018f1055",
+        "name" : "Action Done! ",
+        "source" : "245ef47f018f1055.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "1af49f98f325f7c2",
+        "name" : "saveScreenShot",
+        "source" : "1af49f98f325f7c2.png",
+        "type" : "image/png",
+        "size" : 149902
+      }, {
+        "uid" : "6f690033b6da3492",
+        "name" : "Starting action: ",
+        "source" : "6f690033b6da3492.txt",
+        "type" : "text/plain",
+        "size" : 79
+      }, {
+        "uid" : "504e74d7201439bc",
+        "name" : "Action Done! ",
+        "source" : "504e74d7201439bc.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "ceb1b6e03cebe67a",
+        "name" : "saveScreenShot",
+        "source" : "ceb1b6e03cebe67a.png",
+        "type" : "image/png",
+        "size" : 149902
+      }, {
+        "uid" : "7ceb7ab3950d8a71",
+        "name" : "Starting action: ",
+        "source" : "7ceb7ab3950d8a71.txt",
+        "type" : "text/plain",
+        "size" : 75
+      }, {
+        "uid" : "7bcb6776a7b43b47",
+        "name" : "Action Done! ",
+        "source" : "7bcb6776a7b43b47.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "a8dc66363a4e9886",
+        "name" : "saveScreenShot",
+        "source" : "a8dc66363a4e9886.png",
+        "type" : "image/png",
+        "size" : 149902
+      }, {
+        "uid" : "94c525459389349f",
+        "name" : "Starting action: ",
+        "source" : "94c525459389349f.txt",
+        "type" : "text/plain",
+        "size" : 83
+      }, {
+        "uid" : "364590cb1573dbe4",
+        "name" : "Action Done! ",
+        "source" : "364590cb1573dbe4.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "ac39d7ac578cdd0e",
+        "name" : "saveScreenShot",
+        "source" : "ac39d7ac578cdd0e.png",
+        "type" : "image/png",
+        "size" : 149902
+      }, {
+        "uid" : "a24e359552cf70e2",
+        "name" : "Starting action: ",
+        "source" : "a24e359552cf70e2.txt",
+        "type" : "text/plain",
+        "size" : 92
+      }, {
+        "uid" : "138a9784b32be561",
+        "name" : "Action Done! ",
+        "source" : "138a9784b32be561.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "99e3bf23b9dc4ff4",
+        "name" : "saveScreenShot",
+        "source" : "99e3bf23b9dc4ff4.png",
+        "type" : "image/png",
+        "size" : 149902
+      }, {
+        "uid" : "e4a2c609e8237d5b",
+        "name" : "Starting action: ",
+        "source" : "e4a2c609e8237d5b.txt",
+        "type" : "text/plain",
+        "size" : 82
+      }, {
+        "uid" : "f4e282742edba84d",
+        "name" : "Action Done! ",
+        "source" : "f4e282742edba84d.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "8975ae717f6a05df",
+        "name" : "saveScreenShot",
+        "source" : "8975ae717f6a05df.png",
+        "type" : "image/png",
+        "size" : 149902
+      }, {
+        "uid" : "88bde07a90b5df",
+        "name" : "Starting action: ",
+        "source" : "88bde07a90b5df.txt",
+        "type" : "text/plain",
+        "size" : 78
+      }, {
+        "uid" : "de339e996a9650fb",
+        "name" : "Action Done! ",
+        "source" : "de339e996a9650fb.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "c99a90d727f973df",
+        "name" : "saveScreenShot",
+        "source" : "c99a90d727f973df.png",
+        "type" : "image/png",
+        "size" : 149902
+      }, {
+        "uid" : "3d65d80e2bb611e2",
+        "name" : "Starting action: ",
+        "source" : "3d65d80e2bb611e2.txt",
+        "type" : "text/plain",
+        "size" : 78
+      }, {
+        "uid" : "77caa286dd3a243b",
+        "name" : "Action Done! ",
+        "source" : "77caa286dd3a243b.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "3d8db2b188d47de5",
+        "name" : "saveScreenShot",
+        "source" : "3d8db2b188d47de5.png",
+        "type" : "image/png",
+        "size" : 149902
+      }, {
+        "uid" : "effe9b2eea45c859",
+        "name" : "Starting action: ",
+        "source" : "effe9b2eea45c859.txt",
+        "type" : "text/plain",
+        "size" : 89
+      }, {
+        "uid" : "551747086da77f49",
+        "name" : "Action Done! ",
+        "source" : "551747086da77f49.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "623093b9c1f036cf",
+        "name" : "saveScreenShot",
+        "source" : "623093b9c1f036cf.png",
+        "type" : "image/png",
+        "size" : 149902
+      }, {
+        "uid" : "3059cc421f535020",
+        "name" : "Starting action: ",
+        "source" : "3059cc421f535020.txt",
+        "type" : "text/plain",
+        "size" : 93
+      }, {
+        "uid" : "67462ef32a22036c",
+        "name" : "Action Done! ",
+        "source" : "67462ef32a22036c.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "b0ceb6d11a1ce307",
+        "name" : "saveScreenShot",
+        "source" : "b0ceb6d11a1ce307.png",
+        "type" : "image/png",
+        "size" : 149902
+      }, {
+        "uid" : "3d7edb2a401fb74c",
+        "name" : "Starting action: ",
+        "source" : "3d7edb2a401fb74c.txt",
+        "type" : "text/plain",
+        "size" : 90
+      }, {
+        "uid" : "4eb4fb90566c1db7",
+        "name" : "Action Done! ",
+        "source" : "4eb4fb90566c1db7.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "1332395c033e50ca",
+        "name" : "saveScreenShot",
+        "source" : "1332395c033e50ca.png",
+        "type" : "image/png",
+        "size" : 149902
+      } ],
+      "parameters" : [ {
+        "name" : "expectedVehicle",
+        "value" : "utils.models.MVehicle@5a588363"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 50,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 110,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679965304787,
+      "stop" : 1679965304787,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679965304028,
+      "stop" : 1679965304786,
+      "duration" : 758
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8e91af95c4dddf38",
+      "name" : "saveScreenShot",
+      "source" : "8e91af95c4dddf38.png",
+      "type" : "image/png",
+      "size" : 149902
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679965304787,
+      "stop" : 1679965304787,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.vehicle.CreateVehicle"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.vehicle.CreateVehicle"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_01"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Vehicles"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.vehicle.CreateVehicle"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Vehicles-1(1070)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b468df2e238fe3f4.json",
+  "parameterValues" : [ ]
+}

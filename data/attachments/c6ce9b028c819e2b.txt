@@ -1,0 +1,121 @@
+Response code: 
+200
+Response body: 
+{
+    "data": [
+        {
+            "id": 672,
+            "first_name": "D672",
+            "last_name": "Driver",
+            "email": "tech+blackhole+driver672@bridj.com",
+            "username": "driver672",
+            "phone_number": null,
+            "vendor": null,
+            "status": "approved",
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/672"
+        },
+        {
+            "id": 670,
+            "first_name": "D670",
+            "last_name": "Driver",
+            "email": "tech+blackhole+driver670@bridj.com",
+            "username": "driver670",
+            "phone_number": null,
+            "vendor": null,
+            "status": "approved",
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/670"
+        },
+        {
+            "id": 668,
+            "first_name": "D668",
+            "last_name": "Driver",
+            "email": "tech+blackhole+driver668@bridj.com",
+            "username": "driver668",
+            "phone_number": null,
+            "vendor": null,
+            "status": "approved",
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/668"
+        },
+        {
+            "id": 665,
+            "first_name": "D665",
+            "last_name": "Driver",
+            "email": "tech+blackhole+driver665@bridj.com",
+            "username": "driver665",
+            "phone_number": null,
+            "vendor": null,
+            "status": "approved",
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/665"
+        },
+        {
+            "id": 664,
+            "first_name": "D664",
+            "last_name": "Driver",
+            "email": "tech+blackhole+driver664@bridj.com",
+            "username": "driver664",
+            "phone_number": null,
+            "vendor": null,
+            "status": "approved",
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/664"
+        },
+        {
+            "id": 662,
+            "first_name": "D662",
+            "last_name": "Driver",
+            "email": "tech+blackhole+driver662@bridj.com",
+            "username": "driver662",
+            "phone_number": null,
+            "vendor": null,
+            "status": "approved",
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/662"
+        },
+        {
+            "id": 656,
+            "first_name": "D656",
+            "last_name": "Driver",
+            "email": "tech+blackhole+driver656@bridj.com",
+            "username": "driver656",
+            "phone_number": null,
+            "vendor": null,
+            "status": "approved",
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/656"
+        },
+        {
+            "id": 655,
+            "first_name": "D655",
+            "last_name": "Driver",
+            "email": "tech+blackhole+driver655@bridj.com",
+            "username": "driver655",
+            "phone_number": null,
+            "vendor": null,
+            "status": "approved",
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/655"
+        },
+        {
+            "id": 654,
+            "first_name": "D654",
+            "last_name": "Driver",
+            "email": "tech+blackhole+driver654@bridj.com",
+            "username": "driver654",
+            "phone_number": null,
+            "vendor": null,
+            "status": "approved",
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/654"
+        },
+        {
+            "id": 653,
+            "first_name": "D653",
+            "last_name": "Driver",
+            "email": "tech+blackhole+driver653@bridj.com",
+            "username": "driver653",
+            "phone_number": null,
+            "vendor": null,
+            "status": "blocked",
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/653"
+        }
+    ],
+    "meta": {
+        "count": 10,
+        "total": 217
+    }
+}

@@ -1,0 +1,1 @@
+selenium.pages.UsersPage.verifyGroupsName("[Daily Operations Read]", "[Daily Operations Read]")

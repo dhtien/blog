@@ -1,0 +1,20 @@
+Response code: 
+200
+Response body: 
+{
+    "data": {
+        "id": 1173,
+        "name": "Daily Operations Read",
+        "roles": [
+            5
+        ],
+        "users": [
+            3004,
+            3016,
+            3026,
+            3027,
+            3032
+        ],
+        "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/permission/groups/1173"
+    }
+}

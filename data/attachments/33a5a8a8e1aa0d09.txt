@@ -1,0 +1,1 @@
+selenium.pages.ResetPasswordPage.enterConfirmPassword("userPass@123456")

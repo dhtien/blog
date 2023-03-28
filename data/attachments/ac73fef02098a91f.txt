@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("Z2", "Z2", "Abbreviation does not match")

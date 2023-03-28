@@ -1,0 +1,1 @@
+selenium.core.BasePage.verifyMessageShow("Please enter last name")

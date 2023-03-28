@@ -1,0 +1,902 @@
+Response code: 
+200
+Response body: 
+{
+    "data": [
+        {
+            "id": 206500,
+            "uuid": "91134759-1d8e-4c03-ad5c-c12d7da178d2",
+            "name": "20230328-GAW-005",
+            "current_state": "live",
+            "start_datetime": "2023-03-28T02:00:00.000Z",
+            "end_datetime": "2023-03-28T05:30:00.000Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 63,
+                "vehicle_number": "GAW02",
+                "capacity": 18,
+                "make": "Hino",
+                "model": "Poncho",
+                "color": "White",
+                "bought_at": "2020-05-17",
+                "sold_at": null,
+                "last_serviced_at": null,
+                "vendor": "902",
+                "license_plate": "XS18CX",
+                "wifi_ssid": "Bridj",
+                "wifi_password": "enjoybridj",
+                "dummy_vehicle": false,
+                "note": null,
+                "uuid": "42a58245-89ce-4469-af8a-fff70867aa59",
+                "last_service_km": null,
+                "mobility_capacity": 0,
+                "year": null,
+                "vin": null,
+                "doors": null,
+                "max_capacity": null,
+                "body_type": null,
+                "fuel_type": null,
+                "transmission": null,
+                "status": "active",
+                "extra_attributes": null,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/vehicles/63"
+            },
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206499,
+            "uuid": "0f14a7a3-4e70-4c08-8022-1f3d9e7c17af",
+            "name": "20230328-IntP-001",
+            "current_state": "live",
+            "start_datetime": "2023-03-28T00:35:00.000Z",
+            "end_datetime": "2023-03-28T01:45:00.000Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 66,
+                "vehicle_number": "160",
+                "capacity": 19,
+                "make": "Hino",
+                "model": "Poncho",
+                "color": null,
+                "bought_at": null,
+                "sold_at": null,
+                "last_serviced_at": null,
+                "vendor": null,
+                "license_plate": "BS07HI",
+                "wifi_ssid": "Bridj",
+                "wifi_password": "enjoybridj",
+                "dummy_vehicle": false,
+                "note": null,
+                "uuid": "9d71dc8e-b97e-4cee-a0e2-867ddb5d8bd9",
+                "last_service_km": null,
+                "mobility_capacity": 2,
+                "year": null,
+                "vin": null,
+                "doors": null,
+                "max_capacity": null,
+                "body_type": null,
+                "fuel_type": null,
+                "transmission": null,
+                "status": "active",
+                "extra_attributes": null,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/vehicles/66"
+            },
+            "driver": {
+                "id": 460,
+                "first_name": "D460",
+                "last_name": "Driver",
+                "email": "tech+blackhole+driver460@bridj.com",
+                "username": "driver460",
+                "phone_number": null,
+                "vendor": "",
+                "status": "approved",
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/460"
+            },
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206497,
+            "uuid": "3d35bff3-96cf-4788-909e-ec79423ec107",
+            "name": "20230328-GAW-004",
+            "current_state": "live",
+            "start_datetime": "2023-03-28T00:30:00.000Z",
+            "end_datetime": "2023-03-28T02:00:00.000Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 63
+            },
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206498,
+            "uuid": "6391095b-6180-4df3-8f32-e9592165dc0d",
+            "name": "20230328-Peak-001",
+            "current_state": "live",
+            "start_datetime": "2023-03-28T00:30:00.000Z",
+            "end_datetime": "2023-03-28T01:45:00.000Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 67,
+                "vehicle_number": "161",
+                "capacity": 19,
+                "make": "Hino",
+                "model": "Poncho",
+                "color": null,
+                "bought_at": null,
+                "sold_at": null,
+                "last_serviced_at": null,
+                "vendor": null,
+                "license_plate": "BS07HH",
+                "wifi_ssid": "Bridj",
+                "wifi_password": "enjoybridj",
+                "dummy_vehicle": false,
+                "note": null,
+                "uuid": "db31fe58-3cf2-46ef-ba6b-2f7cc1b544de",
+                "last_service_km": null,
+                "mobility_capacity": 2,
+                "year": null,
+                "vin": null,
+                "doors": null,
+                "max_capacity": null,
+                "body_type": null,
+                "fuel_type": null,
+                "transmission": null,
+                "status": "active",
+                "extra_attributes": null,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/vehicles/67"
+            },
+            "driver": {
+                "id": 497,
+                "first_name": "D497",
+                "last_name": "Driver",
+                "email": "tech+blackhole+driver497@bridj.com",
+                "username": "driver497",
+                "phone_number": null,
+                "vendor": "",
+                "status": "approved",
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/497"
+            },
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206502,
+            "uuid": "020f9c00-90c6-4543-b934-a78e95f1b75d",
+            "name": "20230328-atz22023-03-23T09:22:39.8242023-03-28T07:49:41.574-001",
+            "current_state": "live",
+            "start_datetime": "2023-03-28T00:00:00.556Z",
+            "end_datetime": "2023-03-28T16:55:00.556Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 516,
+                "vehicle_number": "number_13",
+                "capacity": 6,
+                "make": "make_13",
+                "model": "model_13",
+                "color": null,
+                "bought_at": null,
+                "sold_at": null,
+                "last_serviced_at": null,
+                "vendor": null,
+                "license_plate": "license_13",
+                "wifi_ssid": "Bridj",
+                "wifi_password": "enjoybridj",
+                "dummy_vehicle": false,
+                "note": null,
+                "uuid": "f7bb6d98-8d9f-4d1f-a3be-8539203a434b",
+                "last_service_km": null,
+                "mobility_capacity": 6,
+                "year": "8299472400000",
+                "vin": null,
+                "doors": 0,
+                "max_capacity": 0,
+                "body_type": null,
+                "fuel_type": null,
+                "transmission": null,
+                "status": "active",
+                "extra_attributes": null,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/vehicles/516"
+            },
+            "driver": {
+                "id": 1660,
+                "first_name": "Driver",
+                "last_name": "Test18",
+                "email": "drivertest18@yopmail.com",
+                "username": "drivertest18",
+                "phone_number": "0123453675",
+                "vendor": null,
+                "status": "approved",
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/1660"
+            },
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206503,
+            "uuid": "9e308be6-5a85-45b3-8664-3be0aed0d2f6",
+            "name": "20230328-atz12023-03-23T09:22:39.8242023-03-28T07:49:41.574-001",
+            "current_state": "live",
+            "start_datetime": "2023-03-28T00:00:00.556Z",
+            "end_datetime": "2023-03-28T16:55:00.556Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 512,
+                "vehicle_number": "number_11",
+                "capacity": 6,
+                "make": "make_11",
+                "model": "model_11",
+                "color": null,
+                "bought_at": null,
+                "sold_at": null,
+                "last_serviced_at": null,
+                "vendor": null,
+                "license_plate": "license_11",
+                "wifi_ssid": "Bridj",
+                "wifi_password": "enjoybridj",
+                "dummy_vehicle": false,
+                "note": null,
+                "uuid": "2a92474a-d2fd-47a0-b0ab-d167a028d8a0",
+                "last_service_km": null,
+                "mobility_capacity": 6,
+                "year": "8299472400000",
+                "vin": null,
+                "doors": 0,
+                "max_capacity": 0,
+                "body_type": null,
+                "fuel_type": null,
+                "transmission": null,
+                "status": "active",
+                "extra_attributes": null,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/vehicles/512"
+            },
+            "driver": {
+                "id": 1665,
+                "first_name": "Driver",
+                "last_name": "Test16",
+                "email": "drivertest16@yopmail.com",
+                "username": "drivertest16",
+                "phone_number": "0123453675",
+                "vendor": null,
+                "status": "approved",
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/1665"
+            },
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206501,
+            "uuid": "cff46f34-2ef7-479d-94a5-cfcc8abb9b06",
+            "name": "20230328-bte-001",
+            "current_state": "live",
+            "start_datetime": "2023-03-28T00:00:00.398Z",
+            "end_datetime": "2023-03-28T16:55:00.398Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 513,
+                "vehicle_number": "vehicle09",
+                "capacity": 6,
+                "make": null,
+                "model": null,
+                "color": null,
+                "bought_at": null,
+                "sold_at": null,
+                "last_serviced_at": null,
+                "vendor": null,
+                "license_plate": "vehicle09",
+                "wifi_ssid": "Bridj",
+                "wifi_password": "enjoybridj",
+                "dummy_vehicle": false,
+                "note": null,
+                "uuid": "d3f4fc89-64f8-4929-a51d-b8a5239398ee",
+                "last_service_km": null,
+                "mobility_capacity": 6,
+                "year": "8299472400000",
+                "vin": null,
+                "doors": 0,
+                "max_capacity": 0,
+                "body_type": null,
+                "fuel_type": null,
+                "transmission": null,
+                "status": "active",
+                "extra_attributes": null,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/vehicles/513"
+            },
+            "driver": {
+                "id": 1655,
+                "first_name": "Driver",
+                "last_name": "Test13",
+                "email": "drivertest13@yopmail.com",
+                "username": "drivertest13",
+                "phone_number": "0123453675",
+                "vendor": null,
+                "status": "approved",
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/1655"
+            },
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206504,
+            "uuid": "25b9082e-02ad-4db0-8827-4efb336542a0",
+            "name": "20230328-BKZ2023-03-28T07:49:41.577-001",
+            "current_state": "live",
+            "start_datetime": "2023-03-28T00:00:00.397Z",
+            "end_datetime": "2023-03-28T16:55:00.397Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 518,
+                "vehicle_number": "vehicle08",
+                "capacity": 12,
+                "make": null,
+                "model": null,
+                "color": null,
+                "bought_at": null,
+                "sold_at": null,
+                "last_serviced_at": null,
+                "vendor": null,
+                "license_plate": "vehicle08",
+                "wifi_ssid": "Bridj",
+                "wifi_password": "enjoybridj",
+                "dummy_vehicle": false,
+                "note": null,
+                "uuid": "86a18f16-b63d-46ed-a7df-2635bd43722e",
+                "last_service_km": null,
+                "mobility_capacity": 6,
+                "year": "8299472400000",
+                "vin": null,
+                "doors": 0,
+                "max_capacity": 0,
+                "body_type": null,
+                "fuel_type": null,
+                "transmission": null,
+                "status": "active",
+                "extra_attributes": null,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/vehicles/518"
+            },
+            "driver": {
+                "id": 1657,
+                "first_name": "Driver",
+                "last_name": "Test12",
+                "email": "drivertest12@yopmail.com",
+                "username": "drivertest12",
+                "phone_number": "0123453675",
+                "vendor": null,
+                "status": "approved",
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/1657"
+            },
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206496,
+            "uuid": "e2221976-0ec3-40d6-96b0-81e017f50626",
+            "name": "20230328-GAW-003",
+            "current_state": "live",
+            "start_datetime": "2023-03-27T23:00:00.000Z",
+            "end_datetime": "2023-03-28T03:00:00.000Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 64,
+                "vehicle_number": "GAW01",
+                "capacity": 18,
+                "make": "Hino",
+                "model": "Poncho",
+                "color": "White",
+                "bought_at": "2020-05-17",
+                "sold_at": null,
+                "last_serviced_at": null,
+                "vendor": "901",
+                "license_plate": "XS17CX",
+                "wifi_ssid": "Bridj",
+                "wifi_password": "enjoybridj",
+                "dummy_vehicle": false,
+                "note": "afdsgdgfdgffhgfdhhfdhfdhfdhdf",
+                "uuid": "e2d49c8e-146c-4335-9c39-04dfae24122c",
+                "last_service_km": 1800000000,
+                "mobility_capacity": 0,
+                "year": null,
+                "vin": null,
+                "doors": null,
+                "max_capacity": null,
+                "body_type": null,
+                "fuel_type": null,
+                "transmission": null,
+                "status": "active",
+                "extra_attributes": null,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/vehicles/64"
+            },
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206495,
+            "uuid": "d8295976-4abb-48d2-ac0c-faa249a35626",
+            "name": "20230328-GAW-002",
+            "current_state": "live",
+            "start_datetime": "2023-03-27T21:30:00.000Z",
+            "end_datetime": "2023-03-28T00:30:00.000Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 63
+            },
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206494,
+            "uuid": "ae08a477-c61f-4827-b6a0-220a30326322",
+            "name": "20230328-GAW-001",
+            "current_state": "cancelled",
+            "start_datetime": "2023-03-27T19:30:00.000Z",
+            "end_datetime": "2023-03-27T23:00:00.000Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 64
+            },
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206456,
+            "uuid": "fddf6bca-e952-483e-a548-c3a530059b23",
+            "name": "20230327-GAW-008",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T07:00:00.000Z",
+            "end_datetime": "2023-03-27T09:45:00.000Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 64
+            },
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206460,
+            "uuid": "4e191aa7-a849-4c69-b079-f47fe85cd6ce",
+            "name": "20230327-Peak-002",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T06:16:15.000Z",
+            "end_datetime": "2023-03-27T10:00:00.000Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 36,
+                "vehicle_number": "R3",
+                "capacity": 10,
+                "make": "Iveco",
+                "model": "",
+                "color": "White",
+                "bought_at": null,
+                "sold_at": null,
+                "last_serviced_at": null,
+                "vendor": "",
+                "license_plate": "MO6757",
+                "wifi_ssid": "Bridj",
+                "wifi_password": "enjoybridj",
+                "dummy_vehicle": false,
+                "note": "",
+                "uuid": "26b77f8d-d972-4279-8839-e6d00cd8f542",
+                "last_service_km": null,
+                "mobility_capacity": 0,
+                "year": null,
+                "vin": null,
+                "doors": null,
+                "max_capacity": null,
+                "body_type": null,
+                "fuel_type": null,
+                "transmission": null,
+                "status": "active",
+                "extra_attributes": null,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/vehicles/36"
+            },
+            "driver": {
+                "id": 567,
+                "first_name": "Victor",
+                "last_name": "Zhang",
+                "email": "vzhang@bridj.com",
+                "username": "vzhang",
+                "phone_number": "",
+                "vendor": "Bridj",
+                "status": "approved",
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/567"
+            },
+            "trip_stops": [
+                {
+                    "id": 5147653
+                },
+                {
+                    "id": 5147654
+                }
+            ],
+            "trip_monitors": [
+                {
+                    "id": 145827665
+                },
+                {
+                    "id": 145827666
+                },
+                {
+                    "id": 145827667
+                },
+                {
+                    "id": 145827668
+                },
+                {
+                    "id": 145827669
+                },
+                {
+                    "id": 145827670
+                },
+                {
+                    "id": 145827671
+                },
+                {
+                    "id": 145827672
+                },
+                {
+                    "id": 145827673
+                },
+                {
+                    "id": 145827674
+                },
+                {
+                    "id": 145827675
+                },
+                {
+                    "id": 145827676
+                },
+                {
+                    "id": 145827682
+                },
+                {
+                    "id": 145827683
+                },
+                {
+                    "id": 145827684
+                },
+                {
+                    "id": 145827685
+                },
+                {
+                    "id": 145827712
+                },
+                {
+                    "id": 145827711
+                },
+                {
+                    "id": 145827709
+                },
+                {
+                    "id": 145827710
+                }
+            ]
+        },
+        {
+            "id": 206429,
+            "uuid": "d103f5f0-b074-4878-94f4-8b8afc65f257",
+            "name": "20230327-GAW-007",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T04:30:00.000Z",
+            "end_datetime": "2023-03-27T04:48:32.940Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 68,
+                "vehicle_number": "162",
+                "capacity": 19,
+                "make": "Hino",
+                "model": "Poncho",
+                "color": null,
+                "bought_at": null,
+                "sold_at": null,
+                "last_serviced_at": null,
+                "vendor": null,
+                "license_plate": "BS07HG",
+                "wifi_ssid": "Bridj",
+                "wifi_password": "enjoybridj",
+                "dummy_vehicle": false,
+                "note": null,
+                "uuid": "0a7c7017-b527-4039-afc3-5266b981ea28",
+                "last_service_km": null,
+                "mobility_capacity": 2,
+                "year": null,
+                "vin": null,
+                "doors": null,
+                "max_capacity": null,
+                "body_type": null,
+                "fuel_type": null,
+                "transmission": null,
+                "status": "active",
+                "extra_attributes": null,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/vehicles/68"
+            },
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206442,
+            "uuid": "b86c27f4-2699-46ee-aefe-eef7aeb75ec4",
+            "name": "20230327-bte-009",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T03:40:00.000Z",
+            "end_datetime": "2023-03-27T09:05:00.000Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 66
+            },
+            "driver": {
+                "id": 909,
+                "first_name": "NIgel",
+                "last_name": "McBryde",
+                "email": "nmcbryde@bridj.com",
+                "username": "nmcbryde",
+                "phone_number": null,
+                "vendor": null,
+                "status": "approved",
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/909"
+            },
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                {
+                    "id": 145827622
+                },
+                {
+                    "id": 145827623
+                },
+                {
+                    "id": 145827624
+                },
+                {
+                    "id": 145827625
+                },
+                {
+                    "id": 145827626
+                },
+                {
+                    "id": 145827627
+                },
+                {
+                    "id": 145827628
+                },
+                {
+                    "id": 145827629
+                },
+                {
+                    "id": 145827630
+                },
+                {
+                    "id": 145827631
+                },
+                {
+                    "id": 145827632
+                },
+                {
+                    "id": 145827633
+                },
+                {
+                    "id": 145827634
+                },
+                {
+                    "id": 145827636
+                },
+                {
+                    "id": 145827637
+                },
+                {
+                    "id": 145827638
+                },
+                {
+                    "id": 145827639
+                },
+                {
+                    "id": 145827640
+                },
+                {
+                    "id": 145827641
+                },
+                {
+                    "id": 145827642
+                }
+            ]
+        },
+        {
+            "id": 206412,
+            "uuid": "aa38bde7-69c7-43ff-ba55-08e79e06a78c",
+            "name": "20230327-GAW-006",
+            "current_state": "cancelled",
+            "start_datetime": "2023-03-27T03:00:00.000Z",
+            "end_datetime": "2023-03-27T04:30:00.000Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 64
+            },
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206411,
+            "uuid": "6009ec22-61e1-43c7-a034-feaa35a80981",
+            "name": "20230327-GAW-005",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T02:00:00.000Z",
+            "end_datetime": "2023-03-27T06:30:00.000Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 63
+            },
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206406,
+            "uuid": "733186d0-bb84-4dd5-9b28-ea93bbb96e92",
+            "name": "20230327-GAW-004",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T00:30:00.000Z",
+            "end_datetime": "2023-03-27T03:00:00.000Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 63
+            },
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206441,
+            "uuid": "90d652be-4611-4c0b-b102-197bb6ce70ca",
+            "name": "20230327-bte-008",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T00:00:00.990Z",
+            "end_datetime": "2023-03-27T04:49:21.711Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206493,
+            "uuid": "5dcde332-3219-48b7-8137-604c6e6205f5",
+            "name": "20230327-atz22023-03-23T09:22:39.8242023-03-27T22:25:15.252-002",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T00:00:00.953Z",
+            "end_datetime": "2023-03-27T16:31:28.953Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                {
+                    "id": 145827715
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "count": 20,
+        "total": 196848
+    }
+}

@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("Europe/Vienna", "Europe/Vienna", "Time zone does not match")

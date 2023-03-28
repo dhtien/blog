@@ -1,0 +1,24 @@
+Response code: 
+200
+Response body: 
+{
+    "data": {
+        "id": 206503,
+        "name": "20230328-atz12023-03-23T09:22:39.8242023-03-28T07:49:41.574-001",
+        "current_state": "staged",
+        "status_updated_at": "2023-03-28T01:14:58.828Z",
+        "location_updated_at": "2023-03-28T01:14:57.111Z",
+        "allowed_transitions": [
+            "live",
+            "started",
+            "in_transit",
+            "completed",
+            "stopped"
+        ],
+        "service_requests_to_be_cancelled": null,
+        "service_requests_to_be_reassigned": null,
+        "status": "success",
+        "current_trip_stop": null,
+        "next_trip_stop": null
+    }
+}

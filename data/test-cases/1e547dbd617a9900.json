@@ -1,0 +1,489 @@
+{
+  "uid" : "1e547dbd617a9900",
+  "name" : "Verify Configuration Read user can not create new Vehicles",
+  "fullName" : "testcases.web.permission.Permission.TC_14",
+  "historyId" : "c5a23b6fd401a1df61481e93b48ba9aa",
+  "time" : {
+    "start" : 1679965731504,
+    "stop" : 1679965740192,
+    "duration" : 8688
+  },
+  "description" : "Verify Configuration Read user can not create new Vehicles",
+  "descriptionHtml" : "<p>Verify Configuration Read user can not create new Vehicles</p>\n",
+  "status" : "broken",
+  "statusMessage" : "java.lang.NullPointerException",
+  "statusTrace" : "java.lang.NullPointerException\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:65)\r\n\tat selenium.core.BasePage.editField(BasePage.java:25)\r\n\tat selenium.steps.VehiclesSteps.createVehicleWithInformation(VehiclesSteps.java:34)\r\n\tat testcases.web.permission.Permission.TC_14(Permission.java:842)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679965728574,
+      "stop" : 1679965731501,
+      "duration" : 2927
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5e619df93154c371",
+      "name" : "Driver setup: ",
+      "source" : "5e619df93154c371.txt",
+      "type" : "text/plain",
+      "size" : 119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679965678074,
+      "stop" : 1679965678893,
+      "duration" : 819
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679965678074,
+        "stop" : 1679965678893,
+        "duration" : 819
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679965678074,
+          "stop" : 1679965678893,
+          "duration" : 819
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679965678072,
+      "stop" : 1679965678073,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Configuration Read user can not create new Vehicles",
+    "status" : "broken",
+    "statusMessage" : "java.lang.NullPointerException",
+    "statusTrace" : "java.lang.NullPointerException\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:65)\r\n\tat selenium.core.BasePage.editField(BasePage.java:25)\r\n\tat selenium.steps.VehiclesSteps.createVehicleWithInformation(VehiclesSteps.java:34)\r\n\tat testcases.web.permission.Permission.TC_14(Permission.java:842)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n",
+    "steps" : [ {
+      "name" : "Log in with account: plan.read.user@gmail.com",
+      "time" : {
+        "start" : 1679965731504,
+        "stop" : 1679965734463,
+        "duration" : 2959
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c3d951e4c5ac726a",
+        "name" : "Starting action: ",
+        "source" : "c3d951e4c5ac726a.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "bbaa8a23408d1914",
+        "name" : "Action Done! ",
+        "source" : "bbaa8a23408d1914.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "67aedf360b0626c7",
+        "name" : "saveScreenShot",
+        "source" : "67aedf360b0626c7.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "ada344247ce3c34",
+        "name" : "Starting action: ",
+        "source" : "ada344247ce3c34.txt",
+        "type" : "text/plain",
+        "size" : 63
+      }, {
+        "uid" : "664b93d1d314e059",
+        "name" : "Action Done! ",
+        "source" : "664b93d1d314e059.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "6c024a2a09539a47",
+        "name" : "saveScreenShot",
+        "source" : "6c024a2a09539a47.png",
+        "type" : "image/png",
+        "size" : 61977
+      }, {
+        "uid" : "59822cc19e9d3d7a",
+        "name" : "Starting action: ",
+        "source" : "59822cc19e9d3d7a.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "46a0da405d2e1a73",
+        "name" : "Action Done! ",
+        "source" : "46a0da405d2e1a73.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "717817c05e94b4ed",
+        "name" : "saveScreenShot",
+        "source" : "717817c05e94b4ed.png",
+        "type" : "image/png",
+        "size" : 62282
+      }, {
+        "uid" : "9b630108cd3108d5",
+        "name" : "Starting action: ",
+        "source" : "9b630108cd3108d5.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "9c60759d1872a829",
+        "name" : "Action Done! ",
+        "source" : "9c60759d1872a829.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "2ec9d1ea009d47e9",
+        "name" : "saveScreenShot",
+        "source" : "2ec9d1ea009d47e9.png",
+        "type" : "image/png",
+        "size" : 62490
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "plan.read.user@gmail.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679965734463,
+        "stop" : 1679965735313,
+        "duration" : 850
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2cbb62a93eb4c6e0",
+        "name" : "Starting action: ",
+        "source" : "2cbb62a93eb4c6e0.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "e2c66c8fb3a8572d",
+        "name" : "Action Done! ",
+        "source" : "e2c66c8fb3a8572d.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "fa8dde9d1d3ff7b8",
+        "name" : "saveScreenShot",
+        "source" : "fa8dde9d1d3ff7b8.png",
+        "type" : "image/png",
+        "size" : 62525
+      }, {
+        "uid" : "9353268c737ac1",
+        "name" : "Starting action: ",
+        "source" : "9353268c737ac1.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "e5a6ef9ef9807ad4",
+        "name" : "Action Done! ",
+        "source" : "e5a6ef9ef9807ad4.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "1feaefd7fe0a6180",
+        "name" : "saveScreenShot",
+        "source" : "1feaefd7fe0a6180.png",
+        "type" : "image/png",
+        "size" : 153373
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to page Vehicles",
+      "time" : {
+        "start" : 1679965735313,
+        "stop" : 1679965735759,
+        "duration" : 446
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a3b9bf7e5bd135d5",
+        "name" : "Starting action: ",
+        "source" : "a3b9bf7e5bd135d5.txt",
+        "type" : "text/plain",
+        "size" : 49
+      }, {
+        "uid" : "edef4ded59a4c43c",
+        "name" : "Action Done! ",
+        "source" : "edef4ded59a4c43c.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "e3c44504410e1795",
+        "name" : "saveScreenShot",
+        "source" : "e3c44504410e1795.png",
+        "type" : "image/png",
+        "size" : 81192
+      } ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Vehicles"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Create vehicle with information",
+      "time" : {
+        "start" : 1679965735760,
+        "stop" : 1679965740192,
+        "duration" : 4432
+      },
+      "status" : "broken",
+      "statusMessage" : "java.lang.NullPointerException",
+      "statusTrace" : "java.lang.NullPointerException\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:65)\r\n\tat selenium.core.BasePage.editField(BasePage.java:25)\r\n\tat selenium.steps.VehiclesSteps.createVehicleWithInformation(VehiclesSteps.java:34)\r\n\tat testcases.web.permission.Permission.TC_14(Permission.java:842)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6018511a701e517c",
+        "name" : "Starting action: ",
+        "source" : "6018511a701e517c.txt",
+        "type" : "text/plain",
+        "size" : 42
+      }, {
+        "uid" : "245b4e1dce54a8c7",
+        "name" : "Action Done! ",
+        "source" : "245b4e1dce54a8c7.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "22c78c48911e50c0",
+        "name" : "saveScreenShot",
+        "source" : "22c78c48911e50c0.png",
+        "type" : "image/png",
+        "size" : 205430
+      }, {
+        "uid" : "e41624a4d532676a",
+        "name" : "Starting action: ",
+        "source" : "e41624a4d532676a.txt",
+        "type" : "text/plain",
+        "size" : 68
+      }, {
+        "uid" : "64fbdc4f3ff5e0aa",
+        "name" : "Action Done! ",
+        "source" : "64fbdc4f3ff5e0aa.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c16657149da1c9ee",
+        "name" : "saveScreenShot",
+        "source" : "c16657149da1c9ee.png",
+        "type" : "image/png",
+        "size" : 198511
+      }, {
+        "uid" : "76960084a44d626f",
+        "name" : "Starting action: ",
+        "source" : "76960084a44d626f.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "6223e3932547c31d",
+        "name" : "Action Done! ",
+        "source" : "6223e3932547c31d.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "81a11c06529b193",
+        "name" : "saveScreenShot",
+        "source" : "81a11c06529b193.png",
+        "type" : "image/png",
+        "size" : 180251
+      } ],
+      "parameters" : [ {
+        "name" : "expectedVehicle",
+        "value" : "utils.models.MVehicle@407565e1"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 9,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 30,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679965740193,
+      "stop" : 1679965741009,
+      "duration" : 816
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "508930643b72f377",
+      "name" : "saveScreenShot",
+      "source" : "508930643b72f377.png",
+      "type" : "image/png",
+      "size" : 180251
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679965964278,
+      "stop" : 1679965964278,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679966035083,
+      "stop" : 1679966035083,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.permission.Permission"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.permission.Permission"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_14"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Permission"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.permission.Permission"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Permission-10(1177)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "utils.models.MUser@170db366"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1e547dbd617a9900.json",
+  "parameterValues" : [ "utils.models.MUser@170db366" ]
+}
