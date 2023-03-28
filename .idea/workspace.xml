@@ -17,17 +17,21 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Ncs9FMhbfrIcXpzaVmViViLvKS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WORKING/Project/dhtien.github.io",
+    "last_opened_file_path": "D:/WORKING/Project/BridJ/automation-test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -44,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679974551646</updated>
       <workItem from="1679974552932" duration="1218000" />
-      <workItem from="1679975833224" duration="519000" />
+      <workItem from="1679975833224" duration="1004000" />
     </task>
     <task id="LOCAL-00001" summary="Test public allure report">
       <created>1679975062918</created>
@@ -53,7 +57,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679975062918</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test public allure report">
+      <created>1679976755484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679976755484</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Test public allure report">
+      <created>1679976832155</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679976832155</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,6 +89,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Test public allure report" />
     <option name="LAST_COMMIT_MESSAGE" value="Test public allure report" />
   </component>
