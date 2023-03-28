@@ -1,0 +1,22 @@
+Response code: 
+200
+Response body: 
+{
+    "data": [
+        {
+            "id": 1659,
+            "first_name": "Driver",
+            "last_name": "Test8",
+            "email": "drivertest8@yopmail.com",
+            "username": "drivertest8",
+            "phone_number": "0123453675",
+            "vendor": null,
+            "status": "blocked",
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/1659"
+        }
+    ],
+    "meta": {
+        "count": 1,
+        "total": 1
+    }
+}

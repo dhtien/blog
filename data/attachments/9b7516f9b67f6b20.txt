@@ -1,0 +1,1 @@
+selenium.core.BasePage.verifyMessageShow("Your password has been successfully reset. You can login now.")

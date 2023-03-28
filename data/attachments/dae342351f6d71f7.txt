@@ -1,0 +1,1 @@
+selenium.pages.SchedulesPage.verifyScheduleShowForZone("Booking Zone", "2558")

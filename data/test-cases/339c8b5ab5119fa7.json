@@ -1,0 +1,891 @@
+{
+  "uid" : "339c8b5ab5119fa7",
+  "name" : "Verify user can select columns to show information",
+  "fullName" : "testcases.web.zone.ZoneListing.TC_02",
+  "historyId" : "dbce52492ebdbf157f98297fc54cb546",
+  "time" : {
+    "start" : 1679965137681,
+    "stop" : 1679965168020,
+    "duration" : 30339
+  },
+  "description" : "Verify user can select columns to show information",
+  "descriptionHtml" : "<p>Verify user can select columns to show information</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679965086703,
+      "stop" : 1679965087538,
+      "duration" : 835
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679965086704,
+        "stop" : 1679965087538,
+        "duration" : 834
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679965086704,
+          "stop" : 1679965087537,
+          "duration" : 833
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679965086702,
+      "stop" : 1679965086703,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679965131786,
+      "stop" : 1679965132916,
+      "duration" : 1130
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bdb0cb7e0792b7b1",
+      "name" : "Driver setup: ",
+      "source" : "bdb0cb7e0792b7b1.txt",
+      "type" : "text/plain",
+      "size" : 118
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeEachScenario",
+    "time" : {
+      "start" : 1679965132917,
+      "stop" : 1679965137679,
+      "duration" : 4762
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: planning.write.user@gmail.com",
+      "time" : {
+        "start" : 1679965132917,
+        "stop" : 1679965136612,
+        "duration" : 3695
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get token from API response",
+        "time" : {
+          "start" : 1679965135779,
+          "stop" : 1679965136612,
+          "duration" : 833
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login Operation Portal to generate token",
+          "time" : {
+            "start" : 1679965135779,
+            "stop" : 1679965136612,
+            "duration" : 833
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "email",
+            "value" : "daohuyt@bridj.com"
+          }, {
+            "name" : "passWord",
+            "value" : "userPass@123"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "password",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "80985e04b8b34732",
+        "name" : "Starting action: ",
+        "source" : "80985e04b8b34732.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "adb99b16783c0c6b",
+        "name" : "Action Done! ",
+        "source" : "adb99b16783c0c6b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a9302722477e0db",
+        "name" : "saveScreenShot",
+        "source" : "a9302722477e0db.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "29a0d1cbb93491ef",
+        "name" : "Starting action: ",
+        "source" : "29a0d1cbb93491ef.txt",
+        "type" : "text/plain",
+        "size" : 68
+      }, {
+        "uid" : "d9374b48851b59b5",
+        "name" : "Action Done! ",
+        "source" : "d9374b48851b59b5.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "5dedf44d91069a35",
+        "name" : "saveScreenShot",
+        "source" : "5dedf44d91069a35.png",
+        "type" : "image/png",
+        "size" : 62395
+      }, {
+        "uid" : "f65747c70d4fbd9",
+        "name" : "Starting action: ",
+        "source" : "f65747c70d4fbd9.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "9a8f5867dfe78a64",
+        "name" : "Action Done! ",
+        "source" : "9a8f5867dfe78a64.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "6ed0b89d56f6c355",
+        "name" : "saveScreenShot",
+        "source" : "6ed0b89d56f6c355.png",
+        "type" : "image/png",
+        "size" : 62873
+      }, {
+        "uid" : "4dc3139c362d5237",
+        "name" : "Starting action: ",
+        "source" : "4dc3139c362d5237.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "6beac43ade73d455",
+        "name" : "Action Done! ",
+        "source" : "6beac43ade73d455.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "6d67f7f3134147cd",
+        "name" : "saveScreenShot",
+        "source" : "6d67f7f3134147cd.png",
+        "type" : "image/png",
+        "size" : 62953
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "planning.write.user@gmail.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679965136612,
+        "stop" : 1679965137050,
+        "duration" : 438
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6c1a957d7cc47b0",
+        "name" : "Starting action: ",
+        "source" : "b6c1a957d7cc47b0.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "e1039ac1dc1f1780",
+        "name" : "Action Done! ",
+        "source" : "e1039ac1dc1f1780.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c29453c58eed7918",
+        "name" : "saveScreenShot",
+        "source" : "c29453c58eed7918.png",
+        "type" : "image/png",
+        "size" : 153643
+      }, {
+        "uid" : "b9a3d2e9a429effa",
+        "name" : "Starting action: ",
+        "source" : "b9a3d2e9a429effa.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "72f74c89075fa2ac",
+        "name" : "Action Done! ",
+        "source" : "72f74c89075fa2ac.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "e8cd392b5b451eed",
+        "name" : "saveScreenShot",
+        "source" : "e8cd392b5b451eed.png",
+        "type" : "image/png",
+        "size" : 154196
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to page Zones",
+      "time" : {
+        "start" : 1679965137050,
+        "stop" : 1679965137392,
+        "duration" : 342
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "69fd1d965f0b008c",
+        "name" : "Starting action: ",
+        "source" : "69fd1d965f0b008c.txt",
+        "type" : "text/plain",
+        "size" : 46
+      }, {
+        "uid" : "fc000430cf38e9e",
+        "name" : "Action Done! ",
+        "source" : "fc000430cf38e9e.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "5461f9338f98c413",
+        "name" : "saveScreenShot",
+        "source" : "5461f9338f98c413.png",
+        "type" : "image/png",
+        "size" : 154383
+      } ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Zones"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify the zone page is opened",
+      "time" : {
+        "start" : 1679965137392,
+        "stop" : 1679965137679,
+        "duration" : 287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cdd5a649502bcea3",
+        "name" : "Starting action: ",
+        "source" : "cdd5a649502bcea3.txt",
+        "type" : "text/plain",
+        "size" : 125
+      }, {
+        "uid" : "d1d07653d7329964",
+        "name" : "Action Done! ",
+        "source" : "d1d07653d7329964.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a396909011308af1",
+        "name" : "saveScreenShot",
+        "source" : "a396909011308af1.png",
+        "type" : "image/png",
+        "size" : 78782
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 24,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify user can select columns to show information",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Select information columns to display ",
+      "time" : {
+        "start" : 1679965137681,
+        "stop" : 1679965141091,
+        "duration" : 3410
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cd8086e3731595b9",
+        "name" : "Starting action: ",
+        "source" : "cd8086e3731595b9.txt",
+        "type" : "text/plain",
+        "size" : 47
+      }, {
+        "uid" : "211365a6d05da41d",
+        "name" : "Action Done! ",
+        "source" : "211365a6d05da41d.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "4e8ffd676b80a9d4",
+        "name" : "saveScreenShot",
+        "source" : "4e8ffd676b80a9d4.png",
+        "type" : "image/png",
+        "size" : 205813
+      }, {
+        "uid" : "9680cdcf1c2a10ff",
+        "name" : "Starting action: ",
+        "source" : "9680cdcf1c2a10ff.txt",
+        "type" : "text/plain",
+        "size" : 45
+      }, {
+        "uid" : "2ffa122d5ae97d75",
+        "name" : "Action Done! ",
+        "source" : "2ffa122d5ae97d75.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "41667235b29f15ca",
+        "name" : "saveScreenShot",
+        "source" : "41667235b29f15ca.png",
+        "type" : "image/png",
+        "size" : 219740
+      }, {
+        "uid" : "ffa881ae2b9152dd",
+        "name" : "Starting action: ",
+        "source" : "ffa881ae2b9152dd.txt",
+        "type" : "text/plain",
+        "size" : 47
+      }, {
+        "uid" : "7e2d21b0289749f3",
+        "name" : "Action Done! ",
+        "source" : "7e2d21b0289749f3.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "80d1e943f676680b",
+        "name" : "saveScreenShot",
+        "source" : "80d1e943f676680b.png",
+        "type" : "image/png",
+        "size" : 215422
+      }, {
+        "uid" : "c35a9880bfda8198",
+        "name" : "Starting action: ",
+        "source" : "c35a9880bfda8198.txt",
+        "type" : "text/plain",
+        "size" : 49
+      }, {
+        "uid" : "e846290956e0847b",
+        "name" : "Action Done! ",
+        "source" : "e846290956e0847b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "466c9f53069a7353",
+        "name" : "saveScreenShot",
+        "source" : "466c9f53069a7353.png",
+        "type" : "image/png",
+        "size" : 204871
+      }, {
+        "uid" : "44e980fc957b92f6",
+        "name" : "Starting action: ",
+        "source" : "44e980fc957b92f6.txt",
+        "type" : "text/plain",
+        "size" : 44
+      }, {
+        "uid" : "61dace4fa305b9c8",
+        "name" : "Action Done! ",
+        "source" : "61dace4fa305b9c8.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "9160ac4447057829",
+        "name" : "saveScreenShot",
+        "source" : "9160ac4447057829.png",
+        "type" : "image/png",
+        "size" : 221074
+      } ],
+      "parameters" : [ {
+        "name" : "columns",
+        "value" : "[ID, Zone, Region]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 15,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Unselect information columns not display ",
+      "time" : {
+        "start" : 1679965141091,
+        "stop" : 1679965146799,
+        "duration" : 5708
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6afa722a87559180",
+        "name" : "Starting action: ",
+        "source" : "6afa722a87559180.txt",
+        "type" : "text/plain",
+        "size" : 47
+      }, {
+        "uid" : "6594bf459c6c516a",
+        "name" : "Action Done! ",
+        "source" : "6594bf459c6c516a.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "52aa23b8dc103e80",
+        "name" : "saveScreenShot",
+        "source" : "52aa23b8dc103e80.png",
+        "type" : "image/png",
+        "size" : 199072
+      }, {
+        "uid" : "d292e263f5da2ef8",
+        "name" : "Starting action: ",
+        "source" : "d292e263f5da2ef8.txt",
+        "type" : "text/plain",
+        "size" : 57
+      }, {
+        "uid" : "63a2731a245dd35f",
+        "name" : "Action Done! ",
+        "source" : "63a2731a245dd35f.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "eb1874c088da948d",
+        "name" : "saveScreenShot",
+        "source" : "eb1874c088da948d.png",
+        "type" : "image/png",
+        "size" : 193814
+      }, {
+        "uid" : "4ece1dca9d80e102",
+        "name" : "Starting action: ",
+        "source" : "4ece1dca9d80e102.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "d5e845490c3b831d",
+        "name" : "Action Done! ",
+        "source" : "d5e845490c3b831d.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "9707d2aef368da53",
+        "name" : "saveScreenShot",
+        "source" : "9707d2aef368da53.png",
+        "type" : "image/png",
+        "size" : 183030
+      }, {
+        "uid" : "befdc7bbf2153111",
+        "name" : "Starting action: ",
+        "source" : "befdc7bbf2153111.txt",
+        "type" : "text/plain",
+        "size" : 57
+      }, {
+        "uid" : "c0f1f7ec9257e80a",
+        "name" : "Action Done! ",
+        "source" : "c0f1f7ec9257e80a.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "1993992bf93d4c1d",
+        "name" : "saveScreenShot",
+        "source" : "1993992bf93d4c1d.png",
+        "type" : "image/png",
+        "size" : 180050
+      }, {
+        "uid" : "8476e171e4701637",
+        "name" : "Starting action: ",
+        "source" : "8476e171e4701637.txt",
+        "type" : "text/plain",
+        "size" : 60
+      }, {
+        "uid" : "991a35e06fe21f2f",
+        "name" : "Action Done! ",
+        "source" : "991a35e06fe21f2f.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "55d4c20d575eb3d4",
+        "name" : "saveScreenShot",
+        "source" : "55d4c20d575eb3d4.png",
+        "type" : "image/png",
+        "size" : 160113
+      }, {
+        "uid" : "ffcc5b2b240a8b59",
+        "name" : "Starting action: ",
+        "source" : "ffcc5b2b240a8b59.txt",
+        "type" : "text/plain",
+        "size" : 44
+      }, {
+        "uid" : "47e3c33c6d5f1996",
+        "name" : "Action Done! ",
+        "source" : "47e3c33c6d5f1996.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "cd36a71bf2e1b7a0",
+        "name" : "saveScreenShot",
+        "source" : "cd36a71bf2e1b7a0.png",
+        "type" : "image/png",
+        "size" : 158048
+      } ],
+      "parameters" : [ {
+        "name" : "columns",
+        "value" : "[Abbreviation, Time Zone, Default Fare, Payment Methods]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 18,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify information columns display ",
+      "time" : {
+        "start" : 1679965146800,
+        "stop" : 1679965147350,
+        "duration" : 550
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8b6bb10d051f63ba",
+        "name" : "Starting action: ",
+        "source" : "8b6bb10d051f63ba.txt",
+        "type" : "text/plain",
+        "size" : 57
+      }, {
+        "uid" : "e481c9d4a5d245a0",
+        "name" : "Action Done! ",
+        "source" : "e481c9d4a5d245a0.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "655642088efc4283",
+        "name" : "saveScreenShot",
+        "source" : "655642088efc4283.png",
+        "type" : "image/png",
+        "size" : 142812
+      }, {
+        "uid" : "879d541931f3dc0f",
+        "name" : "Starting action: ",
+        "source" : "879d541931f3dc0f.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "378a2c360f4cfe4",
+        "name" : "Action Done! ",
+        "source" : "378a2c360f4cfe4.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "5d294cd39565ae47",
+        "name" : "saveScreenShot",
+        "source" : "5d294cd39565ae47.png",
+        "type" : "image/png",
+        "size" : 142771
+      }, {
+        "uid" : "5b544756523876cc",
+        "name" : "Starting action: ",
+        "source" : "5b544756523876cc.txt",
+        "type" : "text/plain",
+        "size" : 61
+      }, {
+        "uid" : "11e829ba0769cbcf",
+        "name" : "Action Done! ",
+        "source" : "11e829ba0769cbcf.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "395b500d05a59942",
+        "name" : "saveScreenShot",
+        "source" : "395b500d05a59942.png",
+        "type" : "image/png",
+        "size" : 142725
+      } ],
+      "parameters" : [ {
+        "name" : "columns",
+        "value" : "[ID, Zone, Region]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 9,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify information columns do not display ",
+      "time" : {
+        "start" : 1679965147350,
+        "stop" : 1679965168020,
+        "duration" : 20670
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "63e8b71ac0691bd1",
+        "name" : "Starting action: ",
+        "source" : "63e8b71ac0691bd1.txt",
+        "type" : "text/plain",
+        "size" : 70
+      }, {
+        "uid" : "37fef6ef8b7ac946",
+        "name" : "Action Done! ",
+        "source" : "37fef6ef8b7ac946.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "48d0cd9e89d8a040",
+        "name" : "saveScreenShot",
+        "source" : "48d0cd9e89d8a040.png",
+        "type" : "image/png",
+        "size" : 142725
+      }, {
+        "uid" : "9aee307b39cd73ce",
+        "name" : "Starting action: ",
+        "source" : "9aee307b39cd73ce.txt",
+        "type" : "text/plain",
+        "size" : 67
+      }, {
+        "uid" : "a52fade562c06f16",
+        "name" : "Action Done! ",
+        "source" : "a52fade562c06f16.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "67a298cd41b12e89",
+        "name" : "saveScreenShot",
+        "source" : "67a298cd41b12e89.png",
+        "type" : "image/png",
+        "size" : 142725
+      }, {
+        "uid" : "3b39a4fb1686a222",
+        "name" : "Starting action: ",
+        "source" : "3b39a4fb1686a222.txt",
+        "type" : "text/plain",
+        "size" : 70
+      }, {
+        "uid" : "6388497a54a18b72",
+        "name" : "Action Done! ",
+        "source" : "6388497a54a18b72.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "8f79e3c5e7689cc1",
+        "name" : "saveScreenShot",
+        "source" : "8f79e3c5e7689cc1.png",
+        "type" : "image/png",
+        "size" : 142725
+      }, {
+        "uid" : "5a7acde2287f8363",
+        "name" : "Starting action: ",
+        "source" : "5a7acde2287f8363.txt",
+        "type" : "text/plain",
+        "size" : 73
+      }, {
+        "uid" : "7fec493c3d071ea1",
+        "name" : "Action Done! ",
+        "source" : "7fec493c3d071ea1.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "b297f2b62e6889ad",
+        "name" : "saveScreenShot",
+        "source" : "b297f2b62e6889ad.png",
+        "type" : "image/png",
+        "size" : 142725
+      } ],
+      "parameters" : [ {
+        "name" : "columns",
+        "value" : "[Abbreviation, Time Zone, Default Fare, Payment Methods]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 54,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679965175791,
+      "stop" : 1679965175791,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679965175791,
+      "stop" : 1679965175791,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679965168021,
+      "stop" : 1679965168778,
+      "duration" : 757
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bf3d182c3c126aa8",
+      "name" : "saveScreenShot",
+      "source" : "bf3d182c3c126aa8.png",
+      "type" : "image/png",
+      "size" : 142725
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.zone.ZoneListing"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.zone.ZoneListing"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Zones"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.zone.ZoneListing"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Zones-6(825)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "339c8b5ab5119fa7.json",
+  "parameterValues" : [ ]
+}

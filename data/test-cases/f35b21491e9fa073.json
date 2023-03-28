@@ -1,0 +1,675 @@
+{
+  "uid" : "f35b21491e9fa073",
+  "name" : "Verify create driver failed with exist user name",
+  "fullName" : "testcases.web.driver.DriverCreating.TC_02",
+  "historyId" : "dbc4a3eaf5a6ee1ad3be161443f78748",
+  "time" : {
+    "start" : 1679965202482,
+    "stop" : 1679965213486,
+    "duration" : 11004
+  },
+  "description" : "Verify create driver failed with exist user name",
+  "descriptionHtml" : "<p>Verify create driver failed with exist user name</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679965192013,
+      "stop" : 1679965192850,
+      "duration" : 837
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679965192013,
+        "stop" : 1679965192850,
+        "duration" : 837
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679965192013,
+          "stop" : 1679965192850,
+          "duration" : 837
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679965192850,
+      "stop" : 1679965195976,
+      "duration" : 3126
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cb0646ee9a7624fa",
+      "name" : "Driver setup: ",
+      "source" : "cb0646ee9a7624fa.txt",
+      "type" : "text/plain",
+      "size" : 118
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeEachScenario",
+    "time" : {
+      "start" : 1679965195977,
+      "stop" : 1679965202480,
+      "duration" : 6503
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: daohuyt@bridj.com",
+      "time" : {
+        "start" : 1679965195979,
+        "stop" : 1679965201392,
+        "duration" : 5413
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get token from API response",
+        "time" : {
+          "start" : 1679965200532,
+          "stop" : 1679965201392,
+          "duration" : 860
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login Operation Portal to generate token",
+          "time" : {
+            "start" : 1679965200532,
+            "stop" : 1679965201392,
+            "duration" : 860
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "email",
+            "value" : "daohuyt@bridj.com"
+          }, {
+            "name" : "passWord",
+            "value" : "userPass@123"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "password",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "aa3858c29ebfa8a2",
+        "name" : "Starting action: ",
+        "source" : "aa3858c29ebfa8a2.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "c83d8b22cfd7ad58",
+        "name" : "Action Done! ",
+        "source" : "c83d8b22cfd7ad58.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "ad55f7f58704809d",
+        "name" : "saveScreenShot",
+        "source" : "ad55f7f58704809d.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "156eb12916fc490c",
+        "name" : "Starting action: ",
+        "source" : "156eb12916fc490c.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "e6c1c6d54026b1d4",
+        "name" : "Action Done! ",
+        "source" : "e6c1c6d54026b1d4.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "93f6f55ba65a7e42",
+        "name" : "saveScreenShot",
+        "source" : "93f6f55ba65a7e42.png",
+        "type" : "image/png",
+        "size" : 61630
+      }, {
+        "uid" : "92f9e2bbbfa742b5",
+        "name" : "Starting action: ",
+        "source" : "92f9e2bbbfa742b5.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "1ea0d0dd4337d12",
+        "name" : "Action Done! ",
+        "source" : "1ea0d0dd4337d12.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "2eb7f6c173b2a560",
+        "name" : "saveScreenShot",
+        "source" : "2eb7f6c173b2a560.png",
+        "type" : "image/png",
+        "size" : 62141
+      }, {
+        "uid" : "7f5101d9d7d9a4d7",
+        "name" : "Starting action: ",
+        "source" : "7f5101d9d7d9a4d7.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "563fb2ec538598fe",
+        "name" : "Action Done! ",
+        "source" : "563fb2ec538598fe.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a53bd41c53adc3e6",
+        "name" : "saveScreenShot",
+        "source" : "a53bd41c53adc3e6.png",
+        "type" : "image/png",
+        "size" : 62243
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679965201392,
+        "stop" : 1679965201756,
+        "duration" : 364
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "48179b2c29bd700",
+        "name" : "Starting action: ",
+        "source" : "48179b2c29bd700.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "5c3d3374934f1410",
+        "name" : "Action Done! ",
+        "source" : "5c3d3374934f1410.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c002ccc30669a576",
+        "name" : "saveScreenShot",
+        "source" : "c002ccc30669a576.png",
+        "type" : "image/png",
+        "size" : 154135
+      }, {
+        "uid" : "3e9c5af849264073",
+        "name" : "Starting action: ",
+        "source" : "3e9c5af849264073.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "aad1a06b141747a3",
+        "name" : "Action Done! ",
+        "source" : "aad1a06b141747a3.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "9a0d2b7a8d880f0c",
+        "name" : "saveScreenShot",
+        "source" : "9a0d2b7a8d880f0c.png",
+        "type" : "image/png",
+        "size" : 154116
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to page Drivers",
+      "time" : {
+        "start" : 1679965201756,
+        "stop" : 1679965202260,
+        "duration" : 504
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d5faedef40b73220",
+        "name" : "Starting action: ",
+        "source" : "d5faedef40b73220.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "5a39b50ed19f781f",
+        "name" : "Action Done! ",
+        "source" : "5a39b50ed19f781f.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "846c8b8196bce6e",
+        "name" : "saveScreenShot",
+        "source" : "846c8b8196bce6e.png",
+        "type" : "image/png",
+        "size" : 76523
+      } ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Drivers"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify the Driver page is opened",
+      "time" : {
+        "start" : 1679965202261,
+        "stop" : 1679965202480,
+        "duration" : 219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "46f7d79d501b3a8f",
+        "name" : "Starting action: ",
+        "source" : "46f7d79d501b3a8f.txt",
+        "type" : "text/plain",
+        "size" : 127
+      }, {
+        "uid" : "d6ea7224c9f6f06b",
+        "name" : "Action Done! ",
+        "source" : "d6ea7224c9f6f06b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "b422b48ad244f671",
+        "name" : "saveScreenShot",
+        "source" : "b422b48ad244f671.png",
+        "type" : "image/png",
+        "size" : 86684
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 24,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679965175798,
+      "stop" : 1679965175798,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify create driver failed with exist user name",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create driver with information",
+      "time" : {
+        "start" : 1679965202502,
+        "stop" : 1679965212989,
+        "duration" : 10487
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96e86b1e49bb9c15",
+        "name" : "Starting action: ",
+        "source" : "96e86b1e49bb9c15.txt",
+        "type" : "text/plain",
+        "size" : 42
+      }, {
+        "uid" : "7c5771aaecab4f8",
+        "name" : "Action Done! ",
+        "source" : "7c5771aaecab4f8.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "cd23953c9c45a48",
+        "name" : "saveScreenShot",
+        "source" : "cd23953c9c45a48.png",
+        "type" : "image/png",
+        "size" : 197456
+      }, {
+        "uid" : "17456a28a1493cac",
+        "name" : "Starting action: ",
+        "source" : "17456a28a1493cac.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "980885b7e12b6a66",
+        "name" : "Action Done! ",
+        "source" : "980885b7e12b6a66.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "cdc9a33c321b1d3f",
+        "name" : "saveScreenShot",
+        "source" : "cdc9a33c321b1d3f.png",
+        "type" : "image/png",
+        "size" : 185424
+      }, {
+        "uid" : "6fcf1aa5211a3f69",
+        "name" : "Starting action: ",
+        "source" : "6fcf1aa5211a3f69.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "d25d21f720408fd4",
+        "name" : "Action Done! ",
+        "source" : "d25d21f720408fd4.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "7145e08824587362",
+        "name" : "saveScreenShot",
+        "source" : "7145e08824587362.png",
+        "type" : "image/png",
+        "size" : 185954
+      }, {
+        "uid" : "e352fe0b22968dbc",
+        "name" : "Starting action: ",
+        "source" : "e352fe0b22968dbc.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "3df3402cfdaf9be",
+        "name" : "Action Done! ",
+        "source" : "3df3402cfdaf9be.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "f38fefc6f9e2fe62",
+        "name" : "saveScreenShot",
+        "source" : "f38fefc6f9e2fe62.png",
+        "type" : "image/png",
+        "size" : 187185
+      }, {
+        "uid" : "36aaa060f951dd5f",
+        "name" : "Starting action: ",
+        "source" : "36aaa060f951dd5f.txt",
+        "type" : "text/plain",
+        "size" : 77
+      }, {
+        "uid" : "1cb636a19e10c3ab",
+        "name" : "Action Done! ",
+        "source" : "1cb636a19e10c3ab.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c439f82fbd94262c",
+        "name" : "saveScreenShot",
+        "source" : "c439f82fbd94262c.png",
+        "type" : "image/png",
+        "size" : 190625
+      }, {
+        "uid" : "8d2ec85753c49cf5",
+        "name" : "Starting action: ",
+        "source" : "8d2ec85753c49cf5.txt",
+        "type" : "text/plain",
+        "size" : 62
+      }, {
+        "uid" : "f6c0bef5ed466eba",
+        "name" : "Action Done! ",
+        "source" : "f6c0bef5ed466eba.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "1846382090a3c553",
+        "name" : "saveScreenShot",
+        "source" : "1846382090a3c553.png",
+        "type" : "image/png",
+        "size" : 190259
+      }, {
+        "uid" : "a5fef3d68d8fa42d",
+        "name" : "Starting action: ",
+        "source" : "a5fef3d68d8fa42d.txt",
+        "type" : "text/plain",
+        "size" : 42
+      }, {
+        "uid" : "5d36e330b7586fb8",
+        "name" : "Action Done! ",
+        "source" : "5d36e330b7586fb8.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "113ea79244746455",
+        "name" : "saveScreenShot",
+        "source" : "113ea79244746455.png",
+        "type" : "image/png",
+        "size" : 190123
+      } ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "utils.models.MDriver@c846824"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 21,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify create driver failed with message Username has already been taken",
+      "time" : {
+        "start" : 1679965212990,
+        "stop" : 1679965213486,
+        "duration" : 496
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "818969566d63a16e",
+        "name" : "Starting action: ",
+        "source" : "818969566d63a16e.txt",
+        "type" : "text/plain",
+        "size" : 75
+      }, {
+        "uid" : "17ecdd4f97f818dc",
+        "name" : "Action Done! ",
+        "source" : "17ecdd4f97f818dc.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c220c230ad8211f6",
+        "name" : "saveScreenShot",
+        "source" : "c220c230ad8211f6.png",
+        "type" : "image/png",
+        "size" : 229012
+      } ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Username has already been taken"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 24,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679965218513,
+      "stop" : 1679965218513,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679965213487,
+      "stop" : 1679965214326,
+      "duration" : 839
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "70545d2658049df7",
+      "name" : "saveScreenShot",
+      "source" : "70545d2658049df7.png",
+      "type" : "image/png",
+      "size" : 228900
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679965274635,
+      "stop" : 1679965274635,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.driver.DriverCreating"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.driver.DriverCreating"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Drivers"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.driver.DriverCreating"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Drivers-3(886)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f35b21491e9fa073.json",
+  "parameterValues" : [ ]
+}

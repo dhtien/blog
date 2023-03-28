@@ -1,0 +1,76 @@
+Response code: 
+200
+Response body: 
+{
+    "data": [
+        {
+            "id": 206504,
+            "uuid": "25b9082e-02ad-4db0-8827-4efb336542a0",
+            "name": "20230328-BKZ2023-03-28T07:49:41.577-001",
+            "current_state": "live",
+            "start_datetime": "2023-03-28T00:00:00.397Z",
+            "end_datetime": "2023-03-28T16:55:00.397Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": {
+                "id": 5147655
+            },
+            "vehicle": {
+                "id": 518,
+                "vehicle_number": "vehicle08",
+                "capacity": 12,
+                "make": null,
+                "model": null,
+                "color": null,
+                "bought_at": null,
+                "sold_at": null,
+                "last_serviced_at": null,
+                "vendor": null,
+                "license_plate": "vehicle08",
+                "wifi_ssid": "Bridj",
+                "wifi_password": "enjoybridj",
+                "dummy_vehicle": false,
+                "note": null,
+                "uuid": "86a18f16-b63d-46ed-a7df-2635bd43722e",
+                "last_service_km": null,
+                "mobility_capacity": 6,
+                "year": "8299472400000",
+                "vin": null,
+                "doors": 0,
+                "max_capacity": 0,
+                "body_type": null,
+                "fuel_type": null,
+                "transmission": null,
+                "status": "active",
+                "extra_attributes": null,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/vehicles/518"
+            },
+            "driver": {
+                "id": 1657,
+                "first_name": "Driver",
+                "last_name": "Test12",
+                "email": "drivertest12@yopmail.com",
+                "username": "drivertest12",
+                "phone_number": "0123453675",
+                "vendor": null,
+                "status": "approved",
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/1657"
+            },
+            "trip_stops": [
+                {
+                    "id": 5147655
+                },
+                {
+                    "id": 5147656
+                }
+            ],
+            "trip_monitors": [
+                
+            ]
+        }
+    ],
+    "meta": {
+        "count": 1,
+        "total": 1
+    }
+}

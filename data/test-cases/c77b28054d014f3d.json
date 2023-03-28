@@ -1,0 +1,717 @@
+{
+  "uid" : "c77b28054d014f3d",
+  "name" : "Verify user can search drivers by name",
+  "fullName" : "testcases.web.global_search.GlobalSearch.TC_03",
+  "historyId" : "fd29e1d0177c9f376b729dc434d6cbed",
+  "time" : {
+    "start" : 1679966532569,
+    "stop" : 1679966538309,
+    "duration" : 5740
+  },
+  "description" : "Verify user can search drivers by name",
+  "descriptionHtml" : "<p>Verify user can search drivers by name</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679966521388,
+      "stop" : 1679966521388,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679966521389,
+      "stop" : 1679966522217,
+      "duration" : 828
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679966521389,
+        "stop" : 1679966522217,
+        "duration" : 828
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679966521389,
+          "stop" : 1679966522217,
+          "duration" : 828
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeEachScenario",
+    "time" : {
+      "start" : 1679966525424,
+      "stop" : 1679966532567,
+      "duration" : 7143
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: daohuyt@bridj.com",
+      "time" : {
+        "start" : 1679966525425,
+        "stop" : 1679966532101,
+        "duration" : 6676
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get token from API response",
+        "time" : {
+          "start" : 1679966531252,
+          "stop" : 1679966532101,
+          "duration" : 849
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login Operation Portal to generate token",
+          "time" : {
+            "start" : 1679966531252,
+            "stop" : 1679966532101,
+            "duration" : 849
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "email",
+            "value" : "daohuyt@bridj.com"
+          }, {
+            "name" : "passWord",
+            "value" : "userPass@123"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "password",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "b24dd4ff18f4fa1e",
+        "name" : "Starting action: ",
+        "source" : "b24dd4ff18f4fa1e.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "dcbf23e9bf0f62ce",
+        "name" : "Action Done! ",
+        "source" : "dcbf23e9bf0f62ce.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "d35a48f1ed63e4b7",
+        "name" : "saveScreenShot",
+        "source" : "d35a48f1ed63e4b7.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "5c4c311d01786703",
+        "name" : "Starting action: ",
+        "source" : "5c4c311d01786703.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "24cf59daaa7a9337",
+        "name" : "Action Done! ",
+        "source" : "24cf59daaa7a9337.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "59cf3a4c23c86a66",
+        "name" : "saveScreenShot",
+        "source" : "59cf3a4c23c86a66.png",
+        "type" : "image/png",
+        "size" : 61630
+      }, {
+        "uid" : "9507ea5dcdab2925",
+        "name" : "Starting action: ",
+        "source" : "9507ea5dcdab2925.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "c21709460e41baeb",
+        "name" : "Action Done! ",
+        "source" : "c21709460e41baeb.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "6966f235be4823c0",
+        "name" : "saveScreenShot",
+        "source" : "6966f235be4823c0.png",
+        "type" : "image/png",
+        "size" : 61944
+      }, {
+        "uid" : "8410fedba5ae7a7c",
+        "name" : "Starting action: ",
+        "source" : "8410fedba5ae7a7c.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "30d4a1ec03387957",
+        "name" : "Action Done! ",
+        "source" : "30d4a1ec03387957.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "f18b9c0b2450b2e7",
+        "name" : "saveScreenShot",
+        "source" : "f18b9c0b2450b2e7.png",
+        "type" : "image/png",
+        "size" : 62238
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679966532101,
+        "stop" : 1679966532428,
+        "duration" : 327
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7e3ec4043cf0a4e3",
+        "name" : "Starting action: ",
+        "source" : "7e3ec4043cf0a4e3.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "658db6909457cc2f",
+        "name" : "Action Done! ",
+        "source" : "658db6909457cc2f.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "cd824f2f9654d502",
+        "name" : "saveScreenShot",
+        "source" : "cd824f2f9654d502.png",
+        "type" : "image/png",
+        "size" : 154132
+      }, {
+        "uid" : "3574427ea7a0ceb2",
+        "name" : "Starting action: ",
+        "source" : "3574427ea7a0ceb2.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "85241f1aee4f3213",
+        "name" : "Action Done! ",
+        "source" : "85241f1aee4f3213.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "ae83ab96fd29fe9b",
+        "name" : "saveScreenShot",
+        "source" : "ae83ab96fd29fe9b.png",
+        "type" : "image/png",
+        "size" : 154116
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Can access page 'https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/' successfully",
+      "time" : {
+        "start" : 1679966532428,
+        "stop" : 1679966532567,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "49ec1d0a7c7f370",
+        "name" : "Starting action: ",
+        "source" : "49ec1d0a7c7f370.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "f9bea95d41f9c91",
+        "name" : "Action Done! ",
+        "source" : "f9bea95d41f9c91.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "8bae6e1a96d5bed3",
+        "name" : "saveScreenShot",
+        "source" : "8bae6e1a96d5bed3.png",
+        "type" : "image/png",
+        "size" : 154116
+      } ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 21,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679966522217,
+      "stop" : 1679966525423,
+      "duration" : 3206
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a7129160e8e4c992",
+      "name" : "Driver setup: ",
+      "source" : "a7129160e8e4c992.txt",
+      "type" : "text/plain",
+      "size" : 119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify user can search drivers by name",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Try to search drivers with name",
+      "time" : {
+        "start" : 1679966532569,
+        "stop" : 1679966536556,
+        "duration" : 3987
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select global search entity",
+        "time" : {
+          "start" : 1679966532569,
+          "stop" : 1679966533086,
+          "duration" : 517
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "133d08edd7237fa7",
+          "name" : "Starting action: ",
+          "source" : "133d08edd7237fa7.txt",
+          "type" : "text/plain",
+          "size" : 43
+        }, {
+          "uid" : "98176acecd94ad1a",
+          "name" : "Action Done! ",
+          "source" : "98176acecd94ad1a.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "c3f22a58004d6bc7",
+          "name" : "saveScreenShot",
+          "source" : "c3f22a58004d6bc7.png",
+          "type" : "image/png",
+          "size" : 159523
+        }, {
+          "uid" : "2aef48627386224a",
+          "name" : "Starting action: ",
+          "source" : "2aef48627386224a.txt",
+          "type" : "text/plain",
+          "size" : 45
+        }, {
+          "uid" : "4c90007e4feac62d",
+          "name" : "Action Done! ",
+          "source" : "4c90007e4feac62d.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "88a3603c027514e9",
+          "name" : "saveScreenShot",
+          "source" : "88a3603c027514e9.png",
+          "type" : "image/png",
+          "size" : 162276
+        } ],
+        "parameters" : [ {
+          "name" : "entity",
+          "value" : "Drivers"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Enter text for global searching",
+        "time" : {
+          "start" : 1679966533086,
+          "stop" : 1679966533434,
+          "duration" : 348
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bfb65feb285b0217",
+          "name" : "Starting action: ",
+          "source" : "bfb65feb285b0217.txt",
+          "type" : "text/plain",
+          "size" : 72
+        }, {
+          "uid" : "506ab60e81f2396f",
+          "name" : "Action Done! ",
+          "source" : "506ab60e81f2396f.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "97ed0f5523fe8277",
+          "name" : "saveScreenShot",
+          "source" : "97ed0f5523fe8277.png",
+          "type" : "image/png",
+          "size" : 146366
+        } ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : "Test14"
+        }, {
+          "name" : "placeHolder",
+          "value" : "Name, username, email"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on 1 record",
+        "time" : {
+          "start" : 1679966533434,
+          "stop" : 1679966536556,
+          "duration" : 3122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3c5d77633824609f",
+          "name" : "Starting action: ",
+          "source" : "3c5d77633824609f.txt",
+          "type" : "text/plain",
+          "size" : 40
+        }, {
+          "uid" : "8c57c7345f74154e",
+          "name" : "Action Done! ",
+          "source" : "8c57c7345f74154e.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "7f6e98f4962523ef",
+          "name" : "saveScreenShot",
+          "source" : "7f6e98f4962523ef.png",
+          "type" : "image/png",
+          "size" : 137818
+        } ],
+        "parameters" : [ {
+          "name" : "order",
+          "value" : "1"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "utils.models.MDriver@fce6f66"
+      } ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify driver information shows correctly",
+      "time" : {
+        "start" : 1679966536557,
+        "stop" : 1679966538309,
+        "duration" : 1752
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c6b4d1f50fd52e43",
+        "name" : "Starting action: ",
+        "source" : "c6b4d1f50fd52e43.txt",
+        "type" : "text/plain",
+        "size" : 80
+      }, {
+        "uid" : "f5f3d9047dab4c4f",
+        "name" : "Action Done! ",
+        "source" : "f5f3d9047dab4c4f.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "46e97217ceb5bef",
+        "name" : "saveScreenShot",
+        "source" : "46e97217ceb5bef.png",
+        "type" : "image/png",
+        "size" : 144998
+      }, {
+        "uid" : "60310f54896dcad5",
+        "name" : "Starting action: ",
+        "source" : "60310f54896dcad5.txt",
+        "type" : "text/plain",
+        "size" : 79
+      }, {
+        "uid" : "aebc661781e52b31",
+        "name" : "Action Done! ",
+        "source" : "aebc661781e52b31.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "34d6efd2aab27ff1",
+        "name" : "saveScreenShot",
+        "source" : "34d6efd2aab27ff1.png",
+        "type" : "image/png",
+        "size" : 144998
+      }, {
+        "uid" : "f0dee9d6a6af2f85",
+        "name" : "Starting action: ",
+        "source" : "f0dee9d6a6af2f85.txt",
+        "type" : "text/plain",
+        "size" : 84
+      }, {
+        "uid" : "bcd758cfd711b15e",
+        "name" : "Action Done! ",
+        "source" : "bcd758cfd711b15e.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c605cbb2c02751b2",
+        "name" : "saveScreenShot",
+        "source" : "c605cbb2c02751b2.png",
+        "type" : "image/png",
+        "size" : 144998
+      }, {
+        "uid" : "c6b5800f276af66f",
+        "name" : "Starting action: ",
+        "source" : "c6b5800f276af66f.txt",
+        "type" : "text/plain",
+        "size" : 101
+      }, {
+        "uid" : "df8eef66922db3ad",
+        "name" : "Action Done! ",
+        "source" : "df8eef66922db3ad.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "42f1bd198c06499",
+        "name" : "saveScreenShot",
+        "source" : "42f1bd198c06499.png",
+        "type" : "image/png",
+        "size" : 144998
+      }, {
+        "uid" : "8e35ce82160eaa86",
+        "name" : "Starting action: ",
+        "source" : "8e35ce82160eaa86.txt",
+        "type" : "text/plain",
+        "size" : 86
+      }, {
+        "uid" : "a4a8e62731a2e9e0",
+        "name" : "Action Done! ",
+        "source" : "a4a8e62731a2e9e0.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c0067324454d6195",
+        "name" : "saveScreenShot",
+        "source" : "c0067324454d6195.png",
+        "type" : "image/png",
+        "size" : 144998
+      } ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "utils.models.MDriver@fce6f66"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 15,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 27,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679966538310,
+      "stop" : 1679966539124,
+      "duration" : 814
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9b5e0fb8490e91a7",
+      "name" : "saveScreenShot",
+      "source" : "9b5e0fb8490e91a7.png",
+      "type" : "image/png",
+      "size" : 144998
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679966566683,
+      "stop" : 1679966566683,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679966566683,
+      "stop" : 1679966566683,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.global_search.GlobalSearch"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.global_search.GlobalSearch"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_03"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Global Search"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.global_search.GlobalSearch"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Global Search-3(2214)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c77b28054d014f3d.json",
+  "parameterValues" : [ ]
+}

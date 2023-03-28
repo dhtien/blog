@@ -1,0 +1,711 @@
+{
+  "uid" : "721a6ab725b532a6",
+  "name" : "Verify user can select columns to show information",
+  "fullName" : "testcases.web.region.RegionListing.TC_02",
+  "historyId" : "77c3878d52e293a62787fe2cc2eb7f71",
+  "time" : {
+    "start" : 1679965065161,
+    "stop" : 1679965076448,
+    "duration" : 11287
+  },
+  "description" : "Verify user can select columns to show information",
+  "descriptionHtml" : "<p>Verify user can select columns to show information</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679965057290,
+      "stop" : 1679965060217,
+      "duration" : 2927
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "58e7b08f407a0b26",
+      "name" : "Driver setup: ",
+      "source" : "58e7b08f407a0b26.txt",
+      "type" : "text/plain",
+      "size" : 118
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679965029443,
+      "stop" : 1679965029443,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679965056440,
+      "stop" : 1679965057290,
+      "duration" : 850
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679965056440,
+        "stop" : 1679965057290,
+        "duration" : 850
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679965056440,
+          "stop" : 1679965057290,
+          "duration" : 850
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeEachScenario",
+    "time" : {
+      "start" : 1679965060219,
+      "stop" : 1679965065158,
+      "duration" : 4939
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: plan.read.user@gmail.com",
+      "time" : {
+        "start" : 1679965060219,
+        "stop" : 1679965064256,
+        "duration" : 4037
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get token from API response",
+        "time" : {
+          "start" : 1679965063392,
+          "stop" : 1679965064256,
+          "duration" : 864
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login Operation Portal to generate token",
+          "time" : {
+            "start" : 1679965063392,
+            "stop" : 1679965064255,
+            "duration" : 863
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "email",
+            "value" : "daohuyt@bridj.com"
+          }, {
+            "name" : "passWord",
+            "value" : "userPass@123"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "password",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "c7a82572f1ea3deb",
+        "name" : "Starting action: ",
+        "source" : "c7a82572f1ea3deb.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "7571aa70f9c873d6",
+        "name" : "Action Done! ",
+        "source" : "7571aa70f9c873d6.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "d0cdecb2825674a5",
+        "name" : "saveScreenShot",
+        "source" : "d0cdecb2825674a5.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "2f8382dfe8957bae",
+        "name" : "Starting action: ",
+        "source" : "2f8382dfe8957bae.txt",
+        "type" : "text/plain",
+        "size" : 63
+      }, {
+        "uid" : "c1279a01aa9a0e2a",
+        "name" : "Action Done! ",
+        "source" : "c1279a01aa9a0e2a.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "fb6c8b85c7581d84",
+        "name" : "saveScreenShot",
+        "source" : "fb6c8b85c7581d84.png",
+        "type" : "image/png",
+        "size" : 61977
+      }, {
+        "uid" : "8bea095102dbe39c",
+        "name" : "Starting action: ",
+        "source" : "8bea095102dbe39c.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "3ac358624ca368aa",
+        "name" : "Action Done! ",
+        "source" : "3ac358624ca368aa.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "6b5f6a95e0e76c28",
+        "name" : "saveScreenShot",
+        "source" : "6b5f6a95e0e76c28.png",
+        "type" : "image/png",
+        "size" : 62282
+      }, {
+        "uid" : "73f49f371186a4f0",
+        "name" : "Starting action: ",
+        "source" : "73f49f371186a4f0.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "25ad2f8ee9c5cf5b",
+        "name" : "Action Done! ",
+        "source" : "25ad2f8ee9c5cf5b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "28c1d92ef60ce374",
+        "name" : "saveScreenShot",
+        "source" : "28c1d92ef60ce374.png",
+        "type" : "image/png",
+        "size" : 62569
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "plan.read.user@gmail.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679965064256,
+        "stop" : 1679965064615,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "422922d2d7a8fcb4",
+        "name" : "Starting action: ",
+        "source" : "422922d2d7a8fcb4.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "d84a6491b917ba10",
+        "name" : "Action Done! ",
+        "source" : "d84a6491b917ba10.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "8512a2578910e32",
+        "name" : "saveScreenShot",
+        "source" : "8512a2578910e32.png",
+        "type" : "image/png",
+        "size" : 154047
+      }, {
+        "uid" : "fb4fdb428fc3cf32",
+        "name" : "Starting action: ",
+        "source" : "fb4fdb428fc3cf32.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "4a40f570357c3c90",
+        "name" : "Action Done! ",
+        "source" : "4a40f570357c3c90.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "5e362007a100ad7f",
+        "name" : "saveScreenShot",
+        "source" : "5e362007a100ad7f.png",
+        "type" : "image/png",
+        "size" : 154026
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to page Regions",
+      "time" : {
+        "start" : 1679965064615,
+        "stop" : 1679965064941,
+        "duration" : 326
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d15ed1a30548b7ee",
+        "name" : "Starting action: ",
+        "source" : "d15ed1a30548b7ee.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "4d86ed18af90839e",
+        "name" : "Action Done! ",
+        "source" : "4d86ed18af90839e.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "865271a09c27a4b9",
+        "name" : "saveScreenShot",
+        "source" : "865271a09c27a4b9.png",
+        "type" : "image/png",
+        "size" : 76144
+      } ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Regions"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify the Region page is opened",
+      "time" : {
+        "start" : 1679965064941,
+        "stop" : 1679965065158,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "227907f9325a5f9e",
+        "name" : "Starting action: ",
+        "source" : "227907f9325a5f9e.txt",
+        "type" : "text/plain",
+        "size" : 127
+      }, {
+        "uid" : "5ae8d3fa7f14f094",
+        "name" : "Action Done! ",
+        "source" : "5ae8d3fa7f14f094.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "23ceb7f3a1512724",
+        "name" : "saveScreenShot",
+        "source" : "23ceb7f3a1512724.png",
+        "type" : "image/png",
+        "size" : 76518
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 24,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify user can select columns to show information",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Select information columns to display ",
+      "time" : {
+        "start" : 1679965065161,
+        "stop" : 1679965067959,
+        "duration" : 2798
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bc570e1cc8429f9e",
+        "name" : "Starting action: ",
+        "source" : "bc570e1cc8429f9e.txt",
+        "type" : "text/plain",
+        "size" : 47
+      }, {
+        "uid" : "60bd1c9bbaab4c54",
+        "name" : "Action Done! ",
+        "source" : "60bd1c9bbaab4c54.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "9be139b1f4c0d9b6",
+        "name" : "saveScreenShot",
+        "source" : "9be139b1f4c0d9b6.png",
+        "type" : "image/png",
+        "size" : 135709
+      }, {
+        "uid" : "d97b8b7b8ce5bae",
+        "name" : "Starting action: ",
+        "source" : "d97b8b7b8ce5bae.txt",
+        "type" : "text/plain",
+        "size" : 45
+      }, {
+        "uid" : "9ebe951fc74ce290",
+        "name" : "Action Done! ",
+        "source" : "9ebe951fc74ce290.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "d206996bb7eca234",
+        "name" : "saveScreenShot",
+        "source" : "d206996bb7eca234.png",
+        "type" : "image/png",
+        "size" : 146402
+      }, {
+        "uid" : "4fb7a14fce567eed",
+        "name" : "Starting action: ",
+        "source" : "4fb7a14fce567eed.txt",
+        "type" : "text/plain",
+        "size" : 44
+      }, {
+        "uid" : "4f87d599755fd842",
+        "name" : "Action Done! ",
+        "source" : "4f87d599755fd842.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "ee1d228e1104164",
+        "name" : "saveScreenShot",
+        "source" : "ee1d228e1104164.png",
+        "type" : "image/png",
+        "size" : 145781
+      } ],
+      "parameters" : [ {
+        "name" : "columns",
+        "value" : "[ID]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 9,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Unselect information columns not display ",
+      "time" : {
+        "start" : 1679965067959,
+        "stop" : 1679965071064,
+        "duration" : 3105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4406fc353924cb44",
+        "name" : "Starting action: ",
+        "source" : "4406fc353924cb44.txt",
+        "type" : "text/plain",
+        "size" : 47
+      }, {
+        "uid" : "e0865e8eebf95d37",
+        "name" : "Action Done! ",
+        "source" : "e0865e8eebf95d37.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "9b4f6c4b79d49903",
+        "name" : "saveScreenShot",
+        "source" : "9b4f6c4b79d49903.png",
+        "type" : "image/png",
+        "size" : 120588
+      }, {
+        "uid" : "dce934b39554b207",
+        "name" : "Starting action: ",
+        "source" : "dce934b39554b207.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "66a5be89e3df6ef",
+        "name" : "Action Done! ",
+        "source" : "66a5be89e3df6ef.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "92c7d59567ed4f81",
+        "name" : "saveScreenShot",
+        "source" : "92c7d59567ed4f81.png",
+        "type" : "image/png",
+        "size" : 114913
+      }, {
+        "uid" : "9bbe5aba277e095a",
+        "name" : "Starting action: ",
+        "source" : "9bbe5aba277e095a.txt",
+        "type" : "text/plain",
+        "size" : 44
+      }, {
+        "uid" : "88af46df7ea0ab38",
+        "name" : "Action Done! ",
+        "source" : "88af46df7ea0ab38.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "818057c2c493327c",
+        "name" : "saveScreenShot",
+        "source" : "818057c2c493327c.png",
+        "type" : "image/png",
+        "size" : 116999
+      } ],
+      "parameters" : [ {
+        "name" : "columns",
+        "value" : "[Region Name]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 9,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify information columns display ",
+      "time" : {
+        "start" : 1679965071064,
+        "stop" : 1679965071226,
+        "duration" : 162
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "950d9a895ddd8bbd",
+        "name" : "Starting action: ",
+        "source" : "950d9a895ddd8bbd.txt",
+        "type" : "text/plain",
+        "size" : 57
+      }, {
+        "uid" : "b8974af785bc342a",
+        "name" : "Action Done! ",
+        "source" : "b8974af785bc342a.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "5901df226c7145ae",
+        "name" : "saveScreenShot",
+        "source" : "5901df226c7145ae.png",
+        "type" : "image/png",
+        "size" : 104715
+      } ],
+      "parameters" : [ {
+        "name" : "columns",
+        "value" : "[ID]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify information columns do not display ",
+      "time" : {
+        "start" : 1679965071226,
+        "stop" : 1679965076448,
+        "duration" : 5222
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "46842afc30cf55ba",
+        "name" : "Starting action: ",
+        "source" : "46842afc30cf55ba.txt",
+        "type" : "text/plain",
+        "size" : 69
+      }, {
+        "uid" : "776a44f19d03e717",
+        "name" : "Action Done! ",
+        "source" : "776a44f19d03e717.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "de6910e5ae2d7a79",
+        "name" : "saveScreenShot",
+        "source" : "de6910e5ae2d7a79.png",
+        "type" : "image/png",
+        "size" : 104640
+      } ],
+      "parameters" : [ {
+        "name" : "columns",
+        "value" : "[Region Name]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 24,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679965076449,
+      "stop" : 1679965077206,
+      "duration" : 757
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f1a97eaa11f94bb3",
+      "name" : "saveScreenShot",
+      "source" : "f1a97eaa11f94bb3.png",
+      "type" : "image/png",
+      "size" : 104640
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679965086693,
+      "stop" : 1679965086693,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679965086693,
+      "stop" : 1679965086693,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.region.RegionListing"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.region.RegionListing"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Regions"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.region.RegionListing"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Regions-5(746)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "721a6ab725b532a6.json",
+  "parameterValues" : [ ]
+}

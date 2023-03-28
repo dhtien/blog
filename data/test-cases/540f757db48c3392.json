@@ -1,0 +1,495 @@
+{
+  "uid" : "540f757db48c3392",
+  "name" : "Verify Reporting user can not view Driver",
+  "fullName" : "testcases.web.permission.Permission.TC_11",
+  "historyId" : "93d78e6e6248ffa578705229d811a1c8",
+  "time" : {
+    "start" : 1679965682103,
+    "stop" : 1679965721634,
+    "duration" : 39531
+  },
+  "description" : "Verify Reporting user can not view Driver",
+  "descriptionHtml" : "<p>Verify Reporting user can not view Driver</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[normalize-space(text())=\"No permission to access this resource\"] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54324}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54324/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d97bd00b68cba2c0b1e06b62153b1092",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[normalize-space(text())=\"No permission to access this resource\"] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54324}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54324/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d97bd00b68cba2c0b1e06b62153b1092\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat selenium.core.BaseLocator.waitUntilVisible(BaseLocator.java:34)\r\n\tat selenium.core.BasePage.verifyMessageShow_aroundBody26(BasePage.java:99)\r\n\tat selenium.core.BasePage$AjcClosure27.run(BasePage.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:94)\r\n\tat selenium.core.BasePage.verifyMessageShow(BasePage.java:99)\r\n\tat selenium.steps.BaseSteps.verifyMessageDisplay(BaseSteps.java:31)\r\n\tat testcases.web.permission.Permission.TC_11(Permission.java:800)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679965678074,
+      "stop" : 1679965678893,
+      "duration" : 819
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679965678074,
+        "stop" : 1679965678893,
+        "duration" : 819
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679965678074,
+          "stop" : 1679965678893,
+          "duration" : 819
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679965678072,
+      "stop" : 1679965678073,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679965678896,
+      "stop" : 1679965682102,
+      "duration" : 3206
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "605d264cda5845ae",
+      "name" : "Driver setup: ",
+      "source" : "605d264cda5845ae.txt",
+      "type" : "text/plain",
+      "size" : 119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Reporting user can not view Driver",
+    "status" : "broken",
+    "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[normalize-space(text())=\"No permission to access this resource\"] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54324}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54324/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d97bd00b68cba2c0b1e06b62153b1092",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[normalize-space(text())=\"No permission to access this resource\"] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54324}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54324/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d97bd00b68cba2c0b1e06b62153b1092\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat selenium.core.BaseLocator.waitUntilVisible(BaseLocator.java:34)\r\n\tat selenium.core.BasePage.verifyMessageShow_aroundBody26(BasePage.java:99)\r\n\tat selenium.core.BasePage$AjcClosure27.run(BasePage.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:94)\r\n\tat selenium.core.BasePage.verifyMessageShow(BasePage.java:99)\r\n\tat selenium.steps.BaseSteps.verifyMessageDisplay(BaseSteps.java:31)\r\n\tat testcases.web.permission.Permission.TC_11(Permission.java:800)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n",
+    "steps" : [ {
+      "name" : "Log in with account: reporting.write@gmail.com",
+      "time" : {
+        "start" : 1679965682103,
+        "stop" : 1679965687986,
+        "duration" : 5883
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get token from API response",
+        "time" : {
+          "start" : 1679965687151,
+          "stop" : 1679965687986,
+          "duration" : 835
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login Operation Portal to generate token",
+          "time" : {
+            "start" : 1679965687151,
+            "stop" : 1679965687986,
+            "duration" : 835
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "email",
+            "value" : "daohuyt@bridj.com"
+          }, {
+            "name" : "passWord",
+            "value" : "userPass@123"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "password",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "c50645dab2fdb22d",
+        "name" : "Starting action: ",
+        "source" : "c50645dab2fdb22d.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "cb251773603d0db6",
+        "name" : "Action Done! ",
+        "source" : "cb251773603d0db6.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "5bb7c459fcf0f813",
+        "name" : "saveScreenShot",
+        "source" : "5bb7c459fcf0f813.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "cdaad46015f0f08",
+        "name" : "Starting action: ",
+        "source" : "cdaad46015f0f08.txt",
+        "type" : "text/plain",
+        "size" : 64
+      }, {
+        "uid" : "e84c411d79656c6c",
+        "name" : "Action Done! ",
+        "source" : "e84c411d79656c6c.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a71d604416f19b55",
+        "name" : "saveScreenShot",
+        "source" : "a71d604416f19b55.png",
+        "type" : "image/png",
+        "size" : 62103
+      }, {
+        "uid" : "53a3ac326b863e2d",
+        "name" : "Starting action: ",
+        "source" : "53a3ac326b863e2d.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "d856a4450f88a5d",
+        "name" : "Action Done! ",
+        "source" : "d856a4450f88a5d.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "23dc32cb977cf88b",
+        "name" : "saveScreenShot",
+        "source" : "23dc32cb977cf88b.png",
+        "type" : "image/png",
+        "size" : 62744
+      }, {
+        "uid" : "2dc979fa6c4a0fbc",
+        "name" : "Starting action: ",
+        "source" : "2dc979fa6c4a0fbc.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "4cad84c830762fa0",
+        "name" : "Action Done! ",
+        "source" : "4cad84c830762fa0.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "8f2cd081513dc833",
+        "name" : "saveScreenShot",
+        "source" : "8f2cd081513dc833.png",
+        "type" : "image/png",
+        "size" : 62742
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "reporting.write@gmail.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679965687986,
+        "stop" : 1679965688321,
+        "duration" : 335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b2b81b5cda90fe5",
+        "name" : "Starting action: ",
+        "source" : "2b2b81b5cda90fe5.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "8ef8c0374b4b3554",
+        "name" : "Action Done! ",
+        "source" : "8ef8c0374b4b3554.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "25eaf0d0c2ad2c94",
+        "name" : "saveScreenShot",
+        "source" : "25eaf0d0c2ad2c94.png",
+        "type" : "image/png",
+        "size" : 154342
+      }, {
+        "uid" : "895e83bdfb0ae292",
+        "name" : "Starting action: ",
+        "source" : "895e83bdfb0ae292.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "29e9eca0c8842486",
+        "name" : "Action Done! ",
+        "source" : "29e9eca0c8842486.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "49144fb33c80ce28",
+        "name" : "saveScreenShot",
+        "source" : "49144fb33c80ce28.png",
+        "type" : "image/png",
+        "size" : 154326
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to page Drivers",
+      "time" : {
+        "start" : 1679965688321,
+        "stop" : 1679965688737,
+        "duration" : 416
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b260424e54b751f7",
+        "name" : "Starting action: ",
+        "source" : "b260424e54b751f7.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "fd4085c0acdccbd4",
+        "name" : "Action Done! ",
+        "source" : "fd4085c0acdccbd4.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "7f675dc8c68e1fa9",
+        "name" : "saveScreenShot",
+        "source" : "7f675dc8c68e1fa9.png",
+        "type" : "image/png",
+        "size" : 76730
+      } ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Drivers"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify message show",
+      "time" : {
+        "start" : 1679965688737,
+        "stop" : 1679965721634,
+        "duration" : 32897
+      },
+      "status" : "broken",
+      "statusMessage" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[normalize-space(text())=\"No permission to access this resource\"] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54324}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54324/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d97bd00b68cba2c0b1e06b62153b1092",
+      "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[normalize-space(text())=\"No permission to access this resource\"] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54324}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54324/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d97bd00b68cba2c0b1e06b62153b1092\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat selenium.core.BaseLocator.waitUntilVisible(BaseLocator.java:34)\r\n\tat selenium.core.BasePage.verifyMessageShow_aroundBody26(BasePage.java:99)\r\n\tat selenium.core.BasePage$AjcClosure27.run(BasePage.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:94)\r\n\tat selenium.core.BasePage.verifyMessageShow(BasePage.java:99)\r\n\tat selenium.steps.BaseSteps.verifyMessageDisplay(BaseSteps.java:31)\r\n\tat testcases.web.permission.Permission.TC_11(Permission.java:800)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e772349199f8090e",
+        "name" : "Starting action: ",
+        "source" : "e772349199f8090e.txt",
+        "type" : "text/plain",
+        "size" : 81
+      }, {
+        "uid" : "2208dd03fedb713e",
+        "name" : "Action failed: ",
+        "source" : "2208dd03fedb713e.txt",
+        "type" : "text/plain",
+        "size" : 1308
+      }, {
+        "uid" : "e6f017a119df07b3",
+        "name" : "saveScreenShot",
+        "source" : "e6f017a119df07b3.png",
+        "type" : "image/png",
+        "size" : 179340
+      } ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "No permission to access this resource"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 24,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679965964278,
+      "stop" : 1679965964278,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679966035083,
+      "stop" : 1679966035083,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679965721635,
+      "stop" : 1679965722417,
+      "duration" : 782
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "49d083a68b04840f",
+      "name" : "saveScreenShot",
+      "source" : "49d083a68b04840f.png",
+      "type" : "image/png",
+      "size" : 179340
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.permission.Permission"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.permission.Permission"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_11"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Permission"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.permission.Permission"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Permission-9(1176)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "utils.models.MUser@2bc480e5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "540f757db48c3392.json",
+  "parameterValues" : [ "utils.models.MUser@2bc480e5" ]
+}

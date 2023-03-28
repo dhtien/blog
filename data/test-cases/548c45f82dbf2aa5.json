@@ -1,0 +1,371 @@
+{
+  "uid" : "548c45f82dbf2aa5",
+  "name" : "Verify login successfully with ''",
+  "fullName" : "testcases.web.Login.TC_Login_01",
+  "historyId" : "fde751eea0e3dffe89d4dd52e4fabb4f",
+  "time" : {
+    "start" : 1679964679807,
+    "stop" : 1679964683491,
+    "duration" : 3684
+  },
+  "description" : "Verify login successfully with \nEmail: system.write@gmail.com\n Password: userPass@123",
+  "descriptionHtml" : "<p>Verify login successfully with\nEmail: system.write@gmail.com\nPassword: userPass@123</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679964676978,
+      "stop" : 1679964679805,
+      "duration" : 2827
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "556a4fa21e1a839f",
+      "name" : "Driver setup: ",
+      "source" : "556a4fa21e1a839f.txt",
+      "type" : "text/plain",
+      "size" : 117
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679964668575,
+      "stop" : 1679964669418,
+      "duration" : 843
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679964668576,
+        "stop" : 1679964669418,
+        "duration" : 842
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679964668576,
+          "stop" : 1679964669418,
+          "duration" : 842
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679964668574,
+      "stop" : 1679964668574,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify login successfully with \nEmail: system.write@gmail.com\n Password: userPass@123",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: system.write@gmail.com",
+      "time" : {
+        "start" : 1679964679807,
+        "stop" : 1679964682612,
+        "duration" : 2805
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "46326fc61b6d2b9c",
+        "name" : "Starting action: ",
+        "source" : "46326fc61b6d2b9c.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "8b8345a244e4a771",
+        "name" : "Action Done! ",
+        "source" : "8b8345a244e4a771.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "9fdb406e1e7a2396",
+        "name" : "saveScreenShot",
+        "source" : "9fdb406e1e7a2396.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "8e00b4808933e291",
+        "name" : "Starting action: ",
+        "source" : "8e00b4808933e291.txt",
+        "type" : "text/plain",
+        "size" : 61
+      }, {
+        "uid" : "d08a7a65d1a5ebf2",
+        "name" : "Action Done! ",
+        "source" : "d08a7a65d1a5ebf2.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "25755a5e7eedfc5e",
+        "name" : "saveScreenShot",
+        "source" : "25755a5e7eedfc5e.png",
+        "type" : "image/png",
+        "size" : 61901
+      }, {
+        "uid" : "d5bb242db54ea71",
+        "name" : "Starting action: ",
+        "source" : "d5bb242db54ea71.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "2fd92d85db201946",
+        "name" : "Action Done! ",
+        "source" : "2fd92d85db201946.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "2d1ec23034d5ce4b",
+        "name" : "saveScreenShot",
+        "source" : "2d1ec23034d5ce4b.png",
+        "type" : "image/png",
+        "size" : 62199
+      }, {
+        "uid" : "7c501bc5fd031da6",
+        "name" : "Starting action: ",
+        "source" : "7c501bc5fd031da6.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "46ee82892cd13cde",
+        "name" : "Action Done! ",
+        "source" : "46ee82892cd13cde.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "5a9c242a67bc61cb",
+        "name" : "saveScreenShot",
+        "source" : "5a9c242a67bc61cb.png",
+        "type" : "image/png",
+        "size" : 62408
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "system.write@gmail.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679964682612,
+        "stop" : 1679964683490,
+        "duration" : 878
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3caaa85305f95be",
+        "name" : "Starting action: ",
+        "source" : "3caaa85305f95be.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "5d9e31a3e4deaa1c",
+        "name" : "Action Done! ",
+        "source" : "5d9e31a3e4deaa1c.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "ae30c9fd6bb8652",
+        "name" : "saveScreenShot",
+        "source" : "ae30c9fd6bb8652.png",
+        "type" : "image/png",
+        "size" : 62546
+      }, {
+        "uid" : "73959db717da7c7c",
+        "name" : "Starting action: ",
+        "source" : "73959db717da7c7c.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "6f467e5002148ec4",
+        "name" : "Action Done! ",
+        "source" : "6f467e5002148ec4.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "139fc462ab5e19ff",
+        "name" : "saveScreenShot",
+        "source" : "139fc462ab5e19ff.png",
+        "type" : "image/png",
+        "size" : 153684
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 18,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679964735497,
+      "stop" : 1679964735497,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679964735498,
+      "stop" : 1679964735498,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679964683491,
+      "stop" : 1679964684281,
+      "duration" : 790
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1c7b6bc7d9ef7a21",
+      "name" : "saveScreenShot",
+      "source" : "1c7b6bc7d9ef7a21.png",
+      "type" : "image/png",
+      "size" : 154366
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.Login"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_Login_01"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.Login"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Login-1(58)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "utils.models.MUser@7e2ed45a"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "548c45f82dbf2aa5.json",
+  "parameterValues" : [ "utils.models.MUser@7e2ed45a" ]
+}

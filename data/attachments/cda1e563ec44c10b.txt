@@ -1,0 +1,1 @@
+selenium.pages.ZonesPage.selectValuesOfRegionList("Region 21")

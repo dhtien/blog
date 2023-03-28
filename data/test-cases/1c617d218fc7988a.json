@@ -1,0 +1,476 @@
+{
+  "uid" : "1c617d218fc7988a",
+  "name" : "Verify Configuration Read user can not view Vehicles",
+  "fullName" : "testcases.web.permission.Permission.TC_13",
+  "historyId" : "8d63ad81a3bf584a2a418294c84e5a97",
+  "time" : {
+    "start" : 1679965758855,
+    "stop" : 1679965768681,
+    "duration" : 9826
+  },
+  "description" : "Verify Configuration Read user can not view Vehicles",
+  "descriptionHtml" : "<p>Verify Configuration Read user can not view Vehicles</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679965678074,
+      "stop" : 1679965678893,
+      "duration" : 819
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679965678074,
+        "stop" : 1679965678893,
+        "duration" : 819
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679965678074,
+          "stop" : 1679965678893,
+          "duration" : 819
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679965755937,
+      "stop" : 1679965758852,
+      "duration" : 2915
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cabf2566cc446fb",
+      "name" : "Driver setup: ",
+      "source" : "cabf2566cc446fb.txt",
+      "type" : "text/plain",
+      "size" : 119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679965678072,
+      "stop" : 1679965678073,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Configuration Read user can not view Vehicles",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: plan.read.user@gmail.com",
+      "time" : {
+        "start" : 1679965758855,
+        "stop" : 1679965761767,
+        "duration" : 2912
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f2a4a25f0b9cb0bd",
+        "name" : "Starting action: ",
+        "source" : "f2a4a25f0b9cb0bd.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "e6bf7755f7fd980d",
+        "name" : "Action Done! ",
+        "source" : "e6bf7755f7fd980d.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a850b024fcc002a2",
+        "name" : "saveScreenShot",
+        "source" : "a850b024fcc002a2.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "ea313e4cb8f2ac8c",
+        "name" : "Starting action: ",
+        "source" : "ea313e4cb8f2ac8c.txt",
+        "type" : "text/plain",
+        "size" : 63
+      }, {
+        "uid" : "de3f547df7b263f",
+        "name" : "Action Done! ",
+        "source" : "de3f547df7b263f.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "6147d2f9b6e00f33",
+        "name" : "saveScreenShot",
+        "source" : "6147d2f9b6e00f33.png",
+        "type" : "image/png",
+        "size" : 61977
+      }, {
+        "uid" : "2c91645d08f14575",
+        "name" : "Starting action: ",
+        "source" : "2c91645d08f14575.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "9792abf8e04077d4",
+        "name" : "Action Done! ",
+        "source" : "9792abf8e04077d4.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "dde693154233e450",
+        "name" : "saveScreenShot",
+        "source" : "dde693154233e450.png",
+        "type" : "image/png",
+        "size" : 62282
+      }, {
+        "uid" : "613e21c80c776aa0",
+        "name" : "Starting action: ",
+        "source" : "613e21c80c776aa0.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "23ee21c106058e0a",
+        "name" : "Action Done! ",
+        "source" : "23ee21c106058e0a.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "ab1542112154c6eb",
+        "name" : "saveScreenShot",
+        "source" : "ab1542112154c6eb.png",
+        "type" : "image/png",
+        "size" : 62560
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "plan.read.user@gmail.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679965761767,
+        "stop" : 1679965762676,
+        "duration" : 909
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc11de019df08d38",
+        "name" : "Starting action: ",
+        "source" : "fc11de019df08d38.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "7bc1489ff58e3d2b",
+        "name" : "Action Done! ",
+        "source" : "7bc1489ff58e3d2b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "8d4e5b09abd60cda",
+        "name" : "saveScreenShot",
+        "source" : "8d4e5b09abd60cda.png",
+        "type" : "image/png",
+        "size" : 62600
+      }, {
+        "uid" : "df8270582ff89244",
+        "name" : "Starting action: ",
+        "source" : "df8270582ff89244.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "bb493dc823adaf50",
+        "name" : "Action Done! ",
+        "source" : "bb493dc823adaf50.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "bb5639e533e9ea34",
+        "name" : "saveScreenShot",
+        "source" : "bb5639e533e9ea34.png",
+        "type" : "image/png",
+        "size" : 153373
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to page Vehicles",
+      "time" : {
+        "start" : 1679965762676,
+        "stop" : 1679965763116,
+        "duration" : 440
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d33c207fea0ea64f",
+        "name" : "Starting action: ",
+        "source" : "d33c207fea0ea64f.txt",
+        "type" : "text/plain",
+        "size" : 49
+      }, {
+        "uid" : "55bbe130ae93430b",
+        "name" : "Action Done! ",
+        "source" : "55bbe130ae93430b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "e37389af7b53830e",
+        "name" : "saveScreenShot",
+        "source" : "e37389af7b53830e.png",
+        "type" : "image/png",
+        "size" : 81192
+      } ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Vehicles"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify message show",
+      "time" : {
+        "start" : 1679965763116,
+        "stop" : 1679965763482,
+        "duration" : 366
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84436f161701cb69",
+        "name" : "Starting action: ",
+        "source" : "84436f161701cb69.txt",
+        "type" : "text/plain",
+        "size" : 81
+      }, {
+        "uid" : "8c7d444a2bab898d",
+        "name" : "Action Done! ",
+        "source" : "8c7d444a2bab898d.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "400ded6fdd361085",
+        "name" : "saveScreenShot",
+        "source" : "400ded6fdd361085.png",
+        "type" : "image/png",
+        "size" : 167654
+      } ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "No permission to access this resource"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify there is no record show",
+      "time" : {
+        "start" : 1679965763482,
+        "stop" : 1679965768681,
+        "duration" : 5199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb2e8d6882f98ea4",
+        "name" : "Starting action: ",
+        "source" : "fb2e8d6882f98ea4.txt",
+        "type" : "text/plain",
+        "size" : 41
+      }, {
+        "uid" : "f6670c7670b19453",
+        "name" : "Action Done! ",
+        "source" : "f6670c7670b19453.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "3086145e88aad2a0",
+        "name" : "saveScreenShot",
+        "source" : "3086145e88aad2a0.png",
+        "type" : "image/png",
+        "size" : 147887
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 27,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679965964278,
+      "stop" : 1679965964278,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679966035083,
+      "stop" : 1679966035083,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679965768682,
+      "stop" : 1679965769484,
+      "duration" : 802
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "117b28f8ff3a4e94",
+      "name" : "saveScreenShot",
+      "source" : "117b28f8ff3a4e94.png",
+      "type" : "image/png",
+      "size" : 147565
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.permission.Permission"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.permission.Permission"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_13"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Permission"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.permission.Permission"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Permission-8(1175)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "utils.models.MUser@17f78d4b"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c617d218fc7988a.json",
+  "parameterValues" : [ "utils.models.MUser@17f78d4b" ]
+}

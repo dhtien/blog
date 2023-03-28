@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("3.90", "3.90", "Unit price does not match")

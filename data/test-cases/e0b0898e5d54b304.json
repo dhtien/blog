@@ -1,0 +1,443 @@
+{
+  "uid" : "e0b0898e5d54b304",
+  "name" : "Verify Configuration Write user can not view Service Monitoring",
+  "fullName" : "testcases.web.permission.Permission.TC_16",
+  "historyId" : "743bb2f750990cb39348206b5b7b557f",
+  "time" : {
+    "start" : 1679965791544,
+    "stop" : 1679965796214,
+    "duration" : 4670
+  },
+  "description" : "Verify Configuration Write user can not view Service Monitoring",
+  "descriptionHtml" : "<p>Verify Configuration Write user can not view Service Monitoring</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679965788636,
+      "stop" : 1679965791543,
+      "duration" : 2907
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c7518d5909bd4ca4",
+      "name" : "Driver setup: ",
+      "source" : "c7518d5909bd4ca4.txt",
+      "type" : "text/plain",
+      "size" : 119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679965678074,
+      "stop" : 1679965678893,
+      "duration" : 819
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679965678074,
+        "stop" : 1679965678893,
+        "duration" : 819
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679965678074,
+          "stop" : 1679965678893,
+          "duration" : 819
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679965678072,
+      "stop" : 1679965678073,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Configuration Write user can not view Service Monitoring",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: planning.write.user@gmail.com",
+      "time" : {
+        "start" : 1679965791544,
+        "stop" : 1679965794423,
+        "duration" : 2879
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd338f4e982c511d",
+        "name" : "Starting action: ",
+        "source" : "fd338f4e982c511d.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "b0067e8d4fdd1c22",
+        "name" : "Action Done! ",
+        "source" : "b0067e8d4fdd1c22.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "dc9844ab96a1414a",
+        "name" : "saveScreenShot",
+        "source" : "dc9844ab96a1414a.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "7bc9f53a5503cb49",
+        "name" : "Starting action: ",
+        "source" : "7bc9f53a5503cb49.txt",
+        "type" : "text/plain",
+        "size" : 68
+      }, {
+        "uid" : "a8d31a3b9b980554",
+        "name" : "Action Done! ",
+        "source" : "a8d31a3b9b980554.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "1d4887a760cb4a0e",
+        "name" : "saveScreenShot",
+        "source" : "1d4887a760cb4a0e.png",
+        "type" : "image/png",
+        "size" : 62395
+      }, {
+        "uid" : "8c070e42ee2524e5",
+        "name" : "Starting action: ",
+        "source" : "8c070e42ee2524e5.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "e8493416a1373be",
+        "name" : "Action Done! ",
+        "source" : "e8493416a1373be.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "1198e25404d69c53",
+        "name" : "saveScreenShot",
+        "source" : "1198e25404d69c53.png",
+        "type" : "image/png",
+        "size" : 62674
+      }, {
+        "uid" : "73932fe86ea31a08",
+        "name" : "Starting action: ",
+        "source" : "73932fe86ea31a08.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "b99b03c6069c59bb",
+        "name" : "Action Done! ",
+        "source" : "b99b03c6069c59bb.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "689497305855962d",
+        "name" : "saveScreenShot",
+        "source" : "689497305855962d.png",
+        "type" : "image/png",
+        "size" : 62955
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "planning.write.user@gmail.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679965794423,
+        "stop" : 1679965795394,
+        "duration" : 971
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "122f6427036b7b2",
+        "name" : "Starting action: ",
+        "source" : "122f6427036b7b2.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "22289ae4df69b0ec",
+        "name" : "Action Done! ",
+        "source" : "22289ae4df69b0ec.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "e472f70414cfb459",
+        "name" : "saveScreenShot",
+        "source" : "e472f70414cfb459.png",
+        "type" : "image/png",
+        "size" : 63038
+      }, {
+        "uid" : "77c92604f9bf374d",
+        "name" : "Starting action: ",
+        "source" : "77c92604f9bf374d.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "8480fa88e9a1b6db",
+        "name" : "Action Done! ",
+        "source" : "8480fa88e9a1b6db.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "79e7b50c13aacb10",
+        "name" : "saveScreenShot",
+        "source" : "79e7b50c13aacb10.png",
+        "type" : "image/png",
+        "size" : 153643
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to page Service Monitoring",
+      "time" : {
+        "start" : 1679965795394,
+        "stop" : 1679965795816,
+        "duration" : 422
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6adc1c34e0d003e",
+        "name" : "Starting action: ",
+        "source" : "6adc1c34e0d003e.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "d68aebbf63e1d0f1",
+        "name" : "Action Done! ",
+        "source" : "d68aebbf63e1d0f1.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "fecde5434ca15b4f",
+        "name" : "saveScreenShot",
+        "source" : "fecde5434ca15b4f.png",
+        "type" : "image/png",
+        "size" : 95109
+      } ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Service Monitoring"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify message show",
+      "time" : {
+        "start" : 1679965795816,
+        "stop" : 1679965796214,
+        "duration" : 398
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d14b0ffb5fefa1e5",
+        "name" : "Starting action: ",
+        "source" : "d14b0ffb5fefa1e5.txt",
+        "type" : "text/plain",
+        "size" : 81
+      }, {
+        "uid" : "92c37602dd844ea7",
+        "name" : "Action Done! ",
+        "source" : "92c37602dd844ea7.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "1f485892e05bb782",
+        "name" : "saveScreenShot",
+        "source" : "1f485892e05bb782.png",
+        "type" : "image/png",
+        "size" : 143529
+      } ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "No permission to access this resource"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 24,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679965796215,
+      "stop" : 1679965797024,
+      "duration" : 809
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9858c87d724e32ce",
+      "name" : "saveScreenShot",
+      "source" : "9858c87d724e32ce.png",
+      "type" : "image/png",
+      "size" : 144702
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679965964278,
+      "stop" : 1679965964278,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679966035083,
+      "stop" : 1679966035083,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.permission.Permission"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.permission.Permission"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_16"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Permission"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.permission.Permission"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Permission-5(1172)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "utils.models.MUser@3b0e26ba"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0b0898e5d54b304.json",
+  "parameterValues" : [ "utils.models.MUser@3b0e26ba" ]
+}

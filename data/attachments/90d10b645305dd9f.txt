@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("drivertest6", "drivertest6", "Driver user name does not match")

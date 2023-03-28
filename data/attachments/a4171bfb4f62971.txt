@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("5.0", "5.0", "Default price does not match")

@@ -1,0 +1,1 @@
+selenium.core.BasePage.editField("Email", "traveller02@yopmail.com")

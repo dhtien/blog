@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("false", "false", "Driver additional detail 'Is a Low-Tech Traveller?' does not match")

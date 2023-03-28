@@ -1,0 +1,675 @@
+{
+  "uid" : "3afbe12ce989d80f",
+  "name" : "Verify user can search vehicle trip by name",
+  "fullName" : "testcases.web.global_search.GlobalSearch.TC_09",
+  "historyId" : "b3046caa7d70b41569281175d5764a9f",
+  "time" : {
+    "start" : 1679966530977,
+    "stop" : 1679966539082,
+    "duration" : 8105
+  },
+  "description" : "Verify user can search vehicle trip by name",
+  "descriptionHtml" : "<p>Verify user can search vehicle trip by name</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeEachScenario",
+    "time" : {
+      "start" : 1679966525659,
+      "stop" : 1679966530975,
+      "duration" : 5316
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: daohuyt@bridj.com",
+      "time" : {
+        "start" : 1679966525659,
+        "stop" : 1679966530389,
+        "duration" : 4730
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get token from API response",
+        "time" : {
+          "start" : 1679966529440,
+          "stop" : 1679966530389,
+          "duration" : 949
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login Operation Portal to generate token",
+          "time" : {
+            "start" : 1679966529440,
+            "stop" : 1679966530389,
+            "duration" : 949
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "email",
+            "value" : "daohuyt@bridj.com"
+          }, {
+            "name" : "passWord",
+            "value" : "userPass@123"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "password",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "690ed451214c0701",
+        "name" : "Starting action: ",
+        "source" : "690ed451214c0701.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "2748ca41dd13018",
+        "name" : "Action Done! ",
+        "source" : "2748ca41dd13018.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "1f3b9f7da9307617",
+        "name" : "saveScreenShot",
+        "source" : "1f3b9f7da9307617.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "19f47aaf4fb3cf2c",
+        "name" : "Starting action: ",
+        "source" : "19f47aaf4fb3cf2c.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "3ad1d2febb5aa936",
+        "name" : "Action Done! ",
+        "source" : "3ad1d2febb5aa936.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "cef57da5ced4bde4",
+        "name" : "saveScreenShot",
+        "source" : "cef57da5ced4bde4.png",
+        "type" : "image/png",
+        "size" : 61630
+      }, {
+        "uid" : "3ec4d442a5bc6566",
+        "name" : "Starting action: ",
+        "source" : "3ec4d442a5bc6566.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "7d689326fdd91c91",
+        "name" : "Action Done! ",
+        "source" : "7d689326fdd91c91.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "b4df596bc3b3a2ee",
+        "name" : "saveScreenShot",
+        "source" : "b4df596bc3b3a2ee.png",
+        "type" : "image/png",
+        "size" : 61944
+      }, {
+        "uid" : "561183b9de13d577",
+        "name" : "Starting action: ",
+        "source" : "561183b9de13d577.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "953e572018afd6f8",
+        "name" : "Action Done! ",
+        "source" : "953e572018afd6f8.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "8abf323f50173c46",
+        "name" : "saveScreenShot",
+        "source" : "8abf323f50173c46.png",
+        "type" : "image/png",
+        "size" : 62241
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679966530390,
+        "stop" : 1679966530803,
+        "duration" : 413
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a960f53ea195b71",
+        "name" : "Starting action: ",
+        "source" : "3a960f53ea195b71.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "e40fd2ceba97c592",
+        "name" : "Action Done! ",
+        "source" : "e40fd2ceba97c592.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "16afe8cac2f74047",
+        "name" : "saveScreenShot",
+        "source" : "16afe8cac2f74047.png",
+        "type" : "image/png",
+        "size" : 154134
+      }, {
+        "uid" : "b856dcbc2205192c",
+        "name" : "Starting action: ",
+        "source" : "b856dcbc2205192c.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "5df2b6ba5175da52",
+        "name" : "Action Done! ",
+        "source" : "5df2b6ba5175da52.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "8c9bc81d244fe7e4",
+        "name" : "saveScreenShot",
+        "source" : "8c9bc81d244fe7e4.png",
+        "type" : "image/png",
+        "size" : 154116
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Can access page 'https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/' successfully",
+      "time" : {
+        "start" : 1679966530804,
+        "stop" : 1679966530975,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2ff04674ff043879",
+        "name" : "Starting action: ",
+        "source" : "2ff04674ff043879.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "88faf75e631697e1",
+        "name" : "Action Done! ",
+        "source" : "88faf75e631697e1.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "62383137714ad88e",
+        "name" : "saveScreenShot",
+        "source" : "62383137714ad88e.png",
+        "type" : "image/png",
+        "size" : 154116
+      } ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 21,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679966522217,
+      "stop" : 1679966525658,
+      "duration" : 3441
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "177c2d04d6513a9d",
+      "name" : "Driver setup: ",
+      "source" : "177c2d04d6513a9d.txt",
+      "type" : "text/plain",
+      "size" : 119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679966521388,
+      "stop" : 1679966521388,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679966521389,
+      "stop" : 1679966522217,
+      "duration" : 828
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679966521389,
+        "stop" : 1679966522217,
+        "duration" : 828
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679966521389,
+          "stop" : 1679966522217,
+          "duration" : 828
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify user can search vehicle trip by name",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get trip by name",
+      "time" : {
+        "start" : 1679966530982,
+        "stop" : 1679966533351,
+        "duration" : 2369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "825460a54d0b805d",
+        "name" : "Start sending request: ",
+        "source" : "825460a54d0b805d.txt",
+        "type" : "text/plain",
+        "size" : 528
+      }, {
+        "uid" : "168eff2376432390",
+        "name" : "Receive respond after: 2.367s",
+        "source" : "168eff2376432390.txt",
+        "type" : "text/plain",
+        "size" : 14178
+      } ],
+      "parameters" : [ {
+        "name" : "tripName",
+        "value" : "BKZ"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Try to search vehicle trip with name",
+      "time" : {
+        "start" : 1679966533351,
+        "stop" : 1679966538258,
+        "duration" : 4907
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select global search entity",
+        "time" : {
+          "start" : 1679966533351,
+          "stop" : 1679966533874,
+          "duration" : 523
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "21dc9ff90f855de0",
+          "name" : "Starting action: ",
+          "source" : "21dc9ff90f855de0.txt",
+          "type" : "text/plain",
+          "size" : 43
+        }, {
+          "uid" : "39613f3a237ef82a",
+          "name" : "Action Done! ",
+          "source" : "39613f3a237ef82a.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "df532c3f02cc2e86",
+          "name" : "saveScreenShot",
+          "source" : "df532c3f02cc2e86.png",
+          "type" : "image/png",
+          "size" : 161394
+        }, {
+          "uid" : "a6fe169c4a5077d5",
+          "name" : "Starting action: ",
+          "source" : "a6fe169c4a5077d5.txt",
+          "type" : "text/plain",
+          "size" : 51
+        }, {
+          "uid" : "5ce350c389ffdf89",
+          "name" : "Action Done! ",
+          "source" : "5ce350c389ffdf89.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "78c7409cdf4e9822",
+          "name" : "saveScreenShot",
+          "source" : "78c7409cdf4e9822.png",
+          "type" : "image/png",
+          "size" : 162154
+        } ],
+        "parameters" : [ {
+          "name" : "entity",
+          "value" : "Vehicle Trips"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Enter text for global searching",
+        "time" : {
+          "start" : 1679966533874,
+          "stop" : 1679966534359,
+          "duration" : 485
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ac6fe2af8f677a69",
+          "name" : "Starting action: ",
+          "source" : "ac6fe2af8f677a69.txt",
+          "type" : "text/plain",
+          "size" : 92
+        }, {
+          "uid" : "9661ef0becdca449",
+          "name" : "Action Done! ",
+          "source" : "9661ef0becdca449.txt",
+          "type" : "text/plain",
+          "size" : 8
+        }, {
+          "uid" : "bc22b44b0d512b72",
+          "name" : "saveScreenShot",
+          "source" : "bc22b44b0d512b72.png",
+          "type" : "image/png",
+          "size" : 138274
+        } ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : "20230328-BKZ2023-03-28T07:49:41.577-001"
+        }, {
+          "name" : "placeHolder",
+          "value" : "ID, Name"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on 1 record",
+        "time" : {
+          "start" : 1679966534359,
+          "stop" : 1679966538258,
+          "duration" : 3899
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c0617507e7c18bd5",
+          "name" : "Starting action: ",
+          "source" : "c0617507e7c18bd5.txt",
+          "type" : "text/plain",
+          "size" : 40
+        }, {
+          "uid" : "cfb798f524b47646",
+          "name" : "Action Done! ",
+          "source" : "cfb798f524b47646.txt",
+          "type" : "text/plain",
+          "size" : 8
+        }, {
+          "uid" : "e2203e4d60465606",
+          "name" : "saveScreenShot",
+          "source" : "e2203e4d60465606.png",
+          "type" : "image/png",
+          "size" : 139032
+        } ],
+        "parameters" : [ {
+          "name" : "order",
+          "value" : "1"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "trip",
+        "value" : "utils.models.MTrip@7b1f4f36"
+      } ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify vehicle trip information dialog appears",
+      "time" : {
+        "start" : 1679966538258,
+        "stop" : 1679966539082,
+        "duration" : 824
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "302d371e76134430",
+        "name" : "Starting action: ",
+        "source" : "302d371e76134430.txt",
+        "type" : "text/plain",
+        "size" : 78
+      }, {
+        "uid" : "91badfca287c0894",
+        "name" : "Action Done! ",
+        "source" : "91badfca287c0894.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "d9b31392fff43a9c",
+        "name" : "saveScreenShot",
+        "source" : "d9b31392fff43a9c.png",
+        "type" : "image/png",
+        "size" : 165892
+      } ],
+      "parameters" : [ {
+        "name" : "trip",
+        "value" : "utils.models.MTrip@7b1f4f36"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 17,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679966566683,
+      "stop" : 1679966566683,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679966566683,
+      "stop" : 1679966566683,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679966539083,
+      "stop" : 1679966539878,
+      "duration" : 795
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5bfcd2303a5641f1",
+      "name" : "saveScreenShot",
+      "source" : "5bfcd2303a5641f1.png",
+      "type" : "image/png",
+      "size" : 165892
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.global_search.GlobalSearch"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.global_search.GlobalSearch"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_09"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Global Search"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.global_search.GlobalSearch"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Global Search-9(2220)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3afbe12ce989d80f.json",
+  "parameterValues" : [ ]
+}

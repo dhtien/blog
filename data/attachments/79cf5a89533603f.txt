@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("convertible", "convertible", "Body Type does not match")

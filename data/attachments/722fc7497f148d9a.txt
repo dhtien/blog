@@ -1,0 +1,1 @@
+selenium.pages.UsersPage.verifyGroupsName("[System Write]", "[System Write]")

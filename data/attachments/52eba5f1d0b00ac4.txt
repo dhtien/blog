@@ -1,0 +1,13 @@
+url: https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.info//api/v2/ops/service_requests
+
+Method:
+Get
+
+Headers: 
+{charset=utf-8, Accept-Encoding=identity, Content-Type=application/json}
+
+Token: 
+eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicmlkai5vZHlzc2V5LXN0YWdpbmcuc3RhZ2luZy5hdS1hcC1zb3V0aGVhc3QtMi5icmlkai5pbmZvIiwiZXhwIjoxNjgwMDUxNzE5LCJ1c2VyX2lkIjoxMTgzLCJmaXJzdF9uYW1lIjoiVGllbiIsImxhc3RfbmFtZSI6IkRhbyBIdXkiLCJyb2xlcyI6WyJvcGVyYXRvciJdfQ.mhkBsEU65-U8AmgmwszJkW09nEC8PvUeMntyVX2_8F4
+
+Params: 
+{per_page=100, filter[zone]=2558, page=1}

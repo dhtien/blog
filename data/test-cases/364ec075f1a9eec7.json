@@ -1,0 +1,633 @@
+{
+  "uid" : "364ec075f1a9eec7",
+  "name" : "Verify user can search vehicle by model",
+  "fullName" : "testcases.web.global_search.GlobalSearch.TC_14",
+  "historyId" : "2e07003725df958b9c7429c9187a4e33",
+  "time" : {
+    "start" : 1679966546570,
+    "stop" : 1679966552154,
+    "duration" : 5584
+  },
+  "description" : "Verify user can search vehicle by model",
+  "descriptionHtml" : "<p>Verify user can search vehicle by model</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679966521388,
+      "stop" : 1679966521388,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeEachScenario",
+    "time" : {
+      "start" : 1679966542687,
+      "stop" : 1679966546568,
+      "duration" : 3881
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: daohuyt@bridj.com",
+      "time" : {
+        "start" : 1679966542688,
+        "stop" : 1679966545499,
+        "duration" : 2811
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b232515743f5430",
+        "name" : "Starting action: ",
+        "source" : "9b232515743f5430.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "6f4991c20f59bd52",
+        "name" : "Action Done! ",
+        "source" : "6f4991c20f59bd52.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "3f79dac7175d9814",
+        "name" : "saveScreenShot",
+        "source" : "3f79dac7175d9814.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "16b9bfe3906a68cc",
+        "name" : "Starting action: ",
+        "source" : "16b9bfe3906a68cc.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "1fd70022a7c72816",
+        "name" : "Action Done! ",
+        "source" : "1fd70022a7c72816.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "f7da9c5f56411fc3",
+        "name" : "saveScreenShot",
+        "source" : "f7da9c5f56411fc3.png",
+        "type" : "image/png",
+        "size" : 61630
+      }, {
+        "uid" : "bde4a453983b3c02",
+        "name" : "Starting action: ",
+        "source" : "bde4a453983b3c02.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "9bac8618bf0eb574",
+        "name" : "Action Done! ",
+        "source" : "9bac8618bf0eb574.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "1d547936b106448a",
+        "name" : "saveScreenShot",
+        "source" : "1d547936b106448a.png",
+        "type" : "image/png",
+        "size" : 61944
+      }, {
+        "uid" : "c600ba1d431b7aee",
+        "name" : "Starting action: ",
+        "source" : "c600ba1d431b7aee.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "f791ae4e62bea5ac",
+        "name" : "Action Done! ",
+        "source" : "f791ae4e62bea5ac.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "db158c7b5c2e84d4",
+        "name" : "saveScreenShot",
+        "source" : "db158c7b5c2e84d4.png",
+        "type" : "image/png",
+        "size" : 62151
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679966545499,
+        "stop" : 1679966546403,
+        "duration" : 904
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "de71a42c742ff9e8",
+        "name" : "Starting action: ",
+        "source" : "de71a42c742ff9e8.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "3d9ca07d206a3f34",
+        "name" : "Action Done! ",
+        "source" : "3d9ca07d206a3f34.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c7ee4dc086dcee5a",
+        "name" : "saveScreenShot",
+        "source" : "c7ee4dc086dcee5a.png",
+        "type" : "image/png",
+        "size" : 62300
+      }, {
+        "uid" : "52a5ee4c3c0508c3",
+        "name" : "Starting action: ",
+        "source" : "52a5ee4c3c0508c3.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "e3399b7de5089762",
+        "name" : "Action Done! ",
+        "source" : "e3399b7de5089762.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "4661af1f04865ad2",
+        "name" : "saveScreenShot",
+        "source" : "4661af1f04865ad2.png",
+        "type" : "image/png",
+        "size" : 153402
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Can access page 'https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/' successfully",
+      "time" : {
+        "start" : 1679966546404,
+        "stop" : 1679966546568,
+        "duration" : 164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cfca7000eacd19eb",
+        "name" : "Starting action: ",
+        "source" : "cfca7000eacd19eb.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "378caccf177d9e6d",
+        "name" : "Action Done! ",
+        "source" : "378caccf177d9e6d.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "9d5bee82c4349028",
+        "name" : "saveScreenShot",
+        "source" : "9d5bee82c4349028.png",
+        "type" : "image/png",
+        "size" : 154121
+      } ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 21,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679966521389,
+      "stop" : 1679966522217,
+      "duration" : 828
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679966521389,
+        "stop" : 1679966522217,
+        "duration" : 828
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679966521389,
+          "stop" : 1679966522217,
+          "duration" : 828
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679966539879,
+      "stop" : 1679966542687,
+      "duration" : 2808
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "98f0ca7e77484889",
+      "name" : "Driver setup: ",
+      "source" : "98f0ca7e77484889.txt",
+      "type" : "text/plain",
+      "size" : 119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify user can search vehicle by model",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get vehicles by vehicle number",
+      "time" : {
+        "start" : 1679966546571,
+        "stop" : 1679966547690,
+        "duration" : 1119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5e4880b22e57d84c",
+        "name" : "Start sending request: ",
+        "source" : "5e4880b22e57d84c.txt",
+        "type" : "text/plain",
+        "size" : 511
+      }, {
+        "uid" : "7dcebb31555f15e5",
+        "name" : "Receive respond after: 1.114s",
+        "source" : "7dcebb31555f15e5.txt",
+        "type" : "text/plain",
+        "size" : 53209
+      } ],
+      "parameters" : [ {
+        "name" : "vehicleNumber",
+        "value" : "number_10"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Try to search vehicles with model",
+      "time" : {
+        "start" : 1679966547690,
+        "stop" : 1679966551448,
+        "duration" : 3758
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select global search entity",
+        "time" : {
+          "start" : 1679966547690,
+          "stop" : 1679966548132,
+          "duration" : 442
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b69a0f5bbc25233f",
+          "name" : "Starting action: ",
+          "source" : "b69a0f5bbc25233f.txt",
+          "type" : "text/plain",
+          "size" : 43
+        }, {
+          "uid" : "e9b42686b65580e0",
+          "name" : "Action Done! ",
+          "source" : "e9b42686b65580e0.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "46d7f563e34068c2",
+          "name" : "saveScreenShot",
+          "source" : "46d7f563e34068c2.png",
+          "type" : "image/png",
+          "size" : 159523
+        }, {
+          "uid" : "67aa51c7d4373ce1",
+          "name" : "Starting action: ",
+          "source" : "67aa51c7d4373ce1.txt",
+          "type" : "text/plain",
+          "size" : 46
+        }, {
+          "uid" : "87facdf1d30fe6af",
+          "name" : "Action Done! ",
+          "source" : "87facdf1d30fe6af.txt",
+          "type" : "text/plain",
+          "size" : 8
+        }, {
+          "uid" : "e50b51a5c8f32cf",
+          "name" : "saveScreenShot",
+          "source" : "e50b51a5c8f32cf.png",
+          "type" : "image/png",
+          "size" : 166088
+        } ],
+        "parameters" : [ {
+          "name" : "entity",
+          "value" : "Vehicles"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Enter text for global searching",
+        "time" : {
+          "start" : 1679966548132,
+          "stop" : 1679966548462,
+          "duration" : 330
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4d8d5029dd49a75b",
+          "name" : "Starting action: ",
+          "source" : "4d8d5029dd49a75b.txt",
+          "type" : "text/plain",
+          "size" : 90
+        }, {
+          "uid" : "4c0a29945b42ca41",
+          "name" : "Action Done! ",
+          "source" : "4c0a29945b42ca41.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "292a11a7cde00ef4",
+          "name" : "saveScreenShot",
+          "source" : "292a11a7cde00ef4.png",
+          "type" : "image/png",
+          "size" : 146804
+        } ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : "model_10"
+        }, {
+          "name" : "placeHolder",
+          "value" : "Vehicle ID, registration, make, model"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on 1 record",
+        "time" : {
+          "start" : 1679966548462,
+          "stop" : 1679966551448,
+          "duration" : 2986
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "57cc2b006d6a592f",
+          "name" : "Starting action: ",
+          "source" : "57cc2b006d6a592f.txt",
+          "type" : "text/plain",
+          "size" : 40
+        }, {
+          "uid" : "fd97f6f5f869ff",
+          "name" : "Action Done! ",
+          "source" : "fd97f6f5f869ff.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "c93ec968cc64e204",
+          "name" : "saveScreenShot",
+          "source" : "c93ec968cc64e204.png",
+          "type" : "image/png",
+          "size" : 133607
+        } ],
+        "parameters" : [ {
+          "name" : "order",
+          "value" : "1"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "vehicle",
+        "value" : "utils.models.MVehicle@3e31f986"
+      } ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify vehicle information header",
+      "time" : {
+        "start" : 1679966551448,
+        "stop" : 1679966552154,
+        "duration" : 706
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3de71edf16e9eec3",
+        "name" : "Starting action: ",
+        "source" : "3de71edf16e9eec3.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "deefac819c6b6d9b",
+        "name" : "Action Done! ",
+        "source" : "deefac819c6b6d9b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "5292ed98fd511217",
+        "name" : "saveScreenShot",
+        "source" : "5292ed98fd511217.png",
+        "type" : "image/png",
+        "size" : 142099
+      } ],
+      "parameters" : [ {
+        "name" : "expectedVehicle",
+        "value" : "utils.models.MVehicle@3e31f986"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 17,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679966552155,
+      "stop" : 1679966552947,
+      "duration" : 792
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f62c039c391a7535",
+      "name" : "saveScreenShot",
+      "source" : "f62c039c391a7535.png",
+      "type" : "image/png",
+      "size" : 142099
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679966566683,
+      "stop" : 1679966566683,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679966566683,
+      "stop" : 1679966566683,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.global_search.GlobalSearch"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.global_search.GlobalSearch"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_14"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Global Search"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.global_search.GlobalSearch"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Global Search-9(2220)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "364ec075f1a9eec7.json",
+  "parameterValues" : [ ]
+}

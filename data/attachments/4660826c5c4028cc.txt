@@ -1,0 +1,36 @@
+Response code: 
+200
+Response body: 
+{
+    "data": {
+        "id": 2553,
+        "abbreviation": "Z132023-03-28T07:49:41.576",
+        "name": "Zone 13",
+        "payment_methods": [
+            "card",
+            "cash"
+        ],
+        "point": {
+            "lat": -27.4775604,
+            "lng": 153.0211369
+        },
+        "start_window": 120,
+        "test": false,
+        "time_zone": "Australia/Sydney",
+        "transfer_window_minutes": 20,
+        "trip_stop_notification_horizon": 15,
+        "trip_type": "full",
+        "truck_routing": false,
+        "default_price": 4.0,
+        "allowed_apps": [
+            
+        ],
+        "total_zone_stops": 0,
+        "region": {
+            "id": 3664,
+            "name": "Region 004",
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/regions/3664"
+        },
+        "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/new_zones/2553"
+    }
+}

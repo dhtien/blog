@@ -1,0 +1,1011 @@
+{
+  "uid" : "380d1c281678fa62",
+  "name" : "Verify user can add Concession: Veteran for passengers",
+  "fullName" : "testcases.web.passenger.PassengerEditing.TC_07",
+  "historyId" : "fdf83e31109eed897debfa6f565826ad",
+  "time" : {
+    "start" : 1679964938748,
+    "stop" : 1679964975506,
+    "duration" : 36758
+  },
+  "description" : "Verify user can add Concession: Veteran for passengers",
+  "descriptionHtml" : "<p>Verify user can add Concession: Veteran for passengers</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeEachScenario",
+    "time" : {
+      "start" : 1679964931990,
+      "stop" : 1679964938746,
+      "duration" : 6756
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: daohuyt@bridj.com",
+      "time" : {
+        "start" : 1679964931990,
+        "stop" : 1679964937249,
+        "duration" : 5259
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get token from API response",
+        "time" : {
+          "start" : 1679964936345,
+          "stop" : 1679964937249,
+          "duration" : 904
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login Operation Portal to generate token",
+          "time" : {
+            "start" : 1679964936345,
+            "stop" : 1679964937249,
+            "duration" : 904
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "email",
+            "value" : "daohuyt@bridj.com"
+          }, {
+            "name" : "passWord",
+            "value" : "userPass@123"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "password",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "29fef26e66e89042",
+        "name" : "Starting action: ",
+        "source" : "29fef26e66e89042.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "aa89c71da3f90080",
+        "name" : "Action Done! ",
+        "source" : "aa89c71da3f90080.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "12274e98c496ffed",
+        "name" : "saveScreenShot",
+        "source" : "12274e98c496ffed.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "1c8aecfe4ad6baae",
+        "name" : "Starting action: ",
+        "source" : "1c8aecfe4ad6baae.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "5c9540920d633265",
+        "name" : "Action Done! ",
+        "source" : "5c9540920d633265.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "4afc603011f28ad4",
+        "name" : "saveScreenShot",
+        "source" : "4afc603011f28ad4.png",
+        "type" : "image/png",
+        "size" : 61630
+      }, {
+        "uid" : "4ae5328a5f36a002",
+        "name" : "Starting action: ",
+        "source" : "4ae5328a5f36a002.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "c7541efc3fccf21b",
+        "name" : "Action Done! ",
+        "source" : "c7541efc3fccf21b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "e49ef691fe936fa7",
+        "name" : "saveScreenShot",
+        "source" : "e49ef691fe936fa7.png",
+        "type" : "image/png",
+        "size" : 62141
+      }, {
+        "uid" : "1a047a496e245dbf",
+        "name" : "Starting action: ",
+        "source" : "1a047a496e245dbf.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "d28cb6a8ef3fea9d",
+        "name" : "Action Done! ",
+        "source" : "d28cb6a8ef3fea9d.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "197f199c4b1f5529",
+        "name" : "saveScreenShot",
+        "source" : "197f199c4b1f5529.png",
+        "type" : "image/png",
+        "size" : 62238
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679964937250,
+        "stop" : 1679964937888,
+        "duration" : 638
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e341eb6067dc2c19",
+        "name" : "Starting action: ",
+        "source" : "e341eb6067dc2c19.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "cdca03a741bb03b5",
+        "name" : "Action Done! ",
+        "source" : "cdca03a741bb03b5.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "3d57fcf405cb81ac",
+        "name" : "saveScreenShot",
+        "source" : "3d57fcf405cb81ac.png",
+        "type" : "image/png",
+        "size" : 154121
+      }, {
+        "uid" : "4ba65c39e25ff0c1",
+        "name" : "Starting action: ",
+        "source" : "4ba65c39e25ff0c1.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "beaeb59cf60c8d3b",
+        "name" : "Action Done! ",
+        "source" : "beaeb59cf60c8d3b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "8f06b279e1787496",
+        "name" : "saveScreenShot",
+        "source" : "8f06b279e1787496.png",
+        "type" : "image/png",
+        "size" : 154116
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to page Passengers",
+      "time" : {
+        "start" : 1679964937889,
+        "stop" : 1679964938479,
+        "duration" : 590
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6fd3e660a62662be",
+        "name" : "Starting action: ",
+        "source" : "6fd3e660a62662be.txt",
+        "type" : "text/plain",
+        "size" : 51
+      }, {
+        "uid" : "9177d7183498314b",
+        "name" : "Action Done! ",
+        "source" : "9177d7183498314b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "ca498af54255adc5",
+        "name" : "saveScreenShot",
+        "source" : "ca498af54255adc5.png",
+        "type" : "image/png",
+        "size" : 76675
+      } ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Passengers"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify the passenger page is opened",
+      "time" : {
+        "start" : 1679964938479,
+        "stop" : 1679964938746,
+        "duration" : 267
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a6684402e1ab5b0d",
+        "name" : "Starting action: ",
+        "source" : "a6684402e1ab5b0d.txt",
+        "type" : "text/plain",
+        "size" : 130
+      }, {
+        "uid" : "99e29fe9ad43d20",
+        "name" : "Action Done! ",
+        "source" : "99e29fe9ad43d20.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "34c78e6fa30494b7",
+        "name" : "saveScreenShot",
+        "source" : "34c78e6fa30494b7.png",
+        "type" : "image/png",
+        "size" : 80447
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 24,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679964927983,
+      "stop" : 1679964927983,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679964928825,
+      "stop" : 1679964931989,
+      "duration" : 3164
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a096dd1223d22aa1",
+      "name" : "Driver setup: ",
+      "source" : "a096dd1223d22aa1.txt",
+      "type" : "text/plain",
+      "size" : 118
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679964927985,
+      "stop" : 1679964928825,
+      "duration" : 840
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679964927985,
+        "stop" : 1679964928825,
+        "duration" : 840
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679964927985,
+          "stop" : 1679964928825,
+          "duration" : 840
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify user can add Concession: Veteran for passengers",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Call API to get travellers list",
+      "time" : {
+        "start" : 1679964938749,
+        "stop" : 1679964939923,
+        "duration" : 1174
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2d396ec053ea2e8",
+        "name" : "Start sending request: ",
+        "source" : "2d396ec053ea2e8.txt",
+        "type" : "text/plain",
+        "size" : 508
+      }, {
+        "uid" : "2799d53eaa7fbed",
+        "name" : "Receive respond after: 1.168s",
+        "source" : "2799d53eaa7fbed.txt",
+        "type" : "text/plain",
+        "size" : 48059
+      } ],
+      "parameters" : [ {
+        "name" : "params",
+        "value" : "{per_page=999}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get traveller by user name from API response",
+      "time" : {
+        "start" : 1679964939923,
+        "stop" : 1679964942388,
+        "duration" : 2465
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Call API to get travellers list",
+        "time" : {
+          "start" : 1679964939923,
+          "stop" : 1679964942388,
+          "duration" : 2465
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "db1877dd7b6fa93c",
+          "name" : "Start sending request: ",
+          "source" : "db1877dd7b6fa93c.txt",
+          "type" : "text/plain",
+          "size" : 514
+        }, {
+          "uid" : "db004cb81146e11a",
+          "name" : "Receive respond after: 2.464s",
+          "source" : "db004cb81146e11a.txt",
+          "type" : "text/plain",
+          "size" : 579
+        } ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{search=traveller14}"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userName",
+        "value" : "traveller14"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Add concession for passenger",
+      "time" : {
+        "start" : 1679964942392,
+        "stop" : 1679964960447,
+        "duration" : 18055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0ec14af57fb6440",
+        "name" : "Starting action: ",
+        "source" : "c0ec14af57fb6440.txt",
+        "type" : "text/plain",
+        "size" : 47
+      }, {
+        "uid" : "8e1c101555adaf42",
+        "name" : "Action Done! ",
+        "source" : "8e1c101555adaf42.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "91a84620dcb56196",
+        "name" : "saveScreenShot",
+        "source" : "91a84620dcb56196.png",
+        "type" : "image/png",
+        "size" : 191675
+      }, {
+        "uid" : "c4f0f74456cafcdd",
+        "name" : "Starting action: ",
+        "source" : "c4f0f74456cafcdd.txt",
+        "type" : "text/plain",
+        "size" : 50
+      }, {
+        "uid" : "b5af7779de4660b9",
+        "name" : "Action Done! ",
+        "source" : "b5af7779de4660b9.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "4d323d1ac1854b74",
+        "name" : "saveScreenShot",
+        "source" : "4d323d1ac1854b74.png",
+        "type" : "image/png",
+        "size" : 193182
+      }, {
+        "uid" : "6f20129fa99da8e3",
+        "name" : "Starting action: ",
+        "source" : "6f20129fa99da8e3.txt",
+        "type" : "text/plain",
+        "size" : 44
+      }, {
+        "uid" : "3597d164f4fbbdf3",
+        "name" : "Action Done! ",
+        "source" : "3597d164f4fbbdf3.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "1734c39c213df5c2",
+        "name" : "saveScreenShot",
+        "source" : "1734c39c213df5c2.png",
+        "type" : "image/png",
+        "size" : 200422
+      }, {
+        "uid" : "e021d239642e8c",
+        "name" : "Starting action: ",
+        "source" : "e021d239642e8c.txt",
+        "type" : "text/plain",
+        "size" : 88
+      }, {
+        "uid" : "90e8714fff267c2e",
+        "name" : "Action Done! ",
+        "source" : "90e8714fff267c2e.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "9fa0ee03dc6eefc2",
+        "name" : "saveScreenShot",
+        "source" : "9fa0ee03dc6eefc2.png",
+        "type" : "image/png",
+        "size" : 178544
+      }, {
+        "uid" : "7adca65d5b8206be",
+        "name" : "Starting action: ",
+        "source" : "7adca65d5b8206be.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "260881b17911849a",
+        "name" : "Action Done! ",
+        "source" : "260881b17911849a.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "721544d3081626f4",
+        "name" : "saveScreenShot",
+        "source" : "721544d3081626f4.png",
+        "type" : "image/png",
+        "size" : 88961
+      }, {
+        "uid" : "e71d06164c4a2e0b",
+        "name" : "Starting action: ",
+        "source" : "e71d06164c4a2e0b.txt",
+        "type" : "text/plain",
+        "size" : 64
+      }, {
+        "uid" : "37a3f5d4d5288761",
+        "name" : "Action Done! ",
+        "source" : "37a3f5d4d5288761.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "8cced0c628586840",
+        "name" : "saveScreenShot",
+        "source" : "8cced0c628586840.png",
+        "type" : "image/png",
+        "size" : 112453
+      }, {
+        "uid" : "40671f7f45e76f36",
+        "name" : "Starting action: ",
+        "source" : "40671f7f45e76f36.txt",
+        "type" : "text/plain",
+        "size" : 51
+      }, {
+        "uid" : "1478e0d3228f6f9",
+        "name" : "Action Done! ",
+        "source" : "1478e0d3228f6f9.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "85057d7debe3a970",
+        "name" : "saveScreenShot",
+        "source" : "85057d7debe3a970.png",
+        "type" : "image/png",
+        "size" : 93870
+      }, {
+        "uid" : "8098d40ce95e55f2",
+        "name" : "Starting action: ",
+        "source" : "8098d40ce95e55f2.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "279026b28c5bb660",
+        "name" : "Action Done! ",
+        "source" : "279026b28c5bb660.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "2155ed5c505e20d7",
+        "name" : "saveScreenShot",
+        "source" : "2155ed5c505e20d7.png",
+        "type" : "image/png",
+        "size" : 97328
+      }, {
+        "uid" : "707d3fe3fa2e7416",
+        "name" : "Starting action: ",
+        "source" : "707d3fe3fa2e7416.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "626c3e7e9159818c",
+        "name" : "Action Done! ",
+        "source" : "626c3e7e9159818c.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "3d04a27a0caa4540",
+        "name" : "saveScreenShot",
+        "source" : "3d04a27a0caa4540.png",
+        "type" : "image/png",
+        "size" : 102680
+      }, {
+        "uid" : "4b5c78b1428f14ff",
+        "name" : "Starting action: ",
+        "source" : "4b5c78b1428f14ff.txt",
+        "type" : "text/plain",
+        "size" : 73
+      }, {
+        "uid" : "bb9a65c5fe59f801",
+        "name" : "Action Done! ",
+        "source" : "bb9a65c5fe59f801.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "63f54a7ed6dad69c",
+        "name" : "saveScreenShot",
+        "source" : "63f54a7ed6dad69c.png",
+        "type" : "image/png",
+        "size" : 106936
+      }, {
+        "uid" : "eaf3023004031e44",
+        "name" : "Starting action: ",
+        "source" : "eaf3023004031e44.txt",
+        "type" : "text/plain",
+        "size" : 52
+      }, {
+        "uid" : "8e958bdbd5887a57",
+        "name" : "Action Done! ",
+        "source" : "8e958bdbd5887a57.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a778196bfc1f9307",
+        "name" : "saveScreenShot",
+        "source" : "a778196bfc1f9307.png",
+        "type" : "image/png",
+        "size" : 112754
+      }, {
+        "uid" : "dea065923429eaf3",
+        "name" : "Starting action: ",
+        "source" : "dea065923429eaf3.txt",
+        "type" : "text/plain",
+        "size" : 51
+      }, {
+        "uid" : "d074a25e2f1f6dd2",
+        "name" : "Action Done! ",
+        "source" : "d074a25e2f1f6dd2.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "51d948157915534f",
+        "name" : "saveScreenShot",
+        "source" : "51d948157915534f.png",
+        "type" : "image/png",
+        "size" : 106283
+      }, {
+        "uid" : "3100131f9f0d54a0",
+        "name" : "Starting action: ",
+        "source" : "3100131f9f0d54a0.txt",
+        "type" : "text/plain",
+        "size" : 42
+      }, {
+        "uid" : "31defd816475fd78",
+        "name" : "Action Done! ",
+        "source" : "31defd816475fd78.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c4129a95de823b76",
+        "name" : "saveScreenShot",
+        "source" : "c4129a95de823b76.png",
+        "type" : "image/png",
+        "size" : 101056
+      }, {
+        "uid" : "679f424b4ad75b1f",
+        "name" : "Starting action: ",
+        "source" : "679f424b4ad75b1f.txt",
+        "type" : "text/plain",
+        "size" : 51
+      }, {
+        "uid" : "bf8838b3b41d4a12",
+        "name" : "Action Done! ",
+        "source" : "bf8838b3b41d4a12.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "e1afa7be572edb0f",
+        "name" : "saveScreenShot",
+        "source" : "e1afa7be572edb0f.png",
+        "type" : "image/png",
+        "size" : 78285
+      } ],
+      "parameters" : [ {
+        "name" : "traveler",
+        "value" : "utils.models.MTraveler@20defdf7"
+      }, {
+        "name" : "concession",
+        "value" : "utils.models.MConcession@4b274de0"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 42,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify concessions show correctly",
+      "time" : {
+        "start" : 1679964960447,
+        "stop" : 1679964975506,
+        "duration" : 15059
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db27357a24dc2786",
+        "name" : "Starting action: ",
+        "source" : "db27357a24dc2786.txt",
+        "type" : "text/plain",
+        "size" : 47
+      }, {
+        "uid" : "45a1ea1703e3cbbb",
+        "name" : "Action Done! ",
+        "source" : "45a1ea1703e3cbbb.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "7d90e7d372d95859",
+        "name" : "saveScreenShot",
+        "source" : "7d90e7d372d95859.png",
+        "type" : "image/png",
+        "size" : 91364
+      }, {
+        "uid" : "ea326ba47fd230fa",
+        "name" : "Starting action: ",
+        "source" : "ea326ba47fd230fa.txt",
+        "type" : "text/plain",
+        "size" : 50
+      }, {
+        "uid" : "fb861a8cb00d095f",
+        "name" : "Action Done! ",
+        "source" : "fb861a8cb00d095f.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "f8144fbae8987a15",
+        "name" : "saveScreenShot",
+        "source" : "f8144fbae8987a15.png",
+        "type" : "image/png",
+        "size" : 120293
+      }, {
+        "uid" : "70da2cde3e55b8e9",
+        "name" : "Starting action: ",
+        "source" : "70da2cde3e55b8e9.txt",
+        "type" : "text/plain",
+        "size" : 44
+      }, {
+        "uid" : "fa8acdf9fd4eed6c",
+        "name" : "Action Done! ",
+        "source" : "fa8acdf9fd4eed6c.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a2ba611b5691682",
+        "name" : "saveScreenShot",
+        "source" : "a2ba611b5691682.png",
+        "type" : "image/png",
+        "size" : 115843
+      }, {
+        "uid" : "9e5d41072b09af88",
+        "name" : "Starting action: ",
+        "source" : "9e5d41072b09af88.txt",
+        "type" : "text/plain",
+        "size" : 88
+      }, {
+        "uid" : "8f093f0fa792a8ba",
+        "name" : "Action Done! ",
+        "source" : "8f093f0fa792a8ba.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "2a931b39e7f8a91",
+        "name" : "saveScreenShot",
+        "source" : "2a931b39e7f8a91.png",
+        "type" : "image/png",
+        "size" : 88724
+      }, {
+        "uid" : "e4f829d682894057",
+        "name" : "Starting action: ",
+        "source" : "e4f829d682894057.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "8cdd550fae649826",
+        "name" : "Action Done! ",
+        "source" : "8cdd550fae649826.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "fe698ee0d13ab3ab",
+        "name" : "saveScreenShot",
+        "source" : "fe698ee0d13ab3ab.png",
+        "type" : "image/png",
+        "size" : 88976
+      }, {
+        "uid" : "c1489879f176720d",
+        "name" : "Starting action: ",
+        "source" : "c1489879f176720d.txt",
+        "type" : "text/plain",
+        "size" : 64
+      }, {
+        "uid" : "160bd4110c78adce",
+        "name" : "Action Done! ",
+        "source" : "160bd4110c78adce.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "3bb7ba0b4a298a15",
+        "name" : "saveScreenShot",
+        "source" : "3bb7ba0b4a298a15.png",
+        "type" : "image/png",
+        "size" : 112453
+      }, {
+        "uid" : "62f33e88e8c4b72b",
+        "name" : "Starting action: ",
+        "source" : "62f33e88e8c4b72b.txt",
+        "type" : "text/plain",
+        "size" : 51
+      }, {
+        "uid" : "53b4ad08e3e64def",
+        "name" : "Action Done! ",
+        "source" : "53b4ad08e3e64def.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c780838c14318266",
+        "name" : "saveScreenShot",
+        "source" : "c780838c14318266.png",
+        "type" : "image/png",
+        "size" : 100425
+      }, {
+        "uid" : "8c5eef78469f441",
+        "name" : "Starting action: ",
+        "source" : "8c5eef78469f441.txt",
+        "type" : "text/plain",
+        "size" : 94
+      }, {
+        "uid" : "42a25e96821aae6e",
+        "name" : "Action Done! ",
+        "source" : "42a25e96821aae6e.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "5ac0bb79b2f3f3cc",
+        "name" : "saveScreenShot",
+        "source" : "5ac0bb79b2f3f3cc.png",
+        "type" : "image/png",
+        "size" : 100364
+      } ],
+      "parameters" : [ {
+        "name" : "traveler",
+        "value" : "utils.models.MTraveler@20defdf7"
+      }, {
+        "name" : "expectedConcessions",
+        "value" : "[utils.models.MConcession@4b274de0]"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 24,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 70,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679965029439,
+      "stop" : 1679965029439,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679964975507,
+      "stop" : 1679964976276,
+      "duration" : 769
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2f0899889e1c78ed",
+      "name" : "saveScreenShot",
+      "source" : "2f0899889e1c78ed.png",
+      "type" : "image/png",
+      "size" : 100025
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679965029439,
+      "stop" : 1679965029439,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.passenger.PassengerEditing"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.passenger.PassengerEditing"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_07"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Passenger"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.passenger.PassengerEditing"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Passenger-6(624)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "380d1c281678fa62.json",
+  "parameterValues" : [ ]
+}

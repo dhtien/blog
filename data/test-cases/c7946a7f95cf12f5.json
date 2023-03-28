@@ -1,0 +1,796 @@
+{
+  "uid" : "c7946a7f95cf12f5",
+  "name" : "Verify user can search bookings by passenger name",
+  "fullName" : "testcases.web.global_search.GlobalSearch.TC_01",
+  "historyId" : "1fa07fca8531fd777421d31f5ba613ab",
+  "time" : {
+    "start" : 1679966527837,
+    "stop" : 1679966555203,
+    "duration" : 27366
+  },
+  "description" : "Verify user can search bookings by passenger name",
+  "descriptionHtml" : "<p>Verify user can search bookings by passenger name</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679966522217,
+      "stop" : 1679966523347,
+      "duration" : 1130
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dd2caa217ba8b5ab",
+      "name" : "Driver setup: ",
+      "source" : "dd2caa217ba8b5ab.txt",
+      "type" : "text/plain",
+      "size" : 119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeEachScenario",
+    "time" : {
+      "start" : 1679966523347,
+      "stop" : 1679966527836,
+      "duration" : 4489
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: daohuyt@bridj.com",
+      "time" : {
+        "start" : 1679966523348,
+        "stop" : 1679966526332,
+        "duration" : 2984
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "770d56ee93c0326b",
+        "name" : "Starting action: ",
+        "source" : "770d56ee93c0326b.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "262ee5a12aaaa8ae",
+        "name" : "Action Done! ",
+        "source" : "262ee5a12aaaa8ae.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "f669bfd03caca90d",
+        "name" : "saveScreenShot",
+        "source" : "f669bfd03caca90d.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "514ab520e3671642",
+        "name" : "Starting action: ",
+        "source" : "514ab520e3671642.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "70e35d7af8a95848",
+        "name" : "Action Done! ",
+        "source" : "70e35d7af8a95848.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "f0db72050c17b33b",
+        "name" : "saveScreenShot",
+        "source" : "f0db72050c17b33b.png",
+        "type" : "image/png",
+        "size" : 61630
+      }, {
+        "uid" : "b41b2d0bc21c02a7",
+        "name" : "Starting action: ",
+        "source" : "b41b2d0bc21c02a7.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "ab39a0768529ddc1",
+        "name" : "Action Done! ",
+        "source" : "ab39a0768529ddc1.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "d2d4d0a92769570",
+        "name" : "saveScreenShot",
+        "source" : "d2d4d0a92769570.png",
+        "type" : "image/png",
+        "size" : 61944
+      }, {
+        "uid" : "cd7d43ecb6954cdf",
+        "name" : "Starting action: ",
+        "source" : "cd7d43ecb6954cdf.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "ceae8101cefa04f0",
+        "name" : "Action Done! ",
+        "source" : "ceae8101cefa04f0.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "6468640cafce6fa9",
+        "name" : "saveScreenShot",
+        "source" : "6468640cafce6fa9.png",
+        "type" : "image/png",
+        "size" : 62163
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679966526333,
+        "stop" : 1679966527671,
+        "duration" : 1338
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c2997d45e16bb89",
+        "name" : "Starting action: ",
+        "source" : "7c2997d45e16bb89.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "d11a9f70bdce255d",
+        "name" : "Action Done! ",
+        "source" : "d11a9f70bdce255d.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "4c2a4f37c8c2b5aa",
+        "name" : "saveScreenShot",
+        "source" : "4c2a4f37c8c2b5aa.png",
+        "type" : "image/png",
+        "size" : 62228
+      }, {
+        "uid" : "2813ade68eee40e7",
+        "name" : "Starting action: ",
+        "source" : "2813ade68eee40e7.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "e51631525e081cd8",
+        "name" : "Action Done! ",
+        "source" : "e51631525e081cd8.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "7ee51702c5e8afb0",
+        "name" : "saveScreenShot",
+        "source" : "7ee51702c5e8afb0.png",
+        "type" : "image/png",
+        "size" : 153402
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Can access page 'https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/' successfully",
+      "time" : {
+        "start" : 1679966527672,
+        "stop" : 1679966527836,
+        "duration" : 164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "888558781ea7575e",
+        "name" : "Starting action: ",
+        "source" : "888558781ea7575e.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "8ddb0ff7aa8c7297",
+        "name" : "Action Done! ",
+        "source" : "8ddb0ff7aa8c7297.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "4c91350afb138f3",
+        "name" : "saveScreenShot",
+        "source" : "4c91350afb138f3.png",
+        "type" : "image/png",
+        "size" : 153533
+      } ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 21,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679966521388,
+      "stop" : 1679966521388,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679966521389,
+      "stop" : 1679966522217,
+      "duration" : 828
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679966521389,
+        "stop" : 1679966522217,
+        "duration" : 828
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679966521389,
+          "stop" : 1679966522217,
+          "duration" : 828
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify user can search bookings by passenger name",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Try to search bookings with passenger username",
+      "time" : {
+        "start" : 1679966527838,
+        "stop" : 1679966533159,
+        "duration" : 5321
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select global search entity",
+        "time" : {
+          "start" : 1679966527838,
+          "stop" : 1679966528369,
+          "duration" : 531
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d489f6e59931717d",
+          "name" : "Starting action: ",
+          "source" : "d489f6e59931717d.txt",
+          "type" : "text/plain",
+          "size" : 43
+        }, {
+          "uid" : "b2788de4cecc541",
+          "name" : "Action Done! ",
+          "source" : "b2788de4cecc541.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "4ee7810f2239c12c",
+          "name" : "saveScreenShot",
+          "source" : "4ee7810f2239c12c.png",
+          "type" : "image/png",
+          "size" : 156949
+        }, {
+          "uid" : "1758e01755aa2ddb",
+          "name" : "Starting action: ",
+          "source" : "1758e01755aa2ddb.txt",
+          "type" : "text/plain",
+          "size" : 46
+        }, {
+          "uid" : "36d8927109bc40fc",
+          "name" : "Action Done! ",
+          "source" : "36d8927109bc40fc.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "3c8c9c609e81bf1f",
+          "name" : "saveScreenShot",
+          "source" : "3c8c9c609e81bf1f.png",
+          "type" : "image/png",
+          "size" : 162520
+        } ],
+        "parameters" : [ {
+          "name" : "entity",
+          "value" : "Bookings"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Enter text for global searching",
+        "time" : {
+          "start" : 1679966528369,
+          "stop" : 1679966528745,
+          "duration" : 376
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "282271e920b9173f",
+          "name" : "Starting action: ",
+          "source" : "282271e920b9173f.txt",
+          "type" : "text/plain",
+          "size" : 79
+        }, {
+          "uid" : "3cb1bf27e0290763",
+          "name" : "Action Done! ",
+          "source" : "3cb1bf27e0290763.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "8b54f8aeda9d56cf",
+          "name" : "saveScreenShot",
+          "source" : "8b54f8aeda9d56cf.png",
+          "type" : "image/png",
+          "size" : 146893
+        } ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : "traveller12"
+        }, {
+          "name" : "placeHolder",
+          "value" : "Passenger name, address"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on 1 record",
+        "time" : {
+          "start" : 1679966528745,
+          "stop" : 1679966533159,
+          "duration" : 4414
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "dd44c8a605acf4c3",
+          "name" : "Starting action: ",
+          "source" : "dd44c8a605acf4c3.txt",
+          "type" : "text/plain",
+          "size" : 40
+        }, {
+          "uid" : "9ce1f8397ad19098",
+          "name" : "Action Done! ",
+          "source" : "9ce1f8397ad19098.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "7d47682800b91463",
+          "name" : "saveScreenShot",
+          "source" : "7d47682800b91463.png",
+          "type" : "image/png",
+          "size" : 137390
+        } ],
+        "parameters" : [ {
+          "name" : "order",
+          "value" : "1"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "booking",
+        "value" : "utils.models.MBooking@665bdcac"
+      } ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify booking information",
+      "time" : {
+        "start" : 1679966533159,
+        "stop" : 1679966555203,
+        "duration" : 22044
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Call API to get bookings list",
+        "time" : {
+          "start" : 1679966533159,
+          "stop" : 1679966552850,
+          "duration" : 19691
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "41cd88419efc42d9",
+          "name" : "Start sending request: ",
+          "source" : "41cd88419efc42d9.txt",
+          "type" : "text/plain",
+          "size" : 544
+        }, {
+          "uid" : "8f32ccd62411f88e",
+          "name" : "Receive respond after: 19.658s",
+          "source" : "8f32ccd62411f88e.txt",
+          "type" : "text/plain",
+          "size" : 544398
+        } ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{search[traveler]=12, per_page=999, page=1}"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Get bookings list from API response",
+        "time" : {
+          "start" : 1679966552850,
+          "stop" : 1679966552875,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "49e2cbb287afb63f",
+        "name" : "Starting action: ",
+        "source" : "49e2cbb287afb63f.txt",
+        "type" : "text/plain",
+        "size" : 170
+      }, {
+        "uid" : "391f26d3d0c785f4",
+        "name" : "Action Done! ",
+        "source" : "391f26d3d0c785f4.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "de5686227e32d308",
+        "name" : "saveScreenShot",
+        "source" : "de5686227e32d308.png",
+        "type" : "image/png",
+        "size" : 750115
+      }, {
+        "uid" : "794bb64b9ecd4c5a",
+        "name" : "Starting action: ",
+        "source" : "794bb64b9ecd4c5a.txt",
+        "type" : "text/plain",
+        "size" : 171
+      }, {
+        "uid" : "80128c7b51618b26",
+        "name" : "Action Done! ",
+        "source" : "80128c7b51618b26.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "3c2ab3d06c81bfdb",
+        "name" : "saveScreenShot",
+        "source" : "3c2ab3d06c81bfdb.png",
+        "type" : "image/png",
+        "size" : 750115
+      }, {
+        "uid" : "c2f6566bcc5c52c6",
+        "name" : "Starting action: ",
+        "source" : "c2f6566bcc5c52c6.txt",
+        "type" : "text/plain",
+        "size" : 93
+      }, {
+        "uid" : "e971b1fb484fe5d0",
+        "name" : "Action Done! ",
+        "source" : "e971b1fb484fe5d0.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "33e47d141c0629e9",
+        "name" : "saveScreenShot",
+        "source" : "33e47d141c0629e9.png",
+        "type" : "image/png",
+        "size" : 750115
+      }, {
+        "uid" : "6742b165a684ff45",
+        "name" : "Starting action: ",
+        "source" : "6742b165a684ff45.txt",
+        "type" : "text/plain",
+        "size" : 81
+      }, {
+        "uid" : "acd6140113c4379a",
+        "name" : "Action Done! ",
+        "source" : "acd6140113c4379a.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "b8fc8d882e0c6cf9",
+        "name" : "saveScreenShot",
+        "source" : "b8fc8d882e0c6cf9.png",
+        "type" : "image/png",
+        "size" : 750115
+      }, {
+        "uid" : "a4a3deeb060f320b",
+        "name" : "Starting action: ",
+        "source" : "a4a3deeb060f320b.txt",
+        "type" : "text/plain",
+        "size" : 80
+      }, {
+        "uid" : "6a398e944e213307",
+        "name" : "Action Done! ",
+        "source" : "6a398e944e213307.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "8ea9a4eec5880f87",
+        "name" : "saveScreenShot",
+        "source" : "8ea9a4eec5880f87.png",
+        "type" : "image/png",
+        "size" : 750115
+      }, {
+        "uid" : "9ed12b558a14d0e0",
+        "name" : "Starting action: ",
+        "source" : "9ed12b558a14d0e0.txt",
+        "type" : "text/plain",
+        "size" : 76
+      }, {
+        "uid" : "6f4e03fc9e37e739",
+        "name" : "Action Done! ",
+        "source" : "6f4e03fc9e37e739.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "1a6117fa6e11ed01",
+        "name" : "saveScreenShot",
+        "source" : "1a6117fa6e11ed01.png",
+        "type" : "image/png",
+        "size" : 750115
+      }, {
+        "uid" : "1149a00885b9edc8",
+        "name" : "Starting action: ",
+        "source" : "1149a00885b9edc8.txt",
+        "type" : "text/plain",
+        "size" : 82
+      }, {
+        "uid" : "45903462a12886da",
+        "name" : "Action Done! ",
+        "source" : "45903462a12886da.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "7a358aff8e6e320d",
+        "name" : "saveScreenShot",
+        "source" : "7a358aff8e6e320d.png",
+        "type" : "image/png",
+        "size" : 750115
+      }, {
+        "uid" : "faeefa639b15daf1",
+        "name" : "Starting action: ",
+        "source" : "faeefa639b15daf1.txt",
+        "type" : "text/plain",
+        "size" : 98
+      }, {
+        "uid" : "1bf5834eba5ebf72",
+        "name" : "Action Done! ",
+        "source" : "1bf5834eba5ebf72.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "515a61c758a4952d",
+        "name" : "saveScreenShot",
+        "source" : "515a61c758a4952d.png",
+        "type" : "image/png",
+        "size" : 750115
+      }, {
+        "uid" : "5d960f6d4ffa0ed7",
+        "name" : "Starting action: ",
+        "source" : "5d960f6d4ffa0ed7.txt",
+        "type" : "text/plain",
+        "size" : 90
+      }, {
+        "uid" : "684c0e63ba190cd4",
+        "name" : "Action Done! ",
+        "source" : "684c0e63ba190cd4.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "c23277c29f74cf1a",
+        "name" : "saveScreenShot",
+        "source" : "c23277c29f74cf1a.png",
+        "type" : "image/png",
+        "size" : 750115
+      } ],
+      "parameters" : [ {
+        "name" : "expectedBooking",
+        "value" : "utils.models.MBooking@665bdcac"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 29,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 41,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679966555204,
+      "stop" : 1679966556068,
+      "duration" : 864
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ade2b009fa5372e2",
+      "name" : "saveScreenShot",
+      "source" : "ade2b009fa5372e2.png",
+      "type" : "image/png",
+      "size" : 750115
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679966566683,
+      "stop" : 1679966566683,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679966566683,
+      "stop" : 1679966566683,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.global_search.GlobalSearch"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.global_search.GlobalSearch"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_01"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Global Search"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.global_search.GlobalSearch"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Global Search-1(2212)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "[Operation Portal][Booking flow] Can not find a trip due to #14 error",
+    "url" : "https://atlassian-jira-prod-core.prod-core.au-ap-southeast-2.bridj.info/browse/BP-1033",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7946a7f95cf12f5.json",
+  "parameterValues" : [ ]
+}

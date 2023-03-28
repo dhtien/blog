@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("153.0261292", "153.0261292", "Centre point lng does not match")

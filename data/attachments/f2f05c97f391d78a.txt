@@ -1,0 +1,1 @@
+selenium.pages.ResetPasswordPage.enterPassword("userPass@123456")

@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("number_12", "number_12", "License Plate does not match")

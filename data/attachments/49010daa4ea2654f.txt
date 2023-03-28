@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("false", "false", "Driver additional detail 'Requires Mobility Support' does not match")

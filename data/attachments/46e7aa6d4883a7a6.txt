@@ -1,0 +1,1 @@
+selenium.pages.UsersPage.verifyUserName("user20", "user20")

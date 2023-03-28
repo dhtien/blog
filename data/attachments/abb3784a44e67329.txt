@@ -1,0 +1,55 @@
+Response code: 
+200
+Response body: 
+{
+    "data": {
+        "id": 3019,
+        "first_name": "No",
+        "last_name": "Permission",
+        "email": "no.permission02@gmail.com",
+        "username": "No Permission",
+        "phone_number": "67676",
+        "groups": [
+            1191
+        ],
+        "feature_settings": [
+            {
+                "id": 3,
+                "name": "basic_internal",
+                "note": "Show internal features in the app, such as the \"Internal\" menu",
+                "enabled": false
+            },
+            {
+                "id": 1,
+                "name": "change_api_endpoint",
+                "note": "Allow user to change which endpoint the app points to",
+                "enabled": false
+            },
+            {
+                "id": 2883,
+                "name": "drivers:trip_preview",
+                "note": "Trip Preview for Driver tablet",
+                "enabled": false
+            },
+            {
+                "id": 6,
+                "name": "menu:show_referral_page",
+                "note": "Show the \"Free Rides\" item in the sliding menu",
+                "enabled": false
+            },
+            {
+                "id": 7,
+                "name": "test_flag",
+                "note": "Test feature flag. Do not delete",
+                "enabled": false
+            },
+            {
+                "id": 4,
+                "name": "view_test_trips",
+                "note": null,
+                "enabled": false
+            }
+        ],
+        "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3019"
+    }
+}

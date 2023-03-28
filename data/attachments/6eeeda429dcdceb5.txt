@@ -1,0 +1,1 @@
+selenium.core.BasePage.verifyMessageShow("Your region details have been successfully updated")

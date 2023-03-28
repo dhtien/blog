@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("-27.4775604", "-27.4775604", "Centre point lat does not match")

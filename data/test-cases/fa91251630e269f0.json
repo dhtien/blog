@@ -1,0 +1,520 @@
+{
+  "uid" : "fa91251630e269f0",
+  "name" : "Verify Reporting user can edit Trips",
+  "fullName" : "testcases.web.permission.Permission.TC_08",
+  "historyId" : "3c5c8cbca7b945542a42f639d6b51c19",
+  "time" : {
+    "start" : 1679965682290,
+    "stop" : 1679965690152,
+    "duration" : 7862
+  },
+  "description" : "Verify Reporting user can edit Trips",
+  "descriptionHtml" : "<p>Verify Reporting user can edit Trips</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Index: 0, Size: 0",
+  "statusTrace" : "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:659)\r\n\tat java.util.ArrayList.get(ArrayList.java:435)\r\n\tat testcases.web.permission.Permission.TC_08(Permission.java:732)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679965678074,
+      "stop" : 1679965678893,
+      "duration" : 819
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679965678074,
+        "stop" : 1679965678893,
+        "duration" : 819
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679965678074,
+          "stop" : 1679965678893,
+          "duration" : 819
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679965678072,
+      "stop" : 1679965678073,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679965678895,
+      "stop" : 1679965682289,
+      "duration" : 3394
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "202ebc9ef44b2f23",
+      "name" : "Driver setup: ",
+      "source" : "202ebc9ef44b2f23.txt",
+      "type" : "text/plain",
+      "size" : 119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Reporting user can edit Trips",
+    "status" : "broken",
+    "statusMessage" : "Index: 0, Size: 0",
+    "statusTrace" : "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:659)\r\n\tat java.util.ArrayList.get(ArrayList.java:435)\r\n\tat testcases.web.permission.Permission.TC_08(Permission.java:732)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n",
+    "steps" : [ {
+      "name" : "Log in with account: reporting.write@gmail.com",
+      "time" : {
+        "start" : 1679965682290,
+        "stop" : 1679965688023,
+        "duration" : 5733
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get token from API response",
+        "time" : {
+          "start" : 1679965687197,
+          "stop" : 1679965688023,
+          "duration" : 826
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login Operation Portal to generate token",
+          "time" : {
+            "start" : 1679965687198,
+            "stop" : 1679965688023,
+            "duration" : 825
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "email",
+            "value" : "daohuyt@bridj.com"
+          }, {
+            "name" : "passWord",
+            "value" : "userPass@123"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "password",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "696e948cf796a4da",
+        "name" : "Starting action: ",
+        "source" : "696e948cf796a4da.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "d7186713b7e22edf",
+        "name" : "Action Done! ",
+        "source" : "d7186713b7e22edf.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "8aa7bc4fd931b909",
+        "name" : "saveScreenShot",
+        "source" : "8aa7bc4fd931b909.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "89f41b73e0e8be65",
+        "name" : "Starting action: ",
+        "source" : "89f41b73e0e8be65.txt",
+        "type" : "text/plain",
+        "size" : 64
+      }, {
+        "uid" : "27aeb86b35362f1d",
+        "name" : "Action Done! ",
+        "source" : "27aeb86b35362f1d.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "40051120247e1ae2",
+        "name" : "saveScreenShot",
+        "source" : "40051120247e1ae2.png",
+        "type" : "image/png",
+        "size" : 62103
+      }, {
+        "uid" : "e06ffdfb30c723e0",
+        "name" : "Starting action: ",
+        "source" : "e06ffdfb30c723e0.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "810f5edeadb0b719",
+        "name" : "Action Done! ",
+        "source" : "810f5edeadb0b719.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "5228d6e5bc28a818",
+        "name" : "saveScreenShot",
+        "source" : "5228d6e5bc28a818.png",
+        "type" : "image/png",
+        "size" : 62744
+      }, {
+        "uid" : "22140dd38631da02",
+        "name" : "Starting action: ",
+        "source" : "22140dd38631da02.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "246d3c72d32a3ef5",
+        "name" : "Action Done! ",
+        "source" : "246d3c72d32a3ef5.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "d14c109552a46138",
+        "name" : "saveScreenShot",
+        "source" : "d14c109552a46138.png",
+        "type" : "image/png",
+        "size" : 62746
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "reporting.write@gmail.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679965688024,
+        "stop" : 1679965688387,
+        "duration" : 363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a1e3338c12a0ac27",
+        "name" : "Starting action: ",
+        "source" : "a1e3338c12a0ac27.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "8024b22a67579dd1",
+        "name" : "Action Done! ",
+        "source" : "8024b22a67579dd1.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "b7ab656972bc3802",
+        "name" : "saveScreenShot",
+        "source" : "b7ab656972bc3802.png",
+        "type" : "image/png",
+        "size" : 154342
+      }, {
+        "uid" : "cf0666b280d9080e",
+        "name" : "Starting action: ",
+        "source" : "cf0666b280d9080e.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "2b3155749d8e652b",
+        "name" : "Action Done! ",
+        "source" : "2b3155749d8e652b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "67a9d4798dd5f032",
+        "name" : "saveScreenShot",
+        "source" : "67a9d4798dd5f032.png",
+        "type" : "image/png",
+        "size" : 154326
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to page Vehicle Trips",
+      "time" : {
+        "start" : 1679965688387,
+        "stop" : 1679965688825,
+        "duration" : 438
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "32e828d55286a38b",
+        "name" : "Starting action: ",
+        "source" : "32e828d55286a38b.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "ce63ba37e03e7e3b",
+        "name" : "Action Done! ",
+        "source" : "ce63ba37e03e7e3b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "528ff814fb34bdec",
+        "name" : "saveScreenShot",
+        "source" : "528ff814fb34bdec.png",
+        "type" : "image/png",
+        "size" : 74670
+      } ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Vehicle Trips"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify the Trip page is opened",
+      "time" : {
+        "start" : 1679965688825,
+        "stop" : 1679965688999,
+        "duration" : 174
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f6cd9e48275f0110",
+        "name" : "Starting action: ",
+        "source" : "f6cd9e48275f0110.txt",
+        "type" : "text/plain",
+        "size" : 125
+      }, {
+        "uid" : "835eabd777973c5",
+        "name" : "Action Done! ",
+        "source" : "835eabd777973c5.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c0e4f64d7e9fb2f5",
+        "name" : "saveScreenShot",
+        "source" : "c0e4f64d7e9fb2f5.png",
+        "type" : "image/png",
+        "size" : 83036
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get trip by name",
+      "time" : {
+        "start" : 1679965689004,
+        "stop" : 1679965690151,
+        "duration" : 1147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad0a9de94fee54f8",
+        "name" : "Start sending request: ",
+        "source" : "ad0a9de94fee54f8.txt",
+        "type" : "text/plain",
+        "size" : 541
+      }, {
+        "uid" : "99ce0c4e9fc4391d",
+        "name" : "Receive respond after: 1.145s",
+        "source" : "99ce0c4e9fc4391d.txt",
+        "type" : "text/plain",
+        "size" : 128
+      } ],
+      "parameters" : [ {
+        "name" : "tripName",
+        "value" : "20220228-FRT-002"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 26,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679965964278,
+      "stop" : 1679965964278,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679966035083,
+      "stop" : 1679966035083,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679965690153,
+      "stop" : 1679965691013,
+      "duration" : 860
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "75e24641b7c8649b",
+      "name" : "saveScreenShot",
+      "source" : "75e24641b7c8649b.png",
+      "type" : "image/png",
+      "size" : 188968
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.permission.Permission"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.permission.Permission"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_08"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Permission"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.permission.Permission"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Permission-8(1175)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "utils.models.MUser@54a6ce70"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fa91251630e269f0.json",
+  "parameterValues" : [ "utils.models.MUser@54a6ce70" ]
+}

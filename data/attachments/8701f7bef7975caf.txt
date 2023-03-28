@@ -1,0 +1,1 @@
+selenium.pages.UsersPage.verifyFirstName("UserEdited", "UserEdited")

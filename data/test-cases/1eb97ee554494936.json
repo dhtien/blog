@@ -1,0 +1,61 @@
+{
+  "uid" : "1eb97ee554494936",
+  "name" : "TC_06",
+  "fullName" : "testcases.web.ResetPassword.TC_06",
+  "historyId" : "847c94afaf6341c08a2ccfc4d373b490",
+  "time" : {
+    "start" : 1679966491365,
+    "stop" : 1679966491365,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.ResetPassword"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.ResetPassword"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_06"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Reset password"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.ResetPassword"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1eb97ee554494936.json",
+  "parameterValues" : [ ]
+}

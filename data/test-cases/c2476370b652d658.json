@@ -1,0 +1,534 @@
+{
+  "uid" : "c2476370b652d658",
+  "name" : "Verify can access Vehicles page from Dashboard ",
+  "fullName" : "testcases.web.dashboard.DashBoard.TC_04",
+  "historyId" : "31e12bc52b07465eac99bd8c5adec1e5",
+  "time" : {
+    "start" : 1679964745882,
+    "stop" : 1679964747067,
+    "duration" : 1185
+  },
+  "description" : "Verify can access Vehicles page from Dashboard",
+  "descriptionHtml" : "<p>Verify can access Vehicles page from Dashboard</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679964735502,
+      "stop" : 1679964735503,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679964736375,
+      "stop" : 1679964739808,
+      "duration" : 3433
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6bc14b3d1f2674df",
+      "name" : "Driver setup: ",
+      "source" : "6bc14b3d1f2674df.txt",
+      "type" : "text/plain",
+      "size" : 118
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeEachScenario",
+    "time" : {
+      "start" : 1679964739809,
+      "stop" : 1679964745880,
+      "duration" : 6071
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: daohuyt@bridj.com",
+      "time" : {
+        "start" : 1679964739810,
+        "stop" : 1679964745264,
+        "duration" : 5454
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get token from API response",
+        "time" : {
+          "start" : 1679964744396,
+          "stop" : 1679964745264,
+          "duration" : 868
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login Operation Portal to generate token",
+          "time" : {
+            "start" : 1679964744396,
+            "stop" : 1679964745263,
+            "duration" : 867
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "email",
+            "value" : "daohuyt@bridj.com"
+          }, {
+            "name" : "passWord",
+            "value" : "userPass@123"
+          } ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "password",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "c020bee2072f3351",
+        "name" : "Starting action: ",
+        "source" : "c020bee2072f3351.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "3cae47d41d3ee915",
+        "name" : "Action Done! ",
+        "source" : "3cae47d41d3ee915.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "1fad7d97482635fc",
+        "name" : "saveScreenShot",
+        "source" : "1fad7d97482635fc.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "e4179cc87c1ca303",
+        "name" : "Starting action: ",
+        "source" : "e4179cc87c1ca303.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "6dcc8086733e2548",
+        "name" : "Action Done! ",
+        "source" : "6dcc8086733e2548.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "9f7f94ca82b06eea",
+        "name" : "saveScreenShot",
+        "source" : "9f7f94ca82b06eea.png",
+        "type" : "image/png",
+        "size" : 61630
+      }, {
+        "uid" : "be9aff65581e8bc7",
+        "name" : "Starting action: ",
+        "source" : "be9aff65581e8bc7.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "b3009084988e4469",
+        "name" : "Action Done! ",
+        "source" : "b3009084988e4469.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "2622c09ca317622c",
+        "name" : "saveScreenShot",
+        "source" : "2622c09ca317622c.png",
+        "type" : "image/png",
+        "size" : 62141
+      }, {
+        "uid" : "c3bfe09cc76e9a11",
+        "name" : "Starting action: ",
+        "source" : "c3bfe09cc76e9a11.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "284c73a10bc89dde",
+        "name" : "Action Done! ",
+        "source" : "284c73a10bc89dde.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "cbdd6a7e3a1b14f2",
+        "name" : "saveScreenShot",
+        "source" : "cbdd6a7e3a1b14f2.png",
+        "type" : "image/png",
+        "size" : 62270
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1679964745264,
+        "stop" : 1679964745663,
+        "duration" : 399
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8dfa9f5ba95e0338",
+        "name" : "Starting action: ",
+        "source" : "8dfa9f5ba95e0338.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "ec1134bc2752b455",
+        "name" : "Action Done! ",
+        "source" : "ec1134bc2752b455.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "ce8d8a7a4762dac1",
+        "name" : "saveScreenShot",
+        "source" : "ce8d8a7a4762dac1.png",
+        "type" : "image/png",
+        "size" : 153532
+      }, {
+        "uid" : "7c00245a4c866109",
+        "name" : "Starting action: ",
+        "source" : "7c00245a4c866109.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "b524d8c0615a4f03",
+        "name" : "Action Done! ",
+        "source" : "b524d8c0615a4f03.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "db871ef940ba6638",
+        "name" : "saveScreenShot",
+        "source" : "db871ef940ba6638.png",
+        "type" : "image/png",
+        "size" : 154116
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Can access page 'https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/' successfully",
+      "time" : {
+        "start" : 1679964745664,
+        "stop" : 1679964745880,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "971eff95a0724550",
+        "name" : "Starting action: ",
+        "source" : "971eff95a0724550.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "1d3a5c9704dcdb0c",
+        "name" : "Action Done! ",
+        "source" : "1d3a5c9704dcdb0c.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "209d776eca9c6b8d",
+        "name" : "saveScreenShot",
+        "source" : "209d776eca9c6b8d.png",
+        "type" : "image/png",
+        "size" : 154116
+      } ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 21,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679964735504,
+      "stop" : 1679964736375,
+      "duration" : 871
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679964735505,
+        "stop" : 1679964736375,
+        "duration" : 870
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679964735505,
+          "stop" : 1679964736375,
+          "duration" : 870
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify can access Vehicles page from Dashboard",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Try to access page 'Vehicles' from Dashboard page",
+      "time" : {
+        "start" : 1679964745882,
+        "stop" : 1679964746281,
+        "duration" : 399
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dab1f276fa950a43",
+        "name" : "Starting action: ",
+        "source" : "dab1f276fa950a43.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "9041341aad51daaa",
+        "name" : "Action Done! ",
+        "source" : "9041341aad51daaa.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a49079394f05487f",
+        "name" : "saveScreenShot",
+        "source" : "a49079394f05487f.png",
+        "type" : "image/png",
+        "size" : 81227
+      } ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Vehicles"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Can access page 'https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/VehicleManagement' successfully",
+      "time" : {
+        "start" : 1679964746282,
+        "stop" : 1679964747066,
+        "duration" : 784
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b62596472c7054e9",
+        "name" : "Starting action: ",
+        "source" : "b62596472c7054e9.txt",
+        "type" : "text/plain",
+        "size" : 128
+      }, {
+        "uid" : "a3aa5a7617930b2a",
+        "name" : "Action Done! ",
+        "source" : "a3aa5a7617930b2a.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "cc78d56aec71df0a",
+        "name" : "saveScreenShot",
+        "source" : "cc78d56aec71df0a.png",
+        "type" : "image/png",
+        "size" : 81227
+      } ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/VehicleManagement"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679964747068,
+      "stop" : 1679964747909,
+      "duration" : 841
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7a953769ab920425",
+      "name" : "saveScreenShot",
+      "source" : "7a953769ab920425.png",
+      "type" : "image/png",
+      "size" : 158815
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679964750061,
+      "stop" : 1679964750061,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679964750061,
+      "stop" : 1679964750061,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.dashboard.DashBoard"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.dashboard.DashBoard"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_04"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Dashboard"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.dashboard.DashBoard"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16232@DaoTien.TestNG-test=Dashboard-4(180)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2476370b652d658.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,1 @@
+selenium.pages.DriverPage.verifyInformationShowCorrectly("Email Address", "drivertest14@yopmail.com")
