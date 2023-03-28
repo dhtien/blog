@@ -1,0 +1,403 @@
+{
+  "uid" : "a4219a8f99aa6a26",
+  "name" : "Verify login failed by invalid account with 'wrong password'",
+  "fullName" : "testcases.web.Login.TC_Login_02",
+  "historyId" : "8bb948d60d08643a18277cc791445cac",
+  "time" : {
+    "start" : 1679988282568,
+    "stop" : 1679988286515,
+    "duration" : 3947
+  },
+  "description" : "Verify user login unsuccessfully with wrong password':\nEmail: daohuyt@bridj.com\n Password: wrong_pass",
+  "descriptionHtml" : "<p>Verify user login unsuccessfully with wrong password':<br />\nEmail: daohuyt@bridj.com<br />\nPassword: wrong_pass</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1679988277745,
+      "stop" : 1679988277857,
+      "duration" : 112
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1679988277872,
+      "stop" : 1679988280319,
+      "duration" : 2447
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1679988277935,
+        "stop" : 1679988280319,
+        "duration" : 2384
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1679988277936,
+          "stop" : 1679988280308,
+          "duration" : 2372
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1679988280331,
+      "stop" : 1679988282503,
+      "duration" : 2172
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1dbab8a03d5b99b4",
+      "name" : "Driver setup: ",
+      "source" : "1dbab8a03d5b99b4.txt",
+      "type" : "text/plain",
+      "size" : 117
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Verify user login unsuccessfully with wrong password':\nEmail: daohuyt@bridj.com\n Password: wrong_pass",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: daohuyt@bridj.com",
+      "time" : {
+        "start" : 1679988282571,
+        "stop" : 1679988286327,
+        "duration" : 3756
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get token from API response",
+        "time" : {
+          "start" : 1679988285398,
+          "stop" : 1679988286327,
+          "duration" : 929
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login Operation Portal to generate token",
+          "time" : {
+            "start" : 1679988285398,
+            "stop" : 1679988286327,
+            "duration" : 929
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "email",
+            "value" : "daohuyt@bridj.com"
+          }, {
+            "name" : "passWord",
+            "value" : "userPass@123"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "password",
+          "value" : "userPass@123"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "2e8166f99c5ac49f",
+        "name" : "Starting action: ",
+        "source" : "2e8166f99c5ac49f.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "adc1340da4ff57ed",
+        "name" : "Action Done! ",
+        "source" : "adc1340da4ff57ed.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "bc1351a6d18ccfbe",
+        "name" : "saveScreenShot",
+        "source" : "bc1351a6d18ccfbe.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "8560dca6f2eaacac",
+        "name" : "Starting action: ",
+        "source" : "8560dca6f2eaacac.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "6ad01a9a6e40eabd",
+        "name" : "Action Done! ",
+        "source" : "6ad01a9a6e40eabd.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "b21d76a0784066ae",
+        "name" : "saveScreenShot",
+        "source" : "b21d76a0784066ae.png",
+        "type" : "image/png",
+        "size" : 61630
+      }, {
+        "uid" : "2a092b66499601d1",
+        "name" : "Starting action: ",
+        "source" : "2a092b66499601d1.txt",
+        "type" : "text/plain",
+        "size" : 52
+      }, {
+        "uid" : "738103a9c9a300da",
+        "name" : "Action Done! ",
+        "source" : "738103a9c9a300da.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "1834850221fa552e",
+        "name" : "saveScreenShot",
+        "source" : "1834850221fa552e.png",
+        "type" : "image/png",
+        "size" : 61914
+      }, {
+        "uid" : "32302451b527268c",
+        "name" : "Starting action: ",
+        "source" : "32302451b527268c.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "2c9856b49bdc323d",
+        "name" : "Action Done! ",
+        "source" : "2c9856b49bdc323d.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a7083c050ef9507c",
+        "name" : "saveScreenShot",
+        "source" : "a7083c050ef9507c.png",
+        "type" : "image/png",
+        "size" : 62151
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "passWord",
+        "value" : "wrong_pass"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 12,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Verify message show",
+      "time" : {
+        "start" : 1679988286327,
+        "stop" : 1679988286514,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "340f4027d96e0705",
+        "name" : "Starting action: ",
+        "source" : "340f4027d96e0705.txt",
+        "type" : "text/plain",
+        "size" : 68
+      }, {
+        "uid" : "5d7bed11dc3f0d13",
+        "name" : "Action Done! ",
+        "source" : "5d7bed11dc3f0d13.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a4e8b65887c6c485",
+        "name" : "saveScreenShot",
+        "source" : "a4e8b65887c6c485.png",
+        "type" : "image/png",
+        "size" : 100495
+      } ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Expired or invalid token"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 15,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1679988286521,
+      "stop" : 1679988287287,
+      "duration" : 766
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bc4e6ed9805a7d",
+      "name" : "saveScreenShot",
+      "source" : "bc4e6ed9805a7d.png",
+      "type" : "image/png",
+      "size" : 100495
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1679988345084,
+      "stop" : 1679988345085,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1679988345085,
+      "stop" : 1679988345085,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.Login"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_Login_02"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.Login"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "13300@DaoTien.TestNG-test=Login-2(18)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "utils.models.MUser@4d381f41"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4219a8f99aa6a26.json",
+  "parameterValues" : [ "utils.models.MUser@4d381f41" ]
+}
