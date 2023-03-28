@@ -1,1 +1,0 @@
-selenium.core.BasePage.editField("Phone Number", "123456")

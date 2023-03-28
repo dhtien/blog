@@ -1,1 +1,0 @@
-selenium.core.BasePage.editField("Vehicle ID", "license_12")

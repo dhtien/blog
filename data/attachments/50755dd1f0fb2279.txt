@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("make_12", "make_12", "Make does not match")

@@ -1,1 +1,0 @@
-selenium.core.BasePage.editField("Make", "make_12")

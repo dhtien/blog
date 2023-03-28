@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("[effd9179-969c-4d33-ad06-1b4eded090f9, 157b7c5e-4c96-4a4d-b68f-c8f6714c0e85, d3864403-bcd6-4ad1-af29-c01b0b3e714d, f91519ca-96af-4c80-9128-937c808246a2]", "[effd9179-969c-4d33-ad06-1b4eded090f9, 157b7c5e-4c96-4a4d-b68f-c8f6714c0e85, d3864403-bcd6-4ad1-af29-c01b0b3e714d, f91519ca-96af-4c80-9128-937c808246a2]", "Payment option does not match")

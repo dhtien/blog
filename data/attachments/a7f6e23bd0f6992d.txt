@@ -1,1 +1,0 @@
-selenium.pages.UsersPage.verifyEmail("user_10@yopmail.com", "user_10@yopmail.com")

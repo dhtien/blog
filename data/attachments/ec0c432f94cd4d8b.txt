@@ -1,1 +1,0 @@
-selenium.core.BasePage.verifyTextFieldValue("Time Zone", "Australia/Sydney")

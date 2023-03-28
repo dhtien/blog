@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("credit", "credit", "Funding does not match")

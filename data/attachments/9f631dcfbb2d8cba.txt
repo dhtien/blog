@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("visa", "visa", "Branch does not match")

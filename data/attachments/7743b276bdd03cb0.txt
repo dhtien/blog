@@ -1,1 +1,0 @@
-selenium.pages.UsersPage.verifyLastName("edited_LastName23", "edited_LastName23")

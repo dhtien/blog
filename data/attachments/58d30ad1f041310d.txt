@@ -1,1 +1,0 @@
-selenium.core.BasePage.verifyCellData("2817966", "0", "2817966")

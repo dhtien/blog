@@ -1,1 +1,0 @@
-selenium.core.BasePage.verifyCellData("2558", "1", "Booking Zone")

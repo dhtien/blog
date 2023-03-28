@@ -1,1 +1,0 @@
-selenium.pages.RegionsPage.verifyRegionName("Region3 Edited", "Region3 Edited")

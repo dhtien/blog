@@ -1,1 +1,0 @@
-selenium.pages.LoginPage.enterEmail("resource.management.write@gmail.com")

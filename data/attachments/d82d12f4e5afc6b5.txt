@@ -1,1 +1,0 @@
-selenium.core.BasePage.enterValueToDropDownList("region_id", "Region 4")

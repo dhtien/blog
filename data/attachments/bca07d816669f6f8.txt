@@ -1,1 +1,0 @@
-selenium.core.BasePage.activeSwitchBar("Resources And Passengers (Read)")

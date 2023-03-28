@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("Group 11", "Group 11", "Groups name does not match")
