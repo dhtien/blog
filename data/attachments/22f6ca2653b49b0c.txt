@@ -1,0 +1,251 @@
+Response code: 
+200
+Response body: 
+{
+    "data": [
+        {
+            "id": 57126,
+            "email": "traveller07@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "07",
+            "username": "traveller07",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57126"
+        },
+        {
+            "id": 57125,
+            "email": "traveller06@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "06",
+            "username": "traveller06",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57125"
+        },
+        {
+            "id": 57124,
+            "email": "traveller03@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "03",
+            "username": "traveller03",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "213123",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57124"
+        },
+        {
+            "id": 57123,
+            "email": "traveller04@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "04",
+            "username": "traveller04",
+            "handicapped": false,
+            "low_tech": true,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57123"
+        },
+        {
+            "id": 57122,
+            "email": "traveller19@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "test 19",
+            "username": "traveller19",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57122"
+        },
+        {
+            "id": 57121,
+            "email": "traveller08@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "08",
+            "username": "traveller08",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57121"
+        },
+        {
+            "id": 57120,
+            "email": "traveller15@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "15",
+            "username": "traveller15",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57120"
+        },
+        {
+            "id": 57119,
+            "email": "traveller20@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "test 20",
+            "username": "traveller20",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57119"
+        },
+        {
+            "id": 57118,
+            "email": "traveller10@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "10",
+            "username": "traveller10",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57118"
+        },
+        {
+            "id": 57117,
+            "email": "traveller05@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "05",
+            "username": "traveller05",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57117"
+        },
+        {
+            "id": 57116,
+            "email": "traveller18@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "test 18",
+            "username": "traveller18",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57116"
+        },
+        {
+            "id": 57115,
+            "email": "traveller16@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "test 16",
+            "username": "traveller16",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57115"
+        },
+        {
+            "id": 57114,
+            "email": "traveller17@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "test 17",
+            "username": "traveller17",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57114"
+        },
+        {
+            "id": 57113,
+            "email": "traveller11@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "11",
+            "username": "traveller11",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57113"
+        },
+        {
+            "id": 57112,
+            "email": "traveller14@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "14",
+            "username": "traveller14",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57112"
+        },
+        {
+            "id": 57111,
+            "email": "traveller13@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "13",
+            "username": "traveller13",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57111"
+        },
+        {
+            "id": 57109,
+            "email": "traveller12@yopmail.com",
+            "first_name": "traveller",
+            "last_name": "12",
+            "username": "traveller12",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": "2131234",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57109"
+        },
+        {
+            "id": 57073,
+            "email": "shahramk@gmail.com",
+            "first_name": "Shahram",
+            "last_name": "kalantari",
+            "username": "shahramk",
+            "handicapped": true,
+            "low_tech": true,
+            "phone_number": "+61451128021",
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57073"
+        },
+        {
+            "id": 57072,
+            "email": "tiendao007@yopmail.com",
+            "first_name": "Tien",
+            "last_name": "Dao 007",
+            "username": "tiendao007",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": null,
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57072"
+        },
+        {
+            "id": 57071,
+            "email": "tiendao006@yopmail.com",
+            "first_name": "Tien",
+            "last_name": "Dao 006",
+            "username": "tiendao006",
+            "handicapped": false,
+            "low_tech": false,
+            "phone_number": null,
+            "medically_exempt": false,
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/travelers/57071"
+        }
+    ],
+    "meta": {
+        "count": 20,
+        "total": 54652
+    }
+}

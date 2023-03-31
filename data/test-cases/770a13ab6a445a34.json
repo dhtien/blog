@@ -1,0 +1,881 @@
+{
+  "uid" : "770a13ab6a445a34",
+  "name" : "Verify Booking page show with default region",
+  "fullName" : "testcases.web.booking.Booking.TC_01",
+  "historyId" : "b8570960a1085c671fbb1188cfdeb9eb",
+  "time" : {
+    "start" : 1680236413479,
+    "stop" : 1680236450383,
+    "duration" : 36904
+  },
+  "description" : "Verify Booking page show with default region",
+  "descriptionHtml" : "<p>Verify Booking page show with default region</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1680236407379,
+      "stop" : 1680236408238,
+      "duration" : 859
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1680236407380,
+        "stop" : 1680236408238,
+        "duration" : 858
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1680236407380,
+          "stop" : 1680236408238,
+          "duration" : 858
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1680236407379,
+      "stop" : 1680236407379,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1680236408238,
+      "stop" : 1680236409359,
+      "duration" : 1121
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "59326f4da17b242a",
+      "name" : "Driver setup: ",
+      "source" : "59326f4da17b242a.txt",
+      "type" : "text/plain",
+      "size" : 119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeEachScenario",
+    "time" : {
+      "start" : 1680236409359,
+      "stop" : 1680236413478,
+      "duration" : 4119
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: daohuyt@bridj.com",
+      "time" : {
+        "start" : 1680236409360,
+        "stop" : 1680236412069,
+        "duration" : 2709
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "695150daea98a64f",
+        "name" : "Starting action: ",
+        "source" : "695150daea98a64f.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "b35c94ff924d8e95",
+        "name" : "Action Done! ",
+        "source" : "b35c94ff924d8e95.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "d51e0d2fd71c0931",
+        "name" : "saveScreenShot",
+        "source" : "d51e0d2fd71c0931.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "f23c6069372bb42a",
+        "name" : "Starting action: ",
+        "source" : "f23c6069372bb42a.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "30ebe12e7597dc7",
+        "name" : "Action Done! ",
+        "source" : "30ebe12e7597dc7.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "104ea45d7dbfae70",
+        "name" : "saveScreenShot",
+        "source" : "104ea45d7dbfae70.png",
+        "type" : "image/png",
+        "size" : 61630
+      }, {
+        "uid" : "fba782782618b522",
+        "name" : "Starting action: ",
+        "source" : "fba782782618b522.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "15bd659687ee6822",
+        "name" : "Action Done! ",
+        "source" : "15bd659687ee6822.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "3ac0501972c6fba3",
+        "name" : "saveScreenShot",
+        "source" : "3ac0501972c6fba3.png",
+        "type" : "image/png",
+        "size" : 61944
+      }, {
+        "uid" : "e91f43995e5a5167",
+        "name" : "Starting action: ",
+        "source" : "e91f43995e5a5167.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "614e409d1c585a33",
+        "name" : "Action Done! ",
+        "source" : "614e409d1c585a33.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "68fc1e18646c4daf",
+        "name" : "saveScreenShot",
+        "source" : "68fc1e18646c4daf.png",
+        "type" : "image/png",
+        "size" : 62151
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1680236412069,
+        "stop" : 1680236412906,
+        "duration" : 837
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "81a7d1ccf3da0a90",
+        "name" : "Starting action: ",
+        "source" : "81a7d1ccf3da0a90.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "6b6fbed64bdab0a9",
+        "name" : "Action Done! ",
+        "source" : "6b6fbed64bdab0a9.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "da1d6616fce547fe",
+        "name" : "saveScreenShot",
+        "source" : "da1d6616fce547fe.png",
+        "type" : "image/png",
+        "size" : 62291
+      }, {
+        "uid" : "15fa84db7970953b",
+        "name" : "Starting action: ",
+        "source" : "15fa84db7970953b.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "fde6940b2c72c3b9",
+        "name" : "Action Done! ",
+        "source" : "fde6940b2c72c3b9.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "33d5cdf5136b5c2c",
+        "name" : "saveScreenShot",
+        "source" : "33d5cdf5136b5c2c.png",
+        "type" : "image/png",
+        "size" : 153373
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Navigate to page Bookings",
+      "time" : {
+        "start" : 1680236412906,
+        "stop" : 1680236413293,
+        "duration" : 387
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "861e4361f0ff20ae",
+        "name" : "Starting action: ",
+        "source" : "861e4361f0ff20ae.txt",
+        "type" : "text/plain",
+        "size" : 49
+      }, {
+        "uid" : "a1da577c70f2c401",
+        "name" : "Action Done! ",
+        "source" : "a1da577c70f2c401.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "8db5a7baba40b73a",
+        "name" : "saveScreenShot",
+        "source" : "8db5a7baba40b73a.png",
+        "type" : "image/png",
+        "size" : 74618
+      } ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Bookings"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify the Booking page is opened",
+      "time" : {
+        "start" : 1680236413293,
+        "stop" : 1680236413478,
+        "duration" : 185
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "674ccd2ae609b909",
+        "name" : "Starting action: ",
+        "source" : "674ccd2ae609b909.txt",
+        "type" : "text/plain",
+        "size" : 123
+      }, {
+        "uid" : "c740fc7c1d2d8a7c",
+        "name" : "Action Done! ",
+        "source" : "c740fc7c1d2d8a7c.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "4a9095e65e597edf",
+        "name" : "saveScreenShot",
+        "source" : "4a9095e65e597edf.png",
+        "type" : "image/png",
+        "size" : 74618
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 24,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify Booking page show with default region",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Call API to get regions list",
+      "time" : {
+        "start" : 1680236413479,
+        "stop" : 1680236414279,
+        "duration" : 800
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8387cb78a04d5f45",
+        "name" : "Start sending request: ",
+        "source" : "8387cb78a04d5f45.txt",
+        "type" : "text/plain",
+        "size" : 505
+      }, {
+        "uid" : "29ad4a76634c4fc6",
+        "name" : "Receive respond after: 0.799s",
+        "source" : "29ad4a76634c4fc6.txt",
+        "type" : "text/plain",
+        "size" : 8330
+      } ],
+      "parameters" : [ {
+        "name" : "params",
+        "value" : "{per_page=999}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get region by name from API response",
+      "time" : {
+        "start" : 1680236414279,
+        "stop" : 1680236414279,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Booking Region"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select Default Region",
+      "time" : {
+        "start" : 1680236414279,
+        "stop" : 1680236416981,
+        "duration" : 2702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef8e02380ffa5185",
+        "name" : "Starting action: ",
+        "source" : "ef8e02380ffa5185.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "a8eba95b3b8f6819",
+        "name" : "Action Done! ",
+        "source" : "a8eba95b3b8f6819.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "5f3ddc5fb2c95474",
+        "name" : "saveScreenShot",
+        "source" : "5f3ddc5fb2c95474.png",
+        "type" : "image/png",
+        "size" : 107059
+      }, {
+        "uid" : "bb05fc96b992c170",
+        "name" : "Starting action: ",
+        "source" : "bb05fc96b992c170.txt",
+        "type" : "text/plain",
+        "size" : 33
+      }, {
+        "uid" : "8d3ec073659215bd",
+        "name" : "Action Done! ",
+        "source" : "8d3ec073659215bd.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "6bb5dbee75586ae8",
+        "name" : "saveScreenShot",
+        "source" : "6bb5dbee75586ae8.png",
+        "type" : "image/png",
+        "size" : 86094
+      }, {
+        "uid" : "9d72cd6d8df3fe2",
+        "name" : "Starting action: ",
+        "source" : "9d72cd6d8df3fe2.txt",
+        "type" : "text/plain",
+        "size" : 52
+      }, {
+        "uid" : "b0916a06f61458c9",
+        "name" : "Action Done! ",
+        "source" : "b0916a06f61458c9.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "e9857acbe42dcacc",
+        "name" : "saveScreenShot",
+        "source" : "e9857acbe42dcacc.png",
+        "type" : "image/png",
+        "size" : 81704
+      } ],
+      "parameters" : [ {
+        "name" : "regionName",
+        "value" : "Booking Region"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 9,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify bookings show for all zones in the current region",
+      "time" : {
+        "start" : 1680236416981,
+        "stop" : 1680236450383,
+        "duration" : 33402
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Call API to get zones list",
+        "time" : {
+          "start" : 1680236416981,
+          "stop" : 1680236417841,
+          "duration" : 860
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9605eb98ebffb92a",
+          "name" : "Start sending request: ",
+          "source" : "9605eb98ebffb92a.txt",
+          "type" : "text/plain",
+          "size" : 528
+        }, {
+          "uid" : "c72d41130ea2ca2d",
+          "name" : "Receive respond after: 0.859s",
+          "source" : "c72d41130ea2ca2d.txt",
+          "type" : "text/plain",
+          "size" : 1497
+        } ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{per_page=999, filter[region]=3742}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Get zones list from API response",
+        "time" : {
+          "start" : 1680236417841,
+          "stop" : 1680236417841,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Call API to get bookings list",
+        "time" : {
+          "start" : 1680236417841,
+          "stop" : 1680236419120,
+          "duration" : 1279
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1f6f77cb760c22c0",
+          "name" : "Start sending request: ",
+          "source" : "1f6f77cb760c22c0.txt",
+          "type" : "text/plain",
+          "size" : 535
+        }, {
+          "uid" : "c80f750dd8aa5cfa",
+          "name" : "Receive respond after: 1.277s",
+          "source" : "c80f750dd8aa5cfa.txt",
+          "type" : "text/plain",
+          "size" : 21998
+        } ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{per_page=999, filter[zone]=2618,}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Get bookings list from API response",
+        "time" : {
+          "start" : 1680236419120,
+          "stop" : 1680236419121,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Verify row 655022 data ",
+        "time" : {
+          "start" : 1680236419121,
+          "stop" : 1680236445587,
+          "duration" : 26466
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3b67095dff3cd774",
+          "name" : "Starting action: ",
+          "source" : "3b67095dff3cd774.txt",
+          "type" : "text/plain",
+          "size" : 62
+        }, {
+          "uid" : "db9c815fa3696394",
+          "name" : "Action Done! ",
+          "source" : "db9c815fa3696394.txt",
+          "type" : "text/plain",
+          "size" : 10
+        }, {
+          "uid" : "a76de4afe315a769",
+          "name" : "saveScreenShot",
+          "source" : "a76de4afe315a769.png",
+          "type" : "image/png",
+          "size" : 123676
+        } ],
+        "parameters" : [ {
+          "name" : "rowId",
+          "value" : "655022"
+        }, {
+          "name" : "data",
+          "value" : "[655022]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify row 655024 data ",
+        "time" : {
+          "start" : 1680236445587,
+          "stop" : 1680236446787,
+          "duration" : 1200
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7e88af94facc940f",
+          "name" : "Starting action: ",
+          "source" : "7e88af94facc940f.txt",
+          "type" : "text/plain",
+          "size" : 62
+        }, {
+          "uid" : "f190647be4c084e3",
+          "name" : "Action Done! ",
+          "source" : "f190647be4c084e3.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "a2d4605a278ed0ad",
+          "name" : "saveScreenShot",
+          "source" : "a2d4605a278ed0ad.png",
+          "type" : "image/png",
+          "size" : 124217
+        } ],
+        "parameters" : [ {
+          "name" : "rowId",
+          "value" : "655024"
+        }, {
+          "name" : "data",
+          "value" : "[655024]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify row 655023 data ",
+        "time" : {
+          "start" : 1680236446788,
+          "stop" : 1680236447987,
+          "duration" : 1199
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1b1fef3fec805dbb",
+          "name" : "Starting action: ",
+          "source" : "1b1fef3fec805dbb.txt",
+          "type" : "text/plain",
+          "size" : 62
+        }, {
+          "uid" : "1be2353c519cab08",
+          "name" : "Action Done! ",
+          "source" : "1be2353c519cab08.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "adfbe11896220057",
+          "name" : "saveScreenShot",
+          "source" : "adfbe11896220057.png",
+          "type" : "image/png",
+          "size" : 123875
+        } ],
+        "parameters" : [ {
+          "name" : "rowId",
+          "value" : "655023"
+        }, {
+          "name" : "data",
+          "value" : "[655023]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify row 655021 data ",
+        "time" : {
+          "start" : 1680236447987,
+          "stop" : 1680236449181,
+          "duration" : 1194
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c233603d339aefd6",
+          "name" : "Starting action: ",
+          "source" : "c233603d339aefd6.txt",
+          "type" : "text/plain",
+          "size" : 62
+        }, {
+          "uid" : "d3c2c33879d85a36",
+          "name" : "Action Done! ",
+          "source" : "d3c2c33879d85a36.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "f335710bf5742e50",
+          "name" : "saveScreenShot",
+          "source" : "f335710bf5742e50.png",
+          "type" : "image/png",
+          "size" : 123187
+        } ],
+        "parameters" : [ {
+          "name" : "rowId",
+          "value" : "655021"
+        }, {
+          "name" : "data",
+          "value" : "[655021]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verify row 655020 data ",
+        "time" : {
+          "start" : 1680236449181,
+          "stop" : 1680236450383,
+          "duration" : 1202
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8be4cf55fc77b8aa",
+          "name" : "Starting action: ",
+          "source" : "8be4cf55fc77b8aa.txt",
+          "type" : "text/plain",
+          "size" : 62
+        }, {
+          "uid" : "dbe0c2ce914fb61c",
+          "name" : "Action Done! ",
+          "source" : "dbe0c2ce914fb61c.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "89d5e595ecad19c1",
+          "name" : "saveScreenShot",
+          "source" : "89d5e595ecad19c1.png",
+          "type" : "image/png",
+          "size" : 123201
+        } ],
+        "parameters" : [ {
+          "name" : "rowId",
+          "value" : "655020"
+        }, {
+          "name" : "data",
+          "value" : "[655020]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "region",
+        "value" : "utils.models.MRegion@71cbf23e"
+      } ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 19,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 30,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1680236450384,
+      "stop" : 1680236451188,
+      "duration" : 804
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a4e73283ec5204e9",
+      "name" : "saveScreenShot",
+      "source" : "a4e73283ec5204e9.png",
+      "type" : "image/png",
+      "size" : 122999
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1680236451188,
+      "stop" : 1680236451188,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1680236451189,
+      "stop" : 1680236451189,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.booking.Booking"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.booking.Booking"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_01"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Booking"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.booking.Booking"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16880@DaoTien.TestNG-test=Booking-1(2108)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "770a13ab6a445a34.json",
+  "parameterValues" : [ ]
+}

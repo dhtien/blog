@@ -1,0 +1,400 @@
+{
+  "uid" : "1709133647a486e8",
+  "name" : "TC_03",
+  "fullName" : "testcases.web.zone.ZoneListing.TC_03",
+  "historyId" : "66e6108aa2fea28a16adb69bea923943",
+  "time" : {
+    "start" : 1680235162559,
+    "stop" : 1680235162559,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Expected condition failed: waiting for element to be clickable: By.xpath: //header//div[contains(@class,'sign-out')] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55980}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55980/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 690678f900ee37762f5aa26ba0d232bf",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //header//div[contains(@class,'sign-out')] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55980}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55980/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 690678f900ee37762f5aa26ba0d232bf\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat selenium.core.BaseLocator.waitUntilClickable(BaseLocator.java:160)\r\n\tat selenium.pages.DashboardPage.waitBtnLogOutShow_aroundBody4(DashboardPage.java:24)\r\n\tat selenium.pages.DashboardPage$AjcClosure5.run(DashboardPage.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:94)\r\n\tat selenium.pages.DashboardPage.waitBtnLogOutShow(DashboardPage.java:24)\r\n\tat selenium.steps.LoginSteps.verifyLoginSuccessfully(LoginSteps.java:32)\r\n\tat testcases.web.zone.ZoneListing.beforeEachScenario(ZoneListing.java:49)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:523)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1680235078694,
+      "stop" : 1680235078695,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1680235078695,
+      "stop" : 1680235079696,
+      "duration" : 1001
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1680235078696,
+        "stop" : 1680235079696,
+        "duration" : 1000
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1680235078696,
+          "stop" : 1680235079696,
+          "duration" : 1000
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1680235122321,
+      "stop" : 1680235125248,
+      "duration" : 2927
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8fdb261c4455059f",
+      "name" : "Driver setup: ",
+      "source" : "8fdb261c4455059f.txt",
+      "type" : "text/plain",
+      "size" : 118
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeEachScenario",
+    "time" : {
+      "start" : 1680235125249,
+      "stop" : 1680235162553,
+      "duration" : 37304
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "Expected condition failed: waiting for element to be clickable: By.xpath: //header//div[contains(@class,'sign-out')] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55981}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55981/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d04552c42ca7f33b468dd3abf4e13858",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //header//div[contains(@class,'sign-out')] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55981}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55981/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d04552c42ca7f33b468dd3abf4e13858\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat selenium.core.BaseLocator.waitUntilClickable(BaseLocator.java:160)\r\n\tat selenium.pages.DashboardPage.waitBtnLogOutShow_aroundBody4(DashboardPage.java:24)\r\n\tat selenium.pages.DashboardPage$AjcClosure5.run(DashboardPage.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:94)\r\n\tat selenium.pages.DashboardPage.waitBtnLogOutShow(DashboardPage.java:24)\r\n\tat selenium.steps.LoginSteps.verifyLoginSuccessfully(LoginSteps.java:32)\r\n\tat testcases.web.zone.ZoneListing.beforeEachScenario(ZoneListing.java:49)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:523)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n",
+    "steps" : [ {
+      "name" : "Log in with account: planning.write.user@gmail.com",
+      "time" : {
+        "start" : 1680235125249,
+        "stop" : 1680235129506,
+        "duration" : 4257
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get token from API response",
+        "time" : {
+          "start" : 1680235128634,
+          "stop" : 1680235129506,
+          "duration" : 872
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login Operation Portal to generate token",
+          "time" : {
+            "start" : 1680235128634,
+            "stop" : 1680235129506,
+            "duration" : 872
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "email",
+            "value" : "daohuyt@bridj.com"
+          }, {
+            "name" : "passWord",
+            "value" : "userPass@123"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "password",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "d20a95f60d13482f",
+        "name" : "Starting action: ",
+        "source" : "d20a95f60d13482f.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "3c12628bb85f8895",
+        "name" : "Action Done! ",
+        "source" : "3c12628bb85f8895.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "aa51908b2f6b4248",
+        "name" : "saveScreenShot",
+        "source" : "aa51908b2f6b4248.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "c3687caf5d4fd2ca",
+        "name" : "Starting action: ",
+        "source" : "c3687caf5d4fd2ca.txt",
+        "type" : "text/plain",
+        "size" : 68
+      }, {
+        "uid" : "fd768ac4f4d3ada3",
+        "name" : "Action Done! ",
+        "source" : "fd768ac4f4d3ada3.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "1887314f0c6efea6",
+        "name" : "saveScreenShot",
+        "source" : "1887314f0c6efea6.png",
+        "type" : "image/png",
+        "size" : 62395
+      }, {
+        "uid" : "ad481150623ad7cb",
+        "name" : "Starting action: ",
+        "source" : "ad481150623ad7cb.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "65ba86484053a6a4",
+        "name" : "Action Done! ",
+        "source" : "65ba86484053a6a4.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "ec6ffb5fa0b5acc9",
+        "name" : "saveScreenShot",
+        "source" : "ec6ffb5fa0b5acc9.png",
+        "type" : "image/png",
+        "size" : 62674
+      }, {
+        "uid" : "2e3e3d653c919b6c",
+        "name" : "Starting action: ",
+        "source" : "2e3e3d653c919b6c.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "8bb2f180c1b3bf72",
+        "name" : "Action Done! ",
+        "source" : "8bb2f180c1b3bf72.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "3ceac720c360373b",
+        "name" : "saveScreenShot",
+        "source" : "3ceac720c360373b.png",
+        "type" : "image/png",
+        "size" : 62886
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "planning.write.user@gmail.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1680235129506,
+        "stop" : 1680235162553,
+        "duration" : 33047
+      },
+      "status" : "broken",
+      "statusMessage" : "Expected condition failed: waiting for element to be clickable: By.xpath: //header//div[contains(@class,'sign-out')] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55981}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55981/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d04552c42ca7f33b468dd3abf4e13858",
+      "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //header//div[contains(@class,'sign-out')] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55981}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55981/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: d04552c42ca7f33b468dd3abf4e13858\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat selenium.core.BaseLocator.waitUntilClickable(BaseLocator.java:160)\r\n\tat selenium.pages.DashboardPage.waitBtnLogOutShow_aroundBody4(DashboardPage.java:24)\r\n\tat selenium.pages.DashboardPage$AjcClosure5.run(DashboardPage.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:94)\r\n\tat selenium.pages.DashboardPage.waitBtnLogOutShow(DashboardPage.java:24)\r\n\tat selenium.steps.LoginSteps.verifyLoginSuccessfully(LoginSteps.java:32)\r\n\tat testcases.web.zone.ZoneListing.beforeEachScenario(ZoneListing.java:49)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)\r\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)\r\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:523)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c61243334d2fe2e",
+        "name" : "Starting action: ",
+        "source" : "1c61243334d2fe2e.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "11e9834ead5f8d41",
+        "name" : "Action Done! ",
+        "source" : "11e9834ead5f8d41.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "11d94c20155dc993",
+        "name" : "saveScreenShot",
+        "source" : "11d94c20155dc993.png",
+        "type" : "image/png",
+        "size" : 101252
+      }, {
+        "uid" : "afbe0eff0c3160d5",
+        "name" : "Starting action: ",
+        "source" : "afbe0eff0c3160d5.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "1338b4d1d2fc289",
+        "name" : "Action failed: ",
+        "source" : "1338b4d1d2fc289.txt",
+        "type" : "text/plain",
+        "size" : 1275
+      }, {
+        "uid" : "fc732435947c9e92",
+        "name" : "saveScreenShot",
+        "source" : "fc732435947c9e92.png",
+        "type" : "image/png",
+        "size" : 101252
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 18,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1680235238567,
+      "stop" : 1680235238567,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1680235238567,
+      "stop" : 1680235238567,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.zone.ZoneListing"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.zone.ZoneListing"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_03"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Zones"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.zone.ZoneListing"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16880@DaoTien.TestNG-test=Zones-7(840)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1709133647a486e8.json",
+  "parameterValues" : [ ]
+}

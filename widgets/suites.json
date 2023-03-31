@@ -4,12 +4,12 @@
     "uid" : "5ba398ba8a4e16d50ebb84d8f641e8da",
     "name" : "Regression",
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 3
+      "failed" : 5,
+      "broken" : 145,
+      "skipped" : 18,
+      "passed" : 113,
+      "unknown" : 7,
+      "total" : 288
     }
   } ]
 }

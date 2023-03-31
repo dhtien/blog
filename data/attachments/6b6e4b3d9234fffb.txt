@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("US", "US", "Country does not match")

@@ -1,0 +1,1 @@
+selenium.core.BasePage.enterValueToDropDownList("time_zone", "Europe/Vienna")

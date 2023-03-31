@@ -1,0 +1,483 @@
+Response code: 
+200
+Response body: 
+{
+    "data": [
+        {
+            "id": 206565,
+            "uuid": "9de75c54-58ac-43a8-919c-887a5c3afd3e",
+            "name": "20230331-BKZ2023-03-31T10:38:30.848-001",
+            "current_state": "live",
+            "start_datetime": "2023-03-31T00:00:00.022Z",
+            "end_datetime": "2023-03-31T16:55:00.022Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": {
+                "id": 5147694
+            },
+            "vehicle": {
+                "id": 554,
+                "vehicle_number": "vehicle08",
+                "capacity": 12,
+                "make": null,
+                "model": null,
+                "color": null,
+                "bought_at": null,
+                "sold_at": null,
+                "last_serviced_at": null,
+                "vendor": null,
+                "license_plate": "vehicle08",
+                "wifi_ssid": "Bridj",
+                "wifi_password": "enjoybridj",
+                "dummy_vehicle": false,
+                "note": null,
+                "uuid": "ce158eac-38b7-4788-8e75-ce30eab57dc2",
+                "last_service_km": null,
+                "mobility_capacity": 6,
+                "year": "8299472400000",
+                "vin": null,
+                "doors": 0,
+                "max_capacity": 0,
+                "body_type": null,
+                "fuel_type": null,
+                "transmission": null,
+                "status": "active",
+                "extra_attributes": null,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/vehicles/554"
+            },
+            "driver": {
+                "id": 1728,
+                "first_name": "Driver",
+                "last_name": "Test12",
+                "email": "drivertest12@yopmail.com",
+                "username": "drivertest12",
+                "phone_number": "0123453675",
+                "vendor": null,
+                "status": "approved",
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/1728"
+            },
+            "trip_stops": [
+                {
+                    "id": 5147694
+                },
+                {
+                    "id": 5147695
+                }
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206544,
+            "uuid": "dac81f49-39c9-4a25-939f-dc641ab95e8c",
+            "name": "20230330-BKZ2023-03-30T07:48:37.447-001",
+            "current_state": "completed",
+            "start_datetime": "2023-03-30T00:00:00.660Z",
+            "end_datetime": "2023-03-30T17:55:00.660Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206534,
+            "uuid": "887d2a3a-eaea-43b7-a96f-90628da7f919",
+            "name": "20230329-BKZ2023-03-28T14:13:58.186-002",
+            "current_state": "completed",
+            "start_datetime": "2023-03-29T07:19:44.118Z",
+            "end_datetime": "2023-03-29T11:45:00.000Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": {
+                "id": 66,
+                "vehicle_number": "160",
+                "capacity": 19,
+                "make": "Hino",
+                "model": "Poncho",
+                "color": null,
+                "bought_at": null,
+                "sold_at": null,
+                "last_serviced_at": null,
+                "vendor": null,
+                "license_plate": "BS07HI",
+                "wifi_ssid": "Bridj",
+                "wifi_password": "enjoybridj",
+                "dummy_vehicle": false,
+                "note": null,
+                "uuid": "9d71dc8e-b97e-4cee-a0e2-867ddb5d8bd9",
+                "last_service_km": null,
+                "mobility_capacity": 2,
+                "year": null,
+                "vin": null,
+                "doors": null,
+                "max_capacity": null,
+                "body_type": null,
+                "fuel_type": null,
+                "transmission": null,
+                "status": "active",
+                "extra_attributes": null,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/vehicles/66"
+            },
+            "driver": {
+                "id": 102,
+                "first_name": "D102",
+                "last_name": "Driver",
+                "email": "tech+blackhole+driver102@bridj.com",
+                "username": "driver102",
+                "phone_number": null,
+                "vendor": "Transit Systems",
+                "status": "approved",
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/102"
+            },
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206525,
+            "uuid": "b4819a80-c3ec-4246-8ddc-3b9339edd324",
+            "name": "20230329-BKZ2023-03-28T14:13:58.186-001",
+            "current_state": "cancelled",
+            "start_datetime": "2023-03-28T22:35:00.000Z",
+            "end_datetime": "2023-03-29T04:55:00.000Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206512,
+            "uuid": "f5b9d9fb-462c-429e-aeee-3b6e30955bdd",
+            "name": "20230328-BKZ2023-03-28T11:44:55.383-001",
+            "current_state": "completed",
+            "start_datetime": "2023-03-28T05:02:18.429Z",
+            "end_datetime": "2023-03-28T17:55:00.204Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206519,
+            "uuid": "2fb9d8de-bde9-46c1-a1ca-2ca9bc95193a",
+            "name": "20230328-BKZ2023-03-28T14:13:58.186-001",
+            "current_state": "completed",
+            "start_datetime": "2023-03-28T00:00:00.708Z",
+            "end_datetime": "2023-03-28T17:55:00.708Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206504,
+            "uuid": "25b9082e-02ad-4db0-8827-4efb336542a0",
+            "name": "20230328-BKZ2023-03-28T07:49:41.577-001",
+            "current_state": "completed",
+            "start_datetime": "2023-03-28T00:00:00.397Z",
+            "end_datetime": "2023-03-28T17:55:00.397Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206488,
+            "uuid": "8676e24d-110e-4ad4-bc55-0d13c3f0c573",
+            "name": "20230327-BKZ2023-03-27T22:25:17.692-001",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T00:00:00.818Z",
+            "end_datetime": "2023-03-27T17:55:00.818Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206440,
+            "uuid": "9f532533-3c48-4096-a61f-dbfc01a3ee20",
+            "name": "20230327-BKZ2023-03-27T10:49:09.399-001",
+            "current_state": "cancelled",
+            "start_datetime": "2023-03-27T00:00:00.800Z",
+            "end_datetime": "2023-03-27T16:55:00.800Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206475,
+            "uuid": "20c8ab23-6266-4902-8eed-4c530f8a0d5c",
+            "name": "20230327-BKZ2023-03-27T15:09:49.386-001",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T00:00:00.787Z",
+            "end_datetime": "2023-03-27T17:55:00.787Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206408,
+            "uuid": "11856320-6e9b-4e19-b0b0-57f2708efea3",
+            "name": "20230327-BKZ2023-03-27T07:28:54.387-001",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T00:00:00.696Z",
+            "end_datetime": "2023-03-27T17:55:00.696Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                {
+                    "id": 5147644
+                },
+                {
+                    "id": 5147645
+                }
+            ],
+            "trip_monitors": [
+                {
+                    "id": 145827162
+                }
+            ]
+        },
+        {
+            "id": 206458,
+            "uuid": "edcb1062-2dd8-4de0-b9b6-98c9c3dd8780",
+            "name": "20230327-BKZ2023-03-27T12:29:03.758-001",
+            "current_state": "cancelled",
+            "start_datetime": "2023-03-27T00:00:00.643Z",
+            "end_datetime": "2023-03-27T16:55:00.643Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206426,
+            "uuid": "c1fc200f-810e-4269-aaaf-48afcf182243",
+            "name": "20230327-BKZ2023-03-27T09:57:20.199-001",
+            "current_state": "cancelled",
+            "start_datetime": "2023-03-27T00:00:00.636Z",
+            "end_datetime": "2023-03-27T16:55:00.636Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206419,
+            "uuid": "9a7e1cf8-11ee-4651-b404-d5e6b0d4baf5",
+            "name": "20230327-BKZ2023-03-27T09:42:53.034-001",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T00:00:00.633Z",
+            "end_datetime": "2023-03-27T17:55:00.633Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206465,
+            "uuid": "a288fd01-bef6-4da4-89f3-ddcf9329ec9c",
+            "name": "20230327-BKZ2023-03-27T13:41:32.101-001",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T00:00:00.626Z",
+            "end_datetime": "2023-03-27T17:55:00.626Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206436,
+            "uuid": "3ecc00d8-b62e-4e03-9755-790f13ac13fb",
+            "name": "20230327-BKZ2023-03-27T10:27:48.452-001",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T00:00:00.589Z",
+            "end_datetime": "2023-03-27T17:55:00.589Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206445,
+            "uuid": "f6eb7da6-17b9-4639-a814-e1f013942672",
+            "name": "20230327-BKZ2023-03-27T11:09:30.479-001",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T00:00:00.579Z",
+            "end_datetime": "2023-03-27T17:55:00.579Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206478,
+            "uuid": "abcb3815-e1b6-40e3-9ac0-c838659c5ce9",
+            "name": "20230327-BKZ2023-03-27T15:52:36.275-001",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T00:00:00.530Z",
+            "end_datetime": "2023-03-27T17:55:00.530Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206421,
+            "uuid": "4eace3e3-0d6b-4110-aa65-7a88c29593af",
+            "name": "20230327-BKZ2023-03-27T09:46:47.274-001",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T00:00:00.522Z",
+            "end_datetime": "2023-03-27T17:55:00.522Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        },
+        {
+            "id": 206448,
+            "uuid": "aa962080-516b-4040-8471-320216a5fc7c",
+            "name": "20230327-BKZ2023-03-27T11:37:53.830-001",
+            "current_state": "completed",
+            "start_datetime": "2023-03-27T00:00:00.469Z",
+            "end_datetime": "2023-03-27T17:55:00.469Z",
+            "block": null,
+            "current_trip_stop": null,
+            "next_trip_stop": null,
+            "vehicle": null,
+            "driver": null,
+            "trip_stops": [
+                
+            ],
+            "trip_monitors": [
+                
+            ]
+        }
+    ],
+    "meta": {
+        "count": 20,
+        "total": 52
+    }
+}

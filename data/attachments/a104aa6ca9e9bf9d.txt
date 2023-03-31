@@ -1,0 +1,4 @@
+cookie.getDomain(): client-portal-staging.staging.au-ap-southeast-2.bridj.info
+cookie.getName(): token
+cookie.getPath(): /
+cookie.getValue(): eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicmlkai5vZHlzc2V5LXN0YWdpbmcuc3RhZ2luZy5hdS1hcC1zb3V0aGVhc3QtMi5icmlkai5pbmZvIiwiZXhwIjoxNjgwMzIwNjYzLCJ1c2VyX2lkIjoxMTgzLCJmaXJzdF9uYW1lIjoiVGllbiIsImxhc3RfbmFtZSI6IkRhbyBIdXkiLCJyb2xlcyI6WyJvcGVyYXRvciJdfQ._0LuBKsGIZ5WeGvmENqo51PILE4pe7p6JqwwbITW18k

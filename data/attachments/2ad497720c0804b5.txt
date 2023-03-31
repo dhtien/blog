@@ -1,0 +1,16 @@
+Response code: 
+200
+Response body: 
+{
+    "data": {
+        "id": 1297,
+        "name": "Group 01 Edited",
+        "roles": [
+            1
+        ],
+        "users": [
+            
+        ],
+        "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/permission/groups/1297"
+    }
+}

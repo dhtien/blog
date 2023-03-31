@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("traveller12", "traveller12", "Traveller does not match")

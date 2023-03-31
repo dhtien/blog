@@ -1,0 +1,68 @@
+
+URL: 
+https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.info/
+Headers: 
+{charset=utf-8, Accept-Encoding=identity, Content-Type=application/json}/api/v2/ops/raw_batches
+Token: 
+eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicmlkai5vZHlzc2V5LXN0YWdpbmcuc3RhZ2luZy5hdS1hcC1zb3V0aGVhc3QtMi5icmlkai5pbmZvIiwiZXhwIjoxNjgwMzIyODQ1LCJ1c2VyX2lkIjoxMTgzLCJmaXJzdF9uYW1lIjoiVGllbiIsImxhc3RfbmFtZSI6IkRhbyBIdXkiLCJyb2xlcyI6WyJvcGVyYXRvciJdfQ.kGybtAjuDc0v6nVXFEQrfdlqQJLrwxBnNaylkd6SX0g
+Params: 
+{}
+Request body: 
+{
+  "resource_availability_windows" : [ {
+    "startTimeInDate" : 1680220800016,
+    "endTimeInDate" : 1680237784016,
+    "_loading" : false,
+    "start_time" : "2023-03-31T00:00:00.016Z",
+    "end_time" : "2023-03-31T04:43:04.016Z",
+    "minimum_capacity" : 20,
+    "metadata" : {
+      "shift" : "2",
+      "temporary_id" : "$uid2"
+    },
+    "driver" : {
+      "username" : "drivertest19",
+      "fullName" : "Driver Test19",
+      "id" : 0,
+      "email" : "drivertest19@yopmail.com",
+      "first_name" : "Driver",
+      "last_name" : "Test19"
+    },
+    "vehicle" : {
+      "vehicle_number" : "number_14",
+      "license_plate" : "license_14",
+      "mobility_capacity" : 6,
+      "doors" : 0,
+      "max_capacity" : 0,
+      "manufactureYearOnly" : "2233",
+      "transmissionValue" : "",
+      "fuelTypeValue" : "",
+      "bodyTypeValue" : "",
+      "id" : 195,
+      "capacity" : 6,
+      "make" : "make_14",
+      "model" : "model_14",
+      "wifi_ssid" : "Bridj",
+      "wifi_password" : "enjoybridj",
+      "dummy_vehicle" : false,
+      "year" : 8299472400000,
+      "status" : "active"
+    },
+    "vehicle_id" : 556,
+    "plan_strategies" : [ ],
+    "plan_strategy_ids" : [ ],
+    "zone" : {
+      "region_id" : 0,
+      "id" : 0,
+      "name" : "Automation Test Zone 3",
+      "start_window" : 0,
+      "test" : false,
+      "transfer_window_minutes" : 0,
+      "trip_stop_notification_horizon" : 0,
+      "truck_routing" : false,
+      "default_price" : 0.0
+    },
+    "zone_id" : 2620,
+    "driver_id" : 1729
+  } ]
+}

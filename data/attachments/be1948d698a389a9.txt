@@ -1,0 +1,9 @@
+
+URL: 
+https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.info/
+Headers: 
+{charset=utf-8, Accept-Encoding=identity, Content-Type=application/json}api/v2/driver/trips/206564/trip_monitor
+Params: 
+{app_version=7.2.1, imei=525513ac-e819-4f, appVersionCode=122, token=GWKC4CwyLderFCGdfzkY_dev_07fb58cb-3b78-4bfd-a90f-91c281f7eb19}
+Request body: 
+{"accuracy":"1073741824.000000","bearing":"0.000000","latitude":"-27.470452","connected":true,"longitude":"153.026033","speed":"0.000000","id":206564,"generated_at":"2023-03-31T11:20:58.478Z","here_longitude":"153.026033","here_bearing":"0.000000","here_latitude":"-27.470452","here_accuracy":"1073741824.000000","here_speed":"0.000000"}

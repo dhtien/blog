@@ -1,30 +1,2880 @@
 [ {
-  "uid" : "1d6aa9b92ee84a58",
-  "name" : "Verify can not be back and start working after logout",
+  "uid" : "73f5ee5a3456d9c8",
+  "name" : "TC_03",
   "time" : {
-    "start" : 1680162968721,
-    "stop" : 1680162980240,
-    "duration" : 11519
+    "start" : 1680235077929,
+    "stop" : 1680235077929,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e2b62a1d27625d0c",
+  "name" : "Verify user can search passengers by user name",
+  "time" : {
+    "start" : 1680236879282,
+    "stop" : 1680236888608,
+    "duration" : 9326
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2f5050950ca8d04",
-  "name" : "Verify copied active user session will be expired as well after logging out",
+  "uid" : "98f8d07d922a0e79",
+  "name" : "Verify Configuration Read user can not view Driver",
   "time" : {
-    "start" : 1680162967643,
-    "stop" : 1680162982337,
-    "duration" : 14694
+    "start" : 1680235882144,
+    "stop" : 1680235918261,
+    "duration" : 36117
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "412aa86619b8423d",
+  "name" : "Verify Reporting user can not create new Travellers",
+  "time" : {
+    "start" : 1680235804186,
+    "stop" : 1680235840767,
+    "duration" : 36581
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "82151bbde501318",
+  "name" : "Verify can edit zone successfully with valid information",
+  "time" : {
+    "start" : 1680235087083,
+    "stop" : 1680235121556,
+    "duration" : 34473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5796cd3c94049121",
+  "name" : "Verify can select number of row per page",
+  "time" : {
+    "start" : 1680235325854,
+    "stop" : 1680235330736,
+    "duration" : 4882
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "257675c49c9b72e3",
+  "name" : "Verify Reporting user can not create new Driver",
+  "time" : {
+    "start" : 1680235761085,
+    "stop" : 1680235799308,
+    "duration" : 38223
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "296fffb089ae0ac1",
+  "name" : "Verify the traveller can be picked up",
+  "time" : {
+    "start" : 1680235743608,
+    "stop" : 1680235747400,
+    "duration" : 3792
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "18a7fb0b264bfd81",
+  "uid" : "9ff0f4014f0ce5aa",
+  "name" : "Verify Configuration Write user can not create new Travellers",
+  "time" : {
+    "start" : 1680235966053,
+    "stop" : 1680236002126,
+    "duration" : 36073
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "657c06d48a11e1bf",
+  "name" : "Verify user can search vehicle trip by name",
+  "time" : {
+    "start" : 1680236879775,
+    "stop" : 1680236886329,
+    "duration" : 6554
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb18f19f8f05e74c",
+  "name" : "Verify System Read user can not view Vehicles",
+  "time" : {
+    "start" : 1680235873943,
+    "stop" : 1680235909694,
+    "duration" : 35751
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "36337b91a7cc38a4",
+  "name" : "Verify user can add Concession: Child/Youth/Student for passengers",
+  "time" : {
+    "start" : 1680234857723,
+    "stop" : 1680234893108,
+    "duration" : 35385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d345814aec205a76",
+  "name" : "Verify System Read user can not delete User Group",
+  "time" : {
+    "start" : 1680236122994,
+    "stop" : 1680236158893,
+    "duration" : 35899
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4d0a440bb4a51059",
+  "name" : "Verify can access Solutions page from Dashboard ",
+  "time" : {
+    "start" : 1680234672303,
+    "stop" : 1680234673209,
+    "duration" : 906
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a42518e65f481aed",
+  "name" : "Verify Configuration Read user can not view the 'Feedback' page",
+  "time" : {
+    "start" : 1680236062280,
+    "stop" : 1680236098668,
+    "duration" : 36388
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "deeeb27b0cdbbe1",
+  "name" : "Verify login successfully with ''",
+  "time" : {
+    "start" : 1680234286596,
+    "stop" : 1680234322324,
+    "duration" : 35728
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4eab5c015241d5bc",
+  "name" : "TC_04",
+  "time" : {
+    "start" : 1680235162366,
+    "stop" : 1680235162366,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2ef0172d5492fd53",
+  "name" : "Verify System Write user can view the 'Dashboard' page",
+  "time" : {
+    "start" : 1680235803041,
+    "stop" : 1680235839051,
+    "duration" : 36010
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "acf44308772884b0",
+  "name" : "Verify Configuration Write user can edit region",
+  "time" : {
+    "start" : 1680236125829,
+    "stop" : 1680236161917,
+    "duration" : 36088
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "326ae71035f523da",
+  "name" : "Verify user can search drivers by email",
+  "time" : {
+    "start" : 1680236879648,
+    "stop" : 1680236913801,
+    "duration" : 34153
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4f72bb5f8700d9f3",
+  "name" : "Verify Configuration Write user can not create new User Group",
+  "time" : {
+    "start" : 1680236086153,
+    "stop" : 1680236122032,
+    "duration" : 35879
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "42625c7e415ae225",
+  "name" : "Verify System Read user can not view Driver",
+  "time" : {
+    "start" : 1680235842299,
+    "stop" : 1680235878552,
+    "duration" : 36253
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "774d50b0cc39475b",
+  "name" : "Verify can not create user without enter mandatory field 'First Name'",
+  "time" : {
+    "start" : 1680234751279,
+    "stop" : 1680234769794,
+    "duration" : 18515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba113f33bf577196",
+  "name" : "Verify send reset password link successfully to email that not registered with the BRIDJ application: ",
+  "time" : {
+    "start" : 1680236846162,
+    "stop" : 1680236853496,
+    "duration" : 7334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d756b3dbc0100314",
+  "name" : "Verify Configuration Read user can not create new zone",
+  "time" : {
+    "start" : 1680236189468,
+    "stop" : 1680236225402,
+    "duration" : 35934
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a1a67816b78ab2e4",
+  "name" : "Verify can edit region successfully with valid information",
+  "time" : {
+    "start" : 1680234978516,
+    "stop" : 1680234998613,
+    "duration" : 20097
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91d260f34a5d4e65",
+  "name" : "Verify user can enter credit card details for passenger",
+  "time" : {
+    "start" : 1680234899227,
+    "stop" : 1680234943263,
+    "duration" : 44036
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d59581182e5cf84",
+  "name" : "Verify Configuration Write user can not view User Group",
+  "time" : {
+    "start" : 1680236043804,
+    "stop" : 1680236079796,
+    "duration" : 35992
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bae453122b226b47",
+  "name" : "Verify Configuration Read user can not view Vehicles",
+  "time" : {
+    "start" : 1680235911554,
+    "stop" : 1680235947160,
+    "duration" : 35606
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ce8e015a299d140a",
+  "name" : "Verify System Read user can not view Service Monitoring",
+  "time" : {
+    "start" : 1680235884749,
+    "stop" : 1680235921573,
+    "duration" : 36824
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "26f5064be001dd10",
+  "name" : "Verify Daily Operations Write user can create new Travellers",
+  "time" : {
+    "start" : 1680236202135,
+    "stop" : 1680236238001,
+    "duration" : 35866
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "895502440a8c45c2",
+  "name" : "Verify can create zone successfully with valid information",
+  "time" : {
+    "start" : 1680235089206,
+    "stop" : 1680235107836,
+    "duration" : 18630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccae37f84792c949",
+  "name" : "Verify Configuration Write user can view the 'Dashboard' page",
+  "time" : {
+    "start" : 1680235922187,
+    "stop" : 1680235958475,
+    "duration" : 36288
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e5214259ce4141e0",
+  "name" : "Verify User Group,Phone Number are not required fields for user creating ",
+  "time" : {
+    "start" : 1680234720156,
+    "stop" : 1680234737094,
+    "duration" : 16938
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9fe3c5d20cf7111",
+  "name" : "Verify System Write user can create new User Group",
+  "time" : {
+    "start" : 1680236045739,
+    "stop" : 1680236081602,
+    "duration" : 35863
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "df74b83f53e9a64d",
+  "name" : "Verify Configuration Read user can not view User Group",
+  "time" : {
+    "start" : 1680236002742,
+    "stop" : 1680236040158,
+    "duration" : 37416
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "349938b379de22c3",
+  "name" : "Verify Configuration Read user can not create new Travellers",
+  "time" : {
+    "start" : 1680235925449,
+    "stop" : 1680235962327,
+    "duration" : 36878
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "171113d659f9dc41",
+  "name" : "Verify can create new user that has the same user name and email with a deleted user",
+  "time" : {
+    "start" : 1680234756599,
+    "stop" : 1680234788151,
+    "duration" : 31552
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ae5d6b50e6783a5",
+  "name" : "Verify Configuration Read user can not view Service Monitoring",
+  "time" : {
+    "start" : 1680235925528,
+    "stop" : 1680235962596,
+    "duration" : 37068
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6e248a1625257a8f",
+  "name" : "Verify login successfully with ''",
+  "time" : {
+    "start" : 1680234587821,
+    "stop" : 1680234623630,
+    "duration" : 35809
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ef38a869309cf3da",
+  "name" : "Verify Administrators user view zone detail",
+  "time" : {
+    "start" : 1680236166084,
+    "stop" : 1680236189636,
+    "duration" : 23552
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4390e2ee6e0b9cd",
+  "name" : "Verify System Write user can not view Booking",
+  "time" : {
+    "start" : 1680235845133,
+    "stop" : 1680235881597,
+    "duration" : 36464
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c93409167cb97861",
+  "name" : "beforeEachScenario",
+  "time" : {
+    "start" : 1680235077928,
+    "stop" : 1680235077928,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2e751d9dc0143b2",
+  "name" : "Verify Configuration Write user can not view Driver",
+  "time" : {
+    "start" : 1680235921844,
+    "stop" : 1680235957777,
+    "duration" : 35933
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "aa35c5923ce4c762",
+  "name" : "Verify can create group with multiple roles and multiple users",
+  "time" : {
+    "start" : 1680234825514,
+    "stop" : 1680234831590,
+    "duration" : 6076
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "770a13ab6a445a34",
+  "name" : "Verify Booking page show with default region",
+  "time" : {
+    "start" : 1680236413479,
+    "stop" : 1680236450383,
+    "duration" : 36904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f956e39b789a084",
+  "name" : "Verify Configuration Write user can not view Schedules",
+  "time" : {
+    "start" : 1680235925558,
+    "stop" : 1680235962626,
+    "duration" : 37068
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "59524c5d59b4b8c7",
+  "name" : "Verify System Read user can not create new Vehicles",
+  "time" : {
+    "start" : 1680235883020,
+    "stop" : 1680235919262,
+    "duration" : 36242
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "271a1cb9e8e5ad8",
+  "name" : "Verify System Write user can not view Service Monitoring",
+  "time" : {
+    "start" : 1680235844419,
+    "stop" : 1680235881071,
+    "duration" : 36652
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6e9df357357963c4",
+  "name" : "TC_09",
+  "time" : {
+    "start" : 1680236778208,
+    "stop" : 1680236778208,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5a0402d3b7c3e579",
+  "name" : "Verify user can search bookings by address",
+  "time" : {
+    "start" : 1680236879244,
+    "stop" : 1680236913536,
+    "duration" : 34292
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "42d0cbaa18e5b2e1",
+  "name" : "TC_03",
+  "time" : {
+    "start" : 1680235237806,
+    "stop" : 1680235237806,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "697f25e6f1feda8f",
+  "name" : "Verify Configuration Write user can not view Travellers",
+  "time" : {
+    "start" : 1680235966485,
+    "stop" : 1680236003140,
+    "duration" : 36655
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "20daac3e5f77f001",
+  "name" : "Verify System Read user can not edit users",
+  "time" : {
+    "start" : 1680236085237,
+    "stop" : 1680236121128,
+    "duration" : 35891
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9e44517ca379531d",
+  "name" : "Verify Reporting user can edit Trips",
+  "time" : {
+    "start" : 1680235761351,
+    "stop" : 1680235800024,
+    "duration" : 38673
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a0cd4c788bd386d9",
+  "name" : "Verify System Read user can not create new User Group",
+  "time" : {
+    "start" : 1680236006744,
+    "stop" : 1680236042868,
+    "duration" : 36124
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1358207cd5faf8a8",
+  "name" : "Verify System Write should not be able to delete a user that belongs to the 'Administrators' group",
+  "time" : {
+    "start" : 1680236083473,
+    "stop" : 1680236119355,
+    "duration" : 35882
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f4b0b55568cb7a4a",
+  "name" : "Verify can select page to show",
+  "time" : {
+    "start" : 1680235301913,
+    "stop" : 1680235323269,
+    "duration" : 21356
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1b8d196321db044",
+  "name" : "Verify System Write user can not view Trips",
+  "time" : {
+    "start" : 1680236002131,
+    "stop" : 1680236037974,
+    "duration" : 35843
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6aad129058b05ff8",
+  "name" : "Verify Configuration Write user can not view Users",
+  "time" : {
+    "start" : 1680236034857,
+    "stop" : 1680236067738,
+    "duration" : 32881
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ee83d86f7999035b",
+  "name" : "Verify Configuration Write user can not view Service Monitoring",
+  "time" : {
+    "start" : 1680235966280,
+    "stop" : 1680236003049,
+    "duration" : 36769
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7193c77040633b30",
+  "name" : "Verify user can add Concession: Senior/Pensioner for passengers",
+  "time" : {
+    "start" : 1680234856476,
+    "stop" : 1680234891976,
+    "duration" : 35500
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0bead8a98b2b92d",
+  "name" : "Verify System Write user can not view Vehicles",
+  "time" : {
+    "start" : 1680235836246,
+    "stop" : 1680235872050,
+    "duration" : 35804
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c24888917fbaf645",
+  "name" : "Verify System Write user can delete user",
+  "time" : {
+    "start" : 1680236006771,
+    "stop" : 1680236042985,
+    "duration" : 36214
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e09b9bf98d88cc4e",
+  "name" : "Verify System Write user can delete User Group",
+  "time" : {
+    "start" : 1680236046635,
+    "stop" : 1680236082841,
+    "duration" : 36206
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "73f79e2c522627e2",
+  "name" : "Verify user can search drivers by user name",
+  "time" : {
+    "start" : 1680236879771,
+    "stop" : 1680236885702,
+    "duration" : 5931
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af1e9f713875f254",
+  "name" : "Verify Configuration Read user can not create new User Group",
+  "time" : {
+    "start" : 1680236046508,
+    "stop" : 1680236082485,
+    "duration" : 35977
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "45ec855382b15ca3",
   "name" : "Verify all open tabs for Operation Portal should be logged out as well after user logs out on one tab",
   "time" : {
-    "start" : 1680162968721,
-    "stop" : 1680162982376,
-    "duration" : 13655
+    "start" : 1680234263889,
+    "stop" : 1680234278129,
+    "duration" : 14240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e42a1ba2ba63565d",
+  "name" : "TC_06",
+  "time" : {
+    "start" : 1680236844132,
+    "stop" : 1680236844132,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "c501b1a11504640a",
+  "name" : "Verify can access Schedules page from Dashboard ",
+  "time" : {
+    "start" : 1680234673772,
+    "stop" : 1680234674266,
+    "duration" : 494
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc9dd50ba007febd",
+  "name" : "Verify user can search passengers by name",
+  "time" : {
+    "start" : 1680236879154,
+    "stop" : 1680236888159,
+    "duration" : 9005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7d873b80cc6abb7",
+  "name" : "Verify Configuration Write user can not create new user",
+  "time" : {
+    "start" : 1680236165815,
+    "stop" : 1680236202038,
+    "duration" : 36223
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1fbb900b553ec5c6",
+  "name" : "Verify can access Drivers page from Dashboard ",
+  "time" : {
+    "start" : 1680234673899,
+    "stop" : 1680234674310,
+    "duration" : 411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a48fcb431b41037e",
+  "name" : "Verify user can create new Vehicles",
+  "time" : {
+    "start" : 1680235342523,
+    "stop" : 1680235365147,
+    "duration" : 22624
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d458c31a1b488f31",
+  "name" : "Verify can access Travellers page from Dashboard ",
+  "time" : {
+    "start" : 1680234672835,
+    "stop" : 1680234673447,
+    "duration" : 612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48326d25fb2ea185",
+  "name" : "Verify Reporting user can not view Solutions",
+  "time" : {
+    "start" : 1680235961336,
+    "stop" : 1680235997277,
+    "duration" : 35941
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4ff8033fbf24fd7c",
+  "name" : "Verify login successfully with ''",
+  "time" : {
+    "start" : 1680234324208,
+    "stop" : 1680234360090,
+    "duration" : 35882
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ebc012a610eb5358",
+  "name" : "Verify can not create user without enter mandatory field 'Username'",
+  "time" : {
+    "start" : 1680234729387,
+    "stop" : 1680234747569,
+    "duration" : 18182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e76f3360ed7f9257",
+  "name" : "Verify user can not create edit user with existed email",
+  "time" : {
+    "start" : 1680234680929,
+    "stop" : 1680234716026,
+    "duration" : 35097
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c011bde902fd3292",
+  "name" : "Verify Reporting user can not view Service Monitoring",
+  "time" : {
+    "start" : 1680235803968,
+    "stop" : 1680235840769,
+    "duration" : 36801
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c4fc55ac891ab725",
+  "name" : "Verify can edit group with multiple roles and multiple users",
+  "time" : {
+    "start" : 1680234825437,
+    "stop" : 1680234845719,
+    "duration" : 20282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a791c611c8a414c2",
+  "name" : "Verify can delete region successfully",
+  "time" : {
+    "start" : 1680234976524,
+    "stop" : 1680234993513,
+    "duration" : 16989
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "316b33a90f54abda",
+  "name" : "TC_01",
+  "time" : {
+    "start" : 1680236778087,
+    "stop" : 1680236778087,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "bc8fd5ee2ec6494d",
+  "name" : "beforeEachScenario",
+  "time" : {
+    "start" : 1680235237805,
+    "stop" : 1680235237805,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "65a851ebe792d603",
+  "name" : "Verify can delete zone successfully",
+  "time" : {
+    "start" : 1680235085408,
+    "stop" : 1680235103929,
+    "duration" : 18521
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f134b13efac0e662",
+  "name" : "Verify Configuration Read user can not view Travellers",
+  "time" : {
+    "start" : 1680235925607,
+    "stop" : 1680235962707,
+    "duration" : 37100
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "edb6f3801f4e9b61",
+  "name" : "Verify user can search vehicle by id",
+  "time" : {
+    "start" : 1680236893214,
+    "stop" : 1680236898840,
+    "duration" : 5626
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c938de27c1085acb",
+  "name" : "Verify normal user can not delete administrator",
+  "time" : {
+    "start" : 1680234761066,
+    "stop" : 1680234797361,
+    "duration" : 36295
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8c296809866a57ac",
+  "name" : "Verify edit driver failed with exist email",
+  "time" : {
+    "start" : 1680235285361,
+    "stop" : 1680235315244,
+    "duration" : 29883
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "610f217548df498f",
+  "name" : "Verify System Write user can not view Travellers",
+  "time" : {
+    "start" : 1680235844554,
+    "stop" : 1680235880862,
+    "duration" : 36308
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "43d72cffe43ab46a",
+  "name" : "Verify System Write user can not create new Driver",
+  "time" : {
+    "start" : 1680235802899,
+    "stop" : 1680235840198,
+    "duration" : 37299
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bf56ffe4c92b7666",
+  "name" : "Verify Configuration Write user can create new region",
+  "time" : {
+    "start" : 1680236124775,
+    "stop" : 1680236160823,
+    "duration" : 36048
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6184fc5ce6afded1",
+  "name" : "Verify System Write should not be able to create a new user belonging to the 'Administrators' group",
+  "time" : {
+    "start" : 1680236071277,
+    "stop" : 1680236107188,
+    "duration" : 35911
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ce419f8594ef6ec0",
+  "name" : "Verify permission after removing roles from a group",
+  "time" : {
+    "start" : 1680236277464,
+    "stop" : 1680236313030,
+    "duration" : 35566
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c78cb59d628d8041",
+  "name" : "Verify user without administrator role can not add user to administrator group",
+  "time" : {
+    "start" : 1680234680762,
+    "stop" : 1680234721254,
+    "duration" : 40492
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "828a9ae9c1b7a70",
+  "name" : "Verify Configuration Write user can not view the 'Feedback' page",
+  "time" : {
+    "start" : 1680236100545,
+    "stop" : 1680236136401,
+    "duration" : 35856
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "df02a765203be58b",
+  "name" : "TC_08",
+  "time" : {
+    "start" : 1680236774584,
+    "stop" : 1680236774584,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "eb63c324bd14377f",
+  "name" : "Verify Configuration Read user can not create new region",
+  "time" : {
+    "start" : 1680236162528,
+    "stop" : 1680236198569,
+    "duration" : 36041
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c3c2f0e61f546423",
+  "name" : "Verify schedule page show with default region",
+  "time" : {
+    "start" : 1680235371989,
+    "stop" : 1680235376571,
+    "duration" : 4582
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26214b76e43eb11e",
+  "name" : "Verify create driver failed with exist email",
+  "time" : {
+    "start" : 1680235266159,
+    "stop" : 1680235276987,
+    "duration" : 10828
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "273a9b7f18143b5c",
+  "name" : "Verify edit driver failed if does not enter last name",
+  "time" : {
+    "start" : 1680235285969,
+    "stop" : 1680235315770,
+    "duration" : 29801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e76d12caf874a328",
+  "name" : "Verify can access Regions page from Dashboard ",
+  "time" : {
+    "start" : 1680234673157,
+    "stop" : 1680234673702,
+    "duration" : 545
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37b4c6b272d80842",
+  "name" : "Verify user can search vehicle by model",
+  "time" : {
+    "start" : 1680236894035,
+    "stop" : 1680236899629,
+    "duration" : 5594
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fb13f17d8ec50d3",
+  "name" : "Verify can delete driver successfully",
+  "time" : {
+    "start" : 1680235265695,
+    "stop" : 1680235288813,
+    "duration" : 23118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0fda5ba99969b31",
+  "name" : "Verify user can not create new user with existed user name",
+  "time" : {
+    "start" : 1680234742510,
+    "stop" : 1680234760828,
+    "duration" : 18318
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a849153a7ad8e2",
+  "name" : "Verify System Write should not be able to delete the 'Administrators' group",
+  "time" : {
+    "start" : 1680236085003,
+    "stop" : 1680236121020,
+    "duration" : 36017
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b670f3943222e1c5",
+  "name" : "Verify Configuration Read user can not design zone",
+  "time" : {
+    "start" : 1680236198705,
+    "stop" : 1680236234525,
+    "duration" : 35820
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "25825e3a34f7eeec",
+  "name" : "Verify Configuration Write user can not view Vehicles",
+  "time" : {
+    "start" : 1680235949058,
+    "stop" : 1680235985044,
+    "duration" : 35986
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "16e22639cfe06b61",
+  "name" : "Verify Reporting user can not view Schedules",
+  "time" : {
+    "start" : 1680235803891,
+    "stop" : 1680235841175,
+    "duration" : 37284
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "11b84d09ed57605f",
+  "name" : "Verify System Write user can edit User Group",
+  "time" : {
+    "start" : 1680236044968,
+    "stop" : 1680236081423,
+    "duration" : 36455
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cf4e7cb72ce4f4a4",
+  "name" : "Verify user can book a trip with Wheelchair space",
+  "time" : {
+    "start" : 1680235386070,
+    "stop" : 1680235492386,
+    "duration" : 106316
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9f7f0a26d8b329fc",
+  "name" : "Verify Reporting user can view the Booking of a 'Feedback'",
+  "time" : {
+    "start" : 1680235761304,
+    "stop" : 1680235800394,
+    "duration" : 39090
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b52daf35a8cb981a",
+  "name" : "Verify Reporting user can view the Trip of a 'Feedback'",
+  "time" : {
+    "start" : 1680235761304,
+    "stop" : 1680235800271,
+    "duration" : 38967
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "99daaba7eebdf1eb",
+  "name" : "Verify can create region successfully with valid information",
+  "time" : {
+    "start" : 1680234978258,
+    "stop" : 1680234983042,
+    "duration" : 4784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bdfd8e5e8fa8299",
+  "name" : "Verify can delete user successfully",
+  "time" : {
+    "start" : 1680234749820,
+    "stop" : 1680234770695,
+    "duration" : 20875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb46bf3e571a9ee7",
+  "name" : "Verify Reporting user can not view Vehicles",
+  "time" : {
+    "start" : 1680235798526,
+    "stop" : 1680235834364,
+    "duration" : 35838
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9e33db75233f2a7d",
+  "name" : "Verify user can not create new user with existed user name",
+  "time" : {
+    "start" : 1680234706943,
+    "stop" : 1680234738027,
+    "duration" : 31084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b224a5a52d46296f",
+  "name" : "Verify can not edit user without invalid email format 'email@'",
+  "time" : {
+    "start" : 1680234716389,
+    "stop" : 1680234745795,
+    "duration" : 29406
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef00dc55485d904c",
+  "name" : "Verify Configuration Read user can not edit region",
+  "time" : {
+    "start" : 1680236164403,
+    "stop" : 1680236200302,
+    "duration" : 35899
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ae3ea1db28c09326",
+  "name" : "Verify can not edit user without enter mandatory field 'Last Name'",
+  "time" : {
+    "start" : 1680234751315,
+    "stop" : 1680234781667,
+    "duration" : 30352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "196c044bdb50d6b4",
+  "name" : "Verify login successfully with ''",
+  "time" : {
+    "start" : 1680234625530,
+    "stop" : 1680234661311,
+    "duration" : 35781
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4ecf948e74e92509",
+  "name" : "Verify user can book a trip for low tech passenger",
+  "time" : {
+    "start" : 1680235383347,
+    "stop" : 1680235461228,
+    "duration" : 77881
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c1d02ed995f88c47",
+  "name" : "Verify can cancel user deleting action",
+  "time" : {
+    "start" : 1680234755595,
+    "stop" : 1680234774737,
+    "duration" : 19142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e37f93effe1ea5a1",
+  "name" : "Verify can not be back and start working after logout",
+  "time" : {
+    "start" : 1680234263552,
+    "stop" : 1680234276312,
+    "duration" : 12760
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "356606a1b274ac39",
+  "name" : "Verify can edit group with no roles and no users",
+  "time" : {
+    "start" : 1680234823972,
+    "stop" : 1680234844027,
+    "duration" : 20055
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3c846159c6c4770",
+  "name" : "Verify Reporting user can not view Driver",
+  "time" : {
+    "start" : 1680235761076,
+    "stop" : 1680235799102,
+    "duration" : 38026
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7342cc3ec31c2c62",
+  "name" : "Verify Reporting user can view trip in VehicleMonitoring",
+  "time" : {
+    "start" : 1680235761211,
+    "stop" : 1680235800419,
+    "duration" : 39208
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a9a59e9828ccc6d0",
+  "name" : "Verify Reporting user can not view User Group",
+  "time" : {
+    "start" : 1680235962866,
+    "stop" : 1680235999110,
+    "duration" : 36244
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f1d8aa17eabc854",
+  "name" : "Verify System Write user can not create new Vehicles",
+  "time" : {
+    "start" : 1680235843478,
+    "stop" : 1680235879366,
+    "duration" : 35888
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e55881320daae6c0",
+  "name" : "Verify can not edit user without invalid email format '@.com.au'",
+  "time" : {
+    "start" : 1680234782521,
+    "stop" : 1680234812045,
+    "duration" : 29524
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7faa86e8363f5eb9",
+  "name" : "Verify can select number of row per page",
+  "time" : {
+    "start" : 1680235309262,
+    "stop" : 1680235318153,
+    "duration" : 8891
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9c0532879a72ea5",
+  "name" : "Verify user can not create new user with existed email",
+  "time" : {
+    "start" : 1680234740535,
+    "stop" : 1680234758754,
+    "duration" : 18219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea8ad5475b2839f6",
+  "name" : "Verify can not create user without invalid email format '@.com.au'",
+  "time" : {
+    "start" : 1680234796609,
+    "stop" : 1680234813384,
+    "duration" : 16775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab44af2267a707ea",
+  "name" : "Verify edit driver failed with exist user name",
+  "time" : {
+    "start" : 1680235284798,
+    "stop" : 1680235314781,
+    "duration" : 29983
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfb93808f12cf4aa",
+  "name" : "Verify System Read user can not create new Travellers",
+  "time" : {
+    "start" : 1680235884832,
+    "stop" : 1680235921597,
+    "duration" : 36765
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a0b37c81d5460abd",
+  "name" : "Verify System Write user can not view Solutions",
+  "time" : {
+    "start" : 1680236000852,
+    "stop" : 1680236037077,
+    "duration" : 36225
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b8d737b6aecc05e6",
+  "name" : "Verify user can add Concession: Vision Impaired for passengers",
+  "time" : {
+    "start" : 1680234856906,
+    "stop" : 1680234892968,
+    "duration" : 36062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3ad7dab74407889",
+  "name" : "Verify reset password link is only valid for one use",
+  "time" : {
+    "start" : 1680236855394,
+    "stop" : 1680236868610,
+    "duration" : 13216
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "232a816ac911a5e4",
+  "name" : "Verify edit driver failed if does not enter user name",
+  "time" : {
+    "start" : 1680235286076,
+    "stop" : 1680235315982,
+    "duration" : 29906
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10e9d7cb9655dfc3",
+  "name" : "Verify solutions page show with default region",
+  "time" : {
+    "start" : 1680236785732,
+    "stop" : 1680236843360,
+    "duration" : 57628
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2f88afcc37208de9",
+  "name" : "Verify can not create user without invalid email format 'email@'",
+  "time" : {
+    "start" : 1680234752291,
+    "stop" : 1680234772194,
+    "duration" : 19903
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16b8dde0f45ac40b",
+  "name" : "Verify administrator can edit user successfully with valid information",
+  "time" : {
+    "start" : 1680234678574,
+    "stop" : 1680234711983,
+    "duration" : 33409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ea900b88c405463",
+  "name" : "Verify can create user without enter optional fields",
+  "time" : {
+    "start" : 1680234724983,
+    "stop" : 1680234746127,
+    "duration" : 21144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36e2d5476f793099",
+  "name" : "TC_05",
+  "time" : {
+    "start" : 1680234676451,
+    "stop" : 1680234676451,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "1f762d34a8dc4b5e",
+  "name" : "Verify System Read user can not create new user",
+  "time" : {
+    "start" : 1680236086500,
+    "stop" : 1680236122410,
+    "duration" : 35910
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ddeb93d8dd2c810d",
+  "name" : "Verify user can book a trip by using credit card",
+  "time" : {
+    "start" : 1680235386088,
+    "stop" : 1680235490451,
+    "duration" : 104363
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4f3d545ca835a09a",
+  "name" : "Verify Configuration Read user can view regions",
+  "time" : {
+    "start" : 1680236124586,
+    "stop" : 1680236160384,
+    "duration" : 35798
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ff7702dfa725de6c",
+  "name" : "Verify Reporting user can not view Booking",
+  "time" : {
+    "start" : 1680235804312,
+    "stop" : 1680235841463,
+    "duration" : 37151
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4c7291ba944b50b5",
+  "name" : "Verify Configuration Read user can not edit zone",
+  "time" : {
+    "start" : 1680236193227,
+    "stop" : 1680236228979,
+    "duration" : 35752
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dff64e240a0fa569",
+  "name" : "Verify login failed by invalid account with 'wrong email format'",
+  "time" : {
+    "start" : 1680234289992,
+    "stop" : 1680234293323,
+    "duration" : 3331
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73e2b5759e4022a1",
+  "name" : "Verify can not edit user without enter mandatory field 'Username'",
+  "time" : {
+    "start" : 1680234680696,
+    "stop" : 1680234713307,
+    "duration" : 32611
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "181ffd967f87c3ed",
+  "name" : "Verify Configuration Read user view zone design",
+  "time" : {
+    "start" : 1680236175867,
+    "stop" : 1680236211698,
+    "duration" : 35831
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b5f5274e6c2375fe",
+  "name" : "Verify login successfully with ''",
+  "time" : {
+    "start" : 1680234362002,
+    "stop" : 1680234397790,
+    "duration" : 35788
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "29000eb94d5f2b5e",
+  "name" : "Verify can not edit user without enter mandatory field 'First Name'",
+  "time" : {
+    "start" : 1680234717016,
+    "stop" : 1680234747605,
+    "duration" : 30589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "164021a8e9b7a22e",
+  "name" : "Verify Configuration Read user can not create new user",
+  "time" : {
+    "start" : 1680236126026,
+    "stop" : 1680236162142,
+    "duration" : 36116
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b4ab0b124a683bcb",
+  "name" : "Verify user can resubmit the user creating request",
+  "time" : {
+    "start" : 1680234740771,
+    "stop" : 1680234765500,
+    "duration" : 24729
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79e66beac50eeb21",
+  "name" : "Verify create driver failed if does not enter email name",
+  "time" : {
+    "start" : 1680235265933,
+    "stop" : 1680235276390,
+    "duration" : 10457
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72f499388540b177",
+  "name" : "Verify copied active user session will be expired as well after logging out",
+  "time" : {
+    "start" : 1680234263906,
+    "stop" : 1680234277973,
+    "duration" : 14067
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b38563ae1e4b1e12",
+  "name" : "Verify the traveller can be dropped off",
+  "time" : {
+    "start" : 1680235753541,
+    "stop" : 1680235756319,
+    "duration" : 2778
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7491bf06bcbcb7d8",
+  "name" : "Verify edit driver failed if does not enter first name",
+  "time" : {
+    "start" : 1680235285464,
+    "stop" : 1680235315139,
+    "duration" : 29675
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "693f7b763b3ac8ef",
+  "name" : "Verify can access Vehicles page from Dashboard ",
+  "time" : {
+    "start" : 1680234672799,
+    "stop" : 1680234673342,
+    "duration" : 543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e95d89bd2c8d1788",
+  "name" : "Verify user can search vehicle by registration",
+  "time" : {
+    "start" : 1680236893426,
+    "stop" : 1680236899002,
+    "duration" : 5576
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "294e3734b2e4e882",
+  "name" : "Verify can not create group with exist group name",
+  "time" : {
+    "start" : 1680234825333,
+    "stop" : 1680234829945,
+    "duration" : 4612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a98ab4c781de002",
+  "name" : "Verify user can expire the concession for user",
+  "time" : {
+    "start" : 1680234901713,
+    "stop" : 1680234922653,
+    "duration" : 20940
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7eb06ecdf27c055",
+  "name" : "Verify create driver failed if does not enter last name",
+  "time" : {
+    "start" : 1680235266148,
+    "stop" : 1680235276515,
+    "duration" : 10367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b1446151eb47c10",
+  "name" : "Verify administrator can add user to administrator group",
+  "time" : {
+    "start" : 1680234680912,
+    "stop" : 1680234716473,
+    "duration" : 35561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf91391b0bd1843b",
+  "name" : "Verify if a group has been granted access to a write role, the system will also automatically grant access to the associated read role within the system",
+  "time" : {
+    "start" : 1680234824858,
+    "stop" : 1680234830635,
+    "duration" : 5777
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e9d78a55c803af1",
+  "name" : "TC_05",
+  "time" : {
+    "start" : 1680236844132,
+    "stop" : 1680236844132,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "193a265c841a9a7d",
+  "name" : "Verify Username, First Name, Last Name, Email Address are mandatory fields for editing user",
+  "time" : {
+    "start" : 1680234680881,
+    "stop" : 1680234703303,
+    "duration" : 22422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ba3023007f139ca",
+  "name" : "Verify the booking can be secured",
+  "time" : {
+    "start" : 1680235498717,
+    "stop" : 1680235737420,
+    "duration" : 238703
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b7b7a136ccc8b40",
+  "name" : "Verify Configuration Write user can delete region",
+  "time" : {
+    "start" : 1680236126479,
+    "stop" : 1680236162433,
+    "duration" : 35954
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2b1d37b5c1e64e6a",
+  "name" : "Verify Reporting user can not create new Vehicles",
+  "time" : {
+    "start" : 1680235803660,
+    "stop" : 1680235839919,
+    "duration" : 36259
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d93f1b02e2e9e609",
+  "name" : "TC_02",
+  "time" : {
+    "start" : 1680235162366,
+    "stop" : 1680235162366,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8b1d9c746667830c",
+  "name" : "Verify create driver successfully without phone number",
+  "time" : {
+    "start" : 1680235266025,
+    "stop" : 1680235279863,
+    "duration" : 13838
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86ff9c459135129c",
+  "name" : "Verify User Group,Phone Number are not required fields for user editing",
+  "time" : {
+    "start" : 1680234680668,
+    "stop" : 1680234710690,
+    "duration" : 30022
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "141a34e52f603120",
+  "name" : "Verify Configuration Write user can not view Booking",
+  "time" : {
+    "start" : 1680235965954,
+    "stop" : 1680236001974,
+    "duration" : 36020
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e4b037d0b9bda099",
+  "name" : "Verify can not edit user without invalid email format 'email@.com'",
+  "time" : {
+    "start" : 1680234749516,
+    "stop" : 1680234778865,
+    "duration" : 29349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8adf2094e1a067f8",
+  "name" : "Verify total of record show correctly",
+  "time" : {
+    "start" : 1680235244769,
+    "stop" : 1680235254102,
+    "duration" : 9333
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfd79ea6ffab932d",
+  "name" : "Verify System Write should not be able to edit a user belonging to the 'Administrators' group",
+  "time" : {
+    "start" : 1680236046885,
+    "stop" : 1680236083044,
+    "duration" : 36159
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4c8964e9b12438c",
+  "name" : "Verify can not create user without enter mandatory field 'Email Address'",
+  "time" : {
+    "start" : 1680234794776,
+    "stop" : 1680234811604,
+    "duration" : 16828
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e128b3d3cbf55c8f",
+  "name" : "Verify user can search vehicle by make",
+  "time" : {
+    "start" : 1680236893742,
+    "stop" : 1680236899259,
+    "duration" : 5517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "155c348442818ac5",
+  "name" : "Verify can edit driver successfully with valid information",
+  "time" : {
+    "start" : 1680235260739,
+    "stop" : 1680235295823,
+    "duration" : 35084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a280ef7d9cd722fa",
+  "name" : "TC_04",
+  "time" : {
+    "start" : 1680236777627,
+    "stop" : 1680236777627,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "77f256bc9f572995",
+  "name" : "Verify System Read user can not delete user",
+  "time" : {
+    "start" : 1680236086703,
+    "stop" : 1680236122677,
+    "duration" : 35974
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4db964e08878d651",
+  "name" : "Verify Configuration Write user can create new zone",
+  "time" : {
+    "start" : 1680236138294,
+    "stop" : 1680236173971,
+    "duration" : 35677
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b334080bc78000c6",
+  "name" : "Verify System Write user can create new user",
+  "time" : {
+    "start" : 1680236005824,
+    "stop" : 1680236042152,
+    "duration" : 36328
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9a597e7104bf789c",
+  "name" : "Verify Configuration Read user can view the 'Dashboard' page",
+  "time" : {
+    "start" : 1680235882381,
+    "stop" : 1680235918579,
+    "duration" : 36198
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bfcf9cf94f7d2fcb",
+  "name" : "Verify System Read user can not view Booking",
+  "time" : {
+    "start" : 1680235885382,
+    "stop" : 1680235921826,
+    "duration" : 36444
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "eacbc7d5fd4f89c2",
+  "name" : "Verify user can search drivers by name",
+  "time" : {
+    "start" : 1680236879659,
+    "stop" : 1680236885704,
+    "duration" : 6045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fa38f154096ec31",
+  "name" : "Verify System Read user can view the 'Dashboard' page",
+  "time" : {
+    "start" : 1680235842646,
+    "stop" : 1680235878723,
+    "duration" : 36077
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9854b8a3672bb5de",
+  "name" : "TC_06",
+  "time" : {
+    "start" : 1680236777147,
+    "stop" : 1680236777148,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "bd0290f838113855",
+  "name" : "TC_05",
+  "time" : {
+    "start" : 1680236777730,
+    "stop" : 1680236777730,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "45df2ed1b27b482e",
+  "name" : "Verify edit driver successfully without phone number",
+  "time" : {
+    "start" : 1680235288856,
+    "stop" : 1680235321094,
+    "duration" : 32238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e61aebf57ee6e519",
+  "name" : "Verify the price will be discounted for 'Concession Card: Student' account",
+  "time" : {
+    "start" : 1680235387234,
+    "stop" : 1680235481453,
+    "duration" : 94219
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cddc1b071c0b7650",
+  "name" : "Verify Vehicle Trips page show with default region",
+  "time" : {
+    "start" : 1680236395155,
+    "stop" : 1680236406593,
+    "duration" : 11438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5311b05be7524a14",
+  "name" : "Verify Configuration Read user can not view Users",
+  "time" : {
+    "start" : 1680235998401,
+    "stop" : 1680236031339,
+    "duration" : 32938
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dc7fcbb6a98ef37b",
+  "name" : "Verify Configuration Write user can not create new Driver",
+  "time" : {
+    "start" : 1680235923105,
+    "stop" : 1680235959209,
+    "duration" : 36104
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b99af7e31ff73aba",
+  "name" : "Verify System Write user can edit users",
+  "time" : {
+    "start" : 1680236005571,
+    "stop" : 1680236041387,
+    "duration" : 35816
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6acebf258c2f2fe0",
+  "name" : "Verify a group and its associated privileges will be removed from all users if a group is deleted",
+  "time" : {
+    "start" : 1680234821742,
+    "stop" : 1680234843452,
+    "duration" : 21710
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "836d02764ce09253",
+  "name" : "Verify Configuration Read user can not view Booking",
+  "time" : {
+    "start" : 1680235925732,
+    "stop" : 1680235962269,
+    "duration" : 36537
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e5339d97f432100f",
+  "name" : "Verify user can search passengers by email",
+  "time" : {
+    "start" : 1680236879142,
+    "stop" : 1680236888363,
+    "duration" : 9221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3b98d13d27b8a3f",
+  "name" : "Verify user with System write role can create user and add them to a group successfully",
+  "time" : {
+    "start" : 1680234715659,
+    "stop" : 1680234751819,
+    "duration" : 36160
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a08bd9298066adc3",
+  "name" : "Verify Reporting user can not view Travellers",
+  "time" : {
+    "start" : 1680235804170,
+    "stop" : 1680235840847,
+    "duration" : 36677
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f1343aff9dbb0e70",
+  "name" : "Verify System Write user can not view Schedules",
+  "time" : {
+    "start" : 1680235844837,
+    "stop" : 1680235881215,
+    "duration" : 36378
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1ce775ad8972ef31",
+  "name" : "Verify Reporting user can view the 'Dashboard' page",
+  "time" : {
+    "start" : 1680235761211,
+    "stop" : 1680235799404,
+    "duration" : 38193
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fcd08e164475fd2f",
+  "name" : "Verify System Read user can not view Schedules",
+  "time" : {
+    "start" : 1680235884984,
+    "stop" : 1680235921619,
+    "duration" : 36635
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5de3dc51641cf221",
+  "name" : "Verify Reporting user can view Trips",
+  "time" : {
+    "start" : 1680235761351,
+    "stop" : 1680235800578,
+    "duration" : 39227
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fec2116351577860",
+  "name" : "Verify login successfully with 'Full permission user'",
+  "time" : {
+    "start" : 1680234280960,
+    "stop" : 1680234284650,
+    "duration" : 3690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7ee6bc1401bf384",
+  "name" : "Verify user can search bookings by passenger name",
+  "time" : {
+    "start" : 1680236875284,
+    "stop" : 1680236901717,
+    "duration" : 26433
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e62817c0168368b8",
+  "name" : "Verify user can search vehicle trip by id",
+  "time" : {
+    "start" : 1680236878599,
+    "stop" : 1680236885585,
+    "duration" : 6986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44c22c42edf204ce",
+  "name" : "TC_02",
+  "time" : {
+    "start" : 1680236844133,
+    "stop" : 1680236844133,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "5887122ffb75f0a3",
+  "name" : "Verify Configuration Read user can not delete zone",
+  "time" : {
+    "start" : 1680236199545,
+    "stop" : 1680236235444,
+    "duration" : 35899
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cec391110c950f0f",
+  "name" : "TC_05",
+  "time" : {
+    "start" : 1680235118461,
+    "stop" : 1680235118461,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cee2acea47a6c345",
+  "name" : "Verify Reporting user can not view Users",
+  "time" : {
+    "start" : 1680235962045,
+    "stop" : 1680235994859,
+    "duration" : 32814
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c836dc5277d1b0b1",
+  "name" : "TC_02",
+  "time" : {
+    "start" : 1680236777461,
+    "stop" : 1680236777461,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "dc5a18bc0a5e3ec5",
+  "name" : "Verify can access Bookings page from Dashboard ",
+  "time" : {
+    "start" : 1680234675197,
+    "stop" : 1680234675651,
+    "duration" : 454
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7f65d8191c8268a",
+  "name" : "Verify user can delete passenger",
+  "time" : {
+    "start" : 1680234856154,
+    "stop" : 1680234875548,
+    "duration" : 19394
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a866173a63098f7e",
+  "name" : "Verify Configuration Read user can not view Trips",
+  "time" : {
+    "start" : 1680236080946,
+    "stop" : 1680236116869,
+    "duration" : 35923
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1f3fb948c0b5f45f",
+  "name" : "Verify can select columns to show information",
+  "time" : {
+    "start" : 1680235289444,
+    "stop" : 1680235314374,
+    "duration" : 24930
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d3413634b4ffb93",
+  "name" : "Verify can not create user without invalid email format 'email@.com'",
+  "time" : {
+    "start" : 1680234775858,
+    "stop" : 1680234792987,
+    "duration" : 17129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a81022ac6307a8b",
+  "name" : "Verify Configuration Read user can not view Solutions",
+  "time" : {
+    "start" : 1680236080203,
+    "stop" : 1680236116092,
+    "duration" : 35889
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2655a18956759860",
+  "name" : "Verify can create group with no role and no user",
+  "time" : {
+    "start" : 1680234825271,
+    "stop" : 1680234831060,
+    "duration" : 5789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fca813671755faf",
+  "name" : "Verify user can add Concession: Veteran for passengers",
+  "time" : {
+    "start" : 1680234856857,
+    "stop" : 1680234892453,
+    "duration" : 35596
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34eb40c6b4ad26",
+  "name" : "Verify create driver failed if does not enter first name",
+  "time" : {
+    "start" : 1680235266141,
+    "stop" : 1680235276730,
+    "duration" : 10589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edba4fd502d7d37a",
+  "name" : "Verify Configuration Write user can view regions",
+  "time" : {
+    "start" : 1680236163948,
+    "stop" : 1680236200013,
+    "duration" : 36065
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "21463c4a022746e7",
+  "name" : "Verify Reporting  user can view the 'Feedback' page",
+  "time" : {
+    "start" : 1680235759086,
+    "stop" : 1680235796600,
+    "duration" : 37514
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "92a02309e88e6657",
+  "name" : "Verify can access Zones page from Dashboard ",
+  "time" : {
+    "start" : 1680234673522,
+    "stop" : 1680234674444,
+    "duration" : 922
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84ca63341186e330",
+  "name" : "Verify System Write user can not view the 'Feedback' page",
+  "time" : {
+    "start" : 1680235986934,
+    "stop" : 1680236022662,
+    "duration" : 35728
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3ecdeb413acefb94",
+  "name" : "Verify login successfully with ''",
+  "time" : {
+    "start" : 1680234474916,
+    "stop" : 1680234510553,
+    "duration" : 35637
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1742b36eef4b3324",
+  "name" : "Verify can access Service Monitoring page from Dashboard ",
+  "time" : {
+    "start" : 1680234669490,
+    "stop" : 1680234669960,
+    "duration" : 470
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "588563238b665a4c",
+  "name" : "Verify Reporting user can not create new User Group",
+  "time" : {
+    "start" : 1680235966328,
+    "stop" : 1680236003052,
+    "duration" : 36724
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6c01aac98eb3b744",
+  "name" : "Verify System Write user can not create new Travellers",
+  "time" : {
+    "start" : 1680235844419,
+    "stop" : 1680235881088,
+    "duration" : 36669
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9d9f7d8339c53914",
+  "name" : "Verify System Read user can not view Trips",
+  "time" : {
+    "start" : 1680236041544,
+    "stop" : 1680236077373,
+    "duration" : 35829
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7661dd9dd55b379f",
+  "name" : "TC_02",
+  "time" : {
+    "start" : 1680235040350,
+    "stop" : 1680235040350,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "679ac90022f70479",
+  "name" : "Verify permission after removing a group",
+  "time" : {
+    "start" : 1680236239885,
+    "stop" : 1680236275590,
+    "duration" : 35705
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a4bb173224af9668",
+  "name" : "Verify Reporting user can view the Traveler of a 'Feedback'",
+  "time" : {
+    "start" : 1680235761211,
+    "stop" : 1680235800176,
+    "duration" : 38965
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "822ccca2cc772da5",
+  "name" : "Verify Configuration Write user can not view Trips",
+  "time" : {
+    "start" : 1680236120437,
+    "stop" : 1680236156437,
+    "duration" : 36000
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "facb8fdade503b1e",
+  "name" : "Verify user without administrator role can not add user to Administrators Group",
+  "time" : {
+    "start" : 1680234716613,
+    "stop" : 1680234752834,
+    "duration" : 36221
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "640c53867adeeeaa",
+  "name" : "Verify login successfully with ''",
+  "time" : {
+    "start" : 1680234399673,
+    "stop" : 1680234435338,
+    "duration" : 35665
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7b77331629ca8d1c",
+  "name" : "Verify System Write user can not view Driver",
+  "time" : {
+    "start" : 1680235802692,
+    "stop" : 1680235838717,
+    "duration" : 36025
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b01cf4387fed8c0",
+  "name" : "TC_01",
+  "time" : {
+    "start" : 1680235037183,
+    "stop" : 1680235037183,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f5b1e93b7d271b1d",
+  "name" : "Verify Daily Operations Write user can not view Travellers",
+  "time" : {
+    "start" : 1680236006834,
+    "stop" : 1680236043221,
+    "duration" : 36387
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2802e640cb836021",
+  "name" : "Verify Configuration Read user can not create new Vehicles",
+  "time" : {
+    "start" : 1680235922835,
+    "stop" : 1680235959062,
+    "duration" : 36227
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "15376e5f8a7110d3",
+  "name" : "Verify Username, First Name, Last Name, Email Address are mandatory fields for creating user",
+  "time" : {
+    "start" : 1680234719784,
+    "stop" : 1680234726700,
+    "duration" : 6916
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8549c8b31a48271",
+  "name" : "TC_03",
+  "time" : {
+    "start" : 1680236844133,
+    "stop" : 1680236844133,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "5f5f4cc28a574100",
+  "name" : "Verify System Read user can not view Solutions",
+  "time" : {
+    "start" : 1680236040648,
+    "stop" : 1680236076638,
+    "duration" : 35990
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4d97cfccaa6fc132",
+  "name" : "Verify user with no group can not take any action",
+  "time" : {
+    "start" : 1680236352552,
+    "stop" : 1680236388224,
+    "duration" : 35672
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6e7a336f7ea6a02c",
+  "name" : "Verify can not create user without enter mandatory field 'Last Name'",
+  "time" : {
+    "start" : 1680234773436,
+    "stop" : 1680234791109,
+    "duration" : 17673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bcc3815eb2d886d",
+  "name" : "TC_12",
+  "time" : {
+    "start" : 1680234676452,
+    "stop" : 1680234676452,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "3c1f49da028196aa",
+  "name" : "Verify login successfully with ''",
+  "time" : {
+    "start" : 1680234512453,
+    "stop" : 1680234548352,
+    "duration" : 35899
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "83b182ad9feb6da7",
+  "name" : "Verify permission after removing user from a group",
+  "time" : {
+    "start" : 1680236314890,
+    "stop" : 1680236350657,
+    "duration" : 35767
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d8bb42338dffe7a0",
+  "name" : "TC_12",
+  "time" : {
+    "start" : 1680234676452,
+    "stop" : 1680234676452,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "f6b2de86cccf026c",
+  "name" : "TC_03",
+  "time" : {
+    "start" : 1680236778467,
+    "stop" : 1680236778467,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "675e66c0525d783b",
+  "name" : "TC_04",
+  "time" : {
+    "start" : 1680235040459,
+    "stop" : 1680235040459,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5def02a527e0f3f4",
+  "name" : "Verify user can create new Travellers",
+  "time" : {
+    "start" : 1680234853154,
+    "stop" : 1680234866629,
+    "duration" : 13475
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d597d4a42eb9eabe",
+  "name" : "Verify System Read user can not edit User Group",
+  "time" : {
+    "start" : 1680236110792,
+    "stop" : 1680236146588,
+    "duration" : 35796
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "80264066eaeec16b",
+  "name" : "TC_01",
+  "time" : {
+    "start" : 1680235160596,
+    "stop" : 1680235160596,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1cf2ecd0c0ef8fd3",
+  "name" : "Verify Configuration Write user can not view Solutions",
+  "time" : {
+    "start" : 1680236119647,
+    "stop" : 1680236155594,
+    "duration" : 35947
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f8991d1046d743e3",
+  "name" : "TC_07",
+  "time" : {
+    "start" : 1680236778308,
+    "stop" : 1680236778308,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "aac248a9b0e37f2",
+  "name" : "Verify Configuration Write user can edit zone",
+  "time" : {
+    "start" : 1680236150149,
+    "stop" : 1680236185921,
+    "duration" : 35772
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8ae94f1e1831ddf8",
+  "name" : "Verify create driver failed with exist user name",
+  "time" : {
+    "start" : 1680235266815,
+    "stop" : 1680235277376,
+    "duration" : 10561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1790709cfd752953",
+  "name" : "Verify user can resubmit the user editing request",
+  "time" : {
+    "start" : 1680234680652,
+    "stop" : 1680234725764,
+    "duration" : 45112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d406ab13fb64145",
+  "name" : "Verify create driver failed if does not enter user name",
+  "time" : {
+    "start" : 1680235266131,
+    "stop" : 1680235276712,
+    "duration" : 10581
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "797f9de8c976fefe",
+  "name" : "beforeSuite",
+  "time" : {
+    "start" : 1680236768979,
+    "stop" : 1680236768979,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d82f73bbea778e86",
+  "name" : "Verify Configuration Write user can design zone",
+  "time" : {
+    "start" : 1680236160022,
+    "stop" : 1680236195972,
+    "duration" : 35950
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "49d8e467e2e06c21",
+  "name" : "Verify can open and close Create new form",
+  "time" : {
+    "start" : 1680235322066,
+    "stop" : 1680235335786,
+    "duration" : 13720
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "651a489d99c09810",
+  "name" : "Verify user can edit the concession for user",
+  "time" : {
+    "start" : 1680234901350,
+    "stop" : 1680234969541,
+    "duration" : 68191
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b98c4b8ff384becb",
+  "name" : "Verify Configuration Write user can not create new Vehicles",
+  "time" : {
+    "start" : 1680235962711,
+    "stop" : 1680235998575,
+    "duration" : 35864
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "98636ac6ba186a3a",
+  "name" : "Verify edit driver failed if does not enter email",
+  "time" : {
+    "start" : 1680235286586,
+    "stop" : 1680235316090,
+    "duration" : 29504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2a868f9b17ab017",
+  "name" : "Verify can edit user without enter optional fields",
+  "time" : {
+    "start" : 1680234680652,
+    "stop" : 1680234712938,
+    "duration" : 32286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6de1f5e31bd25036",
+  "name" : "Verify login failed by invalid account with 'wrong password'",
+  "time" : {
+    "start" : 1680234282609,
+    "stop" : 1680234286444,
+    "duration" : 3835
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a15bf936f79b690",
+  "name" : "Verify System Read user can not view the 'Feedback' page",
+  "time" : {
+    "start" : 1680236024554,
+    "stop" : 1680236060375,
+    "duration" : 35821
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7f83991b220210e3",
+  "name" : "Verify can not create user without invalid email format 'only_text'",
+  "time" : {
+    "start" : 1680234730418,
+    "stop" : 1680234748591,
+    "duration" : 18173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "320518043b3ef948",
+  "name" : "Verify user can add Concession Veteran for passengers",
+  "time" : {
+    "start" : 1680234856108,
+    "stop" : 1680234891311,
+    "duration" : 35203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "889052702ba21f3d",
+  "name" : "Verify login successfully with ''",
+  "time" : {
+    "start" : 1680234550229,
+    "stop" : 1680234585913,
+    "duration" : 35684
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "75f905dfba408eb2",
+  "name" : "Verify Configuration Read user can not create new Driver",
+  "time" : {
+    "start" : 1680235883451,
+    "stop" : 1680235919471,
+    "duration" : 36020
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4c10aeffdda03c1b",
+  "name" : "Verify administrator can create user and add them to Administrators Group successfully",
+  "time" : {
+    "start" : 1680234713735,
+    "stop" : 1680234738841,
+    "duration" : 25106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3199f621d326039",
+  "name" : "Verify user can book a trip for not low tech passenger",
+  "time" : {
+    "start" : 1680235385751,
+    "stop" : 1680235461695,
+    "duration" : 75944
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8d4c39038859dd3c",
+  "name" : "Verify Configuration Write user can delete zone",
+  "time" : {
+    "start" : 1680236159185,
+    "stop" : 1680236195120,
+    "duration" : 35935
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fac0192006597462",
+  "name" : "Verify can not edit user without enter mandatory field 'Email Address'",
+  "time" : {
+    "start" : 1680234785320,
+    "stop" : 1680234814734,
+    "duration" : 29414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3282250176cd86a2",
+  "name" : "Verify user can edit passenger information",
+  "time" : {
+    "start" : 1680234857122,
+    "stop" : 1680234885979,
+    "duration" : 28857
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cae733662807377",
+  "name" : "Verify Configuration Read user can not delete region",
+  "time" : {
+    "start" : 1680236165599,
+    "stop" : 1680236201638,
+    "duration" : 36039
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b2e40aabf069123f",
+  "name" : "Verify System Read user can not create new Driver",
+  "time" : {
+    "start" : 1680235843779,
+    "stop" : 1680235879877,
+    "duration" : 36098
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "153242f329ead97",
+  "name" : "Verify can select number of row per page",
+  "time" : {
+    "start" : 1680235297289,
+    "stop" : 1680235301389,
+    "duration" : 4100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d61513df77a028",
+  "name" : "Verify System Read user can not view Travellers",
+  "time" : {
+    "start" : 1680235884499,
+    "stop" : 1680235921607,
+    "duration" : 37108
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ef3eb01845af8368",
+  "name" : "Verify login successfully with ''",
+  "time" : {
+    "start" : 1680234437239,
+    "stop" : 1680234473036,
+    "duration" : 35797
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5c563a102fb1ffc1",
+  "name" : "Verify can not edit user without invalid email format 'only_text'",
+  "time" : {
+    "start" : 1680234680714,
+    "stop" : 1680234712655,
+    "duration" : 31941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5531f55d98714ce1",
+  "name" : "Verify can create driver successfully with valid information",
+  "time" : {
+    "start" : 1680235267155,
+    "stop" : 1680235281110,
+    "duration" : 13955
   },
   "status" : "passed",
   "severity" : "normal"

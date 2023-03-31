@@ -2,14 +2,14 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "Verify copied active user session will be expired as well after logging out",
-    "uid" : "2f5050950ca8d04",
+    "name" : "Verify can not be back and start working after logout",
+    "uid" : "e37f93effe1ea5a1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
+    "status" : "passed",
     "time" : {
-      "start" : 1680162967643,
-      "stop" : 1680162982337,
-      "duration" : 14694
+      "start" : 1680234263552,
+      "stop" : 1680234276312,
+      "duration" : 12760
     },
     "flaky" : false,
     "newFailed" : false,
@@ -20,13 +20,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Verify all open tabs for Operation Portal should be logged out as well after user logs out on one tab",
-    "uid" : "18a7fb0b264bfd81",
+    "uid" : "45ec855382b15ca3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1680162968721,
-      "stop" : 1680162982376,
-      "duration" : 13655
+      "start" : 1680234263889,
+      "stop" : 1680234278129,
+      "duration" : 14240
     },
     "flaky" : false,
     "newFailed" : false,
@@ -36,14 +36,4859 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Verify can not be back and start working after logout",
-    "uid" : "1d6aa9b92ee84a58",
+    "name" : "Verify copied active user session will be expired as well after logging out",
+    "uid" : "72f499388540b177",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1680234263906,
+      "stop" : 1680234277973,
+      "duration" : 14067
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify login successfully with 'Full permission user'",
+    "uid" : "fec2116351577860",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1680162968721,
-      "stop" : 1680162980240,
-      "duration" : 11519
+      "start" : 1680234280960,
+      "stop" : 1680234284650,
+      "duration" : 3690
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@5751ff0" ]
+  }, {
+    "name" : "Verify login failed by invalid account with 'wrong password'",
+    "uid" : "6de1f5e31bd25036",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234282609,
+      "stop" : 1680234286444,
+      "duration" : 3835
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@1f4a7fdc" ]
+  }, {
+    "name" : "Verify login successfully with ''",
+    "uid" : "deeeb27b0cdbbe1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680234286596,
+      "stop" : 1680234322324,
+      "duration" : 35728
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@8f8660a" ]
+  }, {
+    "name" : "Verify login failed by invalid account with 'wrong email format'",
+    "uid" : "dff64e240a0fa569",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234289992,
+      "stop" : 1680234293323,
+      "duration" : 3331
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@691ad34c" ]
+  }, {
+    "name" : "Verify login successfully with ''",
+    "uid" : "4ff8033fbf24fd7c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680234324208,
+      "stop" : 1680234360090,
+      "duration" : 35882
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@56116f1" ]
+  }, {
+    "name" : "Verify login successfully with ''",
+    "uid" : "b5f5274e6c2375fe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680234362002,
+      "stop" : 1680234397790,
+      "duration" : 35788
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@7fa2cbf0" ]
+  }, {
+    "name" : "Verify login successfully with ''",
+    "uid" : "640c53867adeeeaa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680234399673,
+      "stop" : 1680234435338,
+      "duration" : 35665
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@74515596" ]
+  }, {
+    "name" : "Verify login successfully with ''",
+    "uid" : "ef3eb01845af8368",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680234437239,
+      "stop" : 1680234473036,
+      "duration" : 35797
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3a872519" ]
+  }, {
+    "name" : "Verify login successfully with ''",
+    "uid" : "3ecdeb413acefb94",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680234474916,
+      "stop" : 1680234510553,
+      "duration" : 35637
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3eb2737f" ]
+  }, {
+    "name" : "Verify login successfully with ''",
+    "uid" : "3c1f49da028196aa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680234512453,
+      "stop" : 1680234548352,
+      "duration" : 35899
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@290be9be" ]
+  }, {
+    "name" : "Verify login successfully with ''",
+    "uid" : "889052702ba21f3d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680234550229,
+      "stop" : 1680234585913,
+      "duration" : 35684
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@4f7757c2" ]
+  }, {
+    "name" : "Verify login successfully with ''",
+    "uid" : "6e248a1625257a8f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680234587821,
+      "stop" : 1680234623630,
+      "duration" : 35809
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@65880bde" ]
+  }, {
+    "name" : "Verify login successfully with ''",
+    "uid" : "196c044bdb50d6b4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680234625530,
+      "stop" : 1680234661311,
+      "duration" : 35781
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@55815e45" ]
+  }, {
+    "name" : "Verify can access Service Monitoring page from Dashboard ",
+    "uid" : "1742b36eef4b3324",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234669490,
+      "stop" : 1680234669960,
+      "duration" : 470
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can access Solutions page from Dashboard ",
+    "uid" : "4d0a440bb4a51059",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234672303,
+      "stop" : 1680234673209,
+      "duration" : 906
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can access Vehicles page from Dashboard ",
+    "uid" : "693f7b763b3ac8ef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234672799,
+      "stop" : 1680234673342,
+      "duration" : 543
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can access Travellers page from Dashboard ",
+    "uid" : "d458c31a1b488f31",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234672835,
+      "stop" : 1680234673447,
+      "duration" : 612
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can access Regions page from Dashboard ",
+    "uid" : "e76d12caf874a328",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234673157,
+      "stop" : 1680234673702,
+      "duration" : 545
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can access Zones page from Dashboard ",
+    "uid" : "92a02309e88e6657",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234673522,
+      "stop" : 1680234674444,
+      "duration" : 922
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can access Schedules page from Dashboard ",
+    "uid" : "c501b1a11504640a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234673772,
+      "stop" : 1680234674266,
+      "duration" : 494
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can access Drivers page from Dashboard ",
+    "uid" : "1fbb900b553ec5c6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234673899,
+      "stop" : 1680234674310,
+      "duration" : 411
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can access Bookings page from Dashboard ",
+    "uid" : "dc5a18bc0a5e3ec5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234675197,
+      "stop" : 1680234675651,
+      "duration" : 454
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_05",
+    "uid" : "36e2d5476f793099",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1680234676451,
+      "stop" : 1680234676451,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_12",
+    "uid" : "d8bb42338dffe7a0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1680234676452,
+      "stop" : 1680234676452,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_12",
+    "uid" : "5bcc3815eb2d886d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1680234676452,
+      "stop" : 1680234676452,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify administrator can edit user successfully with valid information",
+    "uid" : "16b8dde0f45ac40b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234678574,
+      "stop" : 1680234711983,
+      "duration" : 33409
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can edit user without enter optional fields",
+    "uid" : "c2a868f9b17ab017",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234680652,
+      "stop" : 1680234712938,
+      "duration" : 32286
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can resubmit the user editing request",
+    "uid" : "1790709cfd752953",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234680652,
+      "stop" : 1680234725764,
+      "duration" : 45112
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify User Group,Phone Number are not required fields for user editing",
+    "uid" : "86ff9c459135129c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234680668,
+      "stop" : 1680234710690,
+      "duration" : 30022
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can not edit user without enter mandatory field 'Username'",
+    "uid" : "73e2b5759e4022a1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234680696,
+      "stop" : 1680234713307,
+      "duration" : 32611
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "Username", "Please enter a username" ]
+  }, {
+    "name" : "Verify can not edit user without invalid email format 'only_text'",
+    "uid" : "5c563a102fb1ffc1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234680714,
+      "stop" : 1680234712655,
+      "duration" : 31941
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "only_text" ]
+  }, {
+    "name" : "Verify user without administrator role can not add user to administrator group",
+    "uid" : "c78cb59d628d8041",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680234680762,
+      "stop" : 1680234721254,
+      "duration" : 40492
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Username, First Name, Last Name, Email Address are mandatory fields for editing user",
+    "uid" : "193a265c841a9a7d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234680881,
+      "stop" : 1680234703303,
+      "duration" : 22422
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify administrator can add user to administrator group",
+    "uid" : "5b1446151eb47c10",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234680912,
+      "stop" : 1680234716473,
+      "duration" : 35561
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can not create edit user with existed email",
+    "uid" : "e76f3360ed7f9257",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234680929,
+      "stop" : 1680234716026,
+      "duration" : 35097
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can not create new user with existed user name",
+    "uid" : "9e33db75233f2a7d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234706943,
+      "stop" : 1680234738027,
+      "duration" : 31084
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify administrator can create user and add them to Administrators Group successfully",
+    "uid" : "4c10aeffdda03c1b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234713735,
+      "stop" : 1680234738841,
+      "duration" : 25106
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user with System write role can create user and add them to a group successfully",
+    "uid" : "d3b98d13d27b8a3f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680234715659,
+      "stop" : 1680234751819,
+      "duration" : 36160
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can not edit user without invalid email format 'email@'",
+    "uid" : "b224a5a52d46296f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234716389,
+      "stop" : 1680234745795,
+      "duration" : 29406
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "email@" ]
+  }, {
+    "name" : "Verify user without administrator role can not add user to Administrators Group",
+    "uid" : "facb8fdade503b1e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680234716613,
+      "stop" : 1680234752834,
+      "duration" : 36221
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can not edit user without enter mandatory field 'First Name'",
+    "uid" : "29000eb94d5f2b5e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234717016,
+      "stop" : 1680234747605,
+      "duration" : 30589
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "First Name", "Please enter first name" ]
+  }, {
+    "name" : "Verify Username, First Name, Last Name, Email Address are mandatory fields for creating user",
+    "uid" : "15376e5f8a7110d3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234719784,
+      "stop" : 1680234726700,
+      "duration" : 6916
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify User Group,Phone Number are not required fields for user creating ",
+    "uid" : "e5214259ce4141e0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234720156,
+      "stop" : 1680234737094,
+      "duration" : 16938
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can create user without enter optional fields",
+    "uid" : "8ea900b88c405463",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234724983,
+      "stop" : 1680234746127,
+      "duration" : 21144
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can not create user without enter mandatory field 'Username'",
+    "uid" : "ebc012a610eb5358",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234729387,
+      "stop" : 1680234747569,
+      "duration" : 18182
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "Username", "Please enter a username" ]
+  }, {
+    "name" : "Verify can not create user without invalid email format 'only_text'",
+    "uid" : "7f83991b220210e3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234730418,
+      "stop" : 1680234748591,
+      "duration" : 18173
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "only_text" ]
+  }, {
+    "name" : "Verify user can not create new user with existed email",
+    "uid" : "d9c0532879a72ea5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234740535,
+      "stop" : 1680234758754,
+      "duration" : 18219
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can resubmit the user creating request",
+    "uid" : "b4ab0b124a683bcb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234740771,
+      "stop" : 1680234765500,
+      "duration" : 24729
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can not create new user with existed user name",
+    "uid" : "e0fda5ba99969b31",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234742510,
+      "stop" : 1680234760828,
+      "duration" : 18318
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can not edit user without invalid email format 'email@.com'",
+    "uid" : "e4b037d0b9bda099",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234749516,
+      "stop" : 1680234778865,
+      "duration" : 29349
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "email@.com" ]
+  }, {
+    "name" : "Verify can delete user successfully",
+    "uid" : "8bdfd8e5e8fa8299",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234749820,
+      "stop" : 1680234770695,
+      "duration" : 20875
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can not create user without enter mandatory field 'First Name'",
+    "uid" : "774d50b0cc39475b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234751279,
+      "stop" : 1680234769794,
+      "duration" : 18515
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "First Name", "Please enter first name" ]
+  }, {
+    "name" : "Verify can not edit user without enter mandatory field 'Last Name'",
+    "uid" : "ae3ea1db28c09326",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234751315,
+      "stop" : 1680234781667,
+      "duration" : 30352
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "Last Name", "Please enter last name" ]
+  }, {
+    "name" : "Verify can not create user without invalid email format 'email@'",
+    "uid" : "2f88afcc37208de9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234752291,
+      "stop" : 1680234772194,
+      "duration" : 19903
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "email@" ]
+  }, {
+    "name" : "Verify can cancel user deleting action",
+    "uid" : "c1d02ed995f88c47",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234755595,
+      "stop" : 1680234774737,
+      "duration" : 19142
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can create new user that has the same user name and email with a deleted user",
+    "uid" : "171113d659f9dc41",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234756599,
+      "stop" : 1680234788151,
+      "duration" : 31552
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify normal user can not delete administrator",
+    "uid" : "c938de27c1085acb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680234761066,
+      "stop" : 1680234797361,
+      "duration" : 36295
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can not create user without enter mandatory field 'Last Name'",
+    "uid" : "6e7a336f7ea6a02c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234773436,
+      "stop" : 1680234791109,
+      "duration" : 17673
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "Last Name", "Please enter last name" ]
+  }, {
+    "name" : "Verify can not create user without invalid email format 'email@.com'",
+    "uid" : "4d3413634b4ffb93",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234775858,
+      "stop" : 1680234792987,
+      "duration" : 17129
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "email@.com" ]
+  }, {
+    "name" : "Verify can not edit user without invalid email format '@.com.au'",
+    "uid" : "e55881320daae6c0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234782521,
+      "stop" : 1680234812045,
+      "duration" : 29524
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "@.com.au" ]
+  }, {
+    "name" : "Verify can not edit user without enter mandatory field 'Email Address'",
+    "uid" : "fac0192006597462",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234785320,
+      "stop" : 1680234814734,
+      "duration" : 29414
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "Email Address", "Please enter email address" ]
+  }, {
+    "name" : "Verify can not create user without enter mandatory field 'Email Address'",
+    "uid" : "4c8964e9b12438c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234794776,
+      "stop" : 1680234811604,
+      "duration" : 16828
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "Email Address", "Please enter email address" ]
+  }, {
+    "name" : "Verify can not create user without invalid email format '@.com.au'",
+    "uid" : "ea8ad5475b2839f6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234796609,
+      "stop" : 1680234813384,
+      "duration" : 16775
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "@.com.au" ]
+  }, {
+    "name" : "Verify a group and its associated privileges will be removed from all users if a group is deleted",
+    "uid" : "6acebf258c2f2fe0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234821742,
+      "stop" : 1680234843452,
+      "duration" : 21710
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can edit group with no roles and no users",
+    "uid" : "356606a1b274ac39",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234823972,
+      "stop" : 1680234844027,
+      "duration" : 20055
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify if a group has been granted access to a write role, the system will also automatically grant access to the associated read role within the system",
+    "uid" : "bf91391b0bd1843b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234824858,
+      "stop" : 1680234830635,
+      "duration" : 5777
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can create group with no role and no user",
+    "uid" : "2655a18956759860",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234825271,
+      "stop" : 1680234831060,
+      "duration" : 5789
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can not create group with exist group name",
+    "uid" : "294e3734b2e4e882",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234825333,
+      "stop" : 1680234829945,
+      "duration" : 4612
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can edit group with multiple roles and multiple users",
+    "uid" : "c4fc55ac891ab725",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234825437,
+      "stop" : 1680234845719,
+      "duration" : 20282
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can create group with multiple roles and multiple users",
+    "uid" : "aa35c5923ce4c762",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234825514,
+      "stop" : 1680234831590,
+      "duration" : 6076
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can create new Travellers",
+    "uid" : "5def02a527e0f3f4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234853154,
+      "stop" : 1680234866629,
+      "duration" : 13475
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can add Concession Veteran for passengers",
+    "uid" : "320518043b3ef948",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234856108,
+      "stop" : 1680234891311,
+      "duration" : 35203
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can delete passenger",
+    "uid" : "d7f65d8191c8268a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234856154,
+      "stop" : 1680234875548,
+      "duration" : 19394
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can add Concession: Senior/Pensioner for passengers",
+    "uid" : "7193c77040633b30",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234856476,
+      "stop" : 1680234891976,
+      "duration" : 35500
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can add Concession: Veteran for passengers",
+    "uid" : "9fca813671755faf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234856857,
+      "stop" : 1680234892453,
+      "duration" : 35596
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can add Concession: Vision Impaired for passengers",
+    "uid" : "b8d737b6aecc05e6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234856906,
+      "stop" : 1680234892968,
+      "duration" : 36062
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can edit passenger information",
+    "uid" : "3282250176cd86a2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234857122,
+      "stop" : 1680234885979,
+      "duration" : 28857
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can add Concession: Child/Youth/Student for passengers",
+    "uid" : "36337b91a7cc38a4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234857723,
+      "stop" : 1680234893108,
+      "duration" : 35385
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can enter credit card details for passenger",
+    "uid" : "91d260f34a5d4e65",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234899227,
+      "stop" : 1680234943263,
+      "duration" : 44036
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can edit the concession for user",
+    "uid" : "651a489d99c09810",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680234901350,
+      "stop" : 1680234969541,
+      "duration" : 68191
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can expire the concession for user",
+    "uid" : "4a98ab4c781de002",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234901713,
+      "stop" : 1680234922653,
+      "duration" : 20940
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can delete region successfully",
+    "uid" : "a791c611c8a414c2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234976524,
+      "stop" : 1680234993513,
+      "duration" : 16989
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can create region successfully with valid information",
+    "uid" : "99daaba7eebdf1eb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234978258,
+      "stop" : 1680234983042,
+      "duration" : 4784
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can edit region successfully with valid information",
+    "uid" : "a1a67816b78ab2e4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680234978516,
+      "stop" : 1680234998613,
+      "duration" : 20097
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_01",
+    "uid" : "b01cf4387fed8c0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680235037183,
+      "stop" : 1680235037183,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_02",
+    "uid" : "7661dd9dd55b379f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680235040350,
+      "stop" : 1680235040350,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_04",
+    "uid" : "675e66c0525d783b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680235040459,
+      "stop" : 1680235040459,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "beforeEachScenario",
+    "uid" : "c93409167cb97861",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235077928,
+      "stop" : 1680235077928,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 4,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_03",
+    "uid" : "73f5ee5a3456d9c8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680235077929,
+      "stop" : 1680235077929,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can delete zone successfully",
+    "uid" : "65a851ebe792d603",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235085408,
+      "stop" : 1680235103929,
+      "duration" : 18521
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can edit zone successfully with valid information",
+    "uid" : "82151bbde501318",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235087083,
+      "stop" : 1680235121556,
+      "duration" : 34473
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can create zone successfully with valid information",
+    "uid" : "895502440a8c45c2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235089206,
+      "stop" : 1680235107836,
+      "duration" : 18630
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_05",
+    "uid" : "cec391110c950f0f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680235118461,
+      "stop" : 1680235118461,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_01",
+    "uid" : "80264066eaeec16b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680235160596,
+      "stop" : 1680235160596,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_02",
+    "uid" : "d93f1b02e2e9e609",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680235162366,
+      "stop" : 1680235162366,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_04",
+    "uid" : "4eab5c015241d5bc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680235162366,
+      "stop" : 1680235162366,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "beforeEachScenario",
+    "uid" : "bc8fd5ee2ec6494d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235237805,
+      "stop" : 1680235237805,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 6,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_03",
+    "uid" : "42d0cbaa18e5b2e1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680235237806,
+      "stop" : 1680235237806,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify total of record show correctly",
+    "uid" : "8adf2094e1a067f8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235244769,
+      "stop" : 1680235254102,
+      "duration" : 9333
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can edit driver successfully with valid information",
+    "uid" : "155c348442818ac5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235260739,
+      "stop" : 1680235295823,
+      "duration" : 35084
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can delete driver successfully",
+    "uid" : "9fb13f17d8ec50d3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235265695,
+      "stop" : 1680235288813,
+      "duration" : 23118
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify create driver failed if does not enter email name",
+    "uid" : "79e66beac50eeb21",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235265933,
+      "stop" : 1680235276390,
+      "duration" : 10457
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify create driver successfully without phone number",
+    "uid" : "8b1d9c746667830c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235266025,
+      "stop" : 1680235279863,
+      "duration" : 13838
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify create driver failed if does not enter user name",
+    "uid" : "4d406ab13fb64145",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235266131,
+      "stop" : 1680235276712,
+      "duration" : 10581
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify create driver failed if does not enter first name",
+    "uid" : "34eb40c6b4ad26",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235266141,
+      "stop" : 1680235276730,
+      "duration" : 10589
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify create driver failed if does not enter last name",
+    "uid" : "b7eb06ecdf27c055",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235266148,
+      "stop" : 1680235276515,
+      "duration" : 10367
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify create driver failed with exist email",
+    "uid" : "26214b76e43eb11e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235266159,
+      "stop" : 1680235276987,
+      "duration" : 10828
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify create driver failed with exist user name",
+    "uid" : "8ae94f1e1831ddf8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235266815,
+      "stop" : 1680235277376,
+      "duration" : 10561
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can create driver successfully with valid information",
+    "uid" : "5531f55d98714ce1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235267155,
+      "stop" : 1680235281110,
+      "duration" : 13955
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify edit driver failed with exist user name",
+    "uid" : "ab44af2267a707ea",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235284798,
+      "stop" : 1680235314781,
+      "duration" : 29983
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify edit driver failed with exist email",
+    "uid" : "8c296809866a57ac",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235285361,
+      "stop" : 1680235315244,
+      "duration" : 29883
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify edit driver failed if does not enter first name",
+    "uid" : "7491bf06bcbcb7d8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235285464,
+      "stop" : 1680235315139,
+      "duration" : 29675
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify edit driver failed if does not enter last name",
+    "uid" : "273a9b7f18143b5c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235285969,
+      "stop" : 1680235315770,
+      "duration" : 29801
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify edit driver failed if does not enter user name",
+    "uid" : "232a816ac911a5e4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235286076,
+      "stop" : 1680235315982,
+      "duration" : 29906
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify edit driver failed if does not enter email",
+    "uid" : "98636ac6ba186a3a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235286586,
+      "stop" : 1680235316090,
+      "duration" : 29504
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify edit driver successfully without phone number",
+    "uid" : "45df2ed1b27b482e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235288856,
+      "stop" : 1680235321094,
+      "duration" : 32238
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can select columns to show information",
+    "uid" : "1f3fb948c0b5f45f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235289444,
+      "stop" : 1680235314374,
+      "duration" : 24930
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can select number of row per page",
+    "uid" : "153242f329ead97",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235297289,
+      "stop" : 1680235301389,
+      "duration" : 4100
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "10" ]
+  }, {
+    "name" : "Verify can select page to show",
+    "uid" : "f4b0b55568cb7a4a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235301913,
+      "stop" : 1680235323269,
+      "duration" : 21356
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can select number of row per page",
+    "uid" : "7faa86e8363f5eb9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235309262,
+      "stop" : 1680235318153,
+      "duration" : 8891
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "25" ]
+  }, {
+    "name" : "Verify can open and close Create new form",
+    "uid" : "49d8e467e2e06c21",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235322066,
+      "stop" : 1680235335786,
+      "duration" : 13720
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify can select number of row per page",
+    "uid" : "5796cd3c94049121",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235325854,
+      "stop" : 1680235330736,
+      "duration" : 4882
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "50" ]
+  }, {
+    "name" : "Verify user can create new Vehicles",
+    "uid" : "a48fcb431b41037e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235342523,
+      "stop" : 1680235365147,
+      "duration" : 22624
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify schedule page show with default region",
+    "uid" : "c3c2f0e61f546423",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680235371989,
+      "stop" : 1680235376571,
+      "duration" : 4582
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can book a trip for low tech passenger",
+    "uid" : "4ecf948e74e92509",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235383347,
+      "stop" : 1680235461228,
+      "duration" : 77881
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can book a trip for not low tech passenger",
+    "uid" : "d3199f621d326039",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235385751,
+      "stop" : 1680235461695,
+      "duration" : 75944
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can book a trip with Wheelchair space",
+    "uid" : "cf4e7cb72ce4f4a4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235386070,
+      "stop" : 1680235492386,
+      "duration" : 106316
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can book a trip by using credit card",
+    "uid" : "ddeb93d8dd2c810d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235386088,
+      "stop" : 1680235490451,
+      "duration" : 104363
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify the price will be discounted for 'Concession Card: Student' account",
+    "uid" : "e61aebf57ee6e519",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235387234,
+      "stop" : 1680235481453,
+      "duration" : 94219
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify the booking can be secured",
+    "uid" : "5ba3023007f139ca",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1680235498717,
+      "stop" : 1680235737420,
+      "duration" : 238703
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify the traveller can be picked up",
+    "uid" : "296fffb089ae0ac1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1680235743608,
+      "stop" : 1680235747400,
+      "duration" : 3792
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify the traveller can be dropped off",
+    "uid" : "b38563ae1e4b1e12",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1680235753541,
+      "stop" : 1680235756319,
+      "duration" : 2778
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Reporting  user can view the 'Feedback' page",
+    "uid" : "21463c4a022746e7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235759086,
+      "stop" : 1680235796600,
+      "duration" : 37514
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3502d914" ]
+  }, {
+    "name" : "Verify Reporting user can not view Driver",
+    "uid" : "a3c846159c6c4770",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235761076,
+      "stop" : 1680235799102,
+      "duration" : 38026
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@34925d7" ]
+  }, {
+    "name" : "Verify Reporting user can not create new Driver",
+    "uid" : "257675c49c9b72e3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235761085,
+      "stop" : 1680235799308,
+      "duration" : 38223
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@840ffaf" ]
+  }, {
+    "name" : "Verify Reporting user can view the 'Dashboard' page",
+    "uid" : "1ce775ad8972ef31",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235761211,
+      "stop" : 1680235799404,
+      "duration" : 38193
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@2c032427" ]
+  }, {
+    "name" : "Verify Reporting user can view the Traveler of a 'Feedback'",
+    "uid" : "a4bb173224af9668",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235761211,
+      "stop" : 1680235800176,
+      "duration" : 38965
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@7a5a8984" ]
+  }, {
+    "name" : "Verify Reporting user can view trip in VehicleMonitoring",
+    "uid" : "7342cc3ec31c2c62",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235761211,
+      "stop" : 1680235800419,
+      "duration" : 39208
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@60c34817" ]
+  }, {
+    "name" : "Verify Reporting user can view the Booking of a 'Feedback'",
+    "uid" : "9f7f0a26d8b329fc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235761304,
+      "stop" : 1680235800394,
+      "duration" : 39090
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@253e1ddf" ]
+  }, {
+    "name" : "Verify Reporting user can view the Trip of a 'Feedback'",
+    "uid" : "b52daf35a8cb981a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235761304,
+      "stop" : 1680235800271,
+      "duration" : 38967
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@510800f" ]
+  }, {
+    "name" : "Verify Reporting user can view Trips",
+    "uid" : "5de3dc51641cf221",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235761351,
+      "stop" : 1680235800578,
+      "duration" : 39227
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@265c9335" ]
+  }, {
+    "name" : "Verify Reporting user can edit Trips",
+    "uid" : "9e44517ca379531d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235761351,
+      "stop" : 1680235800024,
+      "duration" : 38673
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@7782c083" ]
+  }, {
+    "name" : "Verify Reporting user can not view Vehicles",
+    "uid" : "fb46bf3e571a9ee7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235798526,
+      "stop" : 1680235834364,
+      "duration" : 35838
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@7a8304d5" ]
+  }, {
+    "name" : "Verify System Write user can not view Driver",
+    "uid" : "7b77331629ca8d1c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235802692,
+      "stop" : 1680235838717,
+      "duration" : 36025
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@4bb1092a" ]
+  }, {
+    "name" : "Verify System Write user can not create new Driver",
+    "uid" : "43d72cffe43ab46a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235802899,
+      "stop" : 1680235840198,
+      "duration" : 37299
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3d22bb59" ]
+  }, {
+    "name" : "Verify System Write user can view the 'Dashboard' page",
+    "uid" : "2ef0172d5492fd53",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235803041,
+      "stop" : 1680235839051,
+      "duration" : 36010
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@168567a" ]
+  }, {
+    "name" : "Verify Reporting user can not create new Vehicles",
+    "uid" : "2b1d37b5c1e64e6a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235803660,
+      "stop" : 1680235839919,
+      "duration" : 36259
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@354d2879" ]
+  }, {
+    "name" : "Verify Reporting user can not view Schedules",
+    "uid" : "16e22639cfe06b61",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235803891,
+      "stop" : 1680235841175,
+      "duration" : 37284
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@275cc0de" ]
+  }, {
+    "name" : "Verify Reporting user can not view Service Monitoring",
+    "uid" : "c011bde902fd3292",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235803968,
+      "stop" : 1680235840769,
+      "duration" : 36801
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@f1d2fc8" ]
+  }, {
+    "name" : "Verify Reporting user can not view Travellers",
+    "uid" : "a08bd9298066adc3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235804170,
+      "stop" : 1680235840847,
+      "duration" : 36677
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@776e2f6d" ]
+  }, {
+    "name" : "Verify Reporting user can not create new Travellers",
+    "uid" : "412aa86619b8423d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235804186,
+      "stop" : 1680235840767,
+      "duration" : 36581
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@362faeec" ]
+  }, {
+    "name" : "Verify Reporting user can not view Booking",
+    "uid" : "ff7702dfa725de6c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235804312,
+      "stop" : 1680235841463,
+      "duration" : 37151
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@d0dec4b" ]
+  }, {
+    "name" : "Verify System Write user can not view Vehicles",
+    "uid" : "e0bead8a98b2b92d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235836246,
+      "stop" : 1680235872050,
+      "duration" : 35804
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@4913acf6" ]
+  }, {
+    "name" : "Verify System Read user can not view Driver",
+    "uid" : "42625c7e415ae225",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235842299,
+      "stop" : 1680235878552,
+      "duration" : 36253
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@6c4bf168" ]
+  }, {
+    "name" : "Verify System Read user can view the 'Dashboard' page",
+    "uid" : "6fa38f154096ec31",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235842646,
+      "stop" : 1680235878723,
+      "duration" : 36077
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@1d7fd23f" ]
+  }, {
+    "name" : "Verify System Write user can not create new Vehicles",
+    "uid" : "f1d8aa17eabc854",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235843478,
+      "stop" : 1680235879366,
+      "duration" : 35888
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@4c9345da" ]
+  }, {
+    "name" : "Verify System Read user can not create new Driver",
+    "uid" : "b2e40aabf069123f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235843779,
+      "stop" : 1680235879877,
+      "duration" : 36098
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@157364db" ]
+  }, {
+    "name" : "Verify System Write user can not view Service Monitoring",
+    "uid" : "271a1cb9e8e5ad8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235844419,
+      "stop" : 1680235881071,
+      "duration" : 36652
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@5dcf6ddf" ]
+  }, {
+    "name" : "Verify System Write user can not create new Travellers",
+    "uid" : "6c01aac98eb3b744",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235844419,
+      "stop" : 1680235881088,
+      "duration" : 36669
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@1602d992" ]
+  }, {
+    "name" : "Verify System Write user can not view Travellers",
+    "uid" : "610f217548df498f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235844554,
+      "stop" : 1680235880862,
+      "duration" : 36308
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@77c49732" ]
+  }, {
+    "name" : "Verify System Write user can not view Schedules",
+    "uid" : "f1343aff9dbb0e70",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235844837,
+      "stop" : 1680235881215,
+      "duration" : 36378
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@ca065bd" ]
+  }, {
+    "name" : "Verify System Write user can not view Booking",
+    "uid" : "b4390e2ee6e0b9cd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235845133,
+      "stop" : 1680235881597,
+      "duration" : 36464
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@5dacc1cc" ]
+  }, {
+    "name" : "Verify System Read user can not view Vehicles",
+    "uid" : "fb18f19f8f05e74c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235873943,
+      "stop" : 1680235909694,
+      "duration" : 35751
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@2b8aa667" ]
+  }, {
+    "name" : "Verify Configuration Read user can not view Driver",
+    "uid" : "98f8d07d922a0e79",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235882144,
+      "stop" : 1680235918261,
+      "duration" : 36117
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@447944bb" ]
+  }, {
+    "name" : "Verify Configuration Read user can view the 'Dashboard' page",
+    "uid" : "9a597e7104bf789c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235882381,
+      "stop" : 1680235918579,
+      "duration" : 36198
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3dd8ff7e" ]
+  }, {
+    "name" : "Verify System Read user can not create new Vehicles",
+    "uid" : "59524c5d59b4b8c7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235883020,
+      "stop" : 1680235919262,
+      "duration" : 36242
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3d22d1aa" ]
+  }, {
+    "name" : "Verify Configuration Read user can not create new Driver",
+    "uid" : "75f905dfba408eb2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235883451,
+      "stop" : 1680235919471,
+      "duration" : 36020
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@46447098" ]
+  }, {
+    "name" : "Verify System Read user can not view Travellers",
+    "uid" : "5d61513df77a028",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235884499,
+      "stop" : 1680235921607,
+      "duration" : 37108
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@341d72f4" ]
+  }, {
+    "name" : "Verify System Read user can not view Service Monitoring",
+    "uid" : "ce8e015a299d140a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235884749,
+      "stop" : 1680235921573,
+      "duration" : 36824
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@6157fc94" ]
+  }, {
+    "name" : "Verify System Read user can not create new Travellers",
+    "uid" : "cfb93808f12cf4aa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235884832,
+      "stop" : 1680235921597,
+      "duration" : 36765
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@76a8157c" ]
+  }, {
+    "name" : "Verify System Read user can not view Schedules",
+    "uid" : "fcd08e164475fd2f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235884984,
+      "stop" : 1680235921619,
+      "duration" : 36635
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@605076e0" ]
+  }, {
+    "name" : "Verify System Read user can not view Booking",
+    "uid" : "bfcf9cf94f7d2fcb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235885382,
+      "stop" : 1680235921826,
+      "duration" : 36444
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@6a12eb3e" ]
+  }, {
+    "name" : "Verify Configuration Read user can not view Vehicles",
+    "uid" : "bae453122b226b47",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235911554,
+      "stop" : 1680235947160,
+      "duration" : 35606
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@2f9f90e6" ]
+  }, {
+    "name" : "Verify Configuration Write user can not view Driver",
+    "uid" : "2e751d9dc0143b2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235921844,
+      "stop" : 1680235957777,
+      "duration" : 35933
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@68fcf324" ]
+  }, {
+    "name" : "Verify Configuration Write user can view the 'Dashboard' page",
+    "uid" : "ccae37f84792c949",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235922187,
+      "stop" : 1680235958475,
+      "duration" : 36288
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@6d867f11" ]
+  }, {
+    "name" : "Verify Configuration Read user can not create new Vehicles",
+    "uid" : "2802e640cb836021",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235922835,
+      "stop" : 1680235959062,
+      "duration" : 36227
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@25edb59b" ]
+  }, {
+    "name" : "Verify Configuration Write user can not create new Driver",
+    "uid" : "dc7fcbb6a98ef37b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235923105,
+      "stop" : 1680235959209,
+      "duration" : 36104
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3ecdef35" ]
+  }, {
+    "name" : "Verify Configuration Read user can not create new Travellers",
+    "uid" : "349938b379de22c3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235925449,
+      "stop" : 1680235962327,
+      "duration" : 36878
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@2aaefaff" ]
+  }, {
+    "name" : "Verify Configuration Read user can not view Service Monitoring",
+    "uid" : "7ae5d6b50e6783a5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235925528,
+      "stop" : 1680235962596,
+      "duration" : 37068
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@285030f0" ]
+  }, {
+    "name" : "Verify Configuration Write user can not view Schedules",
+    "uid" : "7f956e39b789a084",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235925558,
+      "stop" : 1680235962626,
+      "duration" : 37068
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3edae618" ]
+  }, {
+    "name" : "Verify Configuration Read user can not view Travellers",
+    "uid" : "f134b13efac0e662",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235925607,
+      "stop" : 1680235962707,
+      "duration" : 37100
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@6b3780fa" ]
+  }, {
+    "name" : "Verify Configuration Read user can not view Booking",
+    "uid" : "836d02764ce09253",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235925732,
+      "stop" : 1680235962269,
+      "duration" : 36537
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@558cb032" ]
+  }, {
+    "name" : "Verify Configuration Write user can not view Vehicles",
+    "uid" : "25825e3a34f7eeec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235949058,
+      "stop" : 1680235985044,
+      "duration" : 35986
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@1e9dc6ea" ]
+  }, {
+    "name" : "Verify Reporting user can not view Solutions",
+    "uid" : "48326d25fb2ea185",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235961336,
+      "stop" : 1680235997277,
+      "duration" : 35941
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@546a6658" ]
+  }, {
+    "name" : "Verify Reporting user can not view Users",
+    "uid" : "cee2acea47a6c345",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235962045,
+      "stop" : 1680235994859,
+      "duration" : 32814
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@5aeddbde" ]
+  }, {
+    "name" : "Verify Configuration Write user can not create new Vehicles",
+    "uid" : "b98c4b8ff384becb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235962711,
+      "stop" : 1680235998575,
+      "duration" : 35864
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@717dd877" ]
+  }, {
+    "name" : "Verify Reporting user can not view User Group",
+    "uid" : "a9a59e9828ccc6d0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235962866,
+      "stop" : 1680235999110,
+      "duration" : 36244
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3b081533" ]
+  }, {
+    "name" : "Verify Configuration Write user can not view Booking",
+    "uid" : "141a34e52f603120",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235965954,
+      "stop" : 1680236001974,
+      "duration" : 36020
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@dc30124" ]
+  }, {
+    "name" : "Verify Configuration Write user can not create new Travellers",
+    "uid" : "9ff0f4014f0ce5aa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235966053,
+      "stop" : 1680236002126,
+      "duration" : 36073
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@88efaab" ]
+  }, {
+    "name" : "Verify Configuration Write user can not view Service Monitoring",
+    "uid" : "ee83d86f7999035b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235966280,
+      "stop" : 1680236003049,
+      "duration" : 36769
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@153ab04d" ]
+  }, {
+    "name" : "Verify Reporting user can not create new User Group",
+    "uid" : "588563238b665a4c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235966328,
+      "stop" : 1680236003052,
+      "duration" : 36724
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@d892e98" ]
+  }, {
+    "name" : "Verify Configuration Write user can not view Travellers",
+    "uid" : "697f25e6f1feda8f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235966485,
+      "stop" : 1680236003140,
+      "duration" : 36655
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@2ad2df81" ]
+  }, {
+    "name" : "Verify System Write user can not view the 'Feedback' page",
+    "uid" : "84ca63341186e330",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235986934,
+      "stop" : 1680236022662,
+      "duration" : 35728
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@2a6d314e" ]
+  }, {
+    "name" : "Verify Configuration Read user can not view Users",
+    "uid" : "5311b05be7524a14",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680235998401,
+      "stop" : 1680236031339,
+      "duration" : 32938
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@12deb038" ]
+  }, {
+    "name" : "Verify System Write user can not view Solutions",
+    "uid" : "a0b37c81d5460abd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236000852,
+      "stop" : 1680236037077,
+      "duration" : 36225
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@37ee1cd9" ]
+  }, {
+    "name" : "Verify System Write user can not view Trips",
+    "uid" : "e1b8d196321db044",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236002131,
+      "stop" : 1680236037974,
+      "duration" : 35843
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@6aba3422" ]
+  }, {
+    "name" : "Verify Configuration Read user can not view User Group",
+    "uid" : "df74b83f53e9a64d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236002742,
+      "stop" : 1680236040158,
+      "duration" : 37416
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@39b2e9f9" ]
+  }, {
+    "name" : "Verify System Write user can edit users",
+    "uid" : "b99af7e31ff73aba",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236005571,
+      "stop" : 1680236041387,
+      "duration" : 35816
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@4653c852" ]
+  }, {
+    "name" : "Verify System Write user can create new user",
+    "uid" : "b334080bc78000c6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236005824,
+      "stop" : 1680236042152,
+      "duration" : 36328
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@255bd201" ]
+  }, {
+    "name" : "Verify System Read user can not create new User Group",
+    "uid" : "a0cd4c788bd386d9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236006744,
+      "stop" : 1680236042868,
+      "duration" : 36124
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@5e81b752" ]
+  }, {
+    "name" : "Verify System Write user can delete user",
+    "uid" : "c24888917fbaf645",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236006771,
+      "stop" : 1680236042985,
+      "duration" : 36214
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@18327c38" ]
+  }, {
+    "name" : "Verify Daily Operations Write user can not view Travellers",
+    "uid" : "f5b1e93b7d271b1d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236006834,
+      "stop" : 1680236043221,
+      "duration" : 36387
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@29baf0c8" ]
+  }, {
+    "name" : "Verify System Read user can not view the 'Feedback' page",
+    "uid" : "5a15bf936f79b690",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236024554,
+      "stop" : 1680236060375,
+      "duration" : 35821
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@1fc080cf" ]
+  }, {
+    "name" : "Verify Configuration Write user can not view Users",
+    "uid" : "6aad129058b05ff8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236034857,
+      "stop" : 1680236067738,
+      "duration" : 32881
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3e26f8dc" ]
+  }, {
+    "name" : "Verify System Read user can not view Solutions",
+    "uid" : "5f5f4cc28a574100",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236040648,
+      "stop" : 1680236076638,
+      "duration" : 35990
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@1d2281c4" ]
+  }, {
+    "name" : "Verify System Read user can not view Trips",
+    "uid" : "9d9f7d8339c53914",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236041544,
+      "stop" : 1680236077373,
+      "duration" : 35829
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@4a19eebd" ]
+  }, {
+    "name" : "Verify Configuration Write user can not view User Group",
+    "uid" : "6d59581182e5cf84",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236043804,
+      "stop" : 1680236079796,
+      "duration" : 35992
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@1ac0c2ff" ]
+  }, {
+    "name" : "Verify System Write user can edit User Group",
+    "uid" : "11b84d09ed57605f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236044968,
+      "stop" : 1680236081423,
+      "duration" : 36455
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@7a3a8bab" ]
+  }, {
+    "name" : "Verify System Write user can create new User Group",
+    "uid" : "a9fe3c5d20cf7111",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236045739,
+      "stop" : 1680236081602,
+      "duration" : 35863
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@1f1f5b53" ]
+  }, {
+    "name" : "Verify Configuration Read user can not create new User Group",
+    "uid" : "af1e9f713875f254",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236046508,
+      "stop" : 1680236082485,
+      "duration" : 35977
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@95434e7" ]
+  }, {
+    "name" : "Verify System Write user can delete User Group",
+    "uid" : "e09b9bf98d88cc4e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236046635,
+      "stop" : 1680236082841,
+      "duration" : 36206
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@36e0eb02" ]
+  }, {
+    "name" : "Verify System Write should not be able to edit a user belonging to the 'Administrators' group",
+    "uid" : "dfd79ea6ffab932d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236046885,
+      "stop" : 1680236083044,
+      "duration" : 36159
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@7efcf93d" ]
+  }, {
+    "name" : "Verify Configuration Read user can not view the 'Feedback' page",
+    "uid" : "a42518e65f481aed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236062280,
+      "stop" : 1680236098668,
+      "duration" : 36388
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3c519372" ]
+  }, {
+    "name" : "Verify System Write should not be able to create a new user belonging to the 'Administrators' group",
+    "uid" : "6184fc5ce6afded1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236071277,
+      "stop" : 1680236107188,
+      "duration" : 35911
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@8e82d6" ]
+  }, {
+    "name" : "Verify Configuration Read user can not view Solutions",
+    "uid" : "8a81022ac6307a8b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236080203,
+      "stop" : 1680236116092,
+      "duration" : 35889
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@56161245" ]
+  }, {
+    "name" : "Verify Configuration Read user can not view Trips",
+    "uid" : "a866173a63098f7e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236080946,
+      "stop" : 1680236116869,
+      "duration" : 35923
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@394388a7" ]
+  }, {
+    "name" : "Verify System Write should not be able to delete a user that belongs to the 'Administrators' group",
+    "uid" : "1358207cd5faf8a8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236083473,
+      "stop" : 1680236119355,
+      "duration" : 35882
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@7732f901" ]
+  }, {
+    "name" : "Verify System Write should not be able to delete the 'Administrators' group",
+    "uid" : "2a849153a7ad8e2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236085003,
+      "stop" : 1680236121020,
+      "duration" : 36017
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@31698087" ]
+  }, {
+    "name" : "Verify System Read user can not edit users",
+    "uid" : "20daac3e5f77f001",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236085237,
+      "stop" : 1680236121128,
+      "duration" : 35891
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@24d0e873" ]
+  }, {
+    "name" : "Verify Configuration Write user can not create new User Group",
+    "uid" : "4f72bb5f8700d9f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236086153,
+      "stop" : 1680236122032,
+      "duration" : 35879
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@24f47185" ]
+  }, {
+    "name" : "Verify System Read user can not create new user",
+    "uid" : "1f762d34a8dc4b5e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236086500,
+      "stop" : 1680236122410,
+      "duration" : 35910
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@1f9ddd26" ]
+  }, {
+    "name" : "Verify System Read user can not delete user",
+    "uid" : "77f256bc9f572995",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236086703,
+      "stop" : 1680236122677,
+      "duration" : 35974
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@774a95eb" ]
+  }, {
+    "name" : "Verify Configuration Write user can not view the 'Feedback' page",
+    "uid" : "828a9ae9c1b7a70",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236100545,
+      "stop" : 1680236136401,
+      "duration" : 35856
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3431466" ]
+  }, {
+    "name" : "Verify System Read user can not edit User Group",
+    "uid" : "d597d4a42eb9eabe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236110792,
+      "stop" : 1680236146588,
+      "duration" : 35796
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@70c1d29e" ]
+  }, {
+    "name" : "Verify Configuration Write user can not view Solutions",
+    "uid" : "1cf2ecd0c0ef8fd3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236119647,
+      "stop" : 1680236155594,
+      "duration" : 35947
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@1e45d7bb" ]
+  }, {
+    "name" : "Verify Configuration Write user can not view Trips",
+    "uid" : "822ccca2cc772da5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236120437,
+      "stop" : 1680236156437,
+      "duration" : 36000
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@31ee539d" ]
+  }, {
+    "name" : "Verify System Read user can not delete User Group",
+    "uid" : "d345814aec205a76",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236122994,
+      "stop" : 1680236158893,
+      "duration" : 35899
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@5923a5d4" ]
+  }, {
+    "name" : "Verify Configuration Read user can view regions",
+    "uid" : "4f3d545ca835a09a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236124586,
+      "stop" : 1680236160384,
+      "duration" : 35798
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@7fae667d" ]
+  }, {
+    "name" : "Verify Configuration Write user can create new region",
+    "uid" : "bf56ffe4c92b7666",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236124775,
+      "stop" : 1680236160823,
+      "duration" : 36048
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@7613e930" ]
+  }, {
+    "name" : "Verify Configuration Write user can edit region",
+    "uid" : "acf44308772884b0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236125829,
+      "stop" : 1680236161917,
+      "duration" : 36088
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@56ec7d43" ]
+  }, {
+    "name" : "Verify Configuration Read user can not create new user",
+    "uid" : "164021a8e9b7a22e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236126026,
+      "stop" : 1680236162142,
+      "duration" : 36116
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@462847bf" ]
+  }, {
+    "name" : "Verify Configuration Write user can delete region",
+    "uid" : "8b7b7a136ccc8b40",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236126479,
+      "stop" : 1680236162433,
+      "duration" : 35954
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@7d2800b1" ]
+  }, {
+    "name" : "Verify Configuration Write user can create new zone",
+    "uid" : "4db964e08878d651",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236138294,
+      "stop" : 1680236173971,
+      "duration" : 35677
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@5e2fc3c7" ]
+  }, {
+    "name" : "Verify Configuration Write user can edit zone",
+    "uid" : "aac248a9b0e37f2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236150149,
+      "stop" : 1680236185921,
+      "duration" : 35772
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@5905a2a2" ]
+  }, {
+    "name" : "Verify Configuration Write user can delete zone",
+    "uid" : "8d4c39038859dd3c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236159185,
+      "stop" : 1680236195120,
+      "duration" : 35935
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@774e3145" ]
+  }, {
+    "name" : "Verify Configuration Write user can design zone",
+    "uid" : "d82f73bbea778e86",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236160022,
+      "stop" : 1680236195972,
+      "duration" : 35950
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@6f8c0e3a" ]
+  }, {
+    "name" : "Verify Configuration Read user can not create new region",
+    "uid" : "eb63c324bd14377f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236162528,
+      "stop" : 1680236198569,
+      "duration" : 36041
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@613ab61" ]
+  }, {
+    "name" : "Verify Configuration Write user can view regions",
+    "uid" : "edba4fd502d7d37a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236163948,
+      "stop" : 1680236200013,
+      "duration" : 36065
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@528e905d" ]
+  }, {
+    "name" : "Verify Configuration Read user can not edit region",
+    "uid" : "ef00dc55485d904c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236164403,
+      "stop" : 1680236200302,
+      "duration" : 35899
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@1b17c707" ]
+  }, {
+    "name" : "Verify Configuration Read user can not delete region",
+    "uid" : "1cae733662807377",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236165599,
+      "stop" : 1680236201638,
+      "duration" : 36039
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3e9463c5" ]
+  }, {
+    "name" : "Verify Configuration Write user can not create new user",
+    "uid" : "a7d873b80cc6abb7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236165815,
+      "stop" : 1680236202038,
+      "duration" : 36223
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@14772f88" ]
+  }, {
+    "name" : "Verify Administrators user view zone detail",
+    "uid" : "ef38a869309cf3da",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236166084,
+      "stop" : 1680236189636,
+      "duration" : 23552
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@bdc8f5c" ]
+  }, {
+    "name" : "Verify Configuration Read user view zone design",
+    "uid" : "181ffd967f87c3ed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236175867,
+      "stop" : 1680236211698,
+      "duration" : 35831
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@ce2018b" ]
+  }, {
+    "name" : "Verify Configuration Read user can not create new zone",
+    "uid" : "d756b3dbc0100314",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236189468,
+      "stop" : 1680236225402,
+      "duration" : 35934
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3cc46aaf" ]
+  }, {
+    "name" : "Verify Configuration Read user can not edit zone",
+    "uid" : "4c7291ba944b50b5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236193227,
+      "stop" : 1680236228979,
+      "duration" : 35752
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3c109bed" ]
+  }, {
+    "name" : "Verify Configuration Read user can not design zone",
+    "uid" : "b670f3943222e1c5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236198705,
+      "stop" : 1680236234525,
+      "duration" : 35820
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@37557f32" ]
+  }, {
+    "name" : "Verify Configuration Read user can not delete zone",
+    "uid" : "5887122ffb75f0a3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236199545,
+      "stop" : 1680236235444,
+      "duration" : 35899
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@3063add7" ]
+  }, {
+    "name" : "Verify Daily Operations Write user can create new Travellers",
+    "uid" : "26f5064be001dd10",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236202135,
+      "stop" : 1680236238001,
+      "duration" : 35866
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "utils.models.MUser@6e6c02dc" ]
+  }, {
+    "name" : "Verify permission after removing a group",
+    "uid" : "679ac90022f70479",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236239885,
+      "stop" : 1680236275590,
+      "duration" : 35705
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify permission after removing roles from a group",
+    "uid" : "ce419f8594ef6ec0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236277464,
+      "stop" : 1680236313030,
+      "duration" : 35566
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify permission after removing user from a group",
+    "uid" : "83b182ad9feb6da7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236314890,
+      "stop" : 1680236350657,
+      "duration" : 35767
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user with no group can not take any action",
+    "uid" : "4d97cfccaa6fc132",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236352552,
+      "stop" : 1680236388224,
+      "duration" : 35672
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Vehicle Trips page show with default region",
+    "uid" : "cddc1b071c0b7650",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236395155,
+      "stop" : 1680236406593,
+      "duration" : 11438
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Booking page show with default region",
+    "uid" : "770a13ab6a445a34",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236413479,
+      "stop" : 1680236450383,
+      "duration" : 36904
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "beforeSuite",
+    "uid" : "797f9de8c976fefe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236768979,
+      "stop" : 1680236768979,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_08",
+    "uid" : "df02a765203be58b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680236774584,
+      "stop" : 1680236774584,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_06",
+    "uid" : "9854b8a3672bb5de",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680236777147,
+      "stop" : 1680236777148,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_02",
+    "uid" : "c836dc5277d1b0b1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680236777461,
+      "stop" : 1680236777461,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_04",
+    "uid" : "a280ef7d9cd722fa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680236777627,
+      "stop" : 1680236777627,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_05",
+    "uid" : "bd0290f838113855",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680236777730,
+      "stop" : 1680236777730,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_01",
+    "uid" : "316b33a90f54abda",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680236778087,
+      "stop" : 1680236778087,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_09",
+    "uid" : "6e9df357357963c4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680236778208,
+      "stop" : 1680236778208,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_07",
+    "uid" : "f8991d1046d743e3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680236778308,
+      "stop" : 1680236778308,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_03",
+    "uid" : "f6b2de86cccf026c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1680236778467,
+      "stop" : 1680236778467,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify solutions page show with default region",
+    "uid" : "10e9d7cb9655dfc3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236785732,
+      "stop" : 1680236843360,
+      "duration" : 57628
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_05",
+    "uid" : "4e9d78a55c803af1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1680236844132,
+      "stop" : 1680236844132,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_06",
+    "uid" : "e42a1ba2ba63565d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1680236844132,
+      "stop" : 1680236844132,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_03",
+    "uid" : "f8549c8b31a48271",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1680236844133,
+      "stop" : 1680236844133,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC_02",
+    "uid" : "44c22c42edf204ce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1680236844133,
+      "stop" : 1680236844133,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify send reset password link successfully to email that not registered with the BRIDJ application: ",
+    "uid" : "ba113f33bf577196",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236846162,
+      "stop" : 1680236853496,
+      "duration" : 7334
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify reset password link is only valid for one use",
+    "uid" : "f3ad7dab74407889",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1680236855394,
+      "stop" : 1680236868610,
+      "duration" : 13216
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can search bookings by passenger name",
+    "uid" : "d7ee6bc1401bf384",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236875284,
+      "stop" : 1680236901717,
+      "duration" : 26433
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can search vehicle trip by id",
+    "uid" : "e62817c0168368b8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236878599,
+      "stop" : 1680236885585,
+      "duration" : 6986
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can search passengers by email",
+    "uid" : "e5339d97f432100f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236879142,
+      "stop" : 1680236888363,
+      "duration" : 9221
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can search passengers by name",
+    "uid" : "cc9dd50ba007febd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236879154,
+      "stop" : 1680236888159,
+      "duration" : 9005
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can search bookings by address",
+    "uid" : "5a0402d3b7c3e579",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236879244,
+      "stop" : 1680236913536,
+      "duration" : 34292
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can search passengers by user name",
+    "uid" : "e2b62a1d27625d0c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236879282,
+      "stop" : 1680236888608,
+      "duration" : 9326
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can search drivers by email",
+    "uid" : "326ae71035f523da",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1680236879648,
+      "stop" : 1680236913801,
+      "duration" : 34153
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can search drivers by name",
+    "uid" : "eacbc7d5fd4f89c2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236879659,
+      "stop" : 1680236885704,
+      "duration" : 6045
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can search drivers by user name",
+    "uid" : "73f79e2c522627e2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236879771,
+      "stop" : 1680236885702,
+      "duration" : 5931
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can search vehicle trip by name",
+    "uid" : "657c06d48a11e1bf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236879775,
+      "stop" : 1680236886329,
+      "duration" : 6554
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can search vehicle by id",
+    "uid" : "edb6f3801f4e9b61",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236893214,
+      "stop" : 1680236898840,
+      "duration" : 5626
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can search vehicle by registration",
+    "uid" : "e95d89bd2c8d1788",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236893426,
+      "stop" : 1680236899002,
+      "duration" : 5576
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can search vehicle by make",
+    "uid" : "e128b3d3cbf55c8f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236893742,
+      "stop" : 1680236899259,
+      "duration" : 5517
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify user can search vehicle by model",
+    "uid" : "37b4c6b272d80842",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1680236894035,
+      "stop" : 1680236899629,
+      "duration" : 5594
     },
     "flaky" : false,
     "newFailed" : false,

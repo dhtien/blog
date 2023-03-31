@@ -1,0 +1,630 @@
+{
+  "uid" : "326ae71035f523da",
+  "name" : "Verify user can search drivers by email",
+  "fullName" : "testcases.web.global_search.GlobalSearch.TC_05",
+  "historyId" : "31941da9362f59e2a583d14c38ddd530",
+  "time" : {
+    "start" : 1680236879648,
+    "stop" : 1680236913801,
+    "duration" : 34153
+  },
+  "description" : "Verify user can search drivers by email",
+  "descriptionHtml" : "<p>Verify user can search drivers by email</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Expected condition failed: waiting for presence of element located by: By.xpath: (//div[@class='gs-entity-list']//span)[1] (tried for 30 second(s) with 500 milliseconds interval)",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//div[@class='gs-entity-list']//span)[1] (tried for 30 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat selenium.core.BaseLocator.waitUntilPresent(BaseLocator.java:45)\r\n\tat selenium.pages.Header.clickOnRecord_aroundBody16(Header.java:47)\r\n\tat selenium.pages.Header$AjcClosure17.run(Header.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:94)\r\n\tat selenium.pages.Header.clickOnRecord(Header.java:47)\r\n\tat selenium.steps.HeaderSteps.clickOnRecord(HeaderSteps.java:36)\r\n\tat selenium.steps.HeaderSteps.tryToSearchDriversWithEmail(HeaderSteps.java:72)\r\n\tat testcases.web.global_search.GlobalSearch.TC_05(GlobalSearch.java:89)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//div[@class='gs-entity-list']//span)[1]\"}\n  (Session info: headless MicrosoftEdge=111.0.1661.54)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [efbd1fe9a1538203897c856ea5c372ec, findElement {using=xpath, value=(//div[@class='gs-entity-list']//span)[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59779}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59779/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: efbd1fe9a1538203897c856ea5c372ec\r\n\tat sun.reflect.GeneratedConstructorAccessor55.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)\r\n\t... 22 more\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1680236869333,
+      "stop" : 1680236869333,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1680236869333,
+      "stop" : 1680236870151,
+      "duration" : 818
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1680236869333,
+        "stop" : 1680236870151,
+        "duration" : 818
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1680236869333,
+          "stop" : 1680236870151,
+          "duration" : 818
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1680236870151,
+      "stop" : 1680236873525,
+      "duration" : 3374
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e934c2fc1870cb96",
+      "name" : "Driver setup: ",
+      "source" : "e934c2fc1870cb96.txt",
+      "type" : "text/plain",
+      "size" : 119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeEachScenario",
+    "time" : {
+      "start" : 1680236873526,
+      "stop" : 1680236879646,
+      "duration" : 6120
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: daohuyt@bridj.com",
+      "time" : {
+        "start" : 1680236873526,
+        "stop" : 1680236879027,
+        "duration" : 5501
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get token from API response",
+        "time" : {
+          "start" : 1680236878153,
+          "stop" : 1680236879027,
+          "duration" : 874
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login Operation Portal to generate token",
+          "time" : {
+            "start" : 1680236878153,
+            "stop" : 1680236879027,
+            "duration" : 874
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "email",
+            "value" : "daohuyt@bridj.com"
+          }, {
+            "name" : "passWord",
+            "value" : "userPass@123"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "password",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ff9368d2f68d5148",
+        "name" : "Starting action: ",
+        "source" : "ff9368d2f68d5148.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "e67ee92251e45f09",
+        "name" : "Action Done! ",
+        "source" : "e67ee92251e45f09.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "d784993ffb52c4c3",
+        "name" : "saveScreenShot",
+        "source" : "d784993ffb52c4c3.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "d8ff212f131d9d3b",
+        "name" : "Starting action: ",
+        "source" : "d8ff212f131d9d3b.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "acacf8877903ad6b",
+        "name" : "Action Done! ",
+        "source" : "acacf8877903ad6b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a9a3152f98d2c0a9",
+        "name" : "saveScreenShot",
+        "source" : "a9a3152f98d2c0a9.png",
+        "type" : "image/png",
+        "size" : 61630
+      }, {
+        "uid" : "595f6bc766e3b34b",
+        "name" : "Starting action: ",
+        "source" : "595f6bc766e3b34b.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "75b9dfba135a8783",
+        "name" : "Action Done! ",
+        "source" : "75b9dfba135a8783.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "f8648226aef9605f",
+        "name" : "saveScreenShot",
+        "source" : "f8648226aef9605f.png",
+        "type" : "image/png",
+        "size" : 62294
+      }, {
+        "uid" : "700bce4cc0c01b99",
+        "name" : "Starting action: ",
+        "source" : "700bce4cc0c01b99.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "d9b0f4cb23e28c",
+        "name" : "Action Done! ",
+        "source" : "d9b0f4cb23e28c.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "4f445488d2dce232",
+        "name" : "saveScreenShot",
+        "source" : "4f445488d2dce232.png",
+        "type" : "image/png",
+        "size" : 62237
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1680236879027,
+        "stop" : 1680236879469,
+        "duration" : 442
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a768cacbdca74b42",
+        "name" : "Starting action: ",
+        "source" : "a768cacbdca74b42.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "294995d2da6fb7fe",
+        "name" : "Action Done! ",
+        "source" : "294995d2da6fb7fe.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "b7d7f544f35466b",
+        "name" : "saveScreenShot",
+        "source" : "b7d7f544f35466b.png",
+        "type" : "image/png",
+        "size" : 154093
+      }, {
+        "uid" : "649290001609fc08",
+        "name" : "Starting action: ",
+        "source" : "649290001609fc08.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "8504202bde9fea8a",
+        "name" : "Action Done! ",
+        "source" : "8504202bde9fea8a.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "ab210d9dcf8fb2af",
+        "name" : "saveScreenShot",
+        "source" : "ab210d9dcf8fb2af.png",
+        "type" : "image/png",
+        "size" : 154087
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Can access page 'https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/' successfully",
+      "time" : {
+        "start" : 1680236879469,
+        "stop" : 1680236879646,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "29246ec14fc279ff",
+        "name" : "Starting action: ",
+        "source" : "29246ec14fc279ff.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "85e17c8f8717f873",
+        "name" : "Action Done! ",
+        "source" : "85e17c8f8717f873.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "883f311b99403016",
+        "name" : "saveScreenShot",
+        "source" : "883f311b99403016.png",
+        "type" : "image/png",
+        "size" : 154087
+      } ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 21,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify user can search drivers by email",
+    "status" : "broken",
+    "statusMessage" : "Expected condition failed: waiting for presence of element located by: By.xpath: (//div[@class='gs-entity-list']//span)[1] (tried for 30 second(s) with 500 milliseconds interval)",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//div[@class='gs-entity-list']//span)[1] (tried for 30 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat selenium.core.BaseLocator.waitUntilPresent(BaseLocator.java:45)\r\n\tat selenium.pages.Header.clickOnRecord_aroundBody16(Header.java:47)\r\n\tat selenium.pages.Header$AjcClosure17.run(Header.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:94)\r\n\tat selenium.pages.Header.clickOnRecord(Header.java:47)\r\n\tat selenium.steps.HeaderSteps.clickOnRecord(HeaderSteps.java:36)\r\n\tat selenium.steps.HeaderSteps.tryToSearchDriversWithEmail(HeaderSteps.java:72)\r\n\tat testcases.web.global_search.GlobalSearch.TC_05(GlobalSearch.java:89)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//div[@class='gs-entity-list']//span)[1]\"}\n  (Session info: headless MicrosoftEdge=111.0.1661.54)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [efbd1fe9a1538203897c856ea5c372ec, findElement {using=xpath, value=(//div[@class='gs-entity-list']//span)[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59779}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59779/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: efbd1fe9a1538203897c856ea5c372ec\r\n\tat sun.reflect.GeneratedConstructorAccessor55.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)\r\n\t... 22 more\r\n",
+    "steps" : [ {
+      "name" : "Try to search drivers with email",
+      "time" : {
+        "start" : 1680236879649,
+        "stop" : 1680236913801,
+        "duration" : 34152
+      },
+      "status" : "broken",
+      "statusMessage" : "Expected condition failed: waiting for presence of element located by: By.xpath: (//div[@class='gs-entity-list']//span)[1] (tried for 30 second(s) with 500 milliseconds interval)",
+      "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//div[@class='gs-entity-list']//span)[1] (tried for 30 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat selenium.core.BaseLocator.waitUntilPresent(BaseLocator.java:45)\r\n\tat selenium.pages.Header.clickOnRecord_aroundBody16(Header.java:47)\r\n\tat selenium.pages.Header$AjcClosure17.run(Header.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:94)\r\n\tat selenium.pages.Header.clickOnRecord(Header.java:47)\r\n\tat selenium.steps.HeaderSteps.clickOnRecord(HeaderSteps.java:36)\r\n\tat selenium.steps.HeaderSteps.tryToSearchDriversWithEmail(HeaderSteps.java:72)\r\n\tat testcases.web.global_search.GlobalSearch.TC_05(GlobalSearch.java:89)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//div[@class='gs-entity-list']//span)[1]\"}\n  (Session info: headless MicrosoftEdge=111.0.1661.54)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [efbd1fe9a1538203897c856ea5c372ec, findElement {using=xpath, value=(//div[@class='gs-entity-list']//span)[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59779}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59779/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: efbd1fe9a1538203897c856ea5c372ec\r\n\tat sun.reflect.GeneratedConstructorAccessor55.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)\r\n\t... 22 more\r\n",
+      "steps" : [ {
+        "name" : "Select global search entity",
+        "time" : {
+          "start" : 1680236879649,
+          "stop" : 1680236880354,
+          "duration" : 705
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "aa4c1a822c0f3f4f",
+          "name" : "Starting action: ",
+          "source" : "aa4c1a822c0f3f4f.txt",
+          "type" : "text/plain",
+          "size" : 43
+        }, {
+          "uid" : "c4b7a8a03b487cd5",
+          "name" : "Action Done! ",
+          "source" : "c4b7a8a03b487cd5.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "f24fa09942867139",
+          "name" : "saveScreenShot",
+          "source" : "f24fa09942867139.png",
+          "type" : "image/png",
+          "size" : 163419
+        }, {
+          "uid" : "a5f7909c187cdd33",
+          "name" : "Starting action: ",
+          "source" : "a5f7909c187cdd33.txt",
+          "type" : "text/plain",
+          "size" : 45
+        }, {
+          "uid" : "5159b7dddd736116",
+          "name" : "Action Done! ",
+          "source" : "5159b7dddd736116.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "3175d3f83350e69a",
+          "name" : "saveScreenShot",
+          "source" : "3175d3f83350e69a.png",
+          "type" : "image/png",
+          "size" : 163763
+        } ],
+        "parameters" : [ {
+          "name" : "entity",
+          "value" : "Drivers"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Enter text for global searching",
+        "time" : {
+          "start" : 1680236880354,
+          "stop" : 1680236880854,
+          "duration" : 500
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "16fc122ab05a1234",
+          "name" : "Starting action: ",
+          "source" : "16fc122ab05a1234.txt",
+          "type" : "text/plain",
+          "size" : 90
+        }, {
+          "uid" : "fb46bfce162e24cb",
+          "name" : "Action Done! ",
+          "source" : "fb46bfce162e24cb.txt",
+          "type" : "text/plain",
+          "size" : 9
+        }, {
+          "uid" : "af242998f33cd57d",
+          "name" : "saveScreenShot",
+          "source" : "af242998f33cd57d.png",
+          "type" : "image/png",
+          "size" : 147505
+        } ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : "drivertest15@yopmail.com"
+        }, {
+          "name" : "placeHolder",
+          "value" : "Name, username, email"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click on 1 record",
+        "time" : {
+          "start" : 1680236880854,
+          "stop" : 1680236913801,
+          "duration" : 32947
+        },
+        "status" : "broken",
+        "statusMessage" : "Expected condition failed: waiting for presence of element located by: By.xpath: (//div[@class='gs-entity-list']//span)[1] (tried for 30 second(s) with 500 milliseconds interval)",
+        "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//div[@class='gs-entity-list']//span)[1] (tried for 30 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat selenium.core.BaseLocator.waitUntilPresent(BaseLocator.java:45)\r\n\tat selenium.pages.Header.clickOnRecord_aroundBody16(Header.java:47)\r\n\tat selenium.pages.Header$AjcClosure17.run(Header.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:94)\r\n\tat selenium.pages.Header.clickOnRecord(Header.java:47)\r\n\tat selenium.steps.HeaderSteps.clickOnRecord(HeaderSteps.java:36)\r\n\tat selenium.steps.HeaderSteps.tryToSearchDriversWithEmail(HeaderSteps.java:72)\r\n\tat testcases.web.global_search.GlobalSearch.TC_05(GlobalSearch.java:89)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//div[@class='gs-entity-list']//span)[1]\"}\n  (Session info: headless MicrosoftEdge=111.0.1661.54)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [efbd1fe9a1538203897c856ea5c372ec, findElement {using=xpath, value=(//div[@class='gs-entity-list']//span)[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59779}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59779/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: efbd1fe9a1538203897c856ea5c372ec\r\n\tat sun.reflect.GeneratedConstructorAccessor55.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)\r\n\t... 22 more\r\n",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f2b505a29def9be9",
+          "name" : "Starting action: ",
+          "source" : "f2b505a29def9be9.txt",
+          "type" : "text/plain",
+          "size" : 40
+        }, {
+          "uid" : "4888aaee1ee767e0",
+          "name" : "Action failed: ",
+          "source" : "4888aaee1ee767e0.txt",
+          "type" : "text/plain",
+          "size" : 194
+        }, {
+          "uid" : "3118b1c752da3e40",
+          "name" : "saveScreenShot",
+          "source" : "3118b1c752da3e40.png",
+          "type" : "image/png",
+          "size" : 137385
+        } ],
+        "parameters" : [ {
+          "name" : "order",
+          "value" : "1"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "utils.models.MDriver@3a55c6d4"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1680236913802,
+      "stop" : 1680236914534,
+      "duration" : 732
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6c49a0042569e35f",
+      "name" : "saveScreenShot",
+      "source" : "6c49a0042569e35f.png",
+      "type" : "image/png",
+      "size" : 137401
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1680236914534,
+      "stop" : 1680236914534,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1680236914535,
+      "stop" : 1680236914535,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.global_search.GlobalSearch"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.global_search.GlobalSearch"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_05"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Global Search"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.global_search.GlobalSearch"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16880@DaoTien.TestNG-test=Global Search-5(2237)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "[Operation Portal][Global Search] Can not find blocked driver by using global search",
+    "url" : "https://atlassian-jira-prod-core.prod-core.au-ap-southeast-2.bridj.info/browse/BP-1041",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "326ae71035f523da.json",
+  "parameterValues" : [ ]
+}

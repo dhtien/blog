@@ -1,0 +1,1 @@
+selenium.core.BasePage.compareValue("traveller test 17", "traveller test 17", "Holder name does not match")

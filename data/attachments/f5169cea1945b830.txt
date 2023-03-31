@@ -1,0 +1,15 @@
+Response code: 
+200
+Response body: 
+{
+    "data": {
+        "id": 3744,
+        "name": "Region 4",
+        "zones": [
+            {
+                "id": 2621
+            }
+        ],
+        "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/regions/3744"
+    }
+}

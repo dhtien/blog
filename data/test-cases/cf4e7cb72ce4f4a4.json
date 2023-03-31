@@ -1,0 +1,1456 @@
+{
+  "uid" : "cf4e7cb72ce4f4a4",
+  "name" : "Verify user can book a trip with Wheelchair space",
+  "fullName" : "testcases.web.booking_flow.BookingFlow.TC_08",
+  "historyId" : "49bd1b493602b30e5888ceb8af50fcbd",
+  "time" : {
+    "start" : 1680235386070,
+    "stop" : 1680235492386,
+    "duration" : 106316
+  },
+  "description" : "Verify user can book a trip with Wheelchair space",
+  "descriptionHtml" : "<p>Verify user can book a trip with Wheelchair space</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Expected condition failed: waiting for presence of element located by: By.xpath: (//p[contains(@data-test-id,'row-655022')]//ancestor::tr)[1] (tried for 30 second(s) with 500 milliseconds interval)",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//p[contains(@data-test-id,'row-655022')]//ancestor::tr)[1] (tried for 30 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat selenium.core.BaseLocator.waitUntilPresent(BaseLocator.java:45)\r\n\tat selenium.core.BasePage.clickOnButtonMoreAction_aroundBody104(BasePage.java:452)\r\n\tat selenium.core.BasePage$AjcClosure105.run(BasePage.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:94)\r\n\tat selenium.core.BasePage.clickOnButtonMoreAction(BasePage.java:452)\r\n\tat selenium.steps.BookingSteps.openBookingDetailWithId(BookingSteps.java:251)\r\n\tat testcases.web.booking_flow.BookingFlow.TC_08(BookingFlow.java:336)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//p[contains(@data-test-id,'row-655022')]//ancestor::tr)[1]\"}\n  (Session info: headless MicrosoftEdge=111.0.1661.54)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [1512c0017207915c6f725a04667076d7, findElement {using=xpath, value=(//p[contains(@data-test-id,'row-655022')]//ancestor::tr)[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56643}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56643/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1512c0017207915c6f725a04667076d7\r\n\tat sun.reflect.GeneratedConstructorAccessor55.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)\r\n\t... 21 more\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1680235377315,
+      "stop" : 1680235377315,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1680235377316,
+      "stop" : 1680235378159,
+      "duration" : 843
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1680235377316,
+        "stop" : 1680235378159,
+        "duration" : 843
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1680235377316,
+          "stop" : 1680235378159,
+          "duration" : 843
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1680235378159,
+      "stop" : 1680235381156,
+      "duration" : 2997
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "514b34d66be9b452",
+      "name" : "Driver setup: ",
+      "source" : "514b34d66be9b452.txt",
+      "type" : "text/plain",
+      "size" : 119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeEachScenario",
+    "time" : {
+      "start" : 1680235381158,
+      "stop" : 1680235386067,
+      "duration" : 4909
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: daohuyt@bridj.com",
+      "time" : {
+        "start" : 1680235381158,
+        "stop" : 1680235385334,
+        "duration" : 4176
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get token from API response",
+        "time" : {
+          "start" : 1680235384485,
+          "stop" : 1680235385334,
+          "duration" : 849
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login Operation Portal to generate token",
+          "time" : {
+            "start" : 1680235384485,
+            "stop" : 1680235385333,
+            "duration" : 848
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "email",
+            "value" : "daohuyt@bridj.com"
+          }, {
+            "name" : "passWord",
+            "value" : "userPass@123"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "password",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "98316959e0bc0205",
+        "name" : "Starting action: ",
+        "source" : "98316959e0bc0205.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "99339e020161f9ea",
+        "name" : "Action Done! ",
+        "source" : "99339e020161f9ea.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a91cc83a6dba1b5f",
+        "name" : "saveScreenShot",
+        "source" : "a91cc83a6dba1b5f.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "31e8ad33abc10a6a",
+        "name" : "Starting action: ",
+        "source" : "31e8ad33abc10a6a.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "b3bf8f23e27f812",
+        "name" : "Action Done! ",
+        "source" : "b3bf8f23e27f812.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "2a3ac0fca11dfd22",
+        "name" : "saveScreenShot",
+        "source" : "2a3ac0fca11dfd22.png",
+        "type" : "image/png",
+        "size" : 61630
+      }, {
+        "uid" : "c185fee1d4987395",
+        "name" : "Starting action: ",
+        "source" : "c185fee1d4987395.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "951fa8117393f194",
+        "name" : "Action Done! ",
+        "source" : "951fa8117393f194.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "1dd19333b5458fe5",
+        "name" : "saveScreenShot",
+        "source" : "1dd19333b5458fe5.png",
+        "type" : "image/png",
+        "size" : 61944
+      }, {
+        "uid" : "c5ccb9d338a7630c",
+        "name" : "Starting action: ",
+        "source" : "c5ccb9d338a7630c.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "79f813fd0a80ed38",
+        "name" : "Action Done! ",
+        "source" : "79f813fd0a80ed38.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "e0e66209c01cb03",
+        "name" : "saveScreenShot",
+        "source" : "e0e66209c01cb03.png",
+        "type" : "image/png",
+        "size" : 62220
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1680235385334,
+        "stop" : 1680235385666,
+        "duration" : 332
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9509517860d6094",
+        "name" : "Starting action: ",
+        "source" : "f9509517860d6094.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "124832391aee1244",
+        "name" : "Action Done! ",
+        "source" : "124832391aee1244.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "ceb8e122abdcd9a7",
+        "name" : "saveScreenShot",
+        "source" : "ceb8e122abdcd9a7.png",
+        "type" : "image/png",
+        "size" : 154107
+      }, {
+        "uid" : "8aa77512558f34c2",
+        "name" : "Starting action: ",
+        "source" : "8aa77512558f34c2.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "82c6836c2c6473a3",
+        "name" : "Action Done! ",
+        "source" : "82c6836c2c6473a3.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "e64baf92977b763",
+        "name" : "saveScreenShot",
+        "source" : "e64baf92977b763.png",
+        "type" : "image/png",
+        "size" : 154087
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Navigate to page Passengers",
+      "time" : {
+        "start" : 1680235385666,
+        "stop" : 1680235386067,
+        "duration" : 401
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "54b18c80853944e0",
+        "name" : "Starting action: ",
+        "source" : "54b18c80853944e0.txt",
+        "type" : "text/plain",
+        "size" : 51
+      }, {
+        "uid" : "18130b0e552d35c0",
+        "name" : "Action Done! ",
+        "source" : "18130b0e552d35c0.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "7d6f8cb55ec9fd70",
+        "name" : "saveScreenShot",
+        "source" : "7d6f8cb55ec9fd70.png",
+        "type" : "image/png",
+        "size" : 76648
+      } ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Passengers"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 21,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify user can book a trip with Wheelchair space",
+    "status" : "broken",
+    "statusMessage" : "Expected condition failed: waiting for presence of element located by: By.xpath: (//p[contains(@data-test-id,'row-655022')]//ancestor::tr)[1] (tried for 30 second(s) with 500 milliseconds interval)",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//p[contains(@data-test-id,'row-655022')]//ancestor::tr)[1] (tried for 30 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat selenium.core.BaseLocator.waitUntilPresent(BaseLocator.java:45)\r\n\tat selenium.core.BasePage.clickOnButtonMoreAction_aroundBody104(BasePage.java:452)\r\n\tat selenium.core.BasePage$AjcClosure105.run(BasePage.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:94)\r\n\tat selenium.core.BasePage.clickOnButtonMoreAction(BasePage.java:452)\r\n\tat selenium.steps.BookingSteps.openBookingDetailWithId(BookingSteps.java:251)\r\n\tat testcases.web.booking_flow.BookingFlow.TC_08(BookingFlow.java:336)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//p[contains(@data-test-id,'row-655022')]//ancestor::tr)[1]\"}\n  (Session info: headless MicrosoftEdge=111.0.1661.54)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [1512c0017207915c6f725a04667076d7, findElement {using=xpath, value=(//p[contains(@data-test-id,'row-655022')]//ancestor::tr)[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56643}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56643/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1512c0017207915c6f725a04667076d7\r\n\tat sun.reflect.GeneratedConstructorAccessor55.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)\r\n\t... 21 more\r\n",
+    "steps" : [ {
+      "name" : "Try to book a trip with given information",
+      "time" : {
+        "start" : 1680235386072,
+        "stop" : 1680235452716,
+        "duration" : 66644
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Call API to get travellers list",
+        "time" : {
+          "start" : 1680235389111,
+          "stop" : 1680235390002,
+          "duration" : 891
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6f1adc4dc16ce61",
+          "name" : "Start sending request: ",
+          "source" : "6f1adc4dc16ce61.txt",
+          "type" : "text/plain",
+          "size" : 496
+        }, {
+          "uid" : "900ba4b0b22f39ab",
+          "name" : "Receive respond after: 0.889s",
+          "source" : "900ba4b0b22f39ab.txt",
+          "type" : "text/plain",
+          "size" : 9352
+        } ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Get traveller by user name from API response",
+        "time" : {
+          "start" : 1680235390002,
+          "stop" : 1680235391681,
+          "duration" : 1679
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Call API to get travellers list",
+          "time" : {
+            "start" : 1680235390002,
+            "stop" : 1680235391680,
+            "duration" : 1678
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "8d2972d0bc2dc74d",
+            "name" : "Start sending request: ",
+            "source" : "8d2972d0bc2dc74d.txt",
+            "type" : "text/plain",
+            "size" : 514
+          }, {
+            "uid" : "b410c52bc312498f",
+            "name" : "Receive respond after: 1.678s",
+            "source" : "b410c52bc312498f.txt",
+            "type" : "text/plain",
+            "size" : 584
+          } ],
+          "parameters" : [ {
+            "name" : "params",
+            "value" : "{search=traveller20}"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userName",
+          "value" : "traveller20"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "1df418e6a03b1076",
+        "name" : "Starting action: ",
+        "source" : "1df418e6a03b1076.txt",
+        "type" : "text/plain",
+        "size" : 47
+      }, {
+        "uid" : "6fd0d97e90b760a7",
+        "name" : "Action Done! ",
+        "source" : "6fd0d97e90b760a7.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "90ba3b8be84068bd",
+        "name" : "saveScreenShot",
+        "source" : "90ba3b8be84068bd.png",
+        "type" : "image/png",
+        "size" : 189542
+      }, {
+        "uid" : "8adde600ee1160bb",
+        "name" : "Starting action: ",
+        "source" : "8adde600ee1160bb.txt",
+        "type" : "text/plain",
+        "size" : 50
+      }, {
+        "uid" : "f743c110de602d68",
+        "name" : "Action Done! ",
+        "source" : "f743c110de602d68.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "2f186651bf0f75",
+        "name" : "saveScreenShot",
+        "source" : "2f186651bf0f75.png",
+        "type" : "image/png",
+        "size" : 203154
+      }, {
+        "uid" : "3d974c9723bcc575",
+        "name" : "Starting action: ",
+        "source" : "3d974c9723bcc575.txt",
+        "type" : "text/plain",
+        "size" : 44
+      }, {
+        "uid" : "4c7d31449040ff6c",
+        "name" : "Action Done! ",
+        "source" : "4c7d31449040ff6c.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "483670af8dc8daaa",
+        "name" : "saveScreenShot",
+        "source" : "483670af8dc8daaa.png",
+        "type" : "image/png",
+        "size" : 214885
+      }, {
+        "uid" : "81b5172ab252f2b4",
+        "name" : "Starting action: ",
+        "source" : "81b5172ab252f2b4.txt",
+        "type" : "text/plain",
+        "size" : 88
+      }, {
+        "uid" : "ea799c71e807a352",
+        "name" : "Action Done! ",
+        "source" : "ea799c71e807a352.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "3895f0f2d8010160",
+        "name" : "saveScreenShot",
+        "source" : "3895f0f2d8010160.png",
+        "type" : "image/png",
+        "size" : 178169
+      }, {
+        "uid" : "abc0f66e2dbc9f7c",
+        "name" : "Starting action: ",
+        "source" : "abc0f66e2dbc9f7c.txt",
+        "type" : "text/plain",
+        "size" : 42
+      }, {
+        "uid" : "dac7059c6e9c0209",
+        "name" : "Action Done! ",
+        "source" : "dac7059c6e9c0209.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c5554d3ccb23050",
+        "name" : "saveScreenShot",
+        "source" : "c5554d3ccb23050.png",
+        "type" : "image/png",
+        "size" : 176524
+      }, {
+        "uid" : "fd37e9eb72591b5e",
+        "name" : "Starting action: ",
+        "source" : "fd37e9eb72591b5e.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "be386297d2fa3e5c",
+        "name" : "Action Done! ",
+        "source" : "be386297d2fa3e5c.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "db41d8dfff06d474",
+        "name" : "saveScreenShot",
+        "source" : "db41d8dfff06d474.png",
+        "type" : "image/png",
+        "size" : 82028
+      }, {
+        "uid" : "34c2beeb5d530e46",
+        "name" : "Starting action: ",
+        "source" : "34c2beeb5d530e46.txt",
+        "type" : "text/plain",
+        "size" : 62
+      }, {
+        "uid" : "e7053dc0b2b3cfcf",
+        "name" : "Action Done! ",
+        "source" : "e7053dc0b2b3cfcf.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a54fbdf1ae7c6b0c",
+        "name" : "saveScreenShot",
+        "source" : "a54fbdf1ae7c6b0c.png",
+        "type" : "image/png",
+        "size" : 91457
+      }, {
+        "uid" : "9bd0289f95375b2a",
+        "name" : "Starting action: ",
+        "source" : "9bd0289f95375b2a.txt",
+        "type" : "text/plain",
+        "size" : 99
+      }, {
+        "uid" : "2d8df09fd61347c5",
+        "name" : "Action Done! ",
+        "source" : "2d8df09fd61347c5.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "5f86ee68e7b52552",
+        "name" : "saveScreenShot",
+        "source" : "5f86ee68e7b52552.png",
+        "type" : "image/png",
+        "size" : 1135202
+      }, {
+        "uid" : "97c139bf41bb6e8d",
+        "name" : "Starting action: ",
+        "source" : "97c139bf41bb6e8d.txt",
+        "type" : "text/plain",
+        "size" : 98
+      }, {
+        "uid" : "7fc156758dd0357c",
+        "name" : "Action Done! ",
+        "source" : "7fc156758dd0357c.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "6a4f5dfb6d442ad1",
+        "name" : "saveScreenShot",
+        "source" : "6a4f5dfb6d442ad1.png",
+        "type" : "image/png",
+        "size" : 116951
+      }, {
+        "uid" : "12a9099616fe610d",
+        "name" : "Starting action: ",
+        "source" : "12a9099616fe610d.txt",
+        "type" : "text/plain",
+        "size" : 100
+      }, {
+        "uid" : "d12303c1f75b775b",
+        "name" : "Action Done! ",
+        "source" : "d12303c1f75b775b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a42adc4c001de834",
+        "name" : "saveScreenShot",
+        "source" : "a42adc4c001de834.png",
+        "type" : "image/png",
+        "size" : 909101
+      }, {
+        "uid" : "a695f4d50d415900",
+        "name" : "Starting action: ",
+        "source" : "a695f4d50d415900.txt",
+        "type" : "text/plain",
+        "size" : 98
+      }, {
+        "uid" : "d048a79e38790324",
+        "name" : "Action Done! ",
+        "source" : "d048a79e38790324.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "6e138e37c06de749",
+        "name" : "saveScreenShot",
+        "source" : "6e138e37c06de749.png",
+        "type" : "image/png",
+        "size" : 1098812
+      }, {
+        "uid" : "f4903bb84ecc9ace",
+        "name" : "Starting action: ",
+        "source" : "f4903bb84ecc9ace.txt",
+        "type" : "text/plain",
+        "size" : 46
+      }, {
+        "uid" : "76fb07458e29ff51",
+        "name" : "Action Done! ",
+        "source" : "76fb07458e29ff51.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "88a79df647d1f018",
+        "name" : "saveScreenShot",
+        "source" : "88a79df647d1f018.png",
+        "type" : "image/png",
+        "size" : 902865
+      }, {
+        "uid" : "be1fd392071e8e31",
+        "name" : "Starting action: ",
+        "source" : "be1fd392071e8e31.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "e0b37f175e1c1dcb",
+        "name" : "Action Done! ",
+        "source" : "e0b37f175e1c1dcb.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "9769c5bb84b21e01",
+        "name" : "saveScreenShot",
+        "source" : "9769c5bb84b21e01.png",
+        "type" : "image/png",
+        "size" : 709573
+      }, {
+        "uid" : "e89fd972ec01c98e",
+        "name" : "Starting action: ",
+        "source" : "e89fd972ec01c98e.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "9bc935f71b36333b",
+        "name" : "Action Done! ",
+        "source" : "9bc935f71b36333b.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "e0e91bee0a5c2a34",
+        "name" : "saveScreenShot",
+        "source" : "e0e91bee0a5c2a34.png",
+        "type" : "image/png",
+        "size" : 709428
+      }, {
+        "uid" : "7565b6e9995c28cb",
+        "name" : "Starting action: ",
+        "source" : "7565b6e9995c28cb.txt",
+        "type" : "text/plain",
+        "size" : 51
+      }, {
+        "uid" : "5715aedef112a8c2",
+        "name" : "Action Done! ",
+        "source" : "5715aedef112a8c2.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "64e124538b886ca7",
+        "name" : "saveScreenShot",
+        "source" : "64e124538b886ca7.png",
+        "type" : "image/png",
+        "size" : 554169
+      }, {
+        "uid" : "139797ae511a4a03",
+        "name" : "Starting action: ",
+        "source" : "139797ae511a4a03.txt",
+        "type" : "text/plain",
+        "size" : 42
+      }, {
+        "uid" : "cf57a614d3b85199",
+        "name" : "Action Done! ",
+        "source" : "cf57a614d3b85199.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "4cc4dd0c4c9f2e98",
+        "name" : "saveScreenShot",
+        "source" : "4cc4dd0c4c9f2e98.png",
+        "type" : "image/png",
+        "size" : 554094
+      }, {
+        "uid" : "dd56e116254fab6c",
+        "name" : "Starting action: ",
+        "source" : "dd56e116254fab6c.txt",
+        "type" : "text/plain",
+        "size" : 64
+      }, {
+        "uid" : "9b1c91e8e8b0ff97",
+        "name" : "Action Done! ",
+        "source" : "9b1c91e8e8b0ff97.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "35a645793507d464",
+        "name" : "saveScreenShot",
+        "source" : "35a645793507d464.png",
+        "type" : "image/png",
+        "size" : 89261
+      }, {
+        "uid" : "73f198bd78b6da5d",
+        "name" : "Starting action: ",
+        "source" : "73f198bd78b6da5d.txt",
+        "type" : "text/plain",
+        "size" : 66
+      }, {
+        "uid" : "97c70037816435eb",
+        "name" : "Action Done! ",
+        "source" : "97c70037816435eb.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "88e2fac6166e056d",
+        "name" : "saveScreenShot",
+        "source" : "88e2fac6166e056d.png",
+        "type" : "image/png",
+        "size" : 552251
+      }, {
+        "uid" : "a545f5d081ced7a2",
+        "name" : "Starting action: ",
+        "source" : "a545f5d081ced7a2.txt",
+        "type" : "text/plain",
+        "size" : 64
+      }, {
+        "uid" : "96b11eea8abae0ee",
+        "name" : "Action Done! ",
+        "source" : "96b11eea8abae0ee.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "65893a6c9a1a3f1d",
+        "name" : "saveScreenShot",
+        "source" : "65893a6c9a1a3f1d.png",
+        "type" : "image/png",
+        "size" : 744688
+      }, {
+        "uid" : "77cd1dde371a32b3",
+        "name" : "Starting action: ",
+        "source" : "77cd1dde371a32b3.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "1cc80fb9cf72716a",
+        "name" : "Action Done! ",
+        "source" : "1cc80fb9cf72716a.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "f82ae3ea119462f2",
+        "name" : "saveScreenShot",
+        "source" : "f82ae3ea119462f2.png",
+        "type" : "image/png",
+        "size" : 744688
+      }, {
+        "uid" : "938c6fa5881d6150",
+        "name" : "Starting action: ",
+        "source" : "938c6fa5881d6150.txt",
+        "type" : "text/plain",
+        "size" : 64
+      }, {
+        "uid" : "5e550fb800655178",
+        "name" : "Action Done! ",
+        "source" : "5e550fb800655178.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "52cd331a03ae1d0a",
+        "name" : "saveScreenShot",
+        "source" : "52cd331a03ae1d0a.png",
+        "type" : "image/png",
+        "size" : 744688
+      }, {
+        "uid" : "33ca975bfb3265e4",
+        "name" : "Starting action: ",
+        "source" : "33ca975bfb3265e4.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "4223a302991b97b4",
+        "name" : "Action Done! ",
+        "source" : "4223a302991b97b4.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "822115e02a095619",
+        "name" : "saveScreenShot",
+        "source" : "822115e02a095619.png",
+        "type" : "image/png",
+        "size" : 677941
+      }, {
+        "uid" : "4ec5d92dc16cc0f7",
+        "name" : "Starting action: ",
+        "source" : "4ec5d92dc16cc0f7.txt",
+        "type" : "text/plain",
+        "size" : 70
+      }, {
+        "uid" : "be36ff42ab9d5e44",
+        "name" : "Action Done! ",
+        "source" : "be36ff42ab9d5e44.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "bce71b7ab6727069",
+        "name" : "saveScreenShot",
+        "source" : "bce71b7ab6727069.png",
+        "type" : "image/png",
+        "size" : 545740
+      }, {
+        "uid" : "706909956ce5d44d",
+        "name" : "Starting action: ",
+        "source" : "706909956ce5d44d.txt",
+        "type" : "text/plain",
+        "size" : 34
+      }, {
+        "uid" : "b35f61f9fe961b9a",
+        "name" : "Action Done! ",
+        "source" : "b35f61f9fe961b9a.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "9779327affbbc7e0",
+        "name" : "saveScreenShot",
+        "source" : "9779327affbbc7e0.png",
+        "type" : "image/png",
+        "size" : 545527
+      }, {
+        "uid" : "7e34e7443b769818",
+        "name" : "Starting action: ",
+        "source" : "7e34e7443b769818.txt",
+        "type" : "text/plain",
+        "size" : 65
+      }, {
+        "uid" : "64333f85a34837e7",
+        "name" : "Action Done! ",
+        "source" : "64333f85a34837e7.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "27864d7c2c5b078a",
+        "name" : "saveScreenShot",
+        "source" : "27864d7c2c5b078a.png",
+        "type" : "image/png",
+        "size" : 546273
+      }, {
+        "uid" : "3e0cf8e2c947ff06",
+        "name" : "Starting action: ",
+        "source" : "3e0cf8e2c947ff06.txt",
+        "type" : "text/plain",
+        "size" : 57
+      }, {
+        "uid" : "8c14a0fd64a9be28",
+        "name" : "Action Done! ",
+        "source" : "8c14a0fd64a9be28.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "45b3e919e8a114bd",
+        "name" : "saveScreenShot",
+        "source" : "45b3e919e8a114bd.png",
+        "type" : "image/png",
+        "size" : 545812
+      }, {
+        "uid" : "50e8994cb0db0bfe",
+        "name" : "Starting action: ",
+        "source" : "50e8994cb0db0bfe.txt",
+        "type" : "text/plain",
+        "size" : 45
+      }, {
+        "uid" : "29ef969dd51ab96e",
+        "name" : "Action Done! ",
+        "source" : "29ef969dd51ab96e.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "9b5ab19521e000b2",
+        "name" : "saveScreenShot",
+        "source" : "9b5ab19521e000b2.png",
+        "type" : "image/png",
+        "size" : 545734
+      }, {
+        "uid" : "72c90e137345e75b",
+        "name" : "Starting action: ",
+        "source" : "72c90e137345e75b.txt",
+        "type" : "text/plain",
+        "size" : 71
+      }, {
+        "uid" : "58f5b45b6fbae4a4",
+        "name" : "Action Done! ",
+        "source" : "58f5b45b6fbae4a4.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "f48b38f4de35f806",
+        "name" : "saveScreenShot",
+        "source" : "f48b38f4de35f806.png",
+        "type" : "image/png",
+        "size" : 545904
+      }, {
+        "uid" : "dbbf345646e870ac",
+        "name" : "Starting action: ",
+        "source" : "dbbf345646e870ac.txt",
+        "type" : "text/plain",
+        "size" : 70
+      }, {
+        "uid" : "6055aa945852a4b1",
+        "name" : "Action Done! ",
+        "source" : "6055aa945852a4b1.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "72e98c9f4e0d8430",
+        "name" : "saveScreenShot",
+        "source" : "72e98c9f4e0d8430.png",
+        "type" : "image/png",
+        "size" : 546548
+      }, {
+        "uid" : "e4273ff1f938850d",
+        "name" : "Starting action: ",
+        "source" : "e4273ff1f938850d.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "1d8e329319aedbcb",
+        "name" : "Action Done! ",
+        "source" : "1d8e329319aedbcb.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "85f14adccaa9e08e",
+        "name" : "saveScreenShot",
+        "source" : "85f14adccaa9e08e.png",
+        "type" : "image/png",
+        "size" : 546963
+      }, {
+        "uid" : "63d112c92de6fa29",
+        "name" : "Starting action: ",
+        "source" : "63d112c92de6fa29.txt",
+        "type" : "text/plain",
+        "size" : 51
+      }, {
+        "uid" : "283ad37a620632e7",
+        "name" : "Action Done! ",
+        "source" : "283ad37a620632e7.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c67810bd3e362b83",
+        "name" : "saveScreenShot",
+        "source" : "c67810bd3e362b83.png",
+        "type" : "image/png",
+        "size" : 744688
+      }, {
+        "uid" : "3f92ea2e35de584d",
+        "name" : "Starting action: ",
+        "source" : "3f92ea2e35de584d.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "4d6ecded6455a9e5",
+        "name" : "Action Done! ",
+        "source" : "4d6ecded6455a9e5.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "7915ce36eb5f270a",
+        "name" : "saveScreenShot",
+        "source" : "7915ce36eb5f270a.png",
+        "type" : "image/png",
+        "size" : 752823
+      }, {
+        "uid" : "9e75cc714130b62c",
+        "name" : "Starting action: ",
+        "source" : "9e75cc714130b62c.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "deb4d02f9a367574",
+        "name" : "Action Done! ",
+        "source" : "deb4d02f9a367574.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a76f58e0d2bd7b43",
+        "name" : "saveScreenShot",
+        "source" : "a76f58e0d2bd7b43.png",
+        "type" : "image/png",
+        "size" : 731195
+      }, {
+        "uid" : "eddf31a1032dd9bf",
+        "name" : "Starting action: ",
+        "source" : "eddf31a1032dd9bf.txt",
+        "type" : "text/plain",
+        "size" : 51
+      }, {
+        "uid" : "600284eecc3cc01e",
+        "name" : "Action Done! ",
+        "source" : "600284eecc3cc01e.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "d661ea6130bf6eb1",
+        "name" : "saveScreenShot",
+        "source" : "d661ea6130bf6eb1.png",
+        "type" : "image/png",
+        "size" : 81880
+      } ],
+      "parameters" : [ {
+        "name" : "booking",
+        "value" : "utils.models.MBooking@71552ad2"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 106,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Navigate to page Bookings",
+      "time" : {
+        "start" : 1680235452716,
+        "stop" : 1680235453157,
+        "duration" : 441
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c34b5ed930a74d5c",
+        "name" : "Starting action: ",
+        "source" : "c34b5ed930a74d5c.txt",
+        "type" : "text/plain",
+        "size" : 49
+      }, {
+        "uid" : "ff5550fb9edef2ae",
+        "name" : "Action Done! ",
+        "source" : "ff5550fb9edef2ae.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "b13db738d4ab33db",
+        "name" : "saveScreenShot",
+        "source" : "b13db738d4ab33db.png",
+        "type" : "image/png",
+        "size" : 77547
+      } ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Bookings"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Call API to get regions list",
+      "time" : {
+        "start" : 1680235453157,
+        "stop" : 1680235454082,
+        "duration" : 925
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42476e0629ed55fb",
+        "name" : "Start sending request: ",
+        "source" : "42476e0629ed55fb.txt",
+        "type" : "text/plain",
+        "size" : 513
+      }, {
+        "uid" : "66e29a88cfb14ee4",
+        "name" : "Receive respond after: 0.923s",
+        "source" : "66e29a88cfb14ee4.txt",
+        "type" : "text/plain",
+        "size" : 8392
+      } ],
+      "parameters" : [ {
+        "name" : "params",
+        "value" : "{per_page=100, page=1}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get region by name from API response",
+      "time" : {
+        "start" : 1680235454082,
+        "stop" : 1680235454082,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Booking Region"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Call API to get zones list",
+      "time" : {
+        "start" : 1680235454082,
+        "stop" : 1680235455469,
+        "duration" : 1387
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a04bb91c5bb56da9",
+        "name" : "Start sending request: ",
+        "source" : "a04bb91c5bb56da9.txt",
+        "type" : "text/plain",
+        "size" : 528
+      }, {
+        "uid" : "336ef854e36b3a64",
+        "name" : "Receive respond after: 1.383s",
+        "source" : "336ef854e36b3a64.txt",
+        "type" : "text/plain",
+        "size" : 41156
+      } ],
+      "parameters" : [ {
+        "name" : "params",
+        "value" : "{per_page=100, page=1, region=3742}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get zone by name from API response",
+      "time" : {
+        "start" : 1680235455469,
+        "stop" : 1680235455470,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Booking Zone"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Call API to get bookings list",
+      "time" : {
+        "start" : 1680235455470,
+        "stop" : 1680235456572,
+        "duration" : 1102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b136bcf4cc97aecd",
+        "name" : "Start sending request: ",
+        "source" : "b136bcf4cc97aecd.txt",
+        "type" : "text/plain",
+        "size" : 542
+      }, {
+        "uid" : "d3c1c1fadba1684c",
+        "name" : "Receive respond after: 1.1s",
+        "source" : "d3c1c1fadba1684c.txt",
+        "type" : "text/plain",
+        "size" : 15758
+      } ],
+      "parameters" : [ {
+        "name" : "params",
+        "value" : "{per_page=100, filter[zone]=2618, page=1}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get bookings list from API response",
+      "time" : {
+        "start" : 1680235456572,
+        "stop" : 1680235456573,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open booking details for booking id '655022'",
+      "time" : {
+        "start" : 1680235456573,
+        "stop" : 1680235492386,
+        "duration" : 35813
+      },
+      "status" : "broken",
+      "statusMessage" : "Expected condition failed: waiting for presence of element located by: By.xpath: (//p[contains(@data-test-id,'row-655022')]//ancestor::tr)[1] (tried for 30 second(s) with 500 milliseconds interval)",
+      "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//p[contains(@data-test-id,'row-655022')]//ancestor::tr)[1] (tried for 30 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat selenium.core.BaseLocator.waitUntilPresent(BaseLocator.java:45)\r\n\tat selenium.core.BasePage.clickOnButtonMoreAction_aroundBody104(BasePage.java:452)\r\n\tat selenium.core.BasePage$AjcClosure105.run(BasePage.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:167)\r\n\tat utils.logging.AspectJ.doConcurrentOperation(AspectJ.java:94)\r\n\tat selenium.core.BasePage.clickOnButtonMoreAction(BasePage.java:452)\r\n\tat selenium.steps.BookingSteps.openBookingDetailWithId(BookingSteps.java:251)\r\n\tat testcases.web.booking_flow.BookingFlow.TC_08(BookingFlow.java:336)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//p[contains(@data-test-id,'row-655022')]//ancestor::tr)[1]\"}\n  (Session info: headless MicrosoftEdge=111.0.1661.54)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [1512c0017207915c6f725a04667076d7, findElement {using=xpath, value=(//p[contains(@data-test-id,'row-655022')]//ancestor::tr)[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56643}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\daohu\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56643/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1512c0017207915c6f725a04667076d7\r\n\tat sun.reflect.GeneratedConstructorAccessor55.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)\r\n\t... 21 more\r\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c6f22b1cc8e1e6",
+        "name" : "Starting action: ",
+        "source" : "7c6f22b1cc8e1e6.txt",
+        "type" : "text/plain",
+        "size" : 47
+      }, {
+        "uid" : "395c8a8ab4f73986",
+        "name" : "Action Done! ",
+        "source" : "395c8a8ab4f73986.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "8fe25e72d1592dc9",
+        "name" : "saveScreenShot",
+        "source" : "8fe25e72d1592dc9.png",
+        "type" : "image/png",
+        "size" : 104569
+      }, {
+        "uid" : "c7a3053296bc9287",
+        "name" : "Starting action: ",
+        "source" : "c7a3053296bc9287.txt",
+        "type" : "text/plain",
+        "size" : 50
+      }, {
+        "uid" : "4fcddaec62709210",
+        "name" : "Action Done! ",
+        "source" : "4fcddaec62709210.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "3bb96b3314e50eb2",
+        "name" : "saveScreenShot",
+        "source" : "3bb96b3314e50eb2.png",
+        "type" : "image/png",
+        "size" : 109153
+      }, {
+        "uid" : "7388ebdcd4711e29",
+        "name" : "Starting action: ",
+        "source" : "7388ebdcd4711e29.txt",
+        "type" : "text/plain",
+        "size" : 44
+      }, {
+        "uid" : "b22aee850e2d6ee6",
+        "name" : "Action Done! ",
+        "source" : "b22aee850e2d6ee6.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "32b6e1017167f615",
+        "name" : "saveScreenShot",
+        "source" : "32b6e1017167f615.png",
+        "type" : "image/png",
+        "size" : 98086
+      }, {
+        "uid" : "c7e2d5fd9c21d182",
+        "name" : "Starting action: ",
+        "source" : "c7e2d5fd9c21d182.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "fcc66dd4f553ec40",
+        "name" : "Action failed: ",
+        "source" : "fcc66dd4f553ec40.txt",
+        "type" : "text/plain",
+        "size" : 213
+      }, {
+        "uid" : "84c71787888bc8b3",
+        "name" : "saveScreenShot",
+        "source" : "84c71787888bc8b3.png",
+        "type" : "image/png",
+        "size" : 77625
+      } ],
+      "parameters" : [ {
+        "name" : "bookingId",
+        "value" : "655022"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 127,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1680235492387,
+      "stop" : 1680235493203,
+      "duration" : 816
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "faedede452259332",
+      "name" : "saveScreenShot",
+      "source" : "faedede452259332.png",
+      "type" : "image/png",
+      "size" : 83732
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1680235757102,
+      "stop" : 1680235757102,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1680235757103,
+      "stop" : 1680235757103,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.booking_flow.BookingFlow"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.booking_flow.BookingFlow"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_08"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Booking Flow"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.booking_flow.BookingFlow"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16880@DaoTien.TestNG-test=Booking Flow-5(1111)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "[Operation Portal][Booking flow] Can not find a trip due to #14 error",
+    "url" : "https://atlassian-jira-prod-core.prod-core.au-ap-southeast-2.bridj.info/browse/BP-1033",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cf4e7cb72ce4f4a4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,1215 @@
+Response code: 
+200
+Response body: 
+{
+    "data": [
+        {
+            "id": 3167,
+            "first_name": "User16",
+            "last_name": "LastName16",
+            "email": "user_16@yopmail.com",
+            "username": "user16",
+            "phone_number": "342322454",
+            "groups": [
+                1286,
+                1295
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3167"
+        },
+        {
+            "id": 3166,
+            "first_name": "User21",
+            "last_name": "LastName21",
+            "email": "user_21@yopmail.com",
+            "username": "user21",
+            "phone_number": "34234234",
+            "groups": [
+                1290
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3166"
+        },
+        {
+            "id": 3165,
+            "first_name": "User10",
+            "last_name": "LastName10",
+            "email": "user_10@yopmail.com",
+            "username": "user10",
+            "phone_number": "342322454",
+            "groups": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3165"
+        },
+        {
+            "id": 3164,
+            "first_name": "edited_User23",
+            "last_name": "edited_LastName23",
+            "email": "edited_user_23@yopmail.com",
+            "username": "edited_user23",
+            "phone_number": null,
+            "groups": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3164"
+        },
+        {
+            "id": 3163,
+            "first_name": "User12",
+            "last_name": "LastName12",
+            "email": "user_12@yopmail.com",
+            "username": "user12",
+            "phone_number": "342322454",
+            "groups": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3163"
+        },
+        {
+            "id": 3162,
+            "first_name": "User08",
+            "last_name": "LastName08",
+            "email": "user_o8@yopmail.com",
+            "username": "user08",
+            "phone_number": "342322454",
+            "groups": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3162"
+        },
+        {
+            "id": 3161,
+            "first_name": "User11",
+            "last_name": "LastName11",
+            "email": "user_11@yopmail.com",
+            "username": "user11",
+            "phone_number": "342322454",
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3161"
+        },
+        {
+            "id": 3160,
+            "first_name": "User07",
+            "last_name": "LastName07",
+            "email": "user_o7@yopmail.com",
+            "username": "user07",
+            "phone_number": "342322454",
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3160"
+        },
+        {
+            "id": 3159,
+            "first_name": "Planning",
+            "last_name": "Write",
+            "email": "planning.write.user@gmail.com",
+            "username": "Configuration Write",
+            "phone_number": null,
+            "groups": [
+                1285
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3159"
+        },
+        {
+            "id": 3158,
+            "first_name": "Resource",
+            "last_name": "Management Read",
+            "email": "resource.management.read@gmail.com",
+            "username": "Resources And Passengers Read",
+            "phone_number": null,
+            "groups": [
+                1291
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3158"
+        },
+        {
+            "id": 3157,
+            "first_name": "User09",
+            "last_name": "LastName09",
+            "email": "user_o9@yopmail.com",
+            "username": "user09",
+            "phone_number": "342322454",
+            "groups": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3157"
+        },
+        {
+            "id": 3156,
+            "first_name": "Resource",
+            "last_name": "Management Write",
+            "email": "resource.management.write@gmail.com",
+            "username": "Resources And Passengers Write",
+            "phone_number": null,
+            "groups": [
+                1294
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3156"
+        },
+        {
+            "id": 3155,
+            "first_name": "User13",
+            "last_name": "LastName13",
+            "email": "user_13@yopmail.com",
+            "username": "user13",
+            "phone_number": "342322454",
+            "groups": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3155"
+        },
+        {
+            "id": 3154,
+            "first_name": "User04",
+            "last_name": "LastName04",
+            "email": "user_o4@yopmail.com",
+            "username": "user04",
+            "phone_number": "34232244",
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3154"
+        },
+        {
+            "id": 3153,
+            "first_name": "User24",
+            "last_name": "LastName24",
+            "email": "user_24@yopmail.com",
+            "username": "user24",
+            "phone_number": "23423434",
+            "groups": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3153"
+        },
+        {
+            "id": 3152,
+            "first_name": "User22",
+            "last_name": "LastName22",
+            "email": "user_22@yopmail.com",
+            "username": "user22",
+            "phone_number": null,
+            "groups": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3152"
+        },
+        {
+            "id": 3151,
+            "first_name": "UserEdited",
+            "last_name": "LastNameEdit",
+            "email": "user_o2_edited@yopmail.com",
+            "username": "user02Edited",
+            "phone_number": "0111111",
+            "groups": [
+                1290
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3151"
+        },
+        {
+            "id": 3150,
+            "first_name": "Planning",
+            "last_name": "Read",
+            "email": "plan.read.user@gmail.com",
+            "username": "Configuration Read",
+            "phone_number": null,
+            "groups": [
+                1288
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3150"
+        },
+        {
+            "id": 3149,
+            "first_name": "User15",
+            "last_name": "LastName15",
+            "email": "user_15@yopmail.com",
+            "username": "user15",
+            "phone_number": "342322454",
+            "groups": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3149"
+        },
+        {
+            "id": 3148,
+            "first_name": "User27",
+            "last_name": "LastName27",
+            "email": "user_27@yopmail.com",
+            "username": "user27",
+            "phone_number": "34232244",
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3148"
+        },
+        {
+            "id": 3147,
+            "first_name": "Daily",
+            "last_name": "Operations Read",
+            "email": "daily.operation.read@gmail.com",
+            "username": "Daily Operations Read",
+            "phone_number": "67676",
+            "groups": [
+                1290
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3147"
+        },
+        {
+            "id": 3146,
+            "first_name": "Reporting",
+            "last_name": "User",
+            "email": "reporting.write@gmail.com",
+            "username": "Reporting",
+            "phone_number": null,
+            "groups": [
+                1295
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3146"
+        },
+        {
+            "id": 3145,
+            "first_name": "User31",
+            "last_name": "LastName31",
+            "email": "user_31@yopmail.com",
+            "username": "user31",
+            "phone_number": null,
+            "groups": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3145"
+        },
+        {
+            "id": 3144,
+            "first_name": "System",
+            "last_name": "Write",
+            "email": "system.write@gmail.com",
+            "username": "System Write",
+            "phone_number": null,
+            "groups": [
+                1289
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3144"
+        },
+        {
+            "id": 3143,
+            "first_name": "edited_User25",
+            "last_name": "edited_LastName25",
+            "email": "edited_user_25@yopmail.com",
+            "username": "edited_user25",
+            "phone_number": "333333",
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3143"
+        },
+        {
+            "id": 3142,
+            "first_name": "System",
+            "last_name": "Read",
+            "email": "systemread09@gmail.com",
+            "username": "System Read",
+            "phone_number": null,
+            "groups": [
+                1283
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3142"
+        },
+        {
+            "id": 3141,
+            "first_name": "No",
+            "last_name": "Permission",
+            "email": "no.permission02@gmail.com",
+            "username": "No Permission",
+            "phone_number": "67676",
+            "groups": [
+                1284
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3141"
+        },
+        {
+            "id": 3140,
+            "first_name": "User26",
+            "last_name": "LastName26",
+            "email": "user_26@yopmail.com",
+            "username": "user26",
+            "phone_number": "34232244",
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3140"
+        },
+        {
+            "id": 3139,
+            "first_name": "User29",
+            "last_name": "LastName29",
+            "email": "user_29@yopmail.com",
+            "username": "user29",
+            "phone_number": null,
+            "groups": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3139"
+        },
+        {
+            "id": 3138,
+            "first_name": "Daily",
+            "last_name": "Operations Write",
+            "email": "daily.operation.write@gmail.com",
+            "username": "Daily Operations Write",
+            "phone_number": null,
+            "groups": [
+                1293
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3138"
+        },
+        {
+            "id": 3137,
+            "first_name": "User14",
+            "last_name": "LastName14",
+            "email": "user_14@yopmail.com",
+            "username": "user14",
+            "phone_number": "342322454",
+            "groups": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/3137"
+        },
+        {
+            "id": 1183,
+            "first_name": "Tien",
+            "last_name": "Dao Huy",
+            "email": "daohuyt@bridj.com",
+            "username": "daohuyt",
+            "phone_number": "0412345678",
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1183"
+        },
+        {
+            "id": 1182,
+            "first_name": "Simon",
+            "last_name": "Simon Langford-Ely",
+            "email": "simon@creature.com.au",
+            "username": "simon",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1182"
+        },
+        {
+            "id": 1181,
+            "first_name": "James",
+            "last_name": "Bourbon",
+            "email": "james@creature.com.au",
+            "username": "jbourbon",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1181"
+        },
+        {
+            "id": 1180,
+            "first_name": "A1180",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1180@bridj.com",
+            "username": "admin1180",
+            "phone_number": null,
+            "groups": [
+                5
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1180"
+        },
+        {
+            "id": 1179,
+            "first_name": "Michael",
+            "last_name": "Imelfort",
+            "email": "mimelfort@bridj.com",
+            "username": "mimelfort",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1179"
+        },
+        {
+            "id": 1178,
+            "first_name": "A1178",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1178@bridj.com",
+            "username": "admin1178",
+            "phone_number": null,
+            "groups": [
+                5
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1178"
+        },
+        {
+            "id": 1177,
+            "first_name": "A1177",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1177@bridj.com",
+            "username": "admin1177",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1177"
+        },
+        {
+            "id": 1176,
+            "first_name": "Nigel",
+            "last_name": "McBryde",
+            "email": "nmcbryde+admin@bridj.com",
+            "username": "nigel_admin",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1176"
+        },
+        {
+            "id": 1175,
+            "first_name": "A1175",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1175@bridj.com",
+            "username": "admin1175",
+            "phone_number": null,
+            "groups": [
+                7
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1175"
+        },
+        {
+            "id": 1174,
+            "first_name": "Suresh",
+            "last_name": "Ponraj",
+            "email": "sponraj@bridj.com",
+            "username": "sponraj",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1174"
+        },
+        {
+            "id": 1173,
+            "first_name": "A1173",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1173@bridj.com",
+            "username": "admin1173",
+            "phone_number": null,
+            "groups": [
+                5
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1173"
+        },
+        {
+            "id": 1172,
+            "first_name": "Damien",
+            "last_name": "Collins",
+            "email": "dcollins@bridj.com",
+            "username": "dcollins",
+            "phone_number": null,
+            "groups": [
+                14
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1172"
+        },
+        {
+            "id": 1171,
+            "first_name": "Yee",
+            "last_name": "Chow",
+            "email": "ychow@bridj.com",
+            "username": "ychow",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1171"
+        },
+        {
+            "id": 1170,
+            "first_name": "A1170",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1170@bridj.com",
+            "username": "admin1170",
+            "phone_number": null,
+            "groups": [
+                5
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1170"
+        },
+        {
+            "id": 1169,
+            "first_name": "A1169",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1169@bridj.com",
+            "username": "admin1169",
+            "phone_number": null,
+            "groups": [
+                11
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1169"
+        },
+        {
+            "id": 1168,
+            "first_name": "A1168",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1168@bridj.com",
+            "username": "admin1168",
+            "phone_number": null,
+            "groups": [
+                5
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1168"
+        },
+        {
+            "id": 1167,
+            "first_name": "A1167",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1167@bridj.com",
+            "username": "admin1167",
+            "phone_number": null,
+            "groups": [
+                5
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1167"
+        },
+        {
+            "id": 1166,
+            "first_name": "A1166",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1166@bridj.com",
+            "username": "admin1166",
+            "phone_number": null,
+            "groups": [
+                7
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1166"
+        },
+        {
+            "id": 1165,
+            "first_name": "A1165",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1165@bridj.com",
+            "username": "admin1165",
+            "phone_number": null,
+            "groups": [
+                7
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1165"
+        },
+        {
+            "id": 1164,
+            "first_name": "A1164",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1164@bridj.com",
+            "username": "admin1164",
+            "phone_number": null,
+            "groups": [
+                9
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1164"
+        },
+        {
+            "id": 1163,
+            "first_name": "A1163",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1163@bridj.com",
+            "username": "admin1163",
+            "phone_number": null,
+            "groups": [
+                9
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1163"
+        },
+        {
+            "id": 1162,
+            "first_name": "James",
+            "last_name": "MacLeod",
+            "email": "jmacleod@bridj.com",
+            "username": "jmacleod",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1162"
+        },
+        {
+            "id": 1161,
+            "first_name": "A1161",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1161@bridj.com",
+            "username": "admin1161",
+            "phone_number": null,
+            "groups": [
+                3
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1161"
+        },
+        {
+            "id": 1160,
+            "first_name": "Nigel",
+            "last_name": "McBryde",
+            "email": "nmcbryde@bridj.com",
+            "username": "nmcbryde",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1160"
+        },
+        {
+            "id": 1159,
+            "first_name": "Emma",
+            "last_name": "Chilman",
+            "email": "echilman@bridj.com",
+            "username": "echilman",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1159"
+        },
+        {
+            "id": 1158,
+            "first_name": "A1158",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1158@bridj.com",
+            "username": "admin1158",
+            "phone_number": null,
+            "groups": [
+                11
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1158"
+        },
+        {
+            "id": 1157,
+            "first_name": "Cathie",
+            "last_name": "Hagen",
+            "email": "chagen@bridj.com",
+            "username": "chagen",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1157"
+        },
+        {
+            "id": 1153,
+            "first_name": "Bip",
+            "last_name": "Reporting",
+            "email": "customerdata@bridj.com",
+            "username": "bip_reporting",
+            "phone_number": null,
+            "groups": [
+                3
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1153"
+        },
+        {
+            "id": 1152,
+            "first_name": "A1152",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1152@bridj.com",
+            "username": "admin1152",
+            "phone_number": null,
+            "groups": [
+                5
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1152"
+        },
+        {
+            "id": 1151,
+            "first_name": "A1151",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1151@bridj.com",
+            "username": "admin1151",
+            "phone_number": null,
+            "groups": [
+                5
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1151"
+        },
+        {
+            "id": 1149,
+            "first_name": "A1149",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1149@bridj.com",
+            "username": "admin1149",
+            "phone_number": null,
+            "groups": [
+                4
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1149"
+        },
+        {
+            "id": 1148,
+            "first_name": "A1148",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1148@bridj.com",
+            "username": "admin1148",
+            "phone_number": null,
+            "groups": [
+                5,
+                4
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1148"
+        },
+        {
+            "id": 1147,
+            "first_name": "A1147",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1147@bridj.com",
+            "username": "admin1147",
+            "phone_number": null,
+            "groups": [
+                5
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1147"
+        },
+        {
+            "id": 1146,
+            "first_name": "A1146",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1146@bridj.com",
+            "username": "admin1146",
+            "phone_number": null,
+            "groups": [
+                5
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1146"
+        },
+        {
+            "id": 1145,
+            "first_name": "A1145",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1145@bridj.com",
+            "username": "admin1145",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1145"
+        },
+        {
+            "id": 1144,
+            "first_name": "A1144",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1144@bridj.com",
+            "username": "admin1144",
+            "phone_number": null,
+            "groups": [
+                5
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1144"
+        },
+        {
+            "id": 1143,
+            "first_name": "A1143",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1143@bridj.com",
+            "username": "admin1143",
+            "phone_number": null,
+            "groups": [
+                4
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1143"
+        },
+        {
+            "id": 1142,
+            "first_name": "Scott",
+            "last_name": "Rowlands",
+            "email": "srowlands@bridj.com",
+            "username": "srowlands",
+            "phone_number": null,
+            "groups": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1142"
+        },
+        {
+            "id": 1140,
+            "first_name": "A1140",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1140@bridj.com",
+            "username": "admin1140",
+            "phone_number": null,
+            "groups": [
+                5
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1140"
+        },
+        {
+            "id": 1139,
+            "first_name": "Shahram",
+            "last_name": "Kalantari",
+            "email": "skalantari@bridj.com",
+            "username": "skalantari@bridj.com",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1139"
+        },
+        {
+            "id": 1138,
+            "first_name": "A1138",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1138@bridj.com",
+            "username": "admin1138",
+            "phone_number": null,
+            "groups": [
+                11,
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1138"
+        },
+        {
+            "id": 1137,
+            "first_name": "A1137",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1137@bridj.com",
+            "username": "admin1137",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1137"
+        },
+        {
+            "id": 1136,
+            "first_name": "William",
+            "last_name": "Clifford",
+            "email": "wclifford@bridj.com",
+            "username": "wclifford",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1136"
+        },
+        {
+            "id": 1133,
+            "first_name": "A1133",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1133@bridj.com",
+            "username": "admin1133",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1133"
+        },
+        {
+            "id": 1132,
+            "first_name": "A1132",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1132@bridj.com",
+            "username": "admin1132",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1132"
+        },
+        {
+            "id": 1131,
+            "first_name": "A1131",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1131@bridj.com",
+            "username": "admin1131",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1131"
+        },
+        {
+            "id": 1129,
+            "first_name": "A1129",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1129@bridj.com",
+            "username": "admin1129",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1129"
+        },
+        {
+            "id": 1128,
+            "first_name": "A1128",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1128@bridj.com",
+            "username": "admin1128",
+            "phone_number": null,
+            "groups": [
+                10
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1128"
+        },
+        {
+            "id": 1119,
+            "first_name": "A1119",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1119@bridj.com",
+            "username": "admin1119",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1119"
+        },
+        {
+            "id": 1112,
+            "first_name": "A1112",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1112@bridj.com",
+            "username": "admin1112",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1112"
+        },
+        {
+            "id": 1109,
+            "first_name": "A1109",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1109@bridj.com",
+            "username": "admin1109",
+            "phone_number": null,
+            "groups": [
+                7
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1109"
+        },
+        {
+            "id": 1108,
+            "first_name": "Samesh",
+            "last_name": "Swongamikha",
+            "email": "sswongamikha@bridj.com",
+            "username": "samesh+admin",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1108"
+        },
+        {
+            "id": 1107,
+            "first_name": "Matt",
+            "last_name": "Hamlet",
+            "email": "mhamlet@bridj.com",
+            "username": "mhamlet",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1107"
+        },
+        {
+            "id": 1106,
+            "first_name": "Alex",
+            "last_name": "Ramlow",
+            "email": "aramlow@bridj.com",
+            "username": "aramlow",
+            "phone_number": null,
+            "groups": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1106"
+        },
+        {
+            "id": 1105,
+            "first_name": "Engine",
+            "last_name": "Account",
+            "email": "engine@bridj.com",
+            "username": "columbus",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1105"
+        },
+        {
+            "id": 1104,
+            "first_name": "A1104",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1104@bridj.com",
+            "username": "admin1104",
+            "phone_number": null,
+            "groups": [
+                7,
+                8
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1104"
+        },
+        {
+            "id": 1103,
+            "first_name": "Victor",
+            "last_name": "Zhang",
+            "email": "vzhang@bridj.com",
+            "username": "vzhang",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1103"
+        },
+        {
+            "id": 1102,
+            "first_name": "A1102",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1102@bridj.com",
+            "username": "admin1102",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1102"
+        },
+        {
+            "id": 1101,
+            "first_name": "A1101",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1101@bridj.com",
+            "username": "admin1101",
+            "phone_number": null,
+            "groups": [
+                8
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1101"
+        },
+        {
+            "id": 1100,
+            "first_name": "A1100",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1100@bridj.com",
+            "username": "admin1100",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1100"
+        },
+        {
+            "id": 1099,
+            "first_name": "A1099",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1099@bridj.com",
+            "username": "admin1099",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1099"
+        },
+        {
+            "id": 1098,
+            "first_name": "A1098",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1098@bridj.com",
+            "username": "admin1098",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1098"
+        },
+        {
+            "id": 1097,
+            "first_name": "A1097",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1097@bridj.com",
+            "username": "admin1097",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1097"
+        },
+        {
+            "id": 1096,
+            "first_name": "A1096",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1096@bridj.com",
+            "username": "admin1096",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1096"
+        },
+        {
+            "id": 1095,
+            "first_name": "A1095",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1095@bridj.com",
+            "username": "admin1095",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1095"
+        },
+        {
+            "id": 1093,
+            "first_name": "A1093",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1093@bridj.com",
+            "username": "admin1093",
+            "phone_number": null,
+            "groups": [
+                12
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1093"
+        },
+        {
+            "id": 1092,
+            "first_name": "A1092",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1092@bridj.com",
+            "username": "admin1092",
+            "phone_number": null,
+            "groups": [
+                11
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1092"
+        },
+        {
+            "id": 1091,
+            "first_name": "A1091",
+            "last_name": "Admin",
+            "email": "tech+blackhole+admin1091@bridj.com",
+            "username": "admin1091",
+            "phone_number": null,
+            "groups": [
+                11
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1091"
+        },
+        {
+            "id": 1087,
+            "first_name": "Sauce",
+            "last_name": "Bernays",
+            "email": "sauce@bridj.com",
+            "username": "sauce",
+            "phone_number": null,
+            "groups": [
+                1
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/admins/1087"
+        }
+    ],
+    "meta": {
+        "count": 100,
+        "total": 104
+    }
+}

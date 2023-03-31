@@ -1,0 +1,28 @@
+Response code: 
+200
+Response body: 
+{
+    "request_status": "success",
+    "success": true,
+    "info": "Logged in",
+    "data": {
+        "id": 1729,
+        "first_name": "Driver",
+        "last_name": "Test19",
+        "email": "drivertest19@yopmail.com",
+        "username": "drivertest19",
+        "auth_token": "9i1rHX_fDQnaFT4CdvmQ_dev_1d94d56a-4c74-4d81-9a40-ae904cb8250b",
+        "current_device": {
+            "device_id": "dedfeb62-f3d5-42",
+            "device_type": "android"
+        },
+        "links": {
+            
+        },
+        "feature_settings": {
+            "navigation_enabled": true,
+            "accuracy_threshold_meters": 100,
+            "accuracy_threshold_timeout_seconds": 20
+        }
+    }
+}

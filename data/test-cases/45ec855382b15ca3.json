@@ -1,0 +1,643 @@
+{
+  "uid" : "45ec855382b15ca3",
+  "name" : "Verify all open tabs for Operation Portal should be logged out as well after user logs out on one tab",
+  "fullName" : "testcases.web.LogOut.TC_02",
+  "historyId" : "de65235a8fb73ed5ccd4bbfb965db604",
+  "time" : {
+    "start" : 1680234263889,
+    "stop" : 1680234278129,
+    "duration" : 14240
+  },
+  "description" : "Verify all open tabs for Operation Portal should be logged out as well after user logs out on one tab",
+  "descriptionHtml" : "<p>Verify all open tabs for Operation Portal should be logged out as well after user logs out on one tab</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1680234257402,
+      "stop" : 1680234257502,
+      "duration" : 100
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeSuites",
+    "time" : {
+      "start" : 1680234257519,
+      "stop" : 1680234260031,
+      "duration" : 2512
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token from API response",
+      "time" : {
+        "start" : 1680234257662,
+        "stop" : 1680234260031,
+        "duration" : 2369
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login Operation Portal to generate token",
+        "time" : {
+          "start" : 1680234257663,
+          "stop" : 1680234260021,
+          "duration" : 2358
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "passWord",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "password",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "beforeScenario",
+    "time" : {
+      "start" : 1680234260045,
+      "stop" : 1680234263886,
+      "duration" : 3841
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8d5935467b57533f",
+      "name" : "Driver setup: ",
+      "source" : "8d5935467b57533f.txt",
+      "type" : "text/plain",
+      "size" : 117
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify all open tabs for Operation Portal should be logged out as well after user logs out on one tab",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Log in with account: daohuyt@bridj.com",
+      "time" : {
+        "start" : 1680234263890,
+        "stop" : 1680234270521,
+        "duration" : 6631
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get token from API response",
+        "time" : {
+          "start" : 1680234269632,
+          "stop" : 1680234270521,
+          "duration" : 889
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login Operation Portal to generate token",
+          "time" : {
+            "start" : 1680234269632,
+            "stop" : 1680234270520,
+            "duration" : 888
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "email",
+            "value" : "daohuyt@bridj.com"
+          }, {
+            "name" : "passWord",
+            "value" : "userPass@123"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "daohuyt@bridj.com"
+        }, {
+          "name" : "password",
+          "value" : "userPass@123"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "8cfc7a64d82b75db",
+        "name" : "Starting action: ",
+        "source" : "8cfc7a64d82b75db.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "a7e88c960f01ea36",
+        "name" : "Action Done! ",
+        "source" : "a7e88c960f01ea36.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "1c5727ad84963ba1",
+        "name" : "saveScreenShot",
+        "source" : "1c5727ad84963ba1.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "6b640fa3d8545b75",
+        "name" : "Starting action: ",
+        "source" : "6b640fa3d8545b75.txt",
+        "type" : "text/plain",
+        "size" : 56
+      }, {
+        "uid" : "bb2c4a510cffd7af",
+        "name" : "Action Done! ",
+        "source" : "bb2c4a510cffd7af.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "6d2ee8188ba1ecb6",
+        "name" : "saveScreenShot",
+        "source" : "6d2ee8188ba1ecb6.png",
+        "type" : "image/png",
+        "size" : 61630
+      }, {
+        "uid" : "40113601b7e0da78",
+        "name" : "Starting action: ",
+        "source" : "40113601b7e0da78.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "bf844a845080b82f",
+        "name" : "Action Done! ",
+        "source" : "bf844a845080b82f.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "317edcaa09cc1050",
+        "name" : "saveScreenShot",
+        "source" : "317edcaa09cc1050.png",
+        "type" : "image/png",
+        "size" : 61944
+      }, {
+        "uid" : "a3e629002fb5be9e",
+        "name" : "Starting action: ",
+        "source" : "a3e629002fb5be9e.txt",
+        "type" : "text/plain",
+        "size" : 40
+      }, {
+        "uid" : "35eca4a83a95d386",
+        "name" : "Action Done! ",
+        "source" : "35eca4a83a95d386.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "d258adc675379510",
+        "name" : "saveScreenShot",
+        "source" : "d258adc675379510.png",
+        "type" : "image/png",
+        "size" : 62220
+      } ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "daohuyt@bridj.com"
+      }, {
+        "name" : "passWord",
+        "value" : "userPass@123"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 12,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify login successfully",
+      "time" : {
+        "start" : 1680234270521,
+        "stop" : 1680234270917,
+        "duration" : 396
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "663b5097aa552e2c",
+        "name" : "Starting action: ",
+        "source" : "663b5097aa552e2c.txt",
+        "type" : "text/plain",
+        "size" : 111
+      }, {
+        "uid" : "1881828c6fa5da0e",
+        "name" : "Action Done! ",
+        "source" : "1881828c6fa5da0e.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "34a3f5e6c847a2f8",
+        "name" : "saveScreenShot",
+        "source" : "34a3f5e6c847a2f8.png",
+        "type" : "image/png",
+        "size" : 154103
+      }, {
+        "uid" : "eb04b7831a49077a",
+        "name" : "Starting action: ",
+        "source" : "eb04b7831a49077a.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "42fbf8ba881717f8",
+        "name" : "Action Done! ",
+        "source" : "42fbf8ba881717f8.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "c42d4a1f7a44207",
+        "name" : "saveScreenShot",
+        "source" : "c42d4a1f7a44207.png",
+        "type" : "image/png",
+        "size" : 154087
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Open new tab and navigate to url: https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/",
+      "time" : {
+        "start" : 1680234270917,
+        "stop" : 1680234271727,
+        "duration" : 810
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dbf4597ff7aade92",
+        "name" : "Starting action: ",
+        "source" : "dbf4597ff7aade92.txt",
+        "type" : "text/plain",
+        "size" : 113
+      }, {
+        "uid" : "5fa3b6c5b942d822",
+        "name" : "Action Done! ",
+        "source" : "5fa3b6c5b942d822.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "f6e5e83acd4251fb",
+        "name" : "saveScreenShot",
+        "source" : "f6e5e83acd4251fb.png",
+        "type" : "image/png",
+        "size" : 143619
+      } ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Log out from Operation Portal",
+      "time" : {
+        "start" : 1680234271727,
+        "stop" : 1680234272341,
+        "duration" : 614
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e84eaab56844d59e",
+        "name" : "Starting action: ",
+        "source" : "e84eaab56844d59e.txt",
+        "type" : "text/plain",
+        "size" : 48
+      }, {
+        "uid" : "78763405757faa65",
+        "name" : "Action Done! ",
+        "source" : "78763405757faa65.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "d856bd9a28f495c6",
+        "name" : "saveScreenShot",
+        "source" : "d856bd9a28f495c6.png",
+        "type" : "image/png",
+        "size" : 148961
+      }, {
+        "uid" : "71b6139e8e58c7ae",
+        "name" : "Starting action: ",
+        "source" : "71b6139e8e58c7ae.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "ae55b7fb2624bf7b",
+        "name" : "Action Done! ",
+        "source" : "ae55b7fb2624bf7b.txt",
+        "type" : "text/plain",
+        "size" : 8
+      }, {
+        "uid" : "84eac136f935ec9a",
+        "name" : "saveScreenShot",
+        "source" : "84eac136f935ec9a.png",
+        "type" : "image/png",
+        "size" : 61481
+      }, {
+        "uid" : "2dcc0fa775cb823c",
+        "name" : "Starting action: ",
+        "source" : "2dcc0fa775cb823c.txt",
+        "type" : "text/plain",
+        "size" : 116
+      }, {
+        "uid" : "696ad19fe81ba78c",
+        "name" : "Action Done! ",
+        "source" : "696ad19fe81ba78c.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "a0f49ee5db9487b5",
+        "name" : "saveScreenShot",
+        "source" : "a0f49ee5db9487b5.png",
+        "type" : "image/png",
+        "size" : 61481
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 9,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Switch to tab 1",
+      "time" : {
+        "start" : 1680234272341,
+        "stop" : 1680234272472,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1835a4dbf65b2d3e",
+        "name" : "Starting action: ",
+        "source" : "1835a4dbf65b2d3e.txt",
+        "type" : "text/plain",
+        "size" : 39
+      }, {
+        "uid" : "8991d7b5f3a012c1",
+        "name" : "Action Done! ",
+        "source" : "8991d7b5f3a012c1.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "b516add4fd62a36d",
+        "name" : "saveScreenShot",
+        "source" : "b516add4fd62a36d.png",
+        "type" : "image/png",
+        "size" : 154087
+      } ],
+      "parameters" : [ {
+        "name" : "tabOrder",
+        "value" : "1"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Refresh current page",
+      "time" : {
+        "start" : 1680234272472,
+        "stop" : 1680234272966,
+        "duration" : 494
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d889a18c09562ab8",
+        "name" : "Starting action: ",
+        "source" : "d889a18c09562ab8.txt",
+        "type" : "text/plain",
+        "size" : 36
+      }, {
+        "uid" : "8b6db82819d6726f",
+        "name" : "Action Done! ",
+        "source" : "8b6db82819d6726f.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "9043771e055dd603",
+        "name" : "saveScreenShot",
+        "source" : "9043771e055dd603.png",
+        "type" : "image/png",
+        "size" : 61481
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Wait for 5 seconds",
+      "time" : {
+        "start" : 1680234272966,
+        "stop" : 1680234278126,
+        "duration" : 5160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a5a955220f0c7b",
+        "name" : "Starting action: ",
+        "source" : "4a5a955220f0c7b.txt",
+        "type" : "text/plain",
+        "size" : 33
+      }, {
+        "uid" : "15e0e9d144925c4e",
+        "name" : "Action Done! ",
+        "source" : "15e0e9d144925c4e.txt",
+        "type" : "text/plain",
+        "size" : 9
+      }, {
+        "uid" : "790cb7b043cf1ff9",
+        "name" : "saveScreenShot",
+        "source" : "790cb7b043cf1ff9.png",
+        "type" : "image/png",
+        "size" : 61481
+      } ],
+      "parameters" : [ {
+        "name" : "seconds",
+        "value" : "5"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify current url: https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/Login",
+      "time" : {
+        "start" : 1680234278127,
+        "stop" : 1680234278129,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/Login"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 39,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterScenario",
+    "time" : {
+      "start" : 1680234278132,
+      "stop" : 1680234278893,
+      "duration" : 761
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "be54fdd7802d590c",
+      "name" : "saveScreenShot",
+      "source" : "be54fdd7802d590c.png",
+      "type" : "image/png",
+      "size" : 61481
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "afterSuites",
+    "time" : {
+      "start" : 1680234278895,
+      "stop" : 1680234278895,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1680234278895,
+      "stop" : 1680234278895,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.web.LogOut"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.web.LogOut"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression"
+  }, {
+    "name" : "suite",
+    "value" : "LogOut"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.web.LogOut"
+  }, {
+    "name" : "host",
+    "value" : "DaoTien"
+  }, {
+    "name" : "thread",
+    "value" : "16880@DaoTien.TestNG-test=LogOut-2(18)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45ec855382b15ca3.json",
+  "parameterValues" : [ ]
+}

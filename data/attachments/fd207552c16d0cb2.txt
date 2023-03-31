@@ -1,0 +1,1 @@
+selenium.core.BasePage.editField("Actual Passenger Capacity", "6")

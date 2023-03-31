@@ -1,0 +1,39 @@
+Response code: 
+200
+Response body: 
+{
+    "data": [
+        {
+            "id": 82318,
+            "start_time": "2023-03-31T00:00:00.016Z",
+            "end_time": "2023-03-31T04:43:04.016Z",
+            "minimum_capacity": 20,
+            "metadata": {
+                "shift": "2",
+                "temporary_id": "$uid2"
+            },
+            "deleted": false,
+            "zone_schedule": null,
+            "vehicle": {
+                "id": 556,
+                "vehicle_number": "number_14",
+                "capacity": 6,
+                "mobility_capacity": 6,
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/vehicles/556"
+            },
+            "zone": {
+                "id": 2620
+            },
+            "driver": {
+                "id": 1729,
+                "first_name": "Driver",
+                "last_name": "Test19",
+                "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/drivers/1729"
+            },
+            "plan_routes": [
+                
+            ],
+            "self": "https://bridj.odyssey-staging.staging.au-ap-southeast-2.bridj.com/api/v2/ops/resource_availability_windows/82318"
+        }
+    ]
+}

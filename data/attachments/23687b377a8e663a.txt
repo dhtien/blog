@@ -1,0 +1,1 @@
+selenium.core.BasePage.verifyMessageShow("The credit card has been successfully added to the passenger's profile.")
