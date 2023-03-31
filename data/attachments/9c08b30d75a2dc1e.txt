@@ -1,0 +1,4 @@
+cookie.getDomain(): client-portal-staging.staging.au-ap-southeast-2.bridj.info
+cookie.getName(): SERVERID
+cookie.getPath(): /
+cookie.getValue(): _nomad-task-866e0198-a688-510d-b357-9228aec7abd1-client-portal-client-portal-staging-https

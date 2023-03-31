@@ -1,0 +1,1 @@
+selenium.core.BasePage.openPage("https://www.google.com/")
