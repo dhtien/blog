@@ -1,1 +1,0 @@
-selenium.core.BasePage.enterTextForSearching("user_22@yopmail.com")

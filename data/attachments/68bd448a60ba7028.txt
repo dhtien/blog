@@ -1,1 +1,0 @@
-selenium.core.BasePage.verifyCellData("206504", "2", "Driver Test12")

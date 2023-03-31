@@ -1,7 +1,0 @@
-Expected condition failed: waiting for element to no longer be visible: By.xpath: //*[normalize-space(text())="No permission to access this resource"] (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'DAOTIEN', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56673}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\Users\daohu\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56673/devtoo..., se:cdpVersion: 111.0.1661.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e08998c284fd3199d5fe88d50d1bbdc.
- (5.338 sec).

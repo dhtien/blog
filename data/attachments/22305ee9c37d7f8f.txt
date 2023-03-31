@@ -1,1 +1,0 @@
-selenium.core.BasePage.selectValuesOfListForm("Shop G10/170A Leichhardt St, Spring Hill QLD 4000, Australia")

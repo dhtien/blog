@@ -1,1 +1,0 @@
-selenium.core.BasePage.verifyColumnNameNotDisplay("1", "Time Zone")

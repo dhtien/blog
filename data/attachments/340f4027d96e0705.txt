@@ -1,1 +1,0 @@
-selenium.core.BasePage.verifyMessageShow("Expired or invalid token")

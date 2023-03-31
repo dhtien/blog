@@ -1,1 +1,0 @@
-selenium.core.BasePage.editField("name", "Region 14")

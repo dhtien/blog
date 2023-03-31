@@ -1,1 +1,0 @@
-selenium.pages.GroupsPage.verifyGroupsActiveRoles("[9]", "[9]")

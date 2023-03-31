@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("4", "4", "Expire Month does not match")

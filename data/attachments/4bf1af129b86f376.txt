@@ -1,1 +1,0 @@
-selenium.core.BasePage.verifyCellData("653", "5", "blocked")

@@ -1,1 +1,0 @@
-selenium.pages.UsersPage.verifyUserName("user02Edited", "user02Edited")

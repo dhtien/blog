@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("false", "false", "Driver additional detail 'Has Medical Exemption' does not match")

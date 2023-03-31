@@ -1,1 +1,0 @@
-selenium.core.BasePage.verifyBottomTotalRecord("38")

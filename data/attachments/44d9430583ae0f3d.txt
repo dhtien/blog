@@ -1,1 +1,0 @@
-selenium.core.BasePage.waitUrlContains("https://client-portal-staging.staging.au-ap-southeast-2.bridj.info/#/ZoneSolutions")

@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("8", "8", "Maximum Passenger Capacity does not match")

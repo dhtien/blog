@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("6", "6", "Actual Passenger Capacity does not match")

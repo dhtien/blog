@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("Tue Jan 01 00:00:00 ICT 2233", "Tue Jan 01 00:00:00 ICT 2233", "Manufacture Year does not match")

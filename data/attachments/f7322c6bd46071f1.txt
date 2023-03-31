@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("license_12", "license_12", "Vehicle number does not match")

@@ -1,1 +1,0 @@
-selenium.pages.Header.enterTextFilter("traveller16@yopmail.com", "Name, username, email")

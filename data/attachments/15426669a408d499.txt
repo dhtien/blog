@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("0123453675", "0123453675", "Driver phone does not match")

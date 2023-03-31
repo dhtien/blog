@@ -1,1 +1,0 @@
-selenium.core.BasePage.verifyMessageShow("Your User Group has been successfully updated")

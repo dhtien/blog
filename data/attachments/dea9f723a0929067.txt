@@ -1,1 +1,0 @@
-selenium.core.BasePage.verifyMessageNotShow("No permission to access this resource")

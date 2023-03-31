@@ -1,1 +1,0 @@
-selenium.core.SideMenu.navigateToPage("Zones")
