@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("diesel", "diesel", "Fuel Type does not match")

@@ -1,1 +1,0 @@
-selenium.core.BasePage.switchToTab("1")

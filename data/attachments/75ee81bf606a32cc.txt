@@ -1,1 +1,0 @@
-selenium.core.BasePage.verifyMessageShow("Your driver details have been successfully updated")

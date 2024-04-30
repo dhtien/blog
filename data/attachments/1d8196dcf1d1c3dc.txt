@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("Zone 3 Edited", "Zone 3 Edited", "Zone name does not match")

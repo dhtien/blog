@@ -1,1 +1,0 @@
-selenium.pages.LoginPage.enterPassword("userPass@123")

@@ -1,1 +1,0 @@
-selenium.core.BasePage.verifySwitchBarStatus("System (Read)", "false")

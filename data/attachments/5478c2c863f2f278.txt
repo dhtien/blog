@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("Test8", "Test8", "Driver last name does not match")

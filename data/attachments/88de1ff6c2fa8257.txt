@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("ops", "ops", "Booking method does not match")

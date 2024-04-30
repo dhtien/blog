@@ -1,1 +1,0 @@
-selenium.core.BasePage.editField("email", "differentdrivertest4@yopmail.com")

@@ -1,1 +1,0 @@
-selenium.core.BasePage.verifyMessageShow("Please enter a valid email address")

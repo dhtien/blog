@@ -1,3 +1,0 @@
-Response code: 
-204
-Response body: 

@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("vin12", "vin12", "Vin does not match")

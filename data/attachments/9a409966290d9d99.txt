@@ -1,1 +1,0 @@
-selenium.core.BasePage.verifyMessageShow("Your details have been successfully updated")

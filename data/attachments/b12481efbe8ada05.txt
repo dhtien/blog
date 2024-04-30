@@ -1,1 +1,0 @@
-selenium.core.BasePage.editField("name", "Group 09")

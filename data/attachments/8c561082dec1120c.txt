@@ -1,1 +1,0 @@
-selenium.core.BasePage.verifyMessageShow("Name has already been taken")

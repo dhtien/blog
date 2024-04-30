@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("36 Barton St, Everton Park QLD 4053, Australia", "36 Barton St, Everton Park QLD 4053, Australia", "Pick up location does not match")

@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("1", "1", "User id is not unique")

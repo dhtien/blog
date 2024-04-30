@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("traveller04", "traveller04", "Traveller does not match")

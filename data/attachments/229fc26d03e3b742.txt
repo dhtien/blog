@@ -1,1 +1,0 @@
-Browser setup by Thread 1189 and Driver reference is : EdgeDriver: msedge on WINDOWS (ad0c5db56f9fa7d4ea312c130f7f8299)

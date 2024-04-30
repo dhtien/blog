@@ -1,1 +1,0 @@
-selenium.core.BasePage.compareValue("vendor", "vendor", "Supplier does not match")
